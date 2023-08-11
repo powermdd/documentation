@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-8daa1a0e","path":"/","title":"Power MDD","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1691715991000,"contributors":[{"name":"powermdd","email":"powermdd@hnextits.com","commits":1},{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"README.md"}');export{a as data};
