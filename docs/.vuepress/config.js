@@ -1,12 +1,14 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
-import { palettePlugin } from '@vuepress/plugin-palette'
 
 export default defineUserConfig({
     title: 'POWER MDD',
     description: 'Most Powerful Lowcode Tools',
     lang: "ko-KR",
     base: '/documentation/',
+    head: [
+        ['link', { rel: 'stylesheet', href: '/styles/powermdd.css' }]
+    ],
     locales: {
         // The key is the path for the locale to be nested under.
         // As a special case, the default locale can use '/' as its path.
@@ -114,9 +116,6 @@ export default defineUserConfig({
     }),
     plugins: [
         searchPlugin({
-            // options
-        }),
-        palettePlugin({
             // options
         }),
     ],
