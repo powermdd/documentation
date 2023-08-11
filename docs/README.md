@@ -1,3 +1,53 @@
-# Power MDD
+---
+home: true
 
-Power MDD 매뉴얼입니다. 테스트
+features:
+  - title: 모델 중심 개발
+    details: POWER MDD는 모델 중심 개발(Model Driven Development)을 지향합니다. POWER MDD로 발전된 개발방식을 적용해 보세요.
+  - title: 올인원
+    details: 설계부터 개발까지! POWER MDD 하나면 모두 가능합니다. POWER MDD로 최고의 생산성을 경험해 보세요.
+  - title: 자동화
+    details: POWER MDD는 소스를 자동 생성합니다. POWER MDD를 통해 자동으로 생성된 소스를 만나보세요.
+
+footer: "Copyright ⓒ 2022 POWER MDD All Rights Reserved"
+---
+
+---
+
+<p style="display:flex;justify-content: center;align-items: center;">Made By :&nbsp;<div class="wizware"></div></p>
+
+---
+
+<p style="display:flex;justify-content: center;align-items: center;">Partner Company :&nbsp;<a class="nits-logo" href='https://hnextits.com/'></a></p>
+
+<style>
+.wizware{
+    width: 190px;
+    min-width: 190px;
+    height: 32px;
+    background-image : url("/documentation/wizware.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.nits-logo{
+    width: 190px;
+    min-width: 190px;
+    height: 32px;
+    background-image : url("/documentation/o_logo_b.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+html.dark .nits-logo {
+    width: 190px;
+    min-width: 190px;
+    height: 32px;
+    background-image : url("/documentation/o_logo_w.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+</style>

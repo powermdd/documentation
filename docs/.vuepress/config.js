@@ -2,30 +2,31 @@ import { defaultTheme, defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
 
 export default defineUserConfig({
-    title: 'Power MDD',
+    title: 'POWER MDD',
+    description: 'Most Powerful Lowcode Tools',
+    lang: "ko-KR",
     base: '/documentation/',
-    description: 'Power MDD documentation',
+    locales: {
+        // The key is the path for the locale to be nested under.
+        // As a special case, the default locale can use '/' as its path.
+        '/': {
+            lang: 'ko-KR',
+            title: 'POWER MDD',
+            description: '가장 강력한 로우코드 개발 툴',
+        },
+        '/en/': {
+            lang: 'en-US',
+            title: 'POWER MDD',
+            description: 'The most powerful low-code development tool',
+        },
+    },
     theme : defaultTheme({
         logo: "powermdd-logo.png",
-        navbar : [
-            {
-                text : "Home",
-                link : "/",
-            }
-        ],
         sidebar: [
             // SidebarItem
             {
-                text: 'Home',
-                link: '/',
-                children: [
-                    // SidebarItem
-                    {
-                        text: 'about',
-                        link: '/about',
-                        children: [],
-                    },
-                ],
+                text: 'About POWER MDD',
+                link: '/about',
             },
             {
                 text: 'Installation',
@@ -65,6 +66,50 @@ export default defineUserConfig({
                 ],
             },
         ],
+        locales: {
+            '/': {
+                selectLanguageName: '한국어',
+                navbar : [
+                    {
+                        text : "홈",
+                        link : "/",
+                    },
+                    {
+                        text : "정보",
+                        link : "/about",
+                    },
+                    {
+                        text : "설치",
+                        link : "/installation",
+                    },
+                    {
+                        text : "문서",
+                        link : "/documentation",
+                    },
+                ],
+            },
+            '/en/': {
+                selectLanguageName: 'English',
+                navbar : [
+                    {
+                        text : "Home",
+                        link : "/en/",
+                    },
+                    {
+                        text : "About",
+                        link : "/en/about",
+                    },
+                    {
+                        text : "Installation",
+                        link : "/en/installation",
+                    },
+                    {
+                        text : "Documentation",
+                        link : "/en/documentation",
+                    },
+                ],
+            },
+        },
     }),
     plugins: [
         searchPlugin({
