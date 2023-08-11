@@ -1,1 +1,0 @@
-import{_ as a,o as r,c as t,a as e,d as n}from"./app-392683b0.js";const s={},c=e("h1",{id:"server-file-manager",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#server-file-manager","aria-hidden":"true"},"#"),n(" Server File Manager")],-1),o=[c];function d(i,_){return r(),t("div",null,o)}const f=a(s,[["render",d],["__file","index.html.vue"]]);export{f as default};
