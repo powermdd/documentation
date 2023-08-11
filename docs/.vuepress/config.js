@@ -1,5 +1,6 @@
 import { defaultTheme, defineUserConfig } from 'vuepress'
 import { searchPlugin } from '@vuepress/plugin-search'
+import { palettePlugin } from '@vuepress/plugin-palette'
 
 export default defineUserConfig({
     title: 'POWER MDD',
@@ -113,6 +114,9 @@ export default defineUserConfig({
     }),
     plugins: [
         searchPlugin({
+            // options
+        }),
+        palettePlugin({
             // options
         }),
     ],
