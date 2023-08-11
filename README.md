@@ -1,2 +1,0 @@
-# documentation
-Power MDD Documentation
