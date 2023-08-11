@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as r,a as e,d as a}from"./app-392683b0.js";const d={},c=e("h1",{id:"power-mdd",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#power-mdd","aria-hidden":"true"},"#"),a(" Power MDD")],-1),n=e("p",null,"Power MDD 매뉴얼입니다. 테스트",-1),s=[c,n];function _(i,l){return t(),r("div",null,s)}const f=o(d,[["render",_],["__file","index.html.vue"]]);export{f as default};
