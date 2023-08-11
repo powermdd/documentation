@@ -16,7 +16,7 @@ footer: "Copyright ⓒ 2022 POWER MDD All Rights Reserved"
 
 <p style="display:flex;justify-content: center;align-items: center;">Made By :&nbsp;
 
-![wizware](/documentation/wizware.png)
+![wizware](/docs/.vuepress/public/wizware.png)
 
 </p>
 
@@ -24,38 +24,6 @@ footer: "Copyright ⓒ 2022 POWER MDD All Rights Reserved"
 
 <p style="display:flex;justify-content: center;align-items: center;">Partner Company :&nbsp;
 
-<a class="nits-logo" href='https://hnextits.com/'></a>
+![NextITS](/docs/.vuepress/public/o_logo_b.svg)
 
 </p>
-
-<style>
-.wizware{
-    width: 190px;
-    min-width: 190px;
-    height: 32px;
-    background-image : url("/documentation/wizware.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-.nits-logo{
-    width: 190px;
-    min-width: 190px;
-    height: 32px;
-    background-image : url("/documentation/o_logo_b.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-
-html.dark .nits-logo {
-    width: 190px;
-    min-width: 190px;
-    height: 32px;
-    background-image : url("/documentation/o_logo_w.svg");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-}
-</style>
