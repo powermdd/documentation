@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-905e60a8","path":"/documentation/service-model/","title":"Service Model","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1691715097000,"contributors":[{"name":"powermdd","email":"powermdd@hnextits.com","commits":1}]},"filePathRelative":"documentation/service-model/README.md"}');export{e as data};

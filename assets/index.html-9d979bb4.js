@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,a as e,b as r}from"./app-7bb4cf3c.js";const c={},d=e("h1",{id:"power-mdd",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#power-mdd","aria-hidden":"true"},"#"),r(" Power MDD")],-1),n=[d];function s(_,i){return a(),o("div",null,n)}const l=t(c,[["render",s],["__file","index.html.vue"]]);export{l as default};

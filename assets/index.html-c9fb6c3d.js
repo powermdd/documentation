@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-3e658890","path":"/documentation/query-developer/","title":"Query Developer","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1691715097000,"contributors":[{"name":"powermdd","email":"powermdd@hnextits.com","commits":1}]},"filePathRelative":"documentation/query-developer/README.md"}');export{e as data};
