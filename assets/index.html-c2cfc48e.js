@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-32d1e992","path":"/documentation/server-file-manager/","title":"Server File Manager","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1691715097000,"contributors":[{"name":"powermdd","email":"powermdd@hnextits.com","commits":1}]},"filePathRelative":"documentation/server-file-manager/README.md"}');export{e as data};

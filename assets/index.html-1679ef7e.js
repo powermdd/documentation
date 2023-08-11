@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-21883dc0","path":"/en/documentation/service-model/","title":"Service Model","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1691769659000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"en/documentation/service-model/README.md"}');export{e as data};

@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-08a5d2dc","path":"/installation/","title":"Installation","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1691715097000,"contributors":[{"name":"powermdd","email":"powermdd@hnextits.com","commits":1}]},"filePathRelative":"installation/README.md"}');export{t as data};

@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-72015b67","path":"/en/documentation/data-model/","title":"Data Model","lang":"en-US","frontmatter":{},"headers":[],"git":{"updatedTime":1691769659000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"en/documentation/data-model/README.md"}');export{a as data};
