@@ -14,11 +14,19 @@ footer: "Copyright ⓒ 2022 POWER MDD All Rights Reserved"
 
 ---
 
-<p style="display:flex;justify-content: center;align-items: center;">Made By :&nbsp;<div class="wizware"></div></p>
+<p style="display:flex;justify-content: center;align-items: center;">Made By :&nbsp;
+
+![wizware](/documentation/wizware.png)
+
+</p>
 
 ---
 
-<p style="display:flex;justify-content: center;align-items: center;">Partner Company :&nbsp;<a class="nits-logo" href='https://hnextits.com/'></a></p>
+<p style="display:flex;justify-content: center;align-items: center;">Partner Company :&nbsp;
+
+<a class="nits-logo" href='https://hnextits.com/'></a>
+
+</p>
 
 <style>
 .wizware{
