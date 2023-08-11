@@ -14,16 +14,12 @@ footer: "Copyright ⓒ 2022 POWER MDD All Rights Reserved"
 
 ---
 
-<p style="display:flex;justify-content: center;align-items: center;">Made By :&nbsp;
+Made By : 
 
 ![wizware](.vuepress/public/wizware.png)
 
-</p>
-
 ---
 
-<p style="display:flex;justify-content: center;align-items: center;">Partner Company :&nbsp;
+Partner Company : 
 
 ![NextITS](.vuepress/public/o_logo_b.svg)
-
-</p>
