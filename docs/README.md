@@ -16,7 +16,7 @@ footer: "Copyright ⓒ 2022 POWER MDD All Rights Reserved"
 
 <p style="display:flex;justify-content: center;align-items: center;">Made By :&nbsp;
 
-![wizware](/docs/.vuepress/public/wizware.png)
+![wizware](~@source/.vuepress/public/wizware.png)
 
 </p>
 
@@ -24,6 +24,6 @@ footer: "Copyright ⓒ 2022 POWER MDD All Rights Reserved"
 
 <p style="display:flex;justify-content: center;align-items: center;">Partner Company :&nbsp;
 
-![NextITS](/docs/.vuepress/public/o_logo_b.svg)
+![NextITS](~@source/.vuepress/public/o_logo_b.svg)
 
 </p>
