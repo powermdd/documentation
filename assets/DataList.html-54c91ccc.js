@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-622ccda7","path":"/documentation/view-designer/DataList.html","title":"DataList","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1691941996000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"documentation/view-designer/DataList.md"}');export{t as data};

@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as o,a as e,d as r}from"./app-535feb66.js";const a={},s=e("h1",{id:"picture-box",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#picture-box","aria-hidden":"true"},"#"),r(" Picture Box")],-1),i=[s];function n(_,d){return c(),o("div",null,i)}const h=t(a,[["render",n],["__file","PictureBox.html.vue"]]);export{h as default};

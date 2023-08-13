@@ -1,0 +1,1 @@
+import{_ as o,o as t,c as d,a as e,d as r}from"./app-535feb66.js";const a={},c=e("h1",{id:"power-mdd-란",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#power-mdd-란","aria-hidden":"true"},"#"),r(" POWER MDD 란?")],-1),s=[c];function n(_,i){return t(),d("div",null,s)}const l=o(a,[["render",n],["__file","AboutPowerMdd.html.vue"]]);export{l as default};

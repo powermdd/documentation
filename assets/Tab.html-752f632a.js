@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-5298f16e","path":"/documentation/view-designer/Tab.html","title":"Tab","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1691941996000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"documentation/view-designer/Tab.md"}');export{a as data};

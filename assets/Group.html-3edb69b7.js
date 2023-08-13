@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7d06e244","path":"/documentation/view-designer/Group.html","title":"그룹 컴포넌트","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1691941996000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"documentation/view-designer/Group.md"}');export{e as data};

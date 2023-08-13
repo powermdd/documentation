@@ -1,0 +1,1 @@
+const a=JSON.parse('{"key":"v-1807d6fa","path":"/installation/Server.html","title":"서버 설치","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1691941996000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"installation/Server.md"}');export{a as data};

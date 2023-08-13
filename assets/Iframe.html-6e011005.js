@@ -1,0 +1,1 @@
+import{_ as a,o as r,c as t,a as e,d as c}from"./app-535feb66.js";const o={},s=e("h1",{id:"iframe",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#iframe","aria-hidden":"true"},"#"),c(" iFrame")],-1),n=[s];function _(d,i){return r(),t("div",null,n)}const m=a(o,[["render",_],["__file","Iframe.html.vue"]]);export{m as default};

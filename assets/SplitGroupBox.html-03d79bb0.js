@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-4f2fbb1d","path":"/documentation/view-designer/SplitGroupBox.html","title":"Split Group Box","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1691941996000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"documentation/view-designer/SplitGroupBox.md"}');export{t as data};

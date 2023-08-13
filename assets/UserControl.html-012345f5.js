@@ -1,0 +1,1 @@
+import{_ as o,o as r,c as t,a as e,d as s}from"./app-535feb66.js";const a={},c=e("h1",{id:"user-svg-control",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#user-svg-control","aria-hidden":"true"},"#"),s(" User/Svg Control")],-1),n=[c];function _(l,d){return r(),t("div",null,n)}const h=o(a,[["render",_],["__file","UserControl.html.vue"]]);export{h as default};
