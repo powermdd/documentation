@@ -23,3 +23,9 @@ Made By :
 Partner Company : 
 
 [![NextITS](.vuepress/public/o_logo_b.svg)](https://hnextits.com/)
+
+<style>
+    .dark .home img {
+        filter: grayscale(1) invert(1);
+    }
+</style>
