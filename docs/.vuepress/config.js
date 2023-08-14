@@ -49,7 +49,7 @@ const koSideBar = [
             // SidebarItem
             {
                 text: 'POWER MDD란?',
-                link: '/about/AboutPowerMdd',
+                link: '/about',
             },
             {
                 text: '주요 메뉴 및 기능',
