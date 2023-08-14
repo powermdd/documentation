@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,a as e,d as o}from"./app-2cfdbe98.js";const r={},d=e("h1",{id:"주요-메뉴-및-기능",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#주요-메뉴-및-기능","aria-hidden":"true"},"#"),o(" 주요 메뉴 및 기능")],-1),n=[d];function s(_,i){return a(),c("div",null,n)}const l=t(r,[["render",s],["__file","PowerMddFunc.html.vue"]]);export{l as default};
