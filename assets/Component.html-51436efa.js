@@ -1,1 +1,0 @@
-import{_ as t,o,c as a,a as e,d as n}from"./app-5a4916ec.js";const c={},r=e("h1",{id:"컴포넌트",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#컴포넌트","aria-hidden":"true"},"#"),n(" 컴포넌트")],-1),s=[r];function _(d,i){return o(),a("div",null,s)}const l=t(c,[["render",_],["__file","Component.html.vue"]]);export{l as default};
