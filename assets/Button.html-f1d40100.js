@@ -1,0 +1,1 @@
+import{_ as t,o,c as a,a as e,d as n}from"./app-2cfdbe98.js";const c={},r=e("h1",{id:"button",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#button","aria-hidden":"true"},"#"),n(" Button")],-1),s=[r];function _(d,i){return o(),a("div",null,s)}const h=t(c,[["render",_],["__file","Button.html.vue"]]);export{h as default};

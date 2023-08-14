@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as r,a as e,d as c}from"./app-2cfdbe98.js";const o={},s=e("h1",{id:"textarea",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#textarea","aria-hidden":"true"},"#"),c(" TextArea")],-1),n=[s];function _(d,i){return a(),r("div",null,n)}const l=t(o,[["render",_],["__file","TextArea.html.vue"]]);export{l as default};

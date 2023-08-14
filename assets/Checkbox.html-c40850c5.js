@@ -1,0 +1,1 @@
+import{_ as c,o,c as t,a as e,d as a}from"./app-2cfdbe98.js";const r={},s=e("h1",{id:"checkbox",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#checkbox","aria-hidden":"true"},"#"),a(" Checkbox")],-1),n=[s];function _(h,d){return o(),t("div",null,n)}const l=c(r,[["render",_],["__file","Checkbox.html.vue"]]);export{l as default};
