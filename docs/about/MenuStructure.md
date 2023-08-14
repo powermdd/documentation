@@ -3,15 +3,26 @@ sidebarDepth: 0
 ---
 # 메뉴 구조
 
-## Model
+POWER MDD의 메뉴는 다음 6가지 구조로 구성됩니다.
 
-## Rules
+::: tip 메뉴 구조
+- Model
+- Naming Rule
+- Tools
+- Users
+- MyInfo
+- Help
+:::
 
-## Tools
+## 1. Model
 
-## Users
+## 2. Naming Rule
 
-## My Info
+## 3. Tools
 
-## Help
+## 4. Users
+
+## 5. MyInfo
+
+## 6. Help
 
