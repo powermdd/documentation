@@ -17,9 +17,9 @@ POWER MDD는 MDD, TDD 기반의 가장 강력하고 효율적인 로우코드 �
 POWER MDD는 비효율적인 웹 개발 환경에 다음과 같은 해답을 제시합니다.   
 
 ::: tip POWER MDD의 장점
-- 로우코드 (Low Code)      
-- 모델중심개발 (Model Driven Development)      
-- 포괄적개발환경 (Comprehensive Development Environment)   
+- 로우코드
+- 모델중심개발 - MDD 
+- 올인원 개발환경 
 :::
 
 ## 1. 로우코드
@@ -52,7 +52,7 @@ POWER MDD는 GUI 기반의 모델을 제공합니다.
 개발 과정에서 테스트 과정은 매우 중요합니다. POWER MDD는 __테스트 과정을 시각화__ 하여 __쉽고 정확한 디버깅 환경을 제공__ 합니다. 
 더 이상 디버깅 과정에서 머리 아프게 고민하지 않아도 됩니다. POWER MDD가 제공하는 막강한 테스트 환경을 사용해보세요.
 
-## 3. 올인원 개발툴
+## 3. 올인원 개발환경
 
 - #### POWER MDD 하나면 됩니다.
 
