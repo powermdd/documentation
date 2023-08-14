@@ -52,8 +52,16 @@ const koSideBar = [
                 link: '/about',
             },
             {
-                text: '주요 메뉴 및 기능',
-                link: '/about/PowerMddFunc',
+                text: '시스템 구조',
+                link: '/about/SystemStructure',
+            },
+            {
+                text: '프로그램 구조',
+                link: '/about/ProgramStructure',
+            },
+            {
+                text: '메뉴 구조',
+                link: '/about/MenuStructure',
             },
         ],
     },
