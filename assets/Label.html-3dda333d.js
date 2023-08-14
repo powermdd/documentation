@@ -1,1 +1,0 @@
-import{_ as a,o as t,c,a as e,e as o}from"./app-af30f320.js";const r={},s=e("h1",{id:"label",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#label","aria-hidden":"true"},"#"),o(" Label")],-1),l=[s];function n(_,d){return t(),c("div",null,l)}const h=a(r,[["render",n],["__file","Label.html.vue"]]);export{h as default};
