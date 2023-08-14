@@ -1,0 +1,1 @@
+import{_ as t,o,c as a,a as e,e as c}from"./app-af30f320.js";const r={},s=e("h1",{id:"textbox",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#textbox","aria-hidden":"true"},"#"),c(" TextBox")],-1),n=[s];function _(x,d){return o(),a("div",null,n)}const h=t(r,[["render",_],["__file","TextBox.html.vue"]]);export{h as default};

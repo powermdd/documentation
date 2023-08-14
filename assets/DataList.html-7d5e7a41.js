@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as s,a as e,d as c}from"./app-dd985852.js";const o={},r=e("h1",{id:"datalist",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#datalist","aria-hidden":"true"},"#"),c(" DataList")],-1),d=[r];function i(n,_){return a(),s("div",null,d)}const h=t(o,[["render",i],["__file","DataList.html.vue"]]);export{h as default};

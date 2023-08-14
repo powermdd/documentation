@@ -1,0 +1,1 @@
+import{_ as t,o as c,c as r,a as e,e as a}from"./app-af30f320.js";const s={},o=e("h1",{id:"secret",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#secret","aria-hidden":"true"},"#"),a(" Secret")],-1),n=[o];function _(d,i){return c(),r("div",null,n)}const l=t(s,[["render",_],["__file","Secret.html.vue"]]);export{l as default};
