@@ -19,12 +19,12 @@ Web Application 구성요소 중 WAS 서버상에서 탑재되어 운영되는 �
 프로그램 자동 생성 및 배포까지 일괄 자동화합니다.
 
 ## 2. [View Designer](/documentation/documentation/view-designer)
-View Designer는 웹 UI 화면 개발도구입니다. 
+View Designer는 웹 UI 화면 개발도구입니다.
 View Designer는 웹표준에 맞는 다양한 UI 컴포넌트를 제공합니다. 
 Service Model과 통합된 자동화 기능을 통해 높은 수준의 편의성과 개발 생산성을 제공합니다.
 
 ## 3. [Query Developer](/documentation/documentation/query-developer)
-Query Developer는 DB Query 관리 도구입니다.정보관리시스템(MIS)을 개발 시 필수적으로 요구되는 데이터베이스 관련 SQL을 작성 및 실행하는 기능을 제공합니다.
+Query Developer는 DB Query 관리 도구입니다. 정보관리시스템(MIS)을 개발 시 필수적으로 요구되는 데이터베이스 관련 SQL을 작성 및 실행하는 기능을 제공합니다.
 
 ## 4. [Data Model](/documentation/documentation/data-model)
 Data Model는 ERD 관리 도구입니다. Data Model을 통해 데이터베이스를 설계하여 가독성을 높이고 관리를 용이하게 합니다. Service Model과의 다양한 연동을 통해 ERD의 활용성을 더욱 높일 수 있습니다.
