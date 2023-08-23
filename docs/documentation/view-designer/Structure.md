@@ -161,7 +161,7 @@ View Designer Layout 화면 중 화면작업 영역만 Layout 화면을 볼 수 
 선택된 컴포넌트들의 세로 간격을 변경합니다.
 
 <b style="font-size: 20px"> 46\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/V-Equal-Interval.png" style="position: relative;top: 5px;" width="25" height="25"> (V-Equal-Interval) </b> <br/>
-선택된 컴포넌트들의 가로 간격을 변경합니다. 
+선택된 컴포넌트들의 가로 간격을 변경합니다.
 
 ## 2. 화면 메뉴 구조 영역 및 속성 영역
 화면 메뉴 구조 영역은 업무 구조를 Tree View 형식으로 표현한 메뉴로 UI의 대상이 되는 화면의 메뉴 카테고리 영역입니다. 등록형식은 업무 메뉴와 메뉴를 구성하는 화면으로 분류됩니다.
