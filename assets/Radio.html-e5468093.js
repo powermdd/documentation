@@ -1,1 +1,0 @@
-import{_ as a,o,c as t,a as e,e as r}from"./app-13629ed5.js";const c={},d=e("h1",{id:"radio",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#radio","aria-hidden":"true"},"#"),r(" Radio")],-1),s=[d];function i(n,_){return o(),t("div",null,s)}const l=a(c,[["render",i],["__file","Radio.html.vue"]]);export{l as default};
