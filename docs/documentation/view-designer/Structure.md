@@ -129,19 +129,19 @@ View Designer Layout 중 메시지 영역을 제외한 Layout 화면을 볼 수 
 View Designer Layout 화면 중 좌측에 화면 메뉴 구조 영역과 화면 메뉴 검색, 그리고 하단에 메시<br/>
 지 영역을 제외한 Layout 화면을 볼 수 있습니다.
 
-<b style="font-size: 20px"> 37\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/All_close.png" style="position: relative;top: 5px;" width="25" height="25"> (Up Align) </b> <br/>
-선택된 컴포넌트들을 Top으로 정렬합니다.
+<b style="font-size: 20px"> 37\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/All_close.png" style="position: relative;top: 5px;" width="25" height="25"> (All close) </b> <br/>
+View Designer Layout 화면 중 화면작업 영역만 Layout 화면을 볼 수 있습니다.
 
 <img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/ToolBox_Align.png" width="130" height="30"/> 
 
-<b style="font-size: 20px"> 38\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/Up_Align.png" style="position: relative;top: 5px;" width="25" height="25"> (Down Align) </b> <br/>
+<b style="font-size: 20px"> 38\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/Up_Align.png" style="position: relative;top: 5px;" width="25" height="25"> (Up Align) </b> <br/>
 선택된 컴포넌트들을 위로 정렬합니다.
 
-<b style="font-size: 20px"> 39\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/down_Align.png" style="position: relative;top: 5px;" width="25" height="25"> (down Align) </b> <br/>
-선택된 컴포넌트들을 Top으로 정렬합니다.
+<b style="font-size: 20px"> 39\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/Down_Align.png" style="position: relative;top: 5px;" width="25" height="25"> (Down Align) </b> <br/>
+선택된 컴포넌트들을 아래로 정렬합니다.
 
 <b style="font-size: 20px"> 40\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/Center_Align.png" style="position: relative;top: 5px;" width="25" height="25"> (Center Align) </b> <br/>
-선택된 컴포넌트들을 첫 번째 컴포넌트 중심으로 가운데로 정렬합니다.
+선택된 컴포넌트들을 가운데로 정렬합니다.
 
 <b style="font-size: 20px"> 41\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/Right_Align.png" style="position: relative;top: 5px;" width="25" height="25"> (Right Align) </b> <br/>
 선택된 컴포넌트들을 우측으로 정렬합니다.
@@ -151,16 +151,16 @@ View Designer Layout 화면 중 좌측에 화면 메뉴 구조 영역과 화면 
 
 <img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/ToolBox_Equals.png" width="100" height="30"/> 
 
-<b style="font-size: 20px"> 38\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/Equals_Width.png" style="position: relative;top: 5px;" width="25" height="25"> (Equals Width) </b> <br/>
+<b style="font-size: 20px"> 43\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/Equals_Width.png" style="position: relative;top: 5px;" width="25" height="25"> (Equals Width) </b> <br/>
 선택된 컴포넌트들의 넓이를 변경합니다.
 
-<b style="font-size: 20px"> 39\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/Equals_Height.png" style="position: relative;top: 5px;" width="25" height="25"> (Equals Height) </b> <br/>
+<b style="font-size: 20px"> 44\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/Equals_Height.png" style="position: relative;top: 5px;" width="25" height="25"> (Equals Height) </b> <br/>
 선택된 컴포넌트들의 높이를 변경합니다.
 
-<b style="font-size: 20px"> 40\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/H-Equal-Interval.png" style="position: relative;top: 5px;" width="25" height="25"> (H-Equal-Interval) </b> <br/>
+<b style="font-size: 20px"> 45\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/H-Equal-Interval.png" style="position: relative;top: 5px;" width="25" height="25"> (H-Equal-Interval) </b> <br/>
 선택된 컴포넌트들의 세로 간격을 변경합니다.
 
-<b style="font-size: 20px"> 41\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/V-Equal-Interval.png" style="position: relative;top: 5px;" width="25" height="25"> (V-Equal-Interval) </b> <br/>
+<b style="font-size: 20px"> 46\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/V-Equal-Interval.png" style="position: relative;top: 5px;" width="25" height="25"> (V-Equal-Interval) </b> <br/>
 선택된 컴포넌트들의 가로 간격을 변경합니다.
 
 ## 2. 화면 메뉴 구조 영역 및 속성 영역
