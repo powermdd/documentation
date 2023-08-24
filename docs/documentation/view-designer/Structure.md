@@ -71,7 +71,7 @@ View 메뉴에 있는 파일이나 Location을 검색하여 찾습니다. <br/>
 Link 기능을 처리하는 컴포넌트입니다.
 
 <b style="font-size: 20px"> 21\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/ComboBox.png" style="position: relative;top: 5px;" width="25" height="25"> (ComboBox) </b> <br/>
-검콤보박스 기능을 처리하는 컴포넌트입니다. 
+콤보박스 기능을 처리하는 컴포넌트입니다. 
 
 <b style="font-size: 20px"> 22\) &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/ListBox.png" style="position: relative;top: 5px;" width="25" height="25"> (ListBox) </b> <br/>
 리스트박스 기능을 처리하는 컴포넌트입니다.
@@ -232,7 +232,7 @@ Design 영역에서 도구상자에 있는 컴포넌트를 추가하여 화면�
 <b style="font-size: 18px"> (2) 화면 속성 </b> <br/>
 Design 영역에서 컴포넌트가 없는 빈 쪽을 클릭하면 우측에 공통 Design 속성을 확인할 수 있습니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/Structure/View/design_property_View.png" style="border: 1px solid #bbb;" width="300" height="400"/> <br/>
-<b style="font-size: 18px"> ➀ D.Design </b> <br/>
+<b style="font-size: 18px"> ① D.Design </b> <br/>
 - <b>Change Class </b> <br/>
 해당 UI 화면에 디자인한 컴포넌트들의 Class 정보들을 확인할 수 있으며, 해당 컴포넌트의 Class를 추가, 등록, 삭제를 할 수 있습니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/Structure/View/Change_Class.png" width="250" height="430"/> 
@@ -257,11 +257,11 @@ UI 화면의 사이즈 변경에 대한 여부를 설정합니다. <br/>
 - <b>StyleOff </b> <br/>
 UI 화면에 디자인한 컴포넌트들의 CSS 변경에 대한 여부를 설정합니다. 
 
-<b style="font-size: 18px"> ➁ D.Design </b> <br/>
+<b style="font-size: 18px"> ② D.Design </b> <br/>
 - <b>BaseLayer1∼5 </b> <br/>
 UI 화면에 div 태그를 하나 생성해서 Class명들을 지정합니다. <br/>
 
-<b style="font-size: 18px"> ➂ X.Etc </b> <br/>
+<b style="font-size: 18px"> ③ X.Etc </b> <br/>
 - <b>Browser </b> <br/>
 UI 화면을 실행할 때 원하는 브라우저를 선택해서 실행이 가능합니다. <br/>
 - <b>Buid Type </b> <br/>
@@ -297,19 +297,19 @@ Design 탭에 가서 컴포넌트를 생성 후 우측 속성 Bind:Column 속성
 해당 화면에서 사용되는 javascript 내용을 작성하는 부분입니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/Structure/View/Script.png" style="border: 1px solid #bbb;" width="580" height="400"/> <br/>
 <b style="font-size: 18px"> (1) Script 팝업창 </b> <br/>
-<b style="font-size: 18px"> ➀ Common JS </b> <br/>
+<b style="font-size: 18px"> ① Common JS </b> <br/>
 해당 UI 화면에 연결이 되어 있는 JS를 보여줍니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/Structure/View/Common_Js.png"  width="300" height="300"/> <br/>
 
-<b style="font-size: 18px"> ➁ Common CSS </b> <br/>
+<b style="font-size: 18px"> ② Common CSS </b> <br/>
 해당 UI 화면에 연결이 되어 있는 CSS를 보여줍니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/Structure/View/Common_CSS.png"  width="300" height="230"/> <br/>
 
-<b style="font-size: 18px"> ➂ Html Meta </b> <br/>
+<b style="font-size: 18px"> ③ Html Meta </b> <br/>
 해당 UI 화면에 연결이 되어 있는 Html Meta를 등록합니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/Structure/View/Html_Meta.png"  width="400" height="180"/> <br/>
 
-<b style="font-size: 18px"> ➃ SCRIPT </b> <br/>
+<b style="font-size: 18px"> ④ SCRIPT </b> <br/>
 디자인한 UI 화면 등을 동시에 볼 수 있도록 Script 영역을 팝업창으로 열어 작업할 수 있습니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/Structure/View/SCRIPT_popup.png"  width="580" height="330"/> 
 
