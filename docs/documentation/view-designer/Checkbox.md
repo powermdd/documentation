@@ -1,17 +1,17 @@
-# <img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/Checkbox.png" style="position: relative;top: 5px;" width="40" height="40"> (Checkbox)
+# <img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/CheckBox.png" style="position: relative;top: 5px;" width="40" height="40"> (CheckBox)
 체크박스 기능을 처리하는 컴포넌트입니다.
 
 <b style="font-size: 20px"> 1) 컴포넌트 이미지 </b> <br/>
-도구상자에서 Checkbox 컴포넌트를 선택하여 화면작업 영역에 디자인합니다. <br/>
-<img src="../../.vuepress/public/documentation/view-designer/Checkbox/Checkbox_Image.png" style="border: 1px solid #bbb;" width="30" height="30"> <br/>
+도구상자에서 CheckBox 컴포넌트를 선택하여 화면작업 영역에 디자인합니다. <br/>
+<img src="../../.vuepress/public/documentation/view-designer/CheckBox/CheckBox_Image.png" style="border: 1px solid #bbb;" width="30" height="30"> <br/>
 
 <b style="font-size: 20px"> 2) 컴포넌트 속성 </b> <br/>
-화면작업 창에서 Checkbox 컴포넌트 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다. <br/>
+화면작업 창에서 CheckBox 컴포넌트 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다. <br/>
 <b style="font-size: 18px"> (1) A.Data </b> <br/>
-<img src="../../.vuepress/public/documentation/view-designer/Checkbox/Checkbox_Data.png"  style="border: 1px solid #bbb;" width="300" height="80"/> <br/>
+<img src="../../.vuepress/public/documentation/view-designer/CheckBox/CheckBox_Data.png"  style="border: 1px solid #bbb;" width="300" height="80"/> <br/>
 <b style="font-size: 18px"> ① Bind:Column </b> <br/>
 UI 화면작업 창의 Dataset 탭에서 등록한 Dataset Column을 할당하는 부분입니다. <br/>
-<img src="../../.vuepress/public/documentation/view-designer/Checkbox/Checkbox_Bind_Column.png"  width="400" height="300"/> 
+<img src="../../.vuepress/public/documentation/view-designer/CheckBox/CheckBox_Bind_Column.png"  width="400" height="300"/> 
 
 <b style="font-size: 18px"> ② Dataset </b> <br/>
 할당된 Dataset 명 표시합니다. <br/>
@@ -29,7 +29,7 @@ Dataset Bind 했을 경우 <span style="color: #00a4ff;">Dataset_Column</span>�
 <!-- -->
 
 <b style="font-size: 18px"> (1) B.CommonElement </b> <br/>
-<img src="../../.vuepress/public/documentation/view-designer/Checkbox/Checkbox_CommonElement.png"  style="border: 1px solid #bbb;" width="300" height="80"/> <br/>
+<img src="../../.vuepress/public/documentation/view-designer/CheckBox/CheckBox_CommonElement.png"  style="border: 1px solid #bbb;" width="300" height="80"/> <br/>
 <b style="font-size: 18px"> ① Disabled </b> <br/>
 값이 True이면 수정 불가능(서버 전송 불가능) False 경우 해당 속성 사용하지 않습니다. 
 
@@ -43,12 +43,12 @@ Index 값을 지정 후 Tab 키를 누르면 오름차순으로 이동하게 됩
 해당 컴포넌트를 화면에 보여줄지에 대한 여부를 설정합니다. 
 
 <b style="font-size: 18px"> (2) C.ControlElement </b> <br/>
-<img src="../../.vuepress/public/documentation/view-designer/Checkbox/Checkbox_ControlElement.png"  style="border: 1px solid #bbb;" width="300" height="35"/> <br/> 
+<img src="../../.vuepress/public/documentation/view-designer/CheckBox/CheckBox_ControlElement.png"  style="border: 1px solid #bbb;" width="300" height="35"/> <br/> 
 <b style="font-size: 18px"> ① Checked </b> <br/>
  해당 컴포넌트의 초기값을 체크 상태 여부를 설정합니다. 
 
 <b style="font-size: 20px"> 3) 컴포넌트 이벤트 </b> <br/>
-<img src="../../.vuepress/public/documentation/view-designer/Checkbox/Checkbox_Event.png"  style="border: 1px solid #bbb;" width="300" height="160"/> <br/> 
+<img src="../../.vuepress/public/documentation/view-designer/CheckBox/CheckBox_Event.png"  style="border: 1px solid #bbb;" width="300" height="160"/> <br/> 
 <b style="font-size: 18px"> (1) 1.MouseEvent </b> <br/>
 <b style="font-size: 18px"> ① OnClick </b> <br/>
 마우스를 클릭할 때 발생하는 이벤트입니다. <br/>
