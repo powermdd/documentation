@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-63774a22","path":"/documentation/view-designer/Label.html","title":"Label","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1691941996000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"documentation/view-designer/Label.md"}');export{a as data};

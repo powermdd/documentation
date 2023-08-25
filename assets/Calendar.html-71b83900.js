@@ -1,1 +1,0 @@
-import{_ as a,o as r,c as t,a as e,e as c}from"./app-04249de7.js";const n={},d=e("h1",{id:"calendar",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#calendar","aria-hidden":"true"},"#"),c(" Calendar")],-1),o=[d];function s(_,l){return r(),t("div",null,o)}const h=a(n,[["render",s],["__file","Calendar.html.vue"]]);export{h as default};

@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-1a45f2c2","path":"/documentation/view-designer/PictureBox.html","title":"Picture Box","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1691941996000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"documentation/view-designer/PictureBox.md"}');export{t as data};

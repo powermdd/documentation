@@ -1,0 +1,1 @@
+import{_ as r,o as t,c as a,a as e,e as c}from"./app-1286eed7.js";const d={},o=e("h1",{id:"grid",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#grid","aria-hidden":"true"},"#"),c(" Grid")],-1),s=[o];function i(n,_){return t(),a("div",null,s)}const l=r(d,[["render",i],["__file","Grid.html.vue"]]);export{l as default};
