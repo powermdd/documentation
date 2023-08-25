@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as o,a as e,e as c}from"./app-fea09528.js";const r={},s=e("h1",{id:"table-layout",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#table-layout","aria-hidden":"true"},"#"),c(" Table Layout")],-1),l=[s];function n(_,d){return t(),o("div",null,l)}const u=a(r,[["render",n],["__file","TableLayout.html.vue"]]);export{u as default};
