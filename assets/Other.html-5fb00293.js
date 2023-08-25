@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as r,a as e,e as c}from"./app-fea09528.js";const o={},s=e("h1",{id:"기타-컴포넌트",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#기타-컴포넌트","aria-hidden":"true"},"#"),c(" 기타 컴포넌트")],-1),n=[s];function _(d,h){return a(),r("div",null,n)}const l=t(o,[["render",_],["__file","Other.html.vue"]]);export{l as default};
