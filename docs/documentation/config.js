@@ -101,8 +101,6 @@ const koSideBar = [
         link: '/documentation',
         children: [
             // SidebarItem
-<<<<<<< HEAD
-            // Service Model
             {
                 text: 'Service Model',
                 link: '/documentation/service-model',
@@ -275,12 +273,6 @@ const koSideBar = [
                         ],
                     },
                 ],
-=======
-            {
-                text: 'Service Model',
-                link: '/documentation/service-model',
-                children: [],
->>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
             },
             {
                 text: 'View Designer',
@@ -435,14 +427,11 @@ const koSideBar = [
                                         link: '/documentation/view-designer/DynAccordion',
                                     },
                                 ],
-<<<<<<< HEAD
                             },
                             {
                                 text: '공통 속성',
                                 link: '/documentation/view-designer/Other',
                                 collapsible: true
-=======
->>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
                             }
                         ],
                     },
@@ -451,7 +440,6 @@ const koSideBar = [
             {
                 text: 'Query Developer',
                 link: '/documentation/query-developer',
-<<<<<<< HEAD
                 collapsible: true,
                 children: [
                     {
@@ -469,9 +457,6 @@ const koSideBar = [
                         collapsible: true
                     },
                 ]
-=======
-                children: [],
->>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
             },
             {
                 text: 'Data Model',
@@ -506,7 +491,6 @@ const enSideBar = [
             {
                 text: 'Service Model',
                 link: '/documentation/service-model',
-<<<<<<< HEAD
                 children: [
                     {
                         text: 'Start BOC',
@@ -662,9 +646,6 @@ const enSideBar = [
                         ],
                     },
                 ],
-=======
-                children: [],
->>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
             },
             {
                 text: 'View Designer',
@@ -674,7 +655,6 @@ const enSideBar = [
             {
                 text: 'Query Developer',
                 link: '/documentation/query-developer',
-<<<<<<< HEAD
                 collapsible: true,
                 children: [
                     {
@@ -688,9 +668,6 @@ const enSideBar = [
                         collapsible: true
                     }
                 ]
-=======
-                children: [],
->>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
             },
             {
                 text: 'Data Model',

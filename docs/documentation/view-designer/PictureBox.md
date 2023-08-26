@@ -16,7 +16,11 @@ UI 화면작업 창의 Dataset 탭에서 등록한 Dataset Column을 할당하�
 <b style="font-size: 18px"> ② Dataset </b> <br/>
 할당된 Dataset 명 표시합니다. <br/>
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
 Dataset Bind 했을 경우 <span style="color: #00a4ff;">Dataset_Column</span>으로 해당 컴포넌트 ID가 자동으로 변환됩니다. <br/>
 <span style="color: #00a4ff;">Ex) Dataset : S01     Column : PictureBox  ⇒ 컴포넌트 ID : S01_PictureBox </span>
 :::
@@ -50,7 +54,11 @@ Index 값을 지정 후 Tab 키를 누르면 오름차순으로 이동하게 됩
 <b style="font-size: 18px"> ④ Usemap </b> <br/>
 #을 포함한 맵 id값을 설정 후 &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/user_svg_Control.png" style="position: relative;top: 5px;" width="25" height="25"> (user/svg Control) 컴포넌트를 생성하여 우측 속성 UserTag를 입력합니다. 
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
 - <b> map 태그 </b> <br/>
 name : img 태그의 usemap 속성의 맵 id값과 동일하게 지정해야합니다.
 

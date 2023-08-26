@@ -16,7 +16,11 @@ UI 화면작업 창의 Dataset 탭에서 등록한 Dataset Column을 할당하�
 <b style="font-size: 18px"> ② Dataset </b> <br/>
 할당된 Dataset 명 표시합니다. <br/>
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
 Dataset Bind 했을 경우 <span style="color: #00a4ff;">Dataset_Column</span>으로 해당 컴포넌트 ID가 자동으로 변환됩니다. <br/>
 <span style="color: #00a4ff;">Ex) Dataset : S01     Column : NumUpDown  ⇒ 컴포넌트 ID : S01_NumUpDown </span>
 :::
@@ -30,7 +34,11 @@ Dataset Bind 했을 경우 <span style="color: #00a4ff;">Dataset_Column</span>�
 <b style="font-size: 18px"> ② Length </b> <br/>
 해당 컴포넌트의 길이를 설정합니다.  
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
 빌드를 했을 때 소스 상으로 size로 설정이 되어있지만 style 부분에 width도 같이 설정되어있어서 Length를 확인하려면
    해당 컴포넌트 우측 속성에 styleOff을 true로 설정하면 해당 Length만큼 길이를 보여줍니다.
 :::
@@ -59,7 +67,11 @@ Index 값을 지정 후 Tab 키를 누르면 오름차순으로 이동하게 됩
 <b style="font-size: 18px"> ① IncrementValue </b> <br/>
 증감되는 값을 설정합니다. 
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
 입력한 숫자만큼 증감한다. <br/>
 <span style="color: #00a4ff;">Ex) IncrementValue : 10<br/>
 • 입력한 값 : 1 => 11 <br/>
