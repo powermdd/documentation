@@ -1,0 +1,38 @@
+name: docs
+
+on:
+  # trigger deployment on every push to main branch
+  push:
+    branches: [main]
+  # trigger deployment manually
+  workflow_dispatch:
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          # fetch all commits to get last updated time or other git log info
+          fetch-depth: 0
+
+      - name: Setup npm
+        run: npm install
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          # choose node.js version to use
+          node-version: 18
+
+      # run build script
+      - name: Build VuePress site
+        run: npm run docs:build
+
+      # please check out the docs of the workflow for more details
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.POWER_MDD_SECRET }}
+          publish_dir: ./docs/.vuepress/dist
