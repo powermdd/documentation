@@ -101,10 +101,186 @@ const koSideBar = [
         link: '/documentation',
         children: [
             // SidebarItem
+<<<<<<< HEAD
+            // Service Model
+            {
+                text: 'Service Model',
+                link: '/documentation/service-model',
+                collapsible: true,
+                children: [
+                    {
+                        text: '구성',
+                        link: '/documentation/service-model/Structure',
+                        collapsible: true,
+                        children: []
+                    },
+                    {
+                        text: 'BOC',
+                        link: '/documentation/service-model/Boc',
+                        collapsible: true,
+                        children: [
+                            {
+                                text: 'Start BOC',
+                                link: '/documentation/service-model/StartBoc',
+                                collapsible: true,
+                                children: []
+                            },
+                            {
+                                text: 'DataBase BOC',
+                                link: '/documentation/service-model/DatabaseBoc',
+                                collapsible: true,
+                                children: [
+                                    {
+                                        text: 'SEL',
+                                        link: '/documentation/service-model/Sel',
+                                    },
+                                    {
+                                        text: 'INS',
+                                        link: '/documentation/service-model/Ins',
+                                    },
+                                    {
+                                        text: 'DEL',
+                                        link: '/documentation/service-model/Del',
+                                    },
+                                    {
+                                        text: 'UPD',
+                                        link: '/documentation/service-model/Upd',
+                                    },
+                                    {
+                                        text: 'UNI',
+                                        link: '/documentation/service-model/Uni',
+                                    },
+                                    {
+                                        text: 'XIUD',
+                                        link: '/documentation/service-model/Xiud',
+                                    },
+                                    {
+                                        text: 'SET',
+                                        link: '/documentation/service-model/Set',
+                                    },
+                                    {
+                                        text: 'RBK',
+                                        link: '/documentation/service-model/Rbk',
+                                    },
+                                ],
+                            },
+                            {
+                                text: 'Control BOC',
+                                link: '/documentation/service-model/ControlBoc',
+                                collapsible: true,
+                                children: [
+                                    {
+                                        text: 'MPD',
+                                        link: '/documentation/service-model/Mpd',
+                                    },
+                                    {
+                                        text: 'MIUD',
+                                        link: '/documentation/service-model/Miud',
+                                    },
+                                    {
+                                        text: 'CON',
+                                        link: '/documentation/service-model/ConBoc',
+                                    },
+                                    {
+                                        text: 'NLL',
+                                        link: '/documentation/service-model/Nll',
+                                    },
+                                    {
+                                        text: 'BRK',
+                                        link: '/documentation/service-model/Brk',
+                                    },
+                                ],
+                            },
+                            {
+                                text: 'Interface BOC',
+                                link: '/documentation/service-model/InterfaceBoc',
+                                collapsible: true,
+                                children: [
+                                    {
+                                        text: 'OSP',
+                                        link: '/documentation/service-model/Osp',
+                                    },
+                                    {
+                                        text: 'PEX',
+                                        link: '/documentation/service-model/Pex',
+                                    },
+                                    {
+                                        text: 'CMD',
+                                        link: '/documentation/service-model/Cmd',
+                                    },
+                                ],
+                            },
+                            {
+                                text: 'Change BOC',
+                                link: '/documentation/service-model/ChangeBoc',
+                                collapsible: true,
+                                children: [
+                                    {
+                                        text: 'GLV',
+                                        link: '/documentation/service-model/Glv',
+                                    },
+                                    {
+                                        text: 'CVT',
+                                        link: '/documentation/service-model/Cvt',
+                                    },
+                                    {
+                                        text: 'GET',
+                                        link: '/documentation/service-model/Get',
+                                    },
+                                    {
+                                        text: 'MRG',
+                                        link: '/documentation/service-model/Mrg',
+                                    },
+                                    {
+                                        text: 'ADD',
+                                        link: '/documentation/service-model/Add',
+                                    },
+                                    {
+                                        text: 'SUM',
+                                        link: '/documentation/service-model/Sum',
+                                    },
+                                    {
+                                        text: 'SRD',
+                                        link: '/documentation/service-model/Srd',
+                                    },
+                                    {
+                                        text: 'SRCD',
+                                        link: '/documentation/service-model/Srcd',
+                                    },
+                                ],
+                            },
+                            {
+                                text: 'File BOC',
+                                link: '/documentation/service-model/FileBoc',
+                                collapsible: true,
+                                children: [
+                                    {
+                                        text: 'FUT',
+                                        link: '/documentation/service-model/Fut',
+                                    },
+                                    {
+                                        text: 'FBD',
+                                        link: '/documentation/service-model/Fbd',
+                                    },
+                                    {
+                                        text: 'FUP',
+                                        link: '/documentation/service-model/Fup',
+                                    },
+                                    {
+                                        text: 'XUP',
+                                        link: '/documentation/service-model/Xup',
+                                    },
+                                ],
+                            },
+                        ],
+                    },
+                ],
+=======
             {
                 text: 'Service Model',
                 link: '/documentation/service-model',
                 children: [],
+>>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
             },
             {
                 text: 'View Designer',
@@ -259,6 +435,14 @@ const koSideBar = [
                                         link: '/documentation/view-designer/DynAccordion',
                                     },
                                 ],
+<<<<<<< HEAD
+                            },
+                            {
+                                text: '공통 속성',
+                                link: '/documentation/view-designer/Other',
+                                collapsible: true
+=======
+>>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
                             }
                         ],
                     },
@@ -267,7 +451,27 @@ const koSideBar = [
             {
                 text: 'Query Developer',
                 link: '/documentation/query-developer',
+<<<<<<< HEAD
+                collapsible: true,
+                children: [
+                    {
+                        text: '구성',
+                        link: '/documentation/query-developer/Structure'
+                    },
+                    {
+                        text: 'DB접속 및 테이블 리스트',
+                        link: '/documentation/query-developer/ConnectDB',
+                        collapsible: true
+                    },
+                    {
+                        text: '결과 영역',
+                        link: '/documentation/query-developer/ResultTerritory',
+                        collapsible: true
+                    },
+                ]
+=======
                 children: [],
+>>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
             },
             {
                 text: 'Data Model',
@@ -302,7 +506,165 @@ const enSideBar = [
             {
                 text: 'Service Model',
                 link: '/documentation/service-model',
+<<<<<<< HEAD
+                children: [
+                    {
+                        text: 'Start BOC',
+                        link: '/documentation/service-model/StartBoc',
+                        collapsible: true,
+                        children: []
+                    },
+                    {
+                        text: 'DataBase BOC',
+                        link: '/documentation/service-model/DatabaseBoc',
+                        collapsible: true,
+                        children: [
+                            {
+                                text: 'SEL',
+                                link: '/documentation/service-model/Sel',
+                            },
+                            {
+                                text: 'INS',
+                                link: '/documentation/service-model/Ins',
+                            },
+                            {
+                                text: 'DEL',
+                                link: '/documentation/service-model/Del',
+                            },
+                            {
+                                text: 'UPD',
+                                link: '/documentation/service-model/Upd',
+                            },
+                            {
+                                text: 'UNI',
+                                link: '/documentation/service-model/Uni',
+                            },
+                            {
+                                text: 'XIUD',
+                                link: '/documentation/service-model/Xiud',
+                            },
+                            {
+                                text: 'SET',
+                                link: '/documentation/service-model/Set',
+                            },
+                            {
+                                text: 'RBK',
+                                link: '/documentation/service-model/Rbk',
+                            },
+                        ],
+                    },
+                    {
+                        text: 'Control BOC',
+                        link: '/documentation/service-model/ControlBoc',
+                        collapsible: true,
+                        children: [
+                            {
+                                text: 'MPD',
+                                link: '/documentation/service-model/Mpd',
+                            },
+                            {
+                                text: 'MIUD',
+                                link: '/documentation/service-model/Miud',
+                            },
+                            {
+                                text: 'CON',
+                                link: '/documentation/service-model/ConBoc',
+                            },
+                            {
+                                text: 'NLL',
+                                link: '/documentation/service-model/Nll',
+                            },
+                            {
+                                text: 'BRK',
+                                link: '/documentation/service-model/Brk',
+                            },
+                        ],
+                    },
+                    {
+                        text: 'Interface BOC',
+                        link: '/documentation/service-model/InterfaceBoc',
+                        collapsible: true,
+                        children: [
+                            {
+                                text: 'OSP',
+                                link: '/documentation/service-model/Osp',
+                            },
+                            {
+                                text: 'PEX',
+                                link: '/documentation/service-model/Pex',
+                            },
+                            {
+                                text: 'CMD',
+                                link: '/documentation/service-model/Cmd',
+                            },
+                        ],
+                    },
+                    {
+                        text: 'Change BOC',
+                        link: '/documentation/service-model/ChangeBoc',
+                        collapsible: true,
+                        children: [
+                            {
+                                text: 'GLV',
+                                link: '/documentation/service-model/Glv',
+                            },
+                            {
+                                text: 'CVT',
+                                link: '/documentation/service-model/Cvt',
+                            },
+                            {
+                                text: 'GET',
+                                link: '/documentation/service-model/Get',
+                            },
+                            {
+                                text: 'MRG',
+                                link: '/documentation/service-model/Mrg',
+                            },
+                            {
+                                text: 'ADD',
+                                link: '/documentation/service-model/Add',
+                            },
+                            {
+                                text: 'SUM',
+                                link: '/documentation/service-model/Sum',
+                            },
+                            {
+                                text: 'SRD',
+                                link: '/documentation/service-model/Srd',
+                            },
+                            {
+                                text: 'SRCD',
+                                link: '/documentation/service-model/Srcd',
+                            },
+                        ],
+                    },
+                    {
+                        text: 'File BOC',
+                        link: '/documentation/service-model/FileBoc',
+                        collapsible: true,
+                        children: [
+                            {
+                                text: 'FUT',
+                                link: '/documentation/service-model/Fut',
+                            },
+                            {
+                                text: 'FBD',
+                                link: '/documentation/service-model/Fbd',
+                            },
+                            {
+                                text: 'FUP',
+                                link: '/documentation/service-model/Fup',
+                            },
+                            {
+                                text: 'XUP',
+                                link: '/documentation/service-model/Xup',
+                            },
+                        ],
+                    },
+                ],
+=======
                 children: [],
+>>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
             },
             {
                 text: 'View Designer',
@@ -312,7 +674,23 @@ const enSideBar = [
             {
                 text: 'Query Developer',
                 link: '/documentation/query-developer',
+<<<<<<< HEAD
+                collapsible: true,
+                children: [
+                    {
+                        text: 'DB Connect And Table List',
+                        link: '/documentation/query-developer/ConnectDB',
+                        collapsible: true
+                    },
+                    {
+                        text: 'Result Territory',
+                        link: '/documentation/query-developer/ResultTerritory',
+                        collapsible: true
+                    }
+                ]
+=======
                 children: [],
+>>>>>>> 511382b79aff54c321790ef1cc623e0fdb81902e
             },
             {
                 text: 'Data Model',
