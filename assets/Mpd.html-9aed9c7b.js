@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2742a3b8","path":"/documentation/service-model/Mpd.html","title":"MPD","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1692953198000,"contributors":[{"name":"yhj3211","email":"77193812+yhj3211@users.noreply.github.com","commits":1}]},"filePathRelative":"documentation/service-model/Mpd.md"}');export{e as data};

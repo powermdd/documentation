@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1b1f3d4a","path":"/documentation/service-model/Rbk.html","title":"RBK","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1692953198000,"contributors":[{"name":"yhj3211","email":"77193812+yhj3211@users.noreply.github.com","commits":1}]},"filePathRelative":"documentation/service-model/Rbk.md"}');export{e as data};

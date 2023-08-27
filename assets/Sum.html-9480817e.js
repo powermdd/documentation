@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7380813a","path":"/documentation/service-model/Sum.html","title":"SUM","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1692953198000,"contributors":[{"name":"yhj3211","email":"77193812+yhj3211@users.noreply.github.com","commits":1}]},"filePathRelative":"documentation/service-model/Sum.md"}');export{e as data};

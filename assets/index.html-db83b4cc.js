@@ -1,0 +1,1 @@
+import{_ as a,o as t,c as o,a as e,e as d}from"./app-2bdcf6f0.js";const c={},n=e("h1",{id:"data-model",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#data-model","aria-hidden":"true"},"#"),d(" Data Model")],-1),r=[n];function s(_,i){return t(),o("div",null,r)}const h=a(c,[["render",s],["__file","index.html.vue"]]);export{h as default};

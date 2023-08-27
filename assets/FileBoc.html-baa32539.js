@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5ffdf76a","path":"/documentation/service-model/FileBoc.html","title":"File BOC","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1692953198000,"contributors":[{"name":"yhj3211","email":"77193812+yhj3211@users.noreply.github.com","commits":1}]},"filePathRelative":"documentation/service-model/FileBoc.md"}');export{e as data};
