@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as s,a as e,e as c}from"./app-94ffeab1.js";const o={},r=e("h1",{id:"리스트-컴포넌트",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#리스트-컴포넌트","aria-hidden":"true"},"#"),c(" 리스트 컴포넌트")],-1),n=[r];function _(d,i){return a(),s("div",null,n)}const l=t(o,[["render",_],["__file","List.html.vue"]]);export{l as default};

@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as r,a as e,e as c}from"./app-94ffeab1.js";const o={},s=e("h1",{id:"chart",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#chart","aria-hidden":"true"},"#"),c(" Chart")],-1),n=[s];function _(h,d){return a(),r("div",null,n)}const l=t(o,[["render",_],["__file","Chart.html.vue"]]);export{l as default};
