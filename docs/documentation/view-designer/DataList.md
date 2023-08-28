@@ -22,7 +22,7 @@
 <b style="font-size: 18px"> ① ID </b> <br/>
 해당 컴포넌트의 ID를 설정합니다.  
 
-<b style="font-size: 18px"> (3) DataList 사용 예 </b> <br/>
+<b style="font-size: 18px"> 3) DataList 사용 예 </b> <br/>
 <span style="font-size: 18px"> ① TextBox 컴포넌트와 DataList 컴포넌트를 화면에 디자인합니다. </span> <br/>
 <img src="../../.vuepress/public/documentation/view-designer/DataList/DataList_Ex(1).png"  style="border: 1px solid #bbb;" width="350" height="200"/> <br/>
 
@@ -39,7 +39,7 @@ DataList 컴포넌트 &emsp; &emsp;&emsp; &emsp;&emsp; &emsp; &emsp; &emsp; &ems
 <span style="font-size: 18px"> ⑤ 다음과 같이 텍스트박스의 자동 완성 기능을 확인할 수 있으며, 작업한 DataList는 화면에 보이지 않습니다. </span> <br/>
 <img src="../../.vuepress/public/documentation/view-designer/DataList/DataList_Ex_view.png"  style="border: 1px solid #bbb;" width="350" height="250"/> <br/>
 
-<b style="font-size: 18px"> (4) 컴포넌트 이벤트 </b> <br/>
+<b style="font-size: 18px"> 4) 컴포넌트 이벤트 </b> <br/>
 <img src="../../.vuepress/public/documentation/view-designer/TextBox/TextBox_Event.png"  style="border: 1px solid #bbb;" width="300" height="250"/> <br/> 
 <b style="font-size: 18px"> (1) 1.MouseEvent </b> <br/>
 <b style="font-size: 18px"> ① OnClick </b> <br/>
