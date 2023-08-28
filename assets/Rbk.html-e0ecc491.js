@@ -1,1 +1,0 @@
-import{_ as t,o as a,c as r,a as e,e as c}from"./app-b3fc5503.js";const o={},s=e("h1",{id:"rbk",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#rbk","aria-hidden":"true"},"#"),c(" RBK")],-1),n=[s];function _(d,i){return a(),r("div",null,n)}const l=t(o,[["render",_],["__file","Rbk.html.vue"]]);export{l as default};

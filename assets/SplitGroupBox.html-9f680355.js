@@ -1,1 +1,0 @@
-import{_ as o,o as t,c as r,a as e,e as a}from"./app-b3fc5503.js";const s={},c=e("h1",{id:"split-group-box",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#split-group-box","aria-hidden":"true"},"#"),a(" Split Group Box")],-1),i=[c];function n(_,l){return t(),r("div",null,i)}const d=o(s,[["render",n],["__file","SplitGroupBox.html.vue"]]);export{d as default};
