@@ -767,7 +767,7 @@ var <span style="color: #00a4ff;">팝업변수</span> = wizutil.openLayerPopup(<
 삭제할 컬럼을 선택 후 해당 메뉴를 클릭하거나 단축키 Ctrl + 2를 입력하면 선택된 컬럼이 삭제됩니다.  
 
 <b style="font-size: 18px"> ③ Arrange Column </b> <br/>
-컬럼 순서를 정렬하는 팝업창이 나오며 <span style="border:1px solid #bbb;border-radius: 4px;padding: 3px;color: dimgrey;">UP</span>, <span style="border:1px solid #bbb;border-radius: 4px;padding: 3px;color: dimgrey;">Down</span>버튼을 눌러 컬럼 순서를 정하고 <span style="border:1px solid #bbb;border-radius: 4px;padding: 3px;color: dimgrey;">Arrange</span> 버튼을 누르면 정렬한 순서로 컬럼 위치가 반영합니다. 
+컬럼 순서를 정렬하는 팝업창이 나오며 <span style="border:1px solid #bbb;border-radius: 4px;padding: 3px;">UP</span>, <span style="border:1px solid #bbb;border-radius: 4px;padding: 3px;">Down</span> 버튼을 눌러 컬럼 순서를 정하고 <span style="border:1px solid #bbb;border-radius: 4px;padding: 3px;">Arrange</span> 버튼을 누르면 정렬한 순서로 컬럼 위치가 반영합니다. 
 
 <b style="font-size: 18px"> ④ Add Head Row </b> <br/>
 해당 메뉴를 클릭하면 Head Row가 추가됩니다. (Head Row는 4개 이상 추가가 불가능합니다.)
