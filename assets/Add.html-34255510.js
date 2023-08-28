@@ -1,1 +1,0 @@
-import{_ as a,o as t,c as d,a as e,e as c}from"./app-d8891a4a.js";const o={},r=e("h1",{id:"add",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#add","aria-hidden":"true"},"#"),c(" ADD")],-1),s=[r];function n(_,i){return t(),d("div",null,s)}const l=a(o,[["render",n],["__file","Add.html.vue"]]);export{l as default};

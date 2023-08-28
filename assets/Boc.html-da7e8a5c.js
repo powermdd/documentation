@@ -1,1 +1,0 @@
-import{_ as c,o,c as t,a as e,e as a}from"./app-d8891a4a.js";const r={},s=e("h1",{id:"boc",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#boc","aria-hidden":"true"},"#"),a(" BOC")],-1),n=[s];function _(d,i){return o(),t("div",null,n)}const l=c(r,[["render",_],["__file","Boc.html.vue"]]);export{l as default};
