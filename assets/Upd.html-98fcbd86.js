@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,a as e,e as o}from"./app-15f4eb7d.js";const r={},s=e("h1",{id:"upd",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#upd","aria-hidden":"true"},"#"),o(" UPD")],-1),d=[s];function n(_,i){return a(),c("div",null,d)}const l=t(r,[["render",n],["__file","Upd.html.vue"]]);export{l as default};
