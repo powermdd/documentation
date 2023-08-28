@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,a as e,e as o}from"./app-b3fc5503.js";const r={},s=e("h1",{id:"miud",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#miud","aria-hidden":"true"},"#"),o(" MIUD")],-1),d=[s];function n(_,i){return a(),c("div",null,d)}const l=t(r,[["render",n],["__file","Miud.html.vue"]]);export{l as default};
