@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,a as e,e as o}from"./app-fb2cc941.js";const r={},s=e("h1",{id:"glv",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#glv","aria-hidden":"true"},"#"),o(" GLV")],-1),n=[s];function _(l,d){return a(),c("div",null,n)}const h=t(r,[["render",_],["__file","Glv.html.vue"]]);export{h as default};

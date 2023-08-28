@@ -1,1 +1,0 @@
-import{_ as o,o as r,c as s,a as e,e as t}from"./app-2bdcf6f0.js";const a={},d=e("h1",{id:"power-mdd-bms",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#power-mdd-bms","aria-hidden":"true"},"#"),t(" POWER MDD BMS")],-1),c=[d];function n(_,m){return r(),s("div",null,c)}const h=o(a,[["render",n],["__file","PowerMddBms.html.vue"]]);export{h as default};
