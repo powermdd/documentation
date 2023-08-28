@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,a as e,e as o}from"./app-a51200c8.js";const r={},s=e("h1",{id:"del",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#del","aria-hidden":"true"},"#"),o(" DEL")],-1),n=[s];function _(d,l){return a(),c("div",null,n)}const h=t(r,[["render",_],["__file","Del.html.vue"]]);export{h as default};
