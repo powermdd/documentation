@@ -101,7 +101,6 @@ const koSideBar = [
         link: '/documentation',
         children: [
             // SidebarItem
-            // Service Model
             {
                 text: 'Service Model',
                 link: '/documentation/service-model',
