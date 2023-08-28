@@ -1,0 +1,1 @@
+import{_ as c,o as r,c as t,a as e,e as a}from"./app-598014ff.js";const s={},o=e("h1",{id:"srcd",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#srcd","aria-hidden":"true"},"#"),a(" SRCD")],-1),d=[o];function n(_,i){return r(),t("div",null,d)}const l=c(s,[["render",n],["__file","Srcd.html.vue"]]);export{l as default};

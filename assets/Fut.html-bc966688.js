@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,a as e,e as o}from"./app-2c645c10.js";const r={},s=e("h1",{id:"fut",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#fut","aria-hidden":"true"},"#"),o(" FUT")],-1),n=[s];function _(d,i){return a(),c("div",null,n)}const h=t(r,[["render",_],["__file","Fut.html.vue"]]);export{h as default};

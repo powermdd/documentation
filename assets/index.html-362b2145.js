@@ -1,0 +1,1 @@
+import{_ as c,o as t,c as a,a as e,e as o}from"./app-598014ff.js";const r={},s=e("h1",{id:"service-model",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#service-model","aria-hidden":"true"},"#"),o(" Service Model")],-1),d=[s];function n(i,_){return t(),a("div",null,d)}const h=c(r,[["render",n],["__file","index.html.vue"]]);export{h as default};
