@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,a as e,e as d}from"./app-2c645c10.js";const o={},r=e("h1",{id:"htmledit",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#htmledit","aria-hidden":"true"},"#"),d(" HtmlEdit")],-1),s=[r];function i(n,_){return a(),c("div",null,s)}const h=t(o,[["render",i],["__file","HtmlEdit.html.vue"]]);export{h as default};

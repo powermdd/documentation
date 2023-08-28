@@ -1,1 +1,0 @@
-import{_ as t,o as r,c as a,a as e,e as c}from"./app-873c815f.js";const o={},s=e("h1",{id:"구성",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#구성","aria-hidden":"true"},"#"),c(" 구성")],-1),n=[s];function _(d,i){return r(),a("div",null,n)}const l=t(o,[["render",_],["__file","Structure.html.vue"]]);export{l as default};
