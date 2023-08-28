@@ -1,1 +1,0 @@
-import{_ as r,o as t,c as a,a as e,e as c}from"./app-94ffeab1.js";const o={},s=e("h1",{id:"brk",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#brk","aria-hidden":"true"},"#"),c(" BRK")],-1),n=[s];function _(d,i){return t(),a("div",null,n)}const l=r(o,[["render",_],["__file","Brk.html.vue"]]);export{l as default};
