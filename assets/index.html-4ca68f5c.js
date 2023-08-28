@@ -1,1 +1,0 @@
-import{_ as r,o as t,c as a,a as e,e as o}from"./app-65e54973.js";const c={},n=e("h1",{id:"query-developer",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#query-developer","aria-hidden":"true"},"#"),o(" Query Developer")],-1),s=[n];function d(_,i){return t(),a("div",null,s)}const h=r(c,[["render",d],["__file","index.html.vue"]]);export{h as default};
