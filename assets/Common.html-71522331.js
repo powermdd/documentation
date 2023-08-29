@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-7e257af8","path":"/documentation/view-designer/Common.html","title":"공통 속성","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1693321067000,"contributors":[{"name":"PEB","email":"peb7544@hnextits.com","commits":2}]},"filePathRelative":"documentation/view-designer/Common.md"}');export{e as data};

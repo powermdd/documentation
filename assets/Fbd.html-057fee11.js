@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,d as e,f as d}from"./app-9b74980b.js";const o={},r=e("h1",{id:"fbd",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#fbd","aria-hidden":"true"},"#"),d(" FBD")],-1),s=[r];function n(_,f){return a(),c("div",null,s)}const h=t(o,[["render",n],["__file","Fbd.html.vue"]]);export{h as default};

@@ -1,1 +1,0 @@
-import{_ as r,o as t,c as a,d as e,f as s}from"./app-8c7adf55.js";const c={},d=e("h1",{id:"srd",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#srd","aria-hidden":"true"},"#"),s(" SRD")],-1),o=[d];function n(_,i){return t(),a("div",null,o)}const l=r(c,[["render",n],["__file","Srd.html.vue"]]);export{l as default};
