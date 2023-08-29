@@ -207,6 +207,6 @@ Layer-Tag에서 지정한 부모 태그의 Class 명을 입력합니다.
   [class="boxBorder"] { border: 1px solid #bbb; }
   [class*="font18"] { font-size: 18px }
   [class="boxB"] { background: #6a8bad3b;padding:10px;border-radius: 4px; }
-  [class="spanBtn"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;background:white; clolor:dimgrey; }
+  [class="spanBtn"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
   [class="spanEx"] { color: #00a4ff; }
 </style>
