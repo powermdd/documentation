@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,d as e,e as d}from"./app-17cd7f9d.js";const o={},r=e("h1",{id:"xiud",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#xiud","aria-hidden":"true"},"#"),d(" XIUD")],-1),s=[r];function n(_,i){return a(),c("div",null,s)}const l=t(o,[["render",n],["__file","Xiud.html.vue"]]);export{l as default};

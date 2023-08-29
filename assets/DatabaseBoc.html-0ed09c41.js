@@ -1,0 +1,1 @@
+import{_ as a,o as t,c,d as e,e as s}from"./app-17cd7f9d.js";const o={},r=e("h1",{id:"database-boc",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#database-boc","aria-hidden":"true"},"#"),s(" Database BOC")],-1),d=[r];function n(_,i){return t(),c("div",null,d)}const l=a(o,[["render",n],["__file","DatabaseBoc.html.vue"]]);export{l as default};
