@@ -93,7 +93,7 @@ position이 none일 경우 default 값이 relative로 처리됩니다. <br/>
 <!-- -->
 
 <b style="font-size: 18px"> 3) 컴포넌트 이벤트 </b> <br/>
-<img src="../../.vuepress/public/documentation/view-designer/Button/Button_Event.png"  style="border: 1px solid #bbb;" width="300" height="150"/> <br/> 
+<img src="../../.vuepress/public/documentation/view-designer/SplitGroupBox/SplitGroupBox_Event.png"  style="border: 1px solid #bbb;" width="300" height="60"/> <br/> 
 <b style="font-size: 18px"> (1) 1.Event </b> <br/>
 <b style="font-size: 18px"> ① ImageAClick </b> <br/>
 해당 컴포넌트 첫 번째 이미지를 클릭할 때 발생하는 이벤트트입니다. <br/>
