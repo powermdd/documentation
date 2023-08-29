@@ -12,7 +12,7 @@ DB Table에 대한 Delete처리를 수행하는 기능 Component입니다.
 
 <b style="font-size: 20px">(1) BOC 이미지</b><br/>
 BOC 컴포넌트 목록에서 DEL BOC을 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
-<img src="../../.vuepress\public\documentation\service-model\BOC\DataBaseBOC\DELBoc.png" style="position: relative;top: 5px; width:150px;"> <br/>
+<img src="../../.vuepress\public\documentation\service-model\BOC\DataBaseBOC\DelBoc.png" style="position: relative;top: 5px; width:150px;"> <br/>
 - <b style="font-size: 20px">노란색 컬럼 </b><br/>
 데이터베이스의 데이터를 삭제하기 위한 조건 Column 부를 표시합니다.. Where 절의 조건으로 사용됩니다.
 - <b style="font-size: 20px">흰색 컬럼 </b><br/>
