@@ -192,7 +192,6 @@ Partner Company :
 		display: flex;
 		justify-content: space-around;
 		flex-wrap: wrap;
-		margin-top : 30px;
 	}
 	img.main-image-2 {
 		height: 104px;
@@ -242,8 +241,8 @@ Partner Company :
 	}
 	.Rectangle-13 {
 		position: absolute;
-		right: -100%;
-		width: calc(100% + 324px);
+		left: 700px;
+    	width: calc((100vw - 1081px)/2 + 349px);
 		height: 500px;
 		background-color: #f6f7fb;
 		border-radius: 0 0 0 162px;
@@ -251,14 +250,11 @@ Partner Company :
 	.dark .Rectangle-13 {
 		background-color: rgba(120, 120, 120, 0.39);
 	}
-	.theme-container.no-sidebar {
-		overflow: hidden;
-	}
 	header.navbar {
 		z-index: 100;
 	}
 
-	@media (max-width: 960px) {
+	@media (max-width: 1081px) {
 		.main-image-content,.Rectangle-13,.Rectangle-14 {
 			display:none;
 		}
