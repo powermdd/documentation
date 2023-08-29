@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-25b90c53","path":"/documentation/view-designer/Other.html","title":"기타 컴포넌트","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1691941996000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"documentation/view-designer/Other.md"}');export{t as data};

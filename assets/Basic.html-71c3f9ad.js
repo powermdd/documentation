@@ -1,0 +1,1 @@
+import{_ as a,o as t,c,d as e,e as s}from"./app-3687e77e.js";const o={},r=e("h1",{id:"기본-컴포넌트",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#기본-컴포넌트","aria-hidden":"true"},"#"),s(" 기본 컴포넌트")],-1),n=[r];function _(d,i){return t(),c("div",null,n)}const l=a(o,[["render",_],["__file","Basic.html.vue"]]);export{l as default};
