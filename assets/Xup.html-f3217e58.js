@@ -1,1 +1,0 @@
-import{_ as t,o as a,c,d as e,f as o}from"./app-9b74980b.js";const r={},s=e("h1",{id:"xup",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#xup","aria-hidden":"true"},"#"),o(" XUP")],-1),n=[s];function _(d,i){return a(),c("div",null,n)}const l=t(r,[["render",_],["__file","Xup.html.vue"]]);export{l as default};

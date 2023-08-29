@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,d as e,f as o}from"./app-bea965be.js";const r={},s=e("h1",{id:"get",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#get","aria-hidden":"true"},"#"),o(" GET")],-1),n=[s];function _(d,i){return a(),c("div",null,n)}const l=t(r,[["render",_],["__file","Get.html.vue"]]);export{l as default};
