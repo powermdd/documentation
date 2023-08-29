@@ -28,14 +28,22 @@ Link 기능을 처리하는 컴포넌트입니다.
 - _parent : 부모 페이지로 이동한다.
 
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 URL 정보가 없기 때문에 Target을 지정하더라도 화면상으로 확인이 불가능합니다. URL 정보를 지정해야 Build 후 해당 화면에 Target이 적용이 되었는지 확인할 수 있습니다.
 :::
 <!-- -->
 <b style="font-size: 18px"> ② URL </b> <br/>
 해당 컴포넌트의 연결 주소를 설정합니다. 
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 Target 지정 없이 URL만 입력했다면 default로 해당 컴포넌트를 클릭했을 때 현재 창에서 이동이 됩니다.
 :::
 <!-- --> 

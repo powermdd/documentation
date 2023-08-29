@@ -16,7 +16,11 @@ UI 화면작업 창의 Dataset 탭에서 등록한 Dataset Column을 할당하�
 <b style="font-size: 18px"> ② Dataset </b> <br/>
 할당된 Dataset 명 표시합니다. <br/>
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 Dataset Bind 했을 경우 <span style="color: #00a4ff;">Dataset_Column</span>으로 해당 컴포넌트 ID가 자동으로 변환됩니다. <br/>
 <span style="color: #00a4ff;">Ex) Dataset : S01     Column : CALENDAR  ⇒ 컴포넌트 ID : S01_CALENDAR </span>
 :::
@@ -33,7 +37,11 @@ Dataset Bind 했을 경우 <span style="color: #00a4ff;">Dataset_Column</span>�
 <b style="font-size: 18px"> ③ Length </b> <br/>
 해당 컴포넌트의 길이를 설정합니다.
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 빌드를 했을 때 소스 상으로 size로 설정이 되어있지만 style 부분에 width도 같이 설정되어있어서 Length를 확인하려면 해당 컴포넌트 우측 속성에 styleOff을 true로 설정하면 해당 Length만큼 길이를 보여줍니다.
 :::
 <!-- -->
@@ -42,7 +50,11 @@ Dataset Bind 했을 경우 <span style="color: #00a4ff;">Dataset_Column</span>�
 해당 컴포넌트의 최대 길이 제한을 설정합니다. <br/>
 <span style="color: #00a4ff;">Ex) 최대 길이가 12인 경우 12자리까지 입력이 가능합니다. </span>
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 달력 버튼을 클릭 후 날짜를 지정했을 때는 최대 길이 제한 없이 나오지만 우측 속성에 ReadOnly를 False으로 설정하고 달력을 직접 입력했을 경우 컴포넌트 최대 길이가 적용이 됩니다.
 :::
 <!-- -->
@@ -52,7 +64,11 @@ Index 값을 지정 후 Tab 키를 누르면 오름차순으로 이동하게 됩
 <b style="font-size: 18px"> ⑥ ReadOnly </b> <br/>
 값이 True이면 포커스는 잡히지만 수정은 불가능합니다. 
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 해당 컴포넌트에 직접 값을 입력할 때는 수정이 불가능하지만 버튼 클릭 후 값을 생성했을 때는 값을 수정이 가능합니다.
 :::
 <!-- -->
@@ -65,7 +81,11 @@ Index 값을 지정 후 Tab 키를 누르면 오름차순으로 이동하게 됩
 <b style="font-size: 18px"> ⑨ Visible </b> <br/>
 해당 컴포넌트를 화면에 보여줄지에 대한 여부를 설정합니다. 
 <!-- Remark -->
+<<<<<<< HEAD
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 달력 버튼을 히든 처리하려면 우측 속성에 ButtonShow 속성을 False로 지정해야합니다.
 :::
 <!-- -->
