@@ -431,7 +431,7 @@ const koSideBar = [
                             },
                             {
                                 text: '공통 속성',
-                                link: '/documentation/view-designer/Other',
+                                link: '/documentation/view-designer/Common',
                                 collapsible: true
                             }
                         ],
