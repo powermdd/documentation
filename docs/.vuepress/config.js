@@ -48,10 +48,6 @@ const koSideBar = [
         children: [
             // SidebarItem
             {
-                text: 'POWER MDD란?',
-                link: '/about',
-            },
-            {
                 text: '시스템 구조',
                 link: '/about/SystemStructure',
             },
@@ -431,7 +427,7 @@ const koSideBar = [
                             },
                             {
                                 text: '공통 속성',
-                                link: '/documentation/view-designer/Other',
+                                link: '/documentation/view-designer/Common',
                                 collapsible: true
                             }
                         ],
