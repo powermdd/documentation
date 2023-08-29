@@ -48,10 +48,6 @@ const koSideBar = [
         children: [
             // SidebarItem
             {
-                text: 'POWER MDD란?',
-                link: '/about',
-            },
-            {
                 text: '시스템 구조',
                 link: '/about/SystemStructure',
             },

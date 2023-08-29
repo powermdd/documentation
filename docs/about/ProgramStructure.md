@@ -5,14 +5,6 @@ sidebarDepth: 0
 
 POWER MDD의 프로그램은 다음 5가지 구조로 구성됩니다.
 
-::: tip 프로그램 구조
-- Service Model
-- View Designer
-- Query Developer 
-- Data Model
-- Server File Manager
-:::
-
 ## 1. [Service Model](/documentation/documentation/service-model)
 Service Model은 서비스 모델링을 통한 Java Application 개발 및 테스트, Java 코드 자동 생성 등의 다양한 기능을 제공합니다. 
 Web Application 구성요소 중 WAS 서버상에서 탑재되어 운영되는 서비스를 MDD 방식으로 개발합니다.
