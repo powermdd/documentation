@@ -87,11 +87,11 @@ Full로 설정했을 경우 해당 컴포넌트 컬럼 크기의 맞춰서 설�
 </div> <br/>
 <b>2. Row Style</b> <br/>
 해당 컴포넌트에서 각 로우의 속성을 설정합니다. <br/> 
-<img src="../../.vuepress/public/documentation/view-designer/TableLayout/TableLayout_Row_Style.png"  class="boxBorder" width="300" height="300"/> <br/>
+<img src="../../.vuepress/public/documentation/view-designer/TableLayout/TableLayout_Row_Style.png"  width="300" height="300"/> <br/>
 
 <b class="font18"> ① Cells </b> <br/>
 해당 컴포넌트에서 로우의 각 컬럼 속성을 설정합니다. 
-<img src="../../.vuepress/public/documentation/view-designer/TableLayout/TableLayout_Cells.png"  class="boxBorder" width="300" height="200"/> <br/>
+<img src="../../.vuepress/public/documentation/view-designer/TableLayout/TableLayout_Cells.png"  width="300" height="200"/> <br/>
 
 <b class="font18"> ② CellsBorderColor </b> <br/>
 해당 컴 해당 컴포넌트에서 컬럼의 테두리 색상을 설정합니다. 
@@ -134,7 +134,7 @@ Style에서 높이 수정에 대한 여부를 설정합니다. >
 
 <b>3. Layout Size</b> <br/>
 해당 컴포넌트에서 각 컬럼과 로우의 넓이와 높이 사이즈를 설정합니다. <br/>
-<img src="../../.vuepress/public/documentation/view-designer/TableLayout/TableLayout_Layout_Size.png"  class="boxBorder" width="300" height="300"/> <br/>
+<img src="../../.vuepress/public/documentation/view-designer/TableLayout/TableLayout_Layout_Size.png" width="300" height="300"/> <br/>
 <div class="boxB">
 - Layout Size 변경시 해당 컴포넌트 우측 속성의 EqualsHeight 또는 EqualsWidth는 Fasle여야 <br/>
 &ensp; 합니다. <br/>
