@@ -1,0 +1,1 @@
+import{_ as c,o,c as t,d as e,e as a}from"./app-a9886e1a.js";const r={},s=e("h1",{id:"file-boc",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#file-boc","aria-hidden":"true"},"#"),a(" File BOC")],-1),i=[s];function n(_,l){return o(),t("div",null,i)}const f=c(r,[["render",n],["__file","FileBoc.html.vue"]]);export{f as default};

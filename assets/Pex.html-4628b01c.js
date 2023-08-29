@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,d as e,e as o}from"./app-a9886e1a.js";const r={},s=e("h1",{id:"pex",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#pex","aria-hidden":"true"},"#"),o(" PEX")],-1),n=[s];function _(d,i){return a(),c("div",null,n)}const l=t(r,[["render",_],["__file","Pex.html.vue"]]);export{l as default};

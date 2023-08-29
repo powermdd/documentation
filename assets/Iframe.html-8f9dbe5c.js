@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-3554756b","path":"/documentation/view-designer/Iframe.html","title":"iFrame","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1691941996000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"documentation/view-designer/Iframe.md"}');export{e as data};
