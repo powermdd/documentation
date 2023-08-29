@@ -66,7 +66,7 @@ true일 경우 월별보기에 표시되는 Week 수는 항상 6주입니다. fa
 해당 컴포넌트의 언어를 설정합니다. <br/>
 
 <b style="font-size: 18px"> ⑧ navLinks </b> <br/>
-true일 경우 Week와 Day를 클릭할 수 있게 된다. 클릭 후 해당 일/주를 나타내는 화면으로 이동합니다. ]
+true일 경우 Week와 Day를 클릭할 수 있게 된다. 클릭 후 해당 일/주를 나타내는 화면으로 이동합니다. 
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> <b> Schedule 사용 예 </b>
