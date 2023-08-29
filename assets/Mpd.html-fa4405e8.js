@@ -1,0 +1,1 @@
+import{_ as t,o as a,c,d as e,e as d}from"./app-0381eea0.js";const o={},r=e("h1",{id:"mpd",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#mpd","aria-hidden":"true"},"#"),d(" MPD")],-1),s=[r];function n(_,i){return a(),c("div",null,s)}const l=t(o,[["render",n],["__file","Mpd.html.vue"]]);export{l as default};
