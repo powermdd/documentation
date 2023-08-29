@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-0378954d","path":"/documentation/service-model/Xiud.html","title":"XIUD","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1693303121000,"contributors":[{"name":"User","email":"User@example.com","commits":2}]},"filePathRelative":"documentation/service-model/Xiud.md"}');export{e as data};

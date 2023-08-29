@@ -1,0 +1,1 @@
+import{_ as t,o as a,c as o,d as e,e as r}from"./app-37113253.js";const c={},s=e("h1",{id:"그룹-컴포넌트",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#그룹-컴포넌트","aria-hidden":"true"},"#"),r(" 그룹 컴포넌트")],-1),n=[s];function _(d,i){return a(),o("div",null,n)}const l=t(c,[["render",_],["__file","Group.html.vue"]]);export{l as default};
