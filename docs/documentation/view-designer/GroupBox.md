@@ -22,4 +22,4 @@ Full로 설정했을 경우 해당 컴포넌트 부모 컴포넌트 크기의 �
 <img src="../../.vuepress/public/documentation/view-designer/groupbox/groupbox_Dynamic_Groupbox.png"  style="border: 1px solid #bbb;" width="300" height="40"/> <br/>
 <b style="font-size: 18px"> ① Dataset </b> <br/>
 할당된 Dataset 명을 표시합니다. <br/>
-<img src="../../.vuepress/public/documentation/view-designer/groupbox/groupbox_Dataset.png"  style="border: 1px solid #bbb;" width="400" height="300"/> 
+<img src="../../.vuepress/public/documentation/view-designer/groupbox/groupbox_Dataset.png"  style="border: 1px solid #bbb;" width="400" height="300"/>  

@@ -97,4 +97,4 @@ position이 none일 경우 default 값이 relative로 처리됩니다. <br/>
 <b style="font-size: 18px"> ① ImageAClick </b> <br/>
 해당 컴포넌트 첫 번째 이미지를 클릭할 때 발생하는 이벤트입니다. <br/>
 <b style="font-size: 18px"> ② ImageBClick </b> <br/>
-해당 컴포넌트 두 번째 이미지를 클릭할 때 발생하는 이벤트입니다. <br/>
+해당 컴포넌트 두 번째 이미지를 클릭할 때 발생하는 이벤트입니다. <br/> 
