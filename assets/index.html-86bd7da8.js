@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-905e60a8","path":"/documentation/service-model/","title":"모델링 개발 도구","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1693268827000,"contributors":[{"name":"User","email":"User@example.com","commits":2}]},"filePathRelative":"documentation/service-model/README.md"}');export{e as data};

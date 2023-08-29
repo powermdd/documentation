@@ -1,0 +1,1 @@
+import{_ as o,o as c,c as t,d as e,e as a}from"./app-6868953b.js";const n={},r=e("h1",{id:"con",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#con","aria-hidden":"true"},"#"),a(" CON")],-1),s=[r];function _(d,i){return c(),t("div",null,s)}const l=o(n,[["render",_],["__file","ConBoc.html.vue"]]);export{l as default};

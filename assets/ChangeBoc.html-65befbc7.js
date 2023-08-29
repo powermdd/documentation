@@ -1,1 +1,0 @@
-import{_ as a,o as c,c as o,a as e,e as t}from"./app-b11283ce.js";const n={},r=e("h1",{id:"chanage-boc",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#chanage-boc","aria-hidden":"true"},"#"),t(" Chanage BOC")],-1),s=[r];function _(h,d){return c(),o("div",null,s)}const l=a(n,[["render",_],["__file","ChangeBoc.html.vue"]]);export{l as default};

@@ -1,0 +1,1 @@
+import{_ as o,o as r,c as t,d as e,e as a}from"./app-6868953b.js";const c={},s=e("h1",{id:"group-box",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#group-box","aria-hidden":"true"},"#"),a(" Group Box")],-1),n=[s];function _(d,i){return r(),t("div",null,n)}const h=o(c,[["render",_],["__file","GroupBox.html.vue"]]);export{h as default};

@@ -1,0 +1,1 @@
+import{_ as c,o,c as n,d as e,e as r}from"./app-6868953b.js";const a={},t=e("h1",{id:"dynaccordion",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#dynaccordion","aria-hidden":"true"},"#"),r(" DynAccordion")],-1),d=[t];function s(i,_){return o(),n("div",null,d)}const l=c(a,[["render",s],["__file","DynAccordion.html.vue"]]);export{l as default};
