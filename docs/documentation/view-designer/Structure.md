@@ -171,22 +171,37 @@ View Designer Layout 화면 중 화면작업 영역만 Layout 화면을 볼 수 
 <b style="font-size: 18px"> (1) 메뉴(화면) 추가 </b> <br/>
 추가하고자 하는 업무 Node를 선택한 후 마우스 오른쪽 버튼을 클릭하면 Context Menu가 활성됩니다. <br/>
 활성 된 메뉴에서 메뉴 추가 선택하면 됩니다. <br/>
+<<<<<<< HEAD
+<!-- Remark -->
+::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
 
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 메뉴 안에 메뉴를 추가하는 것은 가능하지만 화면이 있는 경우에는 메뉴 추가가 안됩니다.
 :::
 
 <b style="font-size: 18px"> (2) 삭제 </b> <br/>
 삭제하고자 하는 업무 Node를 선택한 후 삭제하면 됩니다. <br/>
+<<<<<<< HEAD
+<!-- Remark -->
+::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
 
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 삭제 처리 시 삭제된 UI 화면은 &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/recycle.png" style="position: relative;top: 5px;" width="20" height="20"> (휴지통)으로 이동된다. 사용자 실수로 화면 삭제 시에는 휴지통으로 이동한 후 해당 화면을 복원 처리하면 됩니다.
 :::
 
 <b style="font-size: 18px"> (3) 영구삭제 </b> <br/>
 삭제 버튼과 똑같이 삭제하고자 하는 업무 서비스를 선택한 후 마우스 오른쪽 버튼을 클릭하면 Context Menu가 활성 됩니다. 활성 된 메뉴에서 영구삭제를 선택하면 됩니다. <br/>
+<<<<<<< HEAD
+<!-- Remark -->
+::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
 
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 영구삭제 시에는 &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/recycle.png" style="position: relative;top: 5px;" width="20" height="20"> (휴지통)에서 복원 불가능합니다.
 :::
 
@@ -236,8 +251,13 @@ Design 영역에서 컴포넌트가 없는 빈 쪽을 클릭하면 우측에 공
 - <b>Change Class </b> <br/>
 해당 UI 화면에 디자인한 컴포넌트들의 Class 정보들을 확인할 수 있으며, 해당 컴포넌트의 Class를 추가, 등록, 삭제를 할 수 있습니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/Structure/View/Change_Class.png" width="250" height="430"/> 
+<<<<<<< HEAD
+<!-- Remark -->
+::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
 
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 - <img src="../../.vuepress/public/documentation/view-designer/Structure/View/Change_Class_remark.png" style="border: 1px solid #bbb;" width="500" height="40"/> 
 - 해당 컴포넌트에 ClassName을 최초로 등록한 Class명은 삭제가 되지 않습니다.
 :::
@@ -268,8 +288,13 @@ UI 화면을 실행할 때 원하는 브라우저를 선택해서 실행이 가�
 UI 화면을 실행할 때 화면을 전체로 실행할지, 분할로 나눠서 실행할지 선택해서 실행합니다. <br/>
 - <b>Save Lock </b> <br/>
 마지막으로 작업한 개발자가 Lock을 YES로 했을 경우 다른 개발자는 Lock 걸려있는 해당 화면을 수정하지 못하게 막아놓습니다. <br/>
+<<<<<<< HEAD
+<!-- Remark -->
+::: details <Badge type="tip" text="Remark" vertical="middle" /> 
+=======
 
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 YES로 설정한 개발자가 NO로 변경하지 않아도 Lock은 최대 하루가 지나는 경우 자동으로 NO로 변경이 됩니다.
 :::
 
@@ -334,8 +359,13 @@ Script 작업 영역에 자주 사용하는 Script을 블록처리해서 Alt 키
 <b style="font-size: 20px"> 5) Build&View </b> <br/>
 해당 UI 화면에서 지정한 브라우저로 화면을 실행할 수 있습니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/Structure/View/Build&View.png" style="border: 1px solid #bbb;" width="580" height="400"/>
+<<<<<<< HEAD
+<!-- Remark -->
+::: details <Badge type="tip" text="Remark" vertical="middle" /> <b> 브라우저 설정 </b>
+=======
 
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> <b> 브라우저 설정 </b>
+>>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 해당 UI 화면작업 창에 빈 영역을 클릭해서 우측 속성에 브라우저를 변경합니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/Structure/View/Build&View_remark.png"  width="300" height="130"/> <br/>
 :::
