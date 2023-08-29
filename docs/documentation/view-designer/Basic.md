@@ -41,7 +41,7 @@ Link 기능을 처리하는 컴포넌트입니다.
   [class*="font20"] { font-size: 20px }
   [class*="font18"] { font-size: 18px }
   [class="boxB"] { background: #6a8bad3b;padding:10px;border-radius: 4px; }
-  [class="spanBtn"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;background:white; clolor:dimgrey; }
+  [class="spanBtn"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
   [class="spanEx"] { color: #00a4ff; }
   [class="arrow"] { color: #6a8bad;display: inline-block;position: relative;width:13px; }
   [class="iconBtn"] { position: relative;top: 5px; }
