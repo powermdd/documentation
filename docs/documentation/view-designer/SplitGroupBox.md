@@ -83,11 +83,10 @@ position이 none일 경우 default 값이 relative로 처리됩니다. <br/>
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-- Color를 선택하는 팝업창을 사용하는 경우 색상을 클릭이 아니라 더블 클릭 후 <span style="border:1px solid #bbb;border-radius: 4px;padding: 3px;">OK</span> 버튼을 클릭하여 색상을 지정한다.
-- Class를 입력, StyleOff를 True 시 BackColor, BorderColor, Borderwidth, Font-Color 등 속성값이 적용되지 않는다.
-- CSS 파일로 CSS를 사용하는 경우 Tool Box > User > View Common Config > Common File > CSS FILES에 등록 후 사
-     용해야한다.
-- Style에 값을 넣어서 사용하면 BackColor, BorderColor, Borderwidth, Font-Color 등 속성값이 적용되지 않는다.
+- Color를 선택하는 팝업창을 사용하는 경우 색상을 클릭이 아니라 더블 클릭 후 <span style="border:1px solid #bbb;border-radius: 4px;padding: 3px;">OK</span> 버튼을 클릭하여 색상을 지정합니다.
+- Class를 입력, StyleOff를 True 시 BackColor, BorderColor, Borderwidth, Font-Color 등 속성값이 적용되지 않습니다.
+- CSS 파일로 CSS를 사용하는 경우 Tool Box > User > View Common Config > Common File > CSS FILES에 등록 후 사용해야합니다.
+- Style에 값을 넣어서 사용하면 BackColor, BorderColor, Borderwidth, Font-Color 등 속성값이 적용되지 않습니다.
 - 우선순위 : 1순위 Style> 2순위 class> 3순위 속성
 :::
 <!-- -->
