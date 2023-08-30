@@ -1,10 +1,6 @@
 # GLV
-
-Dataset Object의 Records에 변화를 주는 구성요소입니다.
-<img src="../../.vuepress\public\documentation\service-model\BOC\ChangeBOC\ChangeBOC.png" style="position: relative;top: 5px; width:300px;"> <br/>
-
 <!-- GLV-->
-<b style="font-size: 20px">1) CMD</b><br/>
+<b style="font-size: 20px">1) GLV</b><br/>
 단일 값을 해당 서비스 내에서 변수로 사용하는 Component입니다.
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -15,8 +11,7 @@ Dataset Object의 Records에 변화를 주는 구성요소입니다.
 <b style="font-size: 20px">(1) BOC 이미지</b><br/>
 BOC 컴포넌트 목록에서 GLV BOC을 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
 <img src="../../.vuepress\public\documentation\service-model\BOC\ChangeBOC\GLVBoc.png" style="position: relative;top: 5px; width:150px;"> <br/>
-- <b style="font-size: 20px">흰색 컬럼 </b><br/>
-이전에 생성한 Column의 값을 변경할 때 값을 setting하면 기존의 Column의 값을 overwrite 처리합니다.
+<p style="background-color: rgb(245, 245, 245);">이전에 생성한 Column의 값을 변경할 때 값을 setting하면 기존의 Column의 값을 overwrite 처리합니다.</p> 
 
 <b style="font-size: 20px">(2) 속성</b><br/>
 화면 작업창에서 GLV BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다. <br/>

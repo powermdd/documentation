@@ -6,8 +6,8 @@
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
  <b style="font-size: 20px">페이징 생성 예</b><br/>
-  MPD BOC는 분기조건을 자유롭게 지정할 수 있어 범용적인 패턴의 분기처리에 사용된다. <br/>
-   MPD의 분기처리는 Child BOC에 CON BOC 조건 분기처리를 추가하여 필요한 Properties를 설정한다.  <br/>
+  MPD BOC는 분기조건을 자유롭게 지정할 수 있어 범용적인 패턴의 분기처리에 사용됩니다. <br/>
+   MPD의 분기처리는 Child BOC에 CON BOC 조건 분기처리를 추가하여 필요한 Properties를 설정합니다.  <br/>
    Loop내에서 Current Record Object는 “R” Object로 만들어집니다. <br/>
 :::
 <!-- -->
@@ -16,10 +16,9 @@
 BOC 컴포넌트 목록에서 INS BOC을 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
 <img src="../../.vuepress\public\documentation\service-model\BOC\ControlBOC\MPDBoc.png" style="position: relative;top: 5px; width:150px;"> <br/>
 - <b style="font-size: 20px">CON BOC </b><br/>
-C로 표시되는 부분이 Properties의 분기조건식에 조건의 값을 설정하여 분기 처리되는 CON-BOC를 표시.
+C로 표시되는 부분이 Properties의 분기조건식에 조건의 값을 설정하여 분기 처리되는 CON-BOC를 표시합니다.
 
-- <b style="font-size: 20px">흰색 컬럼 </b><br/>
-입력한 값에 추가 또는 값을 변경하는 컬럼 부를 표시합니다.
+<p style="background-color: rgb(245, 245, 245);">입력한 값에 추가 또는 값을 변경하는 컬럼 부를 표시합니다.</p>
 
 <b style="font-size: 20px">(2) 속성</b><br/>
 화면 작업창에서 MPD BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다. <br/>
@@ -46,7 +45,7 @@ BOC가 어떤 동작을 수행하는지를 간단한 명칭으로 기술합니�
 
 <b style="font-size: 20px">➃ 선택항목</b><br/>
 - <b style="font-size: 20px">DB연결명 </b><br/>
-Default 접속 DB는 자동 설정된. 추가로 다른 DB연결 명을 사용하여 데이터 처리의 필요성이 생기면 해당 정보에 접속 명을 등록하여 사용합니다.
+Default 접속 DB는 자동 설정됩니다. 추가로 다른 DB연결 명을 사용하여 데이터 처리의 필요성이 생기면 해당 정보에 접속 명을 등록하여 사용합니다.
 
 - <b style="font-size: 20px">Log 수준 </b><br/>
 Debug : 테스트 시에 로그 메시지를 정의할 수 있다. 데이터베이스 관련된 BOC는 ReturnData와 QueryData를 사용합니다.<br/>

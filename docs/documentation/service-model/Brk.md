@@ -5,8 +5,8 @@
 MPD 또는 MIUD BOC를 이용하여 Loop(while)문을 종료 처리하는 Component.
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-  해당 기능 사용시 Java 언어의 while문 내에 break가 추가된다. <br/>
-  BRK BOC는 MPD, MIUD 내에서만 사용 가능하다.
+  해당 기능 사용시 Java 언어의 while문 내에 break가 추가됩니다. <br/>
+  BRK BOC는 MPD, MIUD 내에서만 사용 가능합니다.
 :::
 <!-- -->
 

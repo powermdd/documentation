@@ -86,7 +86,7 @@ Schedule : View Designer에서 스케줄 컴포넌트에 조회 시 설정합니
 전송하는 Object명의 Alias를 생성합니다.
 
 - <b style="font-size: 20px">DB연결명 </b><br/>
-Default 접속 DB는 자동 설정된. 추가로 다른 DB연결 명을 사용하여 데이터 처리의 필요성이 생기면 해당 정보에 접속 명을 등록하여 사용합니다.
+Default 접속 DB는 자동 설정됩니다. 추가로 다른 DB연결 명을 사용하여 데이터 처리의 필요성이 생기면 해당 정보에 접속 명을 등록하여 사용합니다.
 
 - <b style="font-size: 20px">Log 수준 </b><br/>
 Debug : 테스트 시에 로그 메시지를 정의할 수 있다. 데이터베이스 관련된 BOC는 ReturnData와 QueryData를 사용합니다.<br/>
