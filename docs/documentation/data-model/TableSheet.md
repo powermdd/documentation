@@ -16,7 +16,7 @@
 </div>
 
 <b style="font-size: 20px">2) Table</b><br/>
-현재 선택된 테이블의 컬럼 내역을 보여줍니다.
+현재 선택된 테이블의 컬럼 내역을 보여줍니다. <br/>
 <img src="../../.vuepress\public\documentation\data-model\DataModelStr\TableSheet\TableSheet.png" style="position: relative;top: 5px; width:300px">
 
 <b style="font-size: 20px">3) 적용 서비스</b><br/>
