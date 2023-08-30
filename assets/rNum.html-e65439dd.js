@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2d07bd79","path":"/documentation/service-model/rNum.html","title":"레코드번호","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1693368096000,"contributors":[{"name":"User","email":"User@example.com","commits":1}]},"filePathRelative":"documentation/service-model/rNum.md"}');export{e as data};
