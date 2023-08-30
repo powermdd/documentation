@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-0c2be7a4","path":"/documentation/data-model/DataTerritory.html","title":"DATA 작업 영역","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1693377708000,"contributors":[{"name":"User","email":"User@example.com","commits":1}]},"filePathRelative":"documentation/data-model/DataTerritory.md"}');export{t as data};
