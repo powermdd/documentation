@@ -499,8 +499,38 @@ const koSideBar = [
             },
             {
                 text: 'Data Model',
-                link: '/documentation/data-model',
-                children: [],
+                link: '/documentation/data-model/DataModel',
+                collapsible: true,
+                children: [
+                    {
+                        text: 'Tool Box',
+                        link: '/documentation/data-model/ToolBox',
+                    },
+                    {
+                        text: 'Menu Control',
+                        link: '/documentation/data-model/MenuControl',
+                    },
+                    {
+                        text: 'History',
+                        link: '/documentation/data-model/History',  
+                    },
+                    {
+                        text: 'DATA 작업 영역',
+                        link: '/documentation/data-model/DataTerritory',
+                    },
+                    {
+                        text: 'Table List',
+                        link: '/documentation/data-model/TableList',
+                    },
+                    {
+                        text: 'Property',
+                        link: '/documentation/data-model/Property',
+                    },
+                    {
+                        text: 'Table Sheet',
+                        link: '/documentation/data-model/TableSheet',
+                    },
+                ],
             },
             {
                 text: 'Server File Manager',
