@@ -175,7 +175,7 @@ Service Model에서 디자인 시에 필요로 하는 Data 중 업무 운영 시
 :::
 <!-- -->
 
-<span class="font20"> 4) &lt;INS&gt;, &lt;UPD&gt; </span> <br/>
+<b class="font20"> 4) &lt;INS&gt;, &lt;UPD&gt; </b> <br/>
 Service Model의 INS BOC 또는 UPD BOC 사용할 때만 유효합니다.<br/>
 ```xml
 <INS>
@@ -315,7 +315,7 @@ N개 이상의 프로젝트에서 작업을 해야 하는 경우 관리자로부
 
 <style type='text/css'>
   [class*="boxBorder"] { border: 1px solid #bbb; }
-  [class*="font20"] { font-size: 18px }
+  [class*="font20"] { font-size: 20px }
   [class*="font18"] { font-size: 18px }
   [class="spanBtn"] { border: 1px solid #bbb;border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
   [class="spanEx"] { color: #00a4ff; }

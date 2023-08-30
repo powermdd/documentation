@@ -1,11 +1,11 @@
 # <img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/SplitGroupBox.png" style="position: relative;top: 5px;" width="40" height="40"> (SplitGroupBox)
 컨테이너의 영역을 그룹으로 묶어서 표시하는 컴포넌트입니다.<br/>
 
-<b style="font-size: 20px"> 1) 컴포넌트 이미지 </b> <br/>
+<b class="font20"> 1) 컴포넌트 이미지 </b> <br/>
 도구상자에서 SplitGroupBox 컴포넌트를 선택하여 화면작업 영역에 디자인합니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/SplitGroupBox/SplitGroupBox_Image.png" class="boxBorder" width="100" height="110"> <br/>
 
-<b style="font-size: 20px"> 2) 컴포넌트 속성 </b> <br/>
+<b class="font20"> 2) 컴포넌트 속성 </b> <br/>
 화면작업 창에서 SplitGroupBox 컴포넌트 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다. <br/>
 <b class="font18"> (1) B.CommonElement </b> <br/>
 <img src="../../.vuepress/public/documentation/view-designer/SplitGroupBox/SplitGroupBox_CommonElement.png"  class="boxBorder" width="300" height="130"/> <br/>
@@ -91,7 +91,7 @@ position이 none일 경우 default 값이 relative로 처리됩니다. <br/>
 :::
 <!-- -->
 
-<b class="font18"> 3) 컴포넌트 이벤트 </b> <br/>
+<b class="font20"> 3) 컴포넌트 이벤트 </b> <br/>
 <img src="../../.vuepress/public/documentation/view-designer/SplitGroupBox/SplitGroupBox_Event.png"  class="boxBorder" width="300" height="60"/> <br/> 
 <b class="font18"> (1) 1.Event </b> <br/>
 <b class="font18"> ① ImageAClick </b> <br/>
@@ -102,6 +102,7 @@ position이 none일 경우 default 값이 relative로 처리됩니다. <br/>
 
 <style type='text/css'>
   [class*="boxBorder"] { border: 1px solid #bbb; }
+  [class*="font20"] { font-size: 20px }
   [class*="font18"] { font-size: 18px }
   [class="spanBtn"] { border: 1px solid #bbb;border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
   [class="spanEx"] { color: #00a4ff; }
