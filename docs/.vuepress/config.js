@@ -80,10 +80,12 @@ const koSideBar = [
                 text: '서버 설치',
                 link: '/installation/Server',
                 children: [
+                    /*
                     {
                         text: '설치 전 준비사항',
                         link: '/installation/Ready',
                     },
+                    */
                     {
                         text: 'POWER MDD.BMS',
                         link: '/installation/PowerMddBms',
@@ -272,6 +274,42 @@ const koSideBar = [
                                 ],
                             },
                         ],
+                    },
+                    {
+                        text: '연산처리',
+                        link: '/documentation/service-model/dataType',
+                        collapsible: true,
+                        children: [
+                            {
+                                text: 'Data Type정의',
+                                link: '/documentation/service-model/dataType',
+                            },     
+                            {
+                                text: '연산자 설정',
+                                link: '/documentation/service-model/setOperator',
+                            },   
+                            {
+                                text: '조건 할당문',
+                                link: '/documentation/service-model/ifCase',
+                            },   
+                            {
+                                text: '레코드 번호',
+                                link: '/documentation/service-model/rNum',
+                            },   
+                            {
+                                text: '레코드 연산자',
+                                link: '/documentation/service-model/rOperator',
+                            },  
+                            {
+                                text: '내장 함수',
+                                link: '/documentation/service-model/inFunction',
+                            },  
+                        ]
+                    },
+                    {
+                        text: 'User Function',
+                        link: '/documentation/service-model/userFunction',
+                        collapsible: true
                     },
                 ],
             },

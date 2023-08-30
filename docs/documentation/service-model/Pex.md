@@ -2,7 +2,7 @@
 
 <!-- PEX-->
 <b style="font-size: 20px">1) PEX</b><br/>
-시스템 내부의 다른 서비스 또는 외부 시스템의 인터페이스(API)를 호출하는 처리를 수행하는 기능 Component.
+시스템 내부의 다른 서비스 또는 외부 시스템의 인터페이스(API)를 호출하는 처리를 수행하는 기능 Component입니다.
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
   PEX BOC는 내부 호출의 경우 다른 메뉴에 속해 있는 서비스를 호출합니다. <br/>

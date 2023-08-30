@@ -34,7 +34,7 @@ BOC가 어떤 동작을 수행하는지를 간단한 명칭으로 기술합니�
 
 <b style="font-size: 20px">➂ 선택항목</b><br/>
 - <b style="font-size: 20px">DB연결명 </b><br/>
-Default 접속 DB는 자동 설정된. 추가로 다른 DB연결 명을 사용하여 데이터 처리의 필요성이 생기면 해당 정보에 접속 명을 등록하여 사용합니다.
+Default 접속 DB는 자동 설정됩니다. 추가로 다른 DB연결 명을 사용하여 데이터 처리의 필요성이 생기면 해당 정보에 접속 명을 등록하여 사용합니다.
 
 - <b style="font-size: 20px">IUD 구분 컬럼명 </b><br/>
 Record Status의 값을 가지고 있는 컬럼명입니다.

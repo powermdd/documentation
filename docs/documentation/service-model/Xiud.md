@@ -13,10 +13,8 @@ INS , UPD, DEL는 Properties 설정으로 Query를 자동 생성처리 하지만
 <b style="font-size: 20px">(1) BOC 이미지</b><br/>
 BOC 컴포넌트 목록에서 XIUD  BOC을 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
 <img src="../../.vuepress\public\documentation\service-model\BOC\DataBaseBOC\XIUDBoc.png" style="position: relative;top: 5px; width:150px;"> <br/>
-- <b style="font-size: 20px">녹색 컬럼 </b><br/>
-데이터베이스의 데이터를 등록, 수정 대상 컬럼 부를 표시합니다.
-- <b style="font-size: 20px">노란색 컬럼 </b><br/>
-데이터베이스의 데이터를 수정, 삭제하기 위해서 필요로 하는 조건 컬럼 부를 표시합니다.
+<p style="background-color: rgb(195, 255, 195);">데이터베이스의 데이터를 등록, 수정 대상 컬럼 부를 표시합니다.</p> 
+<p style="background-color: rgb(255, 255, 193);">데이터베이스의 데이터를 수정, 삭제하기 위해서 필요로 하는 조건 컬럼 부를 표시합니다.</p>
 
 <b style="font-size: 20px">(2) 속성</b><br/>
 화면 작업창에서 XIUD  BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다. <br/>
@@ -60,7 +58,7 @@ Schedule : View Designer에서 스케줄 컴포넌트에 조회 시 설정합니
 배치 실행 여부를 설정합니다.
 
 - <b style="font-size: 20px">DB연결명 </b><br/>
-Default 접속 DB는 자동 설정된. 추가로 다른 DB연결 명을 사용하여 데이터 처리의 필요성이 생기면 해당 정보에 접속 명을 등록하여 사용합니다.
+Default 접속 DB는 자동 설정됩니다. 추가로 다른 DB연결 명을 사용하여 데이터 처리의 필요성이 생기면 해당 정보에 접속 명을 등록하여 사용합니다.
 
 - <b style="font-size: 20px">Log 수준 </b><br/>
 Debug : 테스트 시에 로그 메시지를 정의할 수 있다. 데이터베이스 관련된 BOC는 ReturnData와 QueryData를 사용합니다.<br/>
