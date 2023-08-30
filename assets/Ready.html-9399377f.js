@@ -1,1 +1,0 @@
-const a=JSON.parse('{"key":"v-638bc112","path":"/installation/Ready.html","title":"설치 전 준비사항","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1691941996000,"contributors":[{"name":"yochatapa","email":"yochatapa@gmail.com","commits":1}]},"filePathRelative":"installation/Ready.md"}');export{a as data};
