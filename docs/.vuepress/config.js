@@ -488,54 +488,85 @@ const koSideBar = [
                     {
                         text: 'DB접속 및 테이블 리스트',
                         link: '/documentation/query-developer/ConnectDB',
-                        collapsible: true
+                        collapsible: true,
                     },
                     {
                         text: '결과 영역',
                         link: '/documentation/query-developer/ResultTerritory',
-                        collapsible: true
+                        collapsible: true,
                     },
                 ]
             },
             {
                 text: 'Data Model',
-                link: '/documentation/data-model/DataModel',
+                link: '/documentation/data-model',
                 collapsible: true,
                 children: [
                     {
-                        text: 'Tool Box',
+                        text: '구성',
                         link: '/documentation/data-model/ToolBox',
+                        collapsible: true,
+                        children: [
+                            {
+                                text: 'Tool Box',
+                                link: '/documentation/data-model/ToolBox',
+                            },
+                            {
+                                text: 'Menu Control',
+                                link: '/documentation/data-model/MenuControl',
+                            },
+                            {
+                                text: 'History',
+                                link: '/documentation/data-model/History',  
+                            },
+                            {
+                                text: 'DATA 작업 영역',
+                                link: '/documentation/data-model/DataTerritory',
+                            },
+                            {
+                                text: 'Table List',
+                                link: '/documentation/data-model/TableList',
+                            },
+                            {
+                                text: 'Property',
+                                link: '/documentation/data-model/Property',
+                            },
+                            {
+                                text: 'Table Sheet',
+                                link: '/documentation/data-model/TableSheet',
+                            },
+                        ]
                     },
-                    {
-                        text: 'Menu Control',
-                        link: '/documentation/data-model/MenuControl',
-                    },
-                    {
-                        text: 'History',
-                        link: '/documentation/data-model/History',  
-                    },
-                    {
-                        text: 'DATA 작업 영역',
-                        link: '/documentation/data-model/DataTerritory',
-                    },
-                    {
-                        text: 'Table List',
-                        link: '/documentation/data-model/TableList',
-                    },
-                    {
-                        text: 'Property',
-                        link: '/documentation/data-model/Property',
-                    },
-                    {
-                        text: 'Table Sheet',
-                        link: '/documentation/data-model/TableSheet',
-                    },
+                    
                 ],
             },
             {
                 text: 'Server File Manager',
                 link: '/documentation/server-file-manager',
-                children: [],
+                collapsible: true,
+                children: [
+                    {
+                        text: '구성',
+                        link: '/documentation/server-file-manager/MenuTree',
+                        collapsible: true,
+                        children: [
+                            /*
+                            {
+                                text: 'Menu Tree',
+                                link: '/documentation/server-file-manager/MenuTree',
+                            },
+                            {
+                                text: 'File List',
+                                link: '/documentation/server-file-manager/FileList',
+                            },
+                            {
+                                text: 'Log',
+                                link: '/documentation/server-file-manager/Log',
+                            },
+                            */
+                        ],
+                    },
+                ],
             },
         ],
     },
