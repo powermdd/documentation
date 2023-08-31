@@ -29,6 +29,6 @@ Full로 설정했을 경우 해당 컴포넌트 부모 컴포넌트 크기의 �
   [class*="boxBorder"] { border: 1px solid #bbb; }
   [class*="font18"] { font-size: 18px }
   [class="boxB"] { background: #6a8bad3b;padding:10px;border-radius: 4px; }
-  [class="spanBtn"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;background:white; clolor:dimgrey; }
+  [class="spanBtn"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
   [class="spanEx"] { color: #00a4ff; }
 </style>

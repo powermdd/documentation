@@ -242,7 +242,7 @@ Partner Company :
 	.Rectangle-13 {
 		position: absolute;
 		left: 700px;
-    	width: calc((100vw - 1081px)/2 + 339px);
+    width: calc((100vw - 1081px)/2 + 339px);
 		height: 500px;
 		background-color: #f6f7fb;
 		border-radius: 0 0 0 162px;

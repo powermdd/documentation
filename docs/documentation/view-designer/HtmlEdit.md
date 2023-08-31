@@ -41,7 +41,7 @@ Dataset Bind 했을 경우 <span class="spanEx">Dataset_Column</span>으로 해�
   [class*="font20"] { font-size: 20px }
   [class*="font18"] { font-size: 18px }
   [class="boxB"] { background: #6a8bad3b;padding:10px;border-radius: 4px; }
-  [class="spanBtn"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;background:white; clolor:dimgrey; }
+  [class="spanBtn"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
   [class="spanEx"] { color: #00a4ff; }
   [class="arrow"] { color: #6a8bad;display: inline-block;position: relative;width:13px; }
 </style>
