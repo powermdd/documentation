@@ -69,7 +69,7 @@ const koSideBar = [
             // SidebarItem
             {
                 text: '클라이언트 설치',
-                link: '/installation/Client',
+                link: '/installation',
                 children: [],
             },
             {
