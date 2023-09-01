@@ -30,7 +30,7 @@ POWERMDD.BMS는 POWERMDD.DX의 요청에 대한 다음과 같은 다양한 기�
 
 ## 2. POWERMDD.DX 구성 및 기능
 
-POWERMDD-DX는 사용자(개발자)에게 Application 개발을 위한 아래의 다양한 도구를 제공합니다.
+POWERMDD.DX는 사용자(개발자)에게 Application 개발을 위한 아래의 다양한 도구를 제공합니다.
 
 - <b> WAS에서 실행되는 서비스를 개발하는 Service Model </b>
 - <b> 웹 브라우저에서 실행되는 UI 화면을 개발하는 View Designer </b>

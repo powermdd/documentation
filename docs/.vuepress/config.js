@@ -83,11 +83,11 @@ const koSideBar = [
                     },
                     */
                     {
-                        text: 'POWER MDD.BMS',
+                        text: 'POWERMDD.BMS',
                         link: '/installation/PowerMddBms',
                     },
                     {
-                        text: 'POWER MDD.DX',
+                        text: 'POWERMDD.DX',
                         link: '/installation/PowerMddDx',
                     },
                 ],
@@ -571,7 +571,7 @@ const koSideBar = [
 const enSideBar = [
     // SidebarItem
     {
-        text: 'About POWER MDD',
+        text: 'About POWERMDD',
         link: '/about',
     },
     {
@@ -780,7 +780,7 @@ const enSideBar = [
 ]
 
 export default defineUserConfig({
-    title: 'POWER MDD',
+    title: 'POWERMDD',
     description: 'Most Powerful Lowcode Tools',
     lang: "ko-KR",
     base: '/documentation/',
@@ -789,12 +789,12 @@ export default defineUserConfig({
         // As a special case, the default locale can use '/' as its path.
         '/': {
             lang: 'ko-KR',
-            title: 'POWER MDD',
+            title: 'POWERMDD',
             description: '가장 강력한 로우코드 개발 툴',
         },
         '/en/': {
             lang: 'en-US',
-            title: 'POWER MDD',
+            title: 'POWERMDD',
             description: 'The most powerful low-code development tool',
         },
     },

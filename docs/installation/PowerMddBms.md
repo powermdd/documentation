@@ -1,8 +1,8 @@
-# POWER MDD-BMS : 개발 Server
+# POWERMDD.BMS : 개발 Server
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
--  license.txt와 PowerMDD_1.1.jar 파일은 PowerMDD 개발 Server 설치시 필요한 파일이고 key 파일은 POWER MDD Client 설치 후 로그인하기 전에 필요한 파일입니다.<br/>
+-  license.txt와 PowerMDD_1.1.jar 파일은 POWERMDD 개발 Server 설치시 필요한 파일이고 key 파일은 POWERMDD Client 설치 후 로그인하기 전에 필요한 파일입니다.<br/>
 
 - <span class="spanEx"> LicenseKey 디렉토리를 관리자에게 요청하기 전에 개발서버 Hostname, IP주소, WAS PORT 정보가 필요합니다. </span>
 :::
@@ -30,10 +30,10 @@ WAS가 설치된 경로에 server.xml 파일을 열어서 Port을 확인할 수 
 <img src="../.vuepress/public/installation/PowerMddBms/LicenseKey.png" width="600" height="300">
 
 ## 2. Meta DB 파일
-POWER MDD의 데이터베이스는 Meta DB, 업무 DB 2가지 종류가 있습니다. <br/>
+POWERMDD의 데이터베이스는 Meta DB, 업무 DB 2가지 종류가 있습니다. <br/>
 
 <b class="font20"> 1) Meta DB 세팅</b>(PostgreSQL 사용) <br/>
-POWER MDD 서버에 있는 모든 정보 체계를 저장하고 있는 데이터베이스입니다. <br/>
+POWERMDD 서버에 있는 모든 정보 체계를 저장하고 있는 데이터베이스입니다. <br/>
 <b class="font18"> (1) User 계정 생성 </b> <br/>
 <span class="font18"> ① 계정 생성 전에 모든 권한이 설정된 계정으로 로그인합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_User.png" width="400" height="50"><br/>
@@ -71,7 +71,7 @@ POWER MDD 서버에 있는 모든 정보 체계를 저장하고 있는 데이터
 <span class="font18"> ① 데이터베이스 Tool(TablePlus 사용)을 이용해서 Meta DB에 접속합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_databaseTool.png" width="400" height="410"><br/>
 
-<span class="font18"> ② POWER MDD의 정보들을 저장할 수 있는 Meta DB에 들어갈 테이블들을 생성합니다. </span> <br/>
+<span class="font18"> ② POWERMDD의 정보들을 저장할 수 있는 Meta DB에 들어갈 테이블들을 생성합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_databaseTable.png" width="600" height="400"><br/>
 
 <span class="font18"> ③ 테이블에 들어갈 값들 중에 유일한 값, Primary key 값을 생성하기 위해 Sequence도 생성합니다.</span> <br/>
@@ -121,7 +121,7 @@ WAS에 탑재되는 Middleware 서버로 다수의 Client(DX)로부터 다양한
 
 <b class="font20"> 1) BMSCTX : CONTEXT 구성 </b> <br/>
 
-<span class="font18"> (1) POWER MDD을 실행할 파일들이 들어있는 BMSCTX 디렉토리를 WAS 설치 경로에 세팅합니다. </span> <br/>
+<span class="font18"> (1) POWERMDD을 실행할 파일들이 들어있는 BMSCTX 디렉토리를 WAS 설치 경로에 세팅합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/BMSCTX.png" width="280" height="480"><br/>
 
 <span class="font18"> (2) 관리자에게 받은 license.txt는 BMSCTX 디렉토리 안에, PowerMDD_1.1.jar 파일은 ‘BMSCTX/WEB-INF/lib’에 세팅합니다. </span> <br/>
@@ -167,7 +167,7 @@ WAS에 탑재되는 Middleware 서버로 다수의 Client(DX)로부터 다양한
 Meta DB, 업무 DB 연결 정보를 설정하는 부분입니다.
 
 <b class="font18"> ④ &lt;MAC&gt; </b> <br/>
-POWER MDD을 사용할 사용자 MAC 주소를 입력하는 부분인데 POWER MDD 프로그램을 로그인하더라도 MAC 주소를 등록하지 않으면 POWER MDD을 접속할 수 없습니다.
+POWERMDD을 사용할 사용자 MAC 주소를 입력하는 부분인데 POWERMDD 프로그램을 로그인하더라도 MAC 주소를 등록하지 않으면 POWERMDD을 접속할 수 없습니다.
 
 <span class="font18"> (4) </span><b class="font18">&lt;Projects&gt;</b>  <br/>
 &lt;Projects&gt; 안에 &lt;<b class="spanEx">사용할 PROJECT명</b>&gt; &lt;/<b class="spanEx">사용할 PROJECT명</b>&gt;을 입력하고 &lt;<b class="spanEx">사용할 PROJECT명</b>&gt; 안에는 &lt;DB-CONNECTION&gt;, &lt;DATAMODEL&gt;, &lt;UX-DESIGNER&gt;, &lt;FILESYSTEM-LOCATION&gt;, &lt;TEST-EXE&gt;, &lt;BUILD&gt;, &lt;SERVER&gt;, &lt;COMPILE&gt;이 있습니다.<br/>
@@ -188,11 +188,7 @@ POWER MDD을 사용할 사용자 MAC 주소를 입력하는 부분인데 POWER M
     <FILESYSTEM-LOCATION>      </FILESYSTEM-LOCATION>
 
     <!-- 5. -->
-    <TEST-EXE>
-      <MAXLOOPCNT>50</MAXLOOPCNT>
-      <RECORDSIZE>5000</RECORDSIZE>
-      <LOCALON>YES</LOCALON>
-    </TEST-EXE>
+    <TEST-EXE>      </TEST-EXE>
 
     <!-- 6. -->
     <BUILD>      </BUILD>
@@ -224,7 +220,7 @@ Meta DB, 업무 DB의 별칭을 입력하는 부분입니다. <br/>
 - <b>&lt;DEFAULT_DB&gt;</b> : 업무 DB의 별칭을 설정합니다.
 
 <b class="font18"> ② &lt;DATAMODEL&gt; </b> <br/>
-POWER MDD 구성요소에 DataMode의 파일들을 저장하는 부분입니다. <br/>
+POWERMDD 구성요소에 DataMode의 파일들을 저장하는 부분입니다. <br/>
 ```xml
 <!-- 2. -->
 <DATAMODEL>
@@ -265,7 +261,7 @@ Context 경로나 문자 셋, 화면 IP Port 정보를 설정하는 부분입니
 </UX-DESIGNER>
 ```
 - <b>&lt;UX_ROOT&gt;</b> <br/>
-POWER MDD 기능 요소 중 View Designer의 내역들이 저장되는 경로이다. 만약 저장했던 파일이 깨지거나 저장하기 전으로 돌리고 싶다면 해당 경로로 들어와서 수정할 수 있습니다.
+POWERMDD 기능 요소 중 View Designer의 내역들이 저장되는 경로이다. 만약 저장했던 파일이 깨지거나 저장하기 전으로 돌리고 싶다면 해당 경로로 들어와서 수정할 수 있습니다.
 
 - <b>&lt;UX_CONTEXT_ROOT&gt;</b> : context 경로입니다.
 
@@ -297,8 +293,18 @@ POWER MDD 기능 요소 중 View Designer의 내역들이 저장되는 경로이
 <img src="../.vuepress/public/installation/PowerMddBms/bms.png" width="280" height="480"><br/>
 :::
 <!-- -->
+<b class="font18"> ⑤ &lt;TEST-EXE&gt; </b> <br/>
+Query Devloper 테스트에 대한 정보를 설정합니다. <br/>
+```xml
+<!-- 5. -->
+<TEST-EXE>
+  <MAXLOOPCNT>50</MAXLOOPCNT>
+  <RECORDSIZE>5000</RECORDSIZE>    
+  <LOCALON>YES</LOCALON>
+</TEST-EXE>
+```
 <b class="font18"> ⑥ &lt;BUILD&gt; </b> <br/>
-POWER MDD Build 시 생성되는 소스 위치를 설정합니다. <br/>
+POWERMDD Build 시 생성되는 소스 위치를 설정합니다. <br/>
 ```xml
 <!-- 6. -->
 <BUILD>
@@ -395,7 +401,7 @@ POWER MDD Build 시 생성되는 소스 위치를 설정합니다. <br/>
 - <b>&lt;REAL_PWD&gt;</b> : 서버 계정 암호를 설정합니다.
 
 <b class="font18"> ⑧ &lt;COMPILE&gt; </b> <br/>
-POWER MDD Comfile 시 생성되는 소스 위치를 설정합니다. <br/>
+POWERMDD Comfile 시 생성되는 소스 위치를 설정합니다. <br/>
 ```xml
 <!-- 8. -->
 <COMPILE>
@@ -409,7 +415,7 @@ POWER MDD Comfile 시 생성되는 소스 위치를 설정합니다. <br/>
 ```
 - <b>&lt;CLASSPATH&gt;</b> : Comfile한 Class Path 정보를 설정합니다.
 
-- <b>&lt;LIB&gt;</b> : POWER MDD Builder 시 필요한 jar 파일 참조 경로를 설정합니다.
+- <b>&lt;LIB&gt;</b> : POWERMDD Builder 시 필요한 jar 파일 참조 경로를 설정합니다.
 
 <span class="font18"> (5) </span><b class="font18">&lt;Common&gt;</b>  <br/>
 ```xml
@@ -508,11 +514,17 @@ POWER MDD Comfile 시 생성되는 소스 위치를 설정합니다. <br/>
   <param-value>/.../tomcat9/webapps/BMSCTX/temp/files</param-value>
 </init-param>  
 ```
+- HostName : 해당 서버의 HostName을 설정합니다.
+
+- TempUploadPath : 파일 업로드시 임시 업로드 파일 위치를 설정합니다.
+
+- FileRootPath : 서버 파일 시스템 관리의 파일 시스템의 root 위치를 설정합니다.
 
 ## 4. WebaApplication명 디렉토리
-Lib, Class, Css, jsp 등 Web Application의 실행파일들의 보관 디렉토리입니다.
+Lib, Class, Css, jsp 등 웹 애플리케이션 실행파일들의 보관 디렉토리입니다.
 
 <b class="font20"> 1) WebApplication : CONTEXT 구성 </b> <br/>
+개발할 업무 디렉토리를 WAS 설치 경로에 세팅하고 해당 Project명으로 변경합니다.
 <img src="../.vuepress/public/installation/PowerMddBms/webApplication.png" width="280" height="480"><br/>
 
 <b class="font20"> 2) web.xml의 구성 </b> <br/>
@@ -587,7 +599,6 @@ BMSCTX폴더에 processbuilder_config.xml 파일에서도 &lt;EGOVFRAMEWORK&gt; 
 ```
 
 <b class="font20"> 3) spring 설정 </b> <br/>
-
 <span class="font18"> (1) context-datasource.xml </span> <br/>
 <span class="font18"> ① ‘</span><span class="spanEx2">WebApplication명</span><span>\WEB-INF/classes/spring’에 들어가서 context-datasource.xml을 클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/context-datasource.png" width="280" height="480"><br/>
@@ -668,7 +679,6 @@ Globals.Url=jdbc:mysql://XXX.XXX.XXX.XXX:XXXX/demo?useSSL=false&autoReconnect=tr
 - Url : DataBase에 해당하는 Url 정보를 설정합니다.
 
 <span class="font18"> (5) egov-com-servlet.xml </span> <br/>
-
 <span class="font18"> ① ‘</span><span class="spanEx2">WebApplication명</span><span>\WEB-INF/classes/spring/ServletInfo’에 들어가서 egov-com-servlet.xml을 클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/egov-com-servlet.png" width="280" height="480"><br/>
 
