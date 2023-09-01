@@ -1,11 +1,11 @@
 # 메뉴 구조
 
-POWER MDD의 메뉴는 다음 6가지 구조로 구성됩니다. <br/>
+POWERMDD의 메뉴는 다음 6가지 구조로 구성됩니다. <br/>
 
 <img src="../.vuepress/public/MenuStructure/menu-structure.png" class="boxBorder" width="500" height="30">
 
 ## 1. Model
-모델링을 시작하기 위한 화면을 실행하거나, POWER MDD를 종료하는 메뉴입니다. <br/>
+모델링을 시작하기 위한 화면을 실행하거나, POWERMDD를 종료하는 메뉴입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/model.png" class="boxBorder" width="400" height="80">
 
 <b class="font20"> 1) Open </b> <br/>
@@ -13,14 +13,14 @@ POWER MDD의 메뉴는 다음 6가지 구조로 구성됩니다. <br/>
 <img src="../.vuepress/public/MenuStructure/model-open.png" width="600" height="380">
 
 <b class="font20"> 2) Tool Exit </b> <br/>
-POWER MDD를 종료합니다. <br/>
+POWERMDD를 종료합니다. <br/>
 
 ## 2. Naming Rule
 Package나 Class, Database 등 Name 규칙을 설정하는 메뉴입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/rule.png" class="boxBorder" width="400" height="180">
 
 <b class="font20"> 1) Package Name Rule </b> <br/>
-Package Name Rule은 Java의 Package Name 규칙을 등록하는 역할을 합니다. <br/>
+Java의 Package Name 규칙을 등록하는 역할을 합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/rule-package-name-rule.png" width="400" height="280">
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> <b> Name Rule 규칙 </b>
@@ -46,10 +46,10 @@ Java의 Class Name Rule와 Method Name Rule을 지정할 수 있습니다.
 <b class="font20"> 3) Database Connection </b> <br/>
 업무에서 사용될 Database의 Name을 등록, 관리합니다.  
 
-일반적으로 해당 정보는 POWER MDD-BMS 관리자가 등록해주어야 합니다.
+일반적으로 해당 정보는 POWERMDD-BMS 관리자가 등록해주어야 합니다.
 실질적으로 사용할 데이터베이스의 연결정보는 BMS Config의 Database Resource에 등록이 되어 있는 Name 정보를 사용해야 합니다.
 
-POWER MDD-DX에서 서버가 정의 되어 있는 Database Resource 중 해당 프로젝트에서 사용될 Name 정보만 등록하면 됩니다. 등록된 이름은 Query Developer와 Service Model 그리고 Data Model 중 기본 데이터베이스가 아닌 별도의 데이터베이스 지정이 필요할 때 사용됩니다.
+POWERMDD-DX에서 서버가 정의 되어 있는 Database Resource 중 해당 프로젝트에서 사용될 Name 정보만 등록하면 됩니다. 등록된 이름은 Query Developer와 Service Model 그리고 Data Model 중 기본 데이터베이스가 아닌 별도의 데이터베이스 지정이 필요할 때 사용됩니다.
 <img src="../.vuepress/public/MenuStructure/rule-database-connection.png" width="300" height="250">
 
 
@@ -84,7 +84,7 @@ Service Model의 BOC(Business Operation Component)에서 데이터베이스 조�
 - <b>Service Model 내에 있는 빌드 기능과의 차이점</b> <br/>
 Service Model 내에 있는 빌드 기능은 서비스 모델을 사용자가 모델링 테스트 등 다양한 기능을 실행하면서 단일 서비스만 빌드가 됩니다. <br/>
 또한 빌드하는 사용자 환경에 로컬 테스트 환경이 On이 되어 있을 시에는 해당 빌드로 생성되는 Resource를 Client로 전송 기능이 동시에 실행이 됩니다. <br/>
-즉, 로컬 테스트 On 상태일 때 build는 소스생성, 컴파일, 서버배치, build Resource Clinet 배치가 수행됨으로 사용자는 자신의 PC 환경으로 테스트가 가능하게 된다. <br/>
+즉, 로컬 테스트 On 상태일 때 build는 소스 생성, 컴파일, 서버 배치, build Resource Client 배치가 수행됨으로 사용자는 자신의 PC 환경으로 테스트가 가능하게 된다. <br/>
 그러나 해당 일괄 빌드 기능에서는 로컬 테스트 환경이 On 되어 있어도 빌드 시 build Resource Client 배치가 수행되지 않습니다. <br/>
 대량 서비스 빌드시에는 해당 Resource를 Client에 배치하지 않습니다.<br/>
 :::
@@ -123,7 +123,7 @@ View Designer에서 사용될 권한을 생성 및 변경 관리합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager2.png" width="500" height="350">
 
 <b class="font18"> (3) Data Manager </b> <br/>
-Data 관련한 권한 처리기능입니다. 해당 기능은 데이터베이스의 종류에 따라 지원 여부 확인이 필요합니다. (데이터베이스 종류 : 데이터베이스 공급 Vender로 현재는 Oracle 이외의 제품은 지원 가능 여부 확인이 필요합니다.) <br/>
+Data 관련한 권한 처리기능입니다. 해당 기능은 데이터베이스의 종류에 따라 지원 여부 확인이 필요합니다.<br/>
 <b class="font18"> ① User Role Grants </b> <br/>
 사용자별 Data에 접근 권한을 할당합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager3.png" width="500" height="350">
@@ -169,10 +169,10 @@ Password는 현재 로그인 한 유저의 비밀번호를 변경하는 기능�
 <img src="../.vuepress/public/MenuStructure/myinfo-password.png" width="300" height="100">
 
 ## 6. Help
-POWER MDD 제품 정보 및 매뉴얼과 언어설정을 관리하는 메뉴입니다. <br/>
+POWERMDD 제품 정보 및 언어설정을 관리하는 메뉴입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/help.png" class="boxBorder" width="400" height="100">
 
-<b class="font20"> 1) about POWER MDD </b> <br/>
+<b class="font20"> 1) about POWERMDD </b> <br/>
 제품의 기본 정보와 접속 정보를 확인할 수 있습니다. <br/>
 <img src="../.vuepress/public/MenuStructure/help-about-powermdd.png" width="400" height="120">
 
