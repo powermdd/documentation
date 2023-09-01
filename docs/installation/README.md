@@ -1,8 +1,8 @@
 # 클라이언트 설치
 
-## 1. POWER MDD-DX 설치
-POWER MDD-DX Client Setup 파일을 다운로드하고 실행합니다. <br/>
-(재설치 시에는 Windows의 프로그램 추가/삭제에서 삭제하신 후 설치하고 기존에 POWER MDD-DX가 실행되고 있으면 반드시 프로그램 종료 후 설치해야 합니다.)
+## 1. POWERMDD.DX 설치
+POWERMDD.DX Client Setup 파일을 다운로드하고 실행합니다. <br/>
+(재설치 시에는 Windows의 프로그램 추가/삭제에서 삭제하신 후 설치하고 기존에 POWERMDD.DX가 실행되고 있으면 반드시 프로그램 종료 후 설치해야 합니다.)
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -22,7 +22,7 @@ CPU : Intel Pentium 4 이상 <br/>
 <span class="font20"> 2) Setup 실행 시 처음 화면 </span> <br/>
 <img src="../.vuepress/public/installation/Client/setupStart.png" width="350" height="330">
 
-<span class="font20"> 3) POWER MDD을 설치할 경로 (권장 사항 : default 설정 사용) </span> <br/>
+<span class="font20"> 3) POWERMDD을 설치할 경로 (권장 사항 : default 설정 사용) </span> <br/>
 <img src="../.vuepress/public/installation/Client/setupPath.png" width="350" height="330">
 
 <span class="font20"> 4) Setup 실행할지 확인 요청 </span> <br/>
@@ -52,12 +52,12 @@ Default 설치 시 OS별로 약간의 차이가 있으나 "C:/ProgramFiles/wizwa
 ```
 
 <b class="font18"> (1) &lt;URL&gt;, &lt;URL1&gt; </b> <br/>
-Login하면 최초 PowerMDD-DX의 body에 최초 Loading 되는 URL이다. Default 값으로는 www.processbuilder.co.kr로 제품 home page가 loading 됩니다.  <br/>
+Login하면 최초 PowerMDD.DX의 body에 최초 Loading 되는 URL이다. Default 값으로는 www.processbuilder.co.kr로 제품 home page가 loading 됩니다.  <br/>
 해당 URL을 이용하여 Project Community가 있다면 해당 Community URL로 변경하여 사용하면 편리합니다.
 
 <b class="font18"> (2) &lt;RequestCharset&gt;, &lt;ResponseCharset&gt; </b> <br/>
-POWER MDD-DX와 서버Side의 BMS와 통신 시에 사용되는 Charset으로 Request/ Response 시 사용하는 Charset입니다. <br/>
-Default는 utf-8이며 별도의 다른 Charset 이용 시에는 POWER MDD-BMS의 Config도 동일하게 수정해줘야합니다. <br/>
+POWERMDD.DX와 서버Side의 BMS와 통신 시에 사용되는 Charset으로 Request/ Response 시 사용하는 Charset입니다. <br/>
+Default는 utf-8이며 별도의 다른 Charset 이용 시에는 POWERMDD.BMS의 Config도 동일하게 수정해줘야합니다. <br/>
 
 <b class="font18"> (3) &lt;Security&gt; </b> <br/>
 Command를 암호화할 것인지 처리하는 태그이다. Default는 YES이며 YES일 경우 암호화 처리가 됩니다.
@@ -88,7 +88,7 @@ Command를 암호화할 것인지 처리하는 태그이다. Default는 YES이�
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-다수의 사용자가 동시에 계속 build 실행 시에 WAS에 상당한 부담을 줄 수가 있고 또 한 Build하는 동안 다른 개발자에게 영향을 줄 수 있게 됩니다. 이러한 현상을 회피하기 위해서 사용자 PC에 Tomcat WAS 환경을 구성하고 Test를 개발자 환경에서 실행할 수 있도록 해주는 기능입니다. 해당 기능은 일정 기간에 많은 Application을 개발할 때 사용하면 좋습니다. 개발이 완료되고 변화 관리 시에는 해당 기능을 Off 하는 것이 좋습니다.
+다수의 사용자가 동시에 계속 build 실행 시에 WAS에 상당한 부담을 줄 수가 있고 또 한 Build하는 동안 다른 개발자에게 영향을 줄 수 있게 됩니다. 이러한 현상을 회피하기 위해서 사용자 PC에 Tomcat WAS 환경을 구성하고 Test를 개발자 환경에서 실행할 수 있도록 해주는 기능입니다. 해당 기능은 일정 기간에 많은 어플리케이션을 개발할 때 사용하면 좋습니다. 개발이 완료되고 변화 관리 시에는 해당 기능을 Off 하는 것이 좋습니다.
 :::
 <!-- -->
 
@@ -128,13 +128,18 @@ default 값은 NO이다. 해당 기능을 활성화하려면 &lt;CONTEXTON&gt;�
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-View Designer에서 Build/Test에서 Test URL을 해당 정보를 이용해서 Local WAS URL로 호출하여 테스트합니다. <br/>
-URL형식은 “http://localhost:port/ConTextName/테스트할layout파일” 형식으로 테스트가 가능합니다. <br/>
+해당 기능의 값을 “YES”로 두면 아래 CONTEXT_ROOT에 정의되어있는 Path아래 build한 View Designer에서 생성한 파일을 POWERMDD.BMS로부터 전송받아 배치해줍니다. &lt;CONTEXT_ROOT&gt; View 소스 파일을 download할 root folder를 설정하면 된다. <br/>
 :::
 <!-- -->
 
 <b class="font18"> (6) &lt;ContextName&gt;, &lt;SERVER&gt;, &lt;Port&gt; </b> <br/>
-default 값은 NO이다. 해당 기능을 활성화하려면 &lt;CONTEXTON&gt;의 값을 “YES”로 주면 됩니다.
+default 값은 NO이다. 해당 기능을 활성화하려면 &lt;CONTEXTON&gt;의 값을 “YES”로 주면 됩니다.<br/>
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+View Designer에서 Build/Test에서 Test URL을 해당 정보를 이용해서 Local WAS URL로 호출하여 테스트합니다. <br/>
+URL형식은 “http://localhost:port/ConTextName/테스트할layout파일” 형식으로 테스트가 가능합니다. <br/>
+:::
+<!-- -->
 
 <b class="font18"> (7) &lt;IMAGEPATH&gt; </b> <br/>
 <!-- Remark -->
@@ -248,7 +253,7 @@ Component 중에 Tree는 Ztree를 사용하고 있으며 Chart는 ChartJs을 사
 <!-- -->
 
 <b class="font20"> 7) &lt;LANGUAGE&gt; </b> <br/>
-POWER MDD의 언어를 설정합니다.
+POWERMDD의 언어를 설정합니다.
 ```xml
 <LANGUAGE selected="KOREAN"  admin="true">
 	<LIST codeview="false">KOREAN</LIST>
@@ -272,17 +277,17 @@ POWER MDD의 언어를 설정합니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-POWER MDD 재설치 시 사용한 시스템 ID도 초기화되기 때문에 다시 입력해야 합니다.
+POWERMDD 재설치 시 사용한 시스템 ID도 초기화되기 때문에 다시 입력해야 합니다.
 :::
 <!-- -->
 
 ## 3. 접속 ID 요청 및 연결정보
 
-<span class="font20"> 1) 사용자 PC에 DX가 정상적으로 Setup 완료 되었다면, 해당 사용자는 PowerMDD 서버 관리자에게 ID 요청 및 접속 Key를 발급받아야 합니다. </span> <br/>
+<span class="font20"> 1) 사용자 PC에 DX가 정상적으로 Setup 완료 되었다면, 해당 사용자는 POWERMDD 서버 관리자에게 ID 요청 및 접속 Key를 발급받아야 합니다. </span> <br/>
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-관리자에게 요청하기 위해서는 해당 PC의 현재 사용 중인 Network Card의 Mac-Address를 확인 후 관리자에게 Mac-Address 등록 요청도 같이 해야 합니다. POWER MDD-BMS서버에 등록되지 않은 Mac-Address는 접속이 허용되지 않습니다.
+관리자에게 요청하기 위해서는 해당 PC의 현재 사용 중인 Network Card의 Mac-Address를 확인 후 관리자에게 Mac-Address 등록 요청도 같이 해야 합니다. POWERMDD.BMS서버에 등록되지 않은 Mac-Address는 접속이 허용되지 않습니다.
 :::
 <!-- -->
 
@@ -294,15 +299,19 @@ POWER MDD 재설치 시 사용한 시스템 ID도 초기화되기 때문에 다�
 
 ③ 접속 보안 Key를 관리자로부터 받은 후 아래 절차에 따라서 적용한다. 접속 보안 Key는 파일로 구성되어 있습니다.  
 
-<span class="font20"> 3) POWER MDD 실행화면이 나오지 않을 경우 </span> <br/>
+<span class="font20"> 3) POWERMDD 실행화면이 나오지 않을 경우 </span> <br/>
 
-① POWER MDD 프로그램에서 마우스 오른쪽 버튼을 클릭해서 속성을 클릭합니다.<br/>
+① POWERMDD 프로그램에서 마우스 오른쪽 버튼을 클릭해서 속성을 클릭합니다.<br/>
 <img src="../.vuepress/public/installation/Client/click.png" width="200" height="280">
 
 ② 속성 창 호환성 탭에 들어가서 관리자 권한으로 이 프로그램 실행 체크 후 확인 버튼을 클릭합니다. 
 <img src="../.vuepress/public/installation/Client/property.png" width="300" height="380"> 
 
-<span class="font20"> 4) POWER MDD 로그인 </span> <br/>
+<span class="font20"> 4) POWERMDD 로그인 </span> <br/>
+① 설치 완료 후 최초 실행화면입니다. 관리자로부터 받은 접속 보안 key 파일을 선택하면 됩니다.
+<img src="../.vuepress/public/installation/PowerMddDx/keyfile.png" width="700" height="300">
+
+② 관리자로부터 받은 ID/Password를 입력 후 로그인하면 됩니다.
 <img src="../.vuepress/public/installation/Client/login.png" width="500" height="380"> 
 
 <!-- Remark -->
@@ -315,8 +324,11 @@ N개 이상의 프로젝트에서 작업을 해야 하는 경우 관리자로부
 
 <style type='text/css'>
   [class*="boxBorder"] { border: 1px solid #bbb; }
-  [class*="font20"] { font-size: 20px }
+  [class="font20"] { font-size: 20px }
   [class*="font18"] { font-size: 18px }
-  [class="spanBtn"] { border: 1px solid #bbb;border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
+  [class="boxB"] { background: #6a8bad3b;padding:10px;border-radius: 4px; }
+  [class="spanBtn"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
+  [class="spanBtnG"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;color:forestgreen; background:white;  }
   [class="spanEx"] { color: #00a4ff; }
+  [class="fontB"] { color: rgb(106, 139, 173); font-size:18px }
 </style>

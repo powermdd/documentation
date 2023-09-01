@@ -69,23 +69,25 @@ const koSideBar = [
             // SidebarItem
             {
                 text: '클라이언트 설치',
-                link: '/installation/Client',
+                link: '/installation',
                 children: [],
             },
             {
                 text: '서버 설치',
                 link: '/installation/Server',
                 children: [
+                    /*
                     {
                         text: '설치 전 준비사항',
                         link: '/installation/Ready',
                     },
+                    */
                     {
-                        text: 'POWER MDD.BMS',
+                        text: 'POWERMDD.BMS',
                         link: '/installation/PowerMddBms',
                     },
                     {
-                        text: 'POWER MDD.DX',
+                        text: 'POWERMDD.DX',
                         link: '/installation/PowerMddDx',
                     },
                 ],
@@ -269,6 +271,42 @@ const koSideBar = [
                             },
                         ],
                     },
+                    {
+                        text: '연산처리',
+                        link: '/documentation/service-model/dataType',
+                        collapsible: true,
+                        children: [
+                            {
+                                text: 'Data Type정의',
+                                link: '/documentation/service-model/dataType',
+                            },     
+                            {
+                                text: '연산자 설정',
+                                link: '/documentation/service-model/setOperator',
+                            },   
+                            {
+                                text: '조건 할당문',
+                                link: '/documentation/service-model/ifCase',
+                            },   
+                            {
+                                text: '레코드 번호',
+                                link: '/documentation/service-model/rNum',
+                            },   
+                            {
+                                text: '레코드 연산자',
+                                link: '/documentation/service-model/rOperator',
+                            },  
+                            {
+                                text: '내장 함수',
+                                link: '/documentation/service-model/inFunction',
+                            },  
+                        ]
+                    },
+                    {
+                        text: 'User Function',
+                        link: '/documentation/service-model/userFunction',
+                        collapsible: true
+                    },
                 ],
             },
             {
@@ -446,24 +484,85 @@ const koSideBar = [
                     {
                         text: 'DB접속 및 테이블 리스트',
                         link: '/documentation/query-developer/ConnectDB',
-                        collapsible: true
+                        collapsible: true,
                     },
                     {
                         text: '결과 영역',
                         link: '/documentation/query-developer/ResultTerritory',
-                        collapsible: true
+                        collapsible: true,
                     },
                 ]
             },
             {
                 text: 'Data Model',
                 link: '/documentation/data-model',
-                children: [],
+                collapsible: true,
+                children: [
+                    {
+                        text: '구성',
+                        link: '/documentation/data-model/ToolBox',
+                        collapsible: true,
+                        children: [
+                            {
+                                text: 'Tool Box',
+                                link: '/documentation/data-model/ToolBox',
+                            },
+                            {
+                                text: 'Menu Control',
+                                link: '/documentation/data-model/MenuControl',
+                            },
+                            {
+                                text: 'History',
+                                link: '/documentation/data-model/History',  
+                            },
+                            {
+                                text: 'DATA 작업 영역',
+                                link: '/documentation/data-model/DataTerritory',
+                            },
+                            {
+                                text: 'Table List',
+                                link: '/documentation/data-model/TableList',
+                            },
+                            {
+                                text: 'Property',
+                                link: '/documentation/data-model/Property',
+                            },
+                            {
+                                text: 'Table Sheet',
+                                link: '/documentation/data-model/TableSheet',
+                            },
+                        ]
+                    },
+                    
+                ],
             },
             {
                 text: 'Server File Manager',
                 link: '/documentation/server-file-manager',
-                children: [],
+                collapsible: true,
+                children: [
+                    {
+                        text: '구성',
+                        link: '/documentation/server-file-manager/MenuTree',
+                        collapsible: true,
+                        children: [
+                            /*
+                            {
+                                text: 'Menu Tree',
+                                link: '/documentation/server-file-manager/MenuTree',
+                            },
+                            {
+                                text: 'File List',
+                                link: '/documentation/server-file-manager/FileList',
+                            },
+                            {
+                                text: 'Log',
+                                link: '/documentation/server-file-manager/Log',
+                            },
+                            */
+                        ],
+                    },
+                ],
             },
         ],
     },
@@ -472,7 +571,7 @@ const koSideBar = [
 const enSideBar = [
     // SidebarItem
     {
-        text: 'About POWER MDD',
+        text: 'About POWERMDD',
         link: '/about',
     },
     {
@@ -681,7 +780,7 @@ const enSideBar = [
 ]
 
 export default defineUserConfig({
-    title: 'POWER MDD',
+    title: 'POWERMDD',
     description: 'Most Powerful Lowcode Tools',
     lang: "ko-KR",
     base: '/documentation/',
@@ -690,12 +789,12 @@ export default defineUserConfig({
         // As a special case, the default locale can use '/' as its path.
         '/': {
             lang: 'ko-KR',
-            title: 'POWER MDD',
+            title: 'POWERMDD',
             description: '가장 강력한 로우코드 개발 툴',
         },
         '/en/': {
             lang: 'en-US',
-            title: 'POWER MDD',
+            title: 'POWERMDD',
             description: 'The most powerful low-code development tool',
         },
     },
