@@ -176,6 +176,7 @@ View Designer Layout 화면 중 화면작업 영역만 Layout 화면을 볼 수 
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
 =======
 
+<!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 >>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 메뉴 안에 메뉴를 추가하는 것은 가능하지만 화면이 있는 경우에는 메뉴 추가가 안됩니다.
@@ -188,6 +189,7 @@ View Designer Layout 화면 중 화면작업 영역만 Layout 화면을 볼 수 
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
 =======
 
+<!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 >>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 삭제 처리 시 삭제된 UI 화면은 &nbsp;<img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/recycle.png" style="position: relative;top: 5px;" width="20" height="20"> (휴지통)으로 이동된다. 사용자 실수로 화면 삭제 시에는 휴지통으로 이동한 후 해당 화면을 복원 처리하면 됩니다.
@@ -199,6 +201,8 @@ View Designer Layout 화면 중 화면작업 영역만 Layout 화면을 볼 수 
 <!-- Remark -->
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
 =======
+
+<!-- Remark -->
 
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 >>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
@@ -256,6 +260,7 @@ Design 영역에서 컴포넌트가 없는 빈 쪽을 클릭하면 우측에 공
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
 =======
 
+<!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 >>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 - <img src="../../.vuepress/public/documentation/view-designer/Structure/View/Change_Class_remark.png" style="border: 1px solid #bbb;" width="500" height="40"/> 
@@ -293,6 +298,7 @@ UI 화면을 실행할 때 화면을 전체로 실행할지, 분할로 나눠서
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> 
 =======
 
+<!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 >>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 YES로 설정한 개발자가 NO로 변경하지 않아도 Lock은 최대 하루가 지나는 경우 자동으로 NO로 변경이 됩니다.
@@ -364,6 +370,7 @@ Script 작업 영역에 자주 사용하는 Script을 블록처리해서 Alt 키
 ::: details <Badge type="tip" text="Remark" vertical="middle" /> <b> 브라우저 설정 </b>
 =======
 
+<!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> <b> 브라우저 설정 </b>
 >>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 해당 UI 화면작업 창에 빈 영역을 클릭해서 우측 속성에 브라우저를 변경합니다. <br/>
