@@ -15,7 +15,7 @@ BOC 컴포넌트 목록에서 GLV BOC을 선택하여 Drag-Drop으로 화면작�
 
 <b style="font-size: 20px">(2) 속성</b><br/>
 화면 작업창에서 GLV BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다. <br/>
-<img src="../../.vuepress\public\documentation\service-model\BOC\ChangeBOC\Property(1).png" style="position: relative;top: 5px; width:150px;"> <br/>
+<img src="../../.vuepress\public\documentation\service-model\BOC\ChangeBOC\Property(1).png" class="boxBorder" style="position: relative;top: 5px; width:300px;"> <br/>
 <b style="font-size: 20px">➀ 기초정보 </b><br/>
 - <b style="font-size: 20px">OBJECT명 </b><br/>
 해당 BOC가 실행된 후 해당 결과 SET을 저장할 Value Object의 명을 지정합니다. 해당 Object의 결과 Set은 그리드 형식의 Object로 구성됩니다.<br/>
@@ -46,3 +46,13 @@ GLV로 정의된 Column은 Dataset 형식이 아닌 단일 값을 불러오거�
 - <b style="font-size: 20px">getgvint(“name”) : return type int </b><br/>
 - <b style="font-size: 20px">getgvlong(“name”) : return type long </b><br/>
 - <b style="font-size: 20px">getgvnumber(“name”) : return type double </b><br/>
+
+<style type='text/css'>
+  [class*="boxBorder"] { border: 1px solid #bbb; }
+  [class*="font20"] { font-size: 20px }
+  [class*="font18"] { font-size: 18px }
+  [class="spanBtn"] { border: 1px solid #bbb;border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
+  [class="spanEx2"] { font-size: 18px; color: #00a4ff; }
+  [class="spanEx"] { color: #00a4ff; }
+  [class="fontB"] { color: rgb(106, 139, 173); font-size:18px }
+</style>
