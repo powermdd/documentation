@@ -1,5 +1,5 @@
 # 내장 함수
-POWERMDD에서 연산 처리 시 사용할 수 있는 Function에 대한 설명입니다.
+POWER MDD에서 연산 처리 시 사용할 수 있는 Function에 대한 설명입니다.
 
 <b style="font-size: 20px">1) Internal Function</b><br/>
 <b style="font-size: 20px">(1) GLV BOC을 이용한 Variable 값을 가져오는 Function입니다.</b>

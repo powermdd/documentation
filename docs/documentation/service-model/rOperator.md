@@ -1,7 +1,7 @@
 # 레코드 연산자
 
 <b style="font-size: 20px">1) (before) 바로 전 처리 값 </b><br/>
-POWERMDD는 Dataset Object 즉 다수(0~n건)의 Input Records를 Loop를 통하여 처리합니다. before연산은 현재 처리되고 있는 Current Record의 이전 Record의 값을 참조하고 싶을 때 사용합니다. <br/>
+POWER MDD는 Dataset Object 즉 다수(0~n건)의 Input Records를 Loop를 통하여 처리합니다. before연산은 현재 처리되고 있는 Current Record의 이전 Record의 값을 참조하고 싶을 때 사용합니다. <br/>
 일반적으로 누적 값을 계산하고 싶을 때에 종종 사용됩니다. before 사용시 첫 번째 Record의 이전 Record의 값은 empty 또는 0 값이 할당됩니다.
 <p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구문 1 : 식 before</p>
 계산식에 할당하는 Column의 이전 Record의 값이 됩니다.<br/>
@@ -29,7 +29,7 @@ Dataset Object Records의 Current Record의 건수를 가져옵니다.
 <p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구문 : OBJECT명.rcount</p>
 
 <b style="font-size: 20px">5) (~) 현재 레코드의 컬럼 </b><br/>
-POWERMDD는 Dataset내에서 Record단위로 Data를 처리합니다. Record는 여러 컬럼의 값으로 구성되어 있는 집합입니다. <br/> 
+POWER MDD는 Dataset내에서 Record단위로 Data를 처리합니다. Record는 여러 컬럼의 값으로 구성되어 있는 집합입니다. <br/> 
 다수의 Records를 Loop를 Record를 재구성 처리 할 때 입력되는 Current Record와 신규로 재구성되어 만들어지는 Record가 발생하게 됩니다. 즉 신규로 재구성되는 Record 내 컬럼들을 생성할 때 컬럼의 생성 순서가 발생합니다. 여기서 ‘~’를 지정한 컬럼은 신규로 재구성되는 Record의 컬럼을 참조하게 됩니다.
 <p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구문 : ~COLUMN</p>
 

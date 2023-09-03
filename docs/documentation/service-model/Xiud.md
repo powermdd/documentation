@@ -18,7 +18,7 @@ BOC 컴포넌트 목록에서 XIUD  BOC을 선택하여 Drag-Drop으로 화면�
 
 <b style="font-size: 20px">(2) 속성</b><br/>
 화면 작업창에서 XIUD  BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다. <br/>
-<img src="../../.vuepress\public\documentation\service-model\BOC\DataBaseBOC\Property(4).png" class="boxBorder" style="position: relative;top: 5px; width:300px;"> <br/>
+<img src="../../.vuepress\public\documentation\service-model\BOC\DataBaseBOC\Property(4).png" style="position: relative;top: 5px; width:150px;"> <br/>
 <b style="font-size: 20px">➀ 기초정보 </b><br/>
 - <b style="font-size: 20px">OBJECT명 </b><br/>
 해당 BOC가 실행된 후 해당 결과 SET을 저장할 Value Object의 명을 지정합니다. 해당 Object의 결과 Set은 그리드 형식의 Object로 구성됩니다.<br/>

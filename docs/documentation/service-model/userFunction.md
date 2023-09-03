@@ -1,5 +1,5 @@
 # User Function
-POWERMDD에서 제공하는 Function 이외에 사용자가 필요로 하는 기능 function을 만들어 사용할 수 있다.
+POWER MDD에서 제공하는 Function 이외에 사용자가 필요로 하는 기능 function을 만들어 사용할 수 있다.
 
 <b style="font-size: 20px">등록방법</b><br/>
 Java 언어를 사용하여 User function 기능 class를 생성 한다. 생성 시 package를 반드시 사용하여 생성하고 Package는 사용자의 관리 규정에 맞추어 생성한다. <br/>
@@ -10,13 +10,13 @@ User Function에서는 단일 값만 Return이 가능하다. 만일 Dataset 형�
   return Type : int, String, double 중 1개를 선택 가능하다.<br/> 
   parameter 사용 가능한 Type : Integer, String, Double Type을 사용한다.
 
-해당 User function 제작이 완료되면 해당 java파일을 컴파일 하고, 컴파일된 class파일을 POWERMDD BMS 실행 환경을 배치해야 한다. <br/>
-배치 방법은 해당class를 classpath환경 아래 배치하고, 개발 WAS에도 배치하면 된다. 배치가 완료 되고 나면 POWERMDD 디자인 Tool인 해당 function을 사용할 수 있도록 class 정보를 등록한다. <br/>
+해당 User function 제작이 완료되면 해당 java파일을 컴파일 하고, 컴파일된 class파일을 POWER MDD BMS 실행 환경을 배치해야 한다. <br/>
+배치 방법은 해당class를 classpath환경 아래 배치하고, 개발 WAS에도 배치하면 된다. 배치가 완료 되고 나면 POWER MDD 디자인 Tool인 해당 function을 사용할 수 있도록 class 정보를 등록한다. <br/>
 등록 방법은 DX의 User Function 관리 기능을 사용하여 사용자가 생성 시킨 user function을 등록하도록 한다.
 
 <b style="font-size: 20px">1) (@) 함수호출</b><br/>
 <p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구문 : “@” + user_function(argument, argument)</p>
-POWERMDD는 @문자를 user function을 실행시킨다. <br/>
+POWER MDD는 @문자를 user function을 실행시킨다. <br/>
 user function을 지정해주는 지시자인 ‘@’문자를 사용한다.
 
 <b style="font-size: 20px">2) todayWeek.java 소스 참고</b><br/>
