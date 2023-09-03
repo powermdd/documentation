@@ -1,10 +1,10 @@
 # Data Type 정의
 
-POWER MDD에서 Data Type의 정의는 Java Language에서 사용하고 있는 Data Type과는 다른 형식의 명칭을 사용하고 있습니다. 명칭의 기준은 Data에 대한 정의의 중심이 되는 Database 시스템에서 사용하고 있는 용도 형식을 참고하여 생성하고 있습니다. <br/>
+POWERMDD에서 Data Type의 정의는 Java Language에서 사용하고 있는 Data Type과는 다른 형식의 명칭을 사용하고 있습니다. 명칭의 기준은 Data에 대한 정의의 중심이 되는 Database 시스템에서 사용하고 있는 용도 형식을 참고하여 생성하고 있습니다. <br/>
 
 또한 Data의 처리를 위한 용도적인 부분도 일부 고려하여 Data Type을 사용하고 있습니다.<br/>
 
-Data Type으로는 String형, 수치형, LOB형, SQL처리시 상수 지원 형, 날짜형으로 정의 되어 있습니다. Data Column에 대한 Data Type의 정의는 POWER MDD Menu에서 Data Column Dictionary에서 정의하고 관리합니다.<br/>
+Data Type으로는 String형, 수치형, LOB형, SQL처리시 상수 지원 형, 날짜형으로 정의 되어 있습니다. Data Column에 대한 Data Type의 정의는 POWERMDD Menu에서 Data Column Dictionary에서 정의하고 관리합니다.<br/>
 
 <b style="font-size: 20px">1) String 형</b><br/>
 String Type으로 사용하고자 할 때 사용합니다. 값을 직접 할당하고자 할 때에는 “값”의 형식으로 처리합니다. <br/>
