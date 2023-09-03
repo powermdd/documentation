@@ -2,10 +2,10 @@
 
 <b class="font20"> 1. View Designer </b> <br/>
 비즈니스 UI 개발 플랫폼으로 사용자 작업 화면 제작 관련 다양한 컴포넌트 및 Script를 제공합니다. 
-POWER MDD의 View Designer는 Web Application의 UI 화면 개발 도구입니다.
+POWERMDD의 View Designer는 Web Application의 UI 화면 개발 도구입니다.
 웹 표준 기반의 UI 플랫폼으로 쉽고 빠른 UX 완성을 위한 다양한 화면 Control 및 사용자 편의 기능을 제공합니다. 
 
-기존의 MDD 도구는 일반적으로 UI 화면을 다른 X-Internet 기반의 개발 도구로 개발하고 모델과 연계하는 방식으로 Web Application을 완성하는 형태지만 POWER MDD는 Service Model과 View Designer를 하나의 통합개발환경으로 제공합니다.
+기존의 MDD 도구는 일반적으로 UI 화면을 다른 X-Internet 기반의 개발 도구로 개발하고 모델과 연계하는 방식으로 Web Application을 완성하는 형태지만 POWERMDD는 Service Model과 View Designer를 하나의 통합개발환경으로 제공합니다.
 Service Model과 통합된 View Designer는 이미 개발된 서비스 모델과 연동 작업 시 다양한 자동화를 통해 개발자의 편의성 및 개발 생산성을 극대화합니다.
 
 또한, View Designer는 Web Application의 표준 프레임워크인 MVC 모델을 지원하기 때문에 그 자체로도 독립적인 개발 도구로서 사용이 가능하며, Service Model도 다른 X-Internet기반 UI 개발 도구와 연동이 가능하기 때문에 어떠한 개발 환경에서도 사용할 수 있습니다.
