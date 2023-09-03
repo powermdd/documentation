@@ -16,7 +16,7 @@ BOC 컴포넌트 목록에서 NLL BOC을 선택하여 Drag-Drop으로 화면작�
 
 <b style="font-size: 20px">(2) 속성</b><br/>
 화면 작업창에서 NLL BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다. <br/>
-<img src="../../.vuepress\public\documentation\service-model\BOC\ControlBOC\Property(4).png" class="boxBorder" style="position: relative;top: 5px; width:300px;"> <br/>
+<img src="../../.vuepress\public\documentation\service-model\BOC\ControlBOC\Property(4).png" style="position: relative;top: 5px; width:150px;"> <br/>
 <b style="font-size: 20px">➀ 기초정보 </b><br/>
 - <b style="font-size: 20px">OBJECT명 </b><br/>
 해당 BOC가 실행된 후 해당 결과 SET을 저장할 Value Object의 명을 지정합니다. 해당 Object의 결과 Set은 그리드 형식의 Object로 구성됩니다.<br/>
@@ -37,13 +37,3 @@ BOC가 어떤 동작을 수행하는지를 간단한 명칭으로 기술합니�
 <b style="font-size: 20px">➂ 메시지</b><br/>
 - <b style="font-size: 20px">결과메시지 </b><br/>
 해당 처리 결과에 대한 메시지를 Client. 즉, 호출자에게 보낼 필요가 있을 때 정의합니다.
-
-<style type='text/css'>
-  [class*="boxBorder"] { border: 1px solid #bbb; }
-  [class*="font20"] { font-size: 20px }
-  [class*="font18"] { font-size: 18px }
-  [class="spanBtn"] { border: 1px solid #bbb;border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
-  [class="spanEx2"] { font-size: 18px; color: #00a4ff; }
-  [class="spanEx"] { color: #00a4ff; }
-  [class="fontB"] { color: rgb(106, 139, 173); font-size:18px }
-</style>

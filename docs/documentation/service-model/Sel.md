@@ -17,7 +17,7 @@ BOC 컴포넌트 목록에서 SEL BOC을 선택하여 Drag-Drop으로 화면작�
 
 <b style="font-size: 20px">(2) 속성</b><br/>
 화면 작업창에서 SEL BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다.<br/>
-<img src="../../.vuepress\public\documentation\service-model\BOC\DataBaseBOC\Property(7).png"  class="boxBorder" style="position: relative;top: 5px; width:300px;"> <br/>
+<img src="../../.vuepress\public\documentation\service-model\BOC\DataBaseBOC\Property(7).png" style="position: relative;top: 5px; width:150px;"> <br/>
 <b style="font-size: 20px">➀ 기초정보 </b><br/>
 - <b style="font-size: 20px">OBJECT명 </b><br/>
 해당 BOC가 실행된 후 해당 결과 SET을 저장할 Value Object의 명을 지정합니다. 해당 Object의 결과 Set은 그리드 형식의 Object로 구성됩니다.<br/>
@@ -126,13 +126,3 @@ Ibatis 소스 생성 예
 Dataset ‘S’의 ORD 변수 값이 1일 때 ‘{‘ 와 ‘}’ 사이의 구문을 유효 처리합니다. 연산자 Tag ‘VAL’을 사용하면 값을 비교처리 하고 해당 조건이 True일 때 유효 처리합니다. <br/>
 S.ORD의 값이 1이 아니면 “SELECT COLNM FROM TABLENAME”가 됩니다<br/>
 Null일 때 실행 Query는 “SELECT COLNM FROM TABLENAME”가 됩니다.<br/>
-
-<style type='text/css'>
-  [class*="boxBorder"] { border: 1px solid #bbb; }
-  [class*="font20"] { font-size: 20px }
-  [class*="font18"] { font-size: 18px }
-  [class="spanBtn"] { border: 1px solid #bbb;border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
-  [class="spanEx2"] { font-size: 18px; color: #00a4ff; }
-  [class="spanEx"] { color: #00a4ff; }
-  [class="fontB"] { color: rgb(106, 139, 173); font-size:18px }
-</style>
