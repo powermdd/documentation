@@ -243,7 +243,6 @@ Design 영역에서 컴포넌트가 없는 빈 쪽을 클릭하면 우측에 공
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
->>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 - <img src="../../.vuepress/public/documentation/view-designer/Structure/View/Change_Class_remark.png" style="border: 1px solid #bbb;" width="500" height="40"/> 
 - 해당 컴포넌트에 ClassName을 최초로 등록한 Class명은 삭제가 되지 않습니다.
 :::
