@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-c1e86be2","path":"/documentation/service-model/rOperator.html","title":"레코드 연산자","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1693368096000,"contributors":[{"name":"User","email":"User@example.com","commits":1}]},"filePathRelative":"documentation/service-model/rOperator.md"}');export{e as data};

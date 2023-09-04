@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-41dd5d29","path":"/documentation/service-model/dataType.html","title":"Data Type 정의","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1693754301000,"contributors":[{"name":"PEB","email":"peb7544@hnextits.com","commits":3}]},"filePathRelative":"documentation/service-model/dataType.md"}');export{e as data};

@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-684f106c","path":"/documentation/service-model/userFunction.html","title":"User Function","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1693754301000,"contributors":[{"name":"PEB","email":"peb7544@hnextits.com","commits":3}]},"filePathRelative":"documentation/service-model/userFunction.md"}');export{e as data};

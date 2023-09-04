@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-839984a0","path":"/documentation/service-model/inFunction.html","title":"내장 함수","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1693754301000,"contributors":[{"name":"PEB","email":"peb7544@hnextits.com","commits":3}]},"filePathRelative":"documentation/service-model/inFunction.md"}');export{t as data};
