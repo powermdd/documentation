@@ -16,7 +16,7 @@ home: true
 				<span class="text-style-1"></span>
 				<span class="text-style-2">로우코드</span>
 				<span class="text-style-3"></span>
-				<span class="text-style-4">개발 툴</span>
+				<span class="text-style-4">개발 툴</span> 
 			</span>
 		</div>
 		<div class="main-image-content">

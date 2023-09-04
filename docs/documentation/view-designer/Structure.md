@@ -359,3 +359,4 @@ Script 작업 영역에 자주 사용하는 Script을 블록처리해서 Alt 키
 <b style="font-size: 18px"> (2) Event </b> <br/>
 선택한 컴포넌트에 대한 이벤트 함수를 호출합니다. <br/>
 <img src="../../.vuepress/public/documentation/view-designer/Structure/Property/Property_Event.png" style="border: 1px solid #bbb;" width="650" height="130"/>
+ 
