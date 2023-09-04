@@ -17,11 +17,7 @@ UI 화면작업 창의 Dataset 탭에서 등록한 Dataset Column을 할당하�
 <b style="font-size: 18px"> ② Dataset </b> <br/>
 할당된 Dataset 명 표시합니다. <br/>
 <!-- Remark -->
-<<<<<<< HEAD
-::: details <Badge type="tip" text="Remark" vertical="middle" /> 
-=======
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
->>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 Dataset Bind 했을 경우 <span style="color: #00a4ff;">Dataset_Column</span>으로 해당 컴포넌트 ID가 자동으로 변환됩니다. <br/>
 <span style="color: #00a4ff;">Ex) Dataset : LABEL     Column : NAME  ⇒ 컴포넌트 ID : LABEL_NAME </span>
 :::
@@ -41,11 +37,7 @@ Dataset Bind 했을 경우 <span style="color: #00a4ff;">Dataset_Column</span>�
 <b style="font-size: 18px"> ④ TextHeignt </b> <br/>
 입력한 텍스트 높이 정렬을 설정입니다. 
 <!-- Remark -->
-<<<<<<< HEAD
-::: details <Badge type="tip" text="Remark" vertical="middle" /> 
-=======
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
->>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 텍스트 높이를 0으로 설정했을 경우 텍스트 높이가 해당 컴포넌트 높이로 자동으로 정렬이 됩니다. 
 :::
 <!-- -->
