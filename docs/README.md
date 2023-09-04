@@ -9,14 +9,14 @@ home: true
 				For Better Future
 			</span>
 			<span class="power-mdd-header">
-				POWERMDD
+				POWER MDD
 			</span>
 			<span class="h4-sub-headline-sec-">
 				가장 강력한
 				<span class="text-style-1"></span>
 				<span class="text-style-2">로우코드</span>
 				<span class="text-style-3"></span>
-				<span class="text-style-4">개발 툴</span> 
+				<span class="text-style-4">개발 툴</span>
 			</span>
 		</div>
 		<div class="main-image-content">
@@ -40,7 +40,7 @@ home: true
 				MODEL DRIVEN DEVELOPMENT
 			</span>
 			<span class="sub-text-1">
-				POWERMDD는 모델 중심 개발(Model Driven Development)을 지향합니다. POWERMDD로 발전된 개발방식을 적용해 보세요.
+				POWER MDD는 모델 중심 개발(Model Driven Development)을 지향합니다. POWER MDD로 발전된 개발방식을 적용해 보세요.
 			</span>
 		</div>
 		<div>
@@ -49,8 +49,8 @@ home: true
 				ALL IN ONE
 			</span>
 			<span class="sub-text-1">
-				설계부터 개발까지! POWERMDD 하나면 모두 가능합니다. POWERMDD로 최고의 생산성을 경험해 보세요.
-			<POWERMDD/span>
+				설계부터 개발까지! POWER MDD 하나면 모두 가능합니다. POWER MDD로 최고의 생산성을 경험해 보세요.
+			</span>
 		</div>
 	</div>
 </div>
