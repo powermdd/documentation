@@ -64,7 +64,7 @@ Database BOC중 DML을 처리하는 BOC에서만 사용됩니다. SQL 구문 내
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-& Parameter 명 시작 지시자 <br/>
+& Parameter 명 시작 지시자
 s; Parameter 명 종료 지시자
 :::
 <!-- -->
