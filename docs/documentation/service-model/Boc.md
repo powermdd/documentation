@@ -24,7 +24,7 @@ Dataset Object의 Records에 변화를 주는 구성요소입니다. <br/>
 
 ## 5. File BOC
 
-Dataset Object의 Records에 변화를 주는 구성요소입니다. <br/>
+파일의 이동, 전송, 다운로드 등 파일과 관련된 구성요소입니다. <br/>
 <img src="../../.vuepress\public\documentation\service-model\BOC\FileBOC\FileBOC.png" class="boxBorder" style="position: relative;top: 5px; width:300px;"> <br/>
 
 
