@@ -50,7 +50,7 @@ home: true
 			</span>
 			<span class="sub-text-1">
 				설계부터 개발까지! POWERMDD 하나면 모두 가능합니다. POWERMDD로 최고의 생산성을 경험해 보세요.
-			<POWERMDD/span>
+			</span>
 		</div>
 	</div>
 </div>

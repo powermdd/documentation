@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# ListBox
-=======
 # <img src="../../.vuepress/public/documentation/view-designer/Structure/Tool_Box/ListBox.png" style="position: relative;top: 5px;" width="40" height="40"> (ListBox)
 리스트박스 기능을 처리하는 컴포넌트입니다. 
 
@@ -91,4 +88,3 @@ Index 값을 지정 후 Tab 키를 누르면 오름차순으로 이동하게 됩
 입력필드의 값이 바뀐 후 포커스를 잃었을 때 발생하는 이벤트입니다. <br/>
 <b style="font-size: 18px"> ③ OnFocus </b> <br/>
 포커스가 잡혔을 때 발생하는 이벤트입니다. <br/>
->>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
