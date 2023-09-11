@@ -505,7 +505,7 @@ POWERMDD 컴파일 시 생성되는 소스 위치를 설정합니다. <br/>
 <span class="font18"> (1) BMSCTX의 환경설정하기 위해 ‘BMSCTX\WEB-INF’에서 web.xml을 클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/web.png" width="280" height="480"><br/>
 
-<span class="font18"> (2) HostName, TempUploadPath, FileRootPath을 설정합니다. </span> <br/>
+<span class="font18"> (2) HostName, TempUploadPath, FileRootPath을 설정합니다. </span> <br/> 
 ```xml
 <init-param> 
     <param-name>HostName</param-name>
