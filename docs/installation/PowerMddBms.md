@@ -637,7 +637,7 @@ BMSCTX폴더에 processbuilder_config.xml 파일에서도 &lt;EGOVFRAMEWORK&gt; 
 <span class="font18"> ① ‘</span><span class="spanEx2">WebApplication명</span><span>\WEB-INF/classes/spring’에 들어가서 context-sqlMap.xml을 클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/context-sqlMap.png" width="280" height="480"><br/>
 
-<span class="font18"> ② sqlMap-Confing 경로를 변경합니다. </span> <br/>
+<span class="font18"> ② sqlMap-Confing 경로를 변경합니다. </span> <br/> 
 ```xml
 <bean id="sqlSession" class="org.mybatis.spring.SqlSessionFactoryBean">
   <property name="dataSource" ref="dataSource-mysql" />
