@@ -448,7 +448,7 @@ POWERMDD 컴파일 시 생성되는 소스 위치를 설정합니다. <br/>
 ```
 
 <span class="font18"> (6) </span><b class="font18">&lt;CONNECTIONS&gt;</b>  <br/>
-&lt;MATADB&gt;, &lt;업무DB&gt; 생성해서 연결정보를 설정합니다.<br/> 
+&lt;MATADB&gt;, &lt;업무DB&gt; 생성해서 연결정보를 설정합니다.<br/>
 ```xml
 <!-- 3. -->
 <CONNECTIONS>
