@@ -31,11 +31,7 @@ UI 화면작업 창의 Dataset 탭에서 등록한 Dataset Column을 할당하�
 해당 컴포넌트의 리스트 목록 부분 실제 값을 할당합니다.
 
 <!-- Remark -->
-<<<<<<< HEAD
-::: details <Badge type="tip" text="Remark" vertical="middle" /> 
-=======
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
->>>>>>> c7bdfee358fbef77e02c35739c51a0da2dd6c2aa
 - Dataset Bind 했을 경우 <span style="color: #00a4ff;">Dataset_Column</span>으로 해당 컴포넌트 ID가 자동으로 변환됩니다. <br/>
 <span style="color: #00a4ff;">Ex) Dataset : S01     Column : COMBO  ⇒ 컴포넌트 ID : S01_COMBO </span>
 -  콤보박스 Dataset <br/>
