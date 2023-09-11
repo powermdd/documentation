@@ -34,14 +34,14 @@ POWERMDD의 데이터베이스는 Meta DB, 업무 DB 2가지 종류가 있습니
 
 <b class="font20"> 1) Meta DB 세팅</b>(PostgreSQL 사용) <br/>
 POWERMDD 서버에 있는 모든 정보 체계를 저장하고 있는 데이터베이스입니다. <br/>
-<b class="font18"> (1) User 계정 생성 </b> <br/>
+<b class="font18"> (1) User 계정 생성 </b>  <span span class="spanEx2">Ex) 계정 : democtl</span> <br/>
 <span class="font18"> ① 계정 생성 전에 모든 권한이 설정된 계정으로 로그인합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_User.png" width="400" height="50"><br/>
 
 <span class="font18"> ② Meta DB 세팅할 데이터베이스에 접속합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_database.png" width="280" height="100"><br/>
 
-<span class="font18"> ③ Meta DB에 사용할 계정(</span><span span class="spanEx2">democtl</span><span>)을 생성하면서 권한도 같이 할당해줍니다.</span> <br/>
+<span class="font18"> ③ Meta DB에 사용할 계정을 생성하면서 권한도 같이 할당해줍니다.</span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_superuser.png" width="400" height="50"><br/>
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -49,10 +49,10 @@ POWERMDD 서버에 있는 모든 정보 체계를 저장하고 있는 데이터�
 :::
 <!-- -->
 
-<span class="font18"> ④ 생성한 계정(</span><span span class="spanEx2">democtl</span><span>)에 사용할 암호를 입력합니다. </span> <br/>
+<span class="font18"> ④ 생성한 계정에 사용할 암호를 입력합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_password.png" width="450" height="50"><br/>
 
-<span class="font18"> ⑤ 데이터베이스를 생성하고 생성한 데이터베이스에 소유자를 생성한 계정(</span><span span class="spanEx2">democtl</span><span>)으로 지정한다. 
+<span class="font18"> ⑤ 데이터베이스를 생성하고 생성한 데이터베이스에 소유자를 생성한 계정으로 지정한다. 
 단, 데이터베이스는 superuser만 생성할 수 있다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_createDatabase.png" width="650" height="50"><br/>
 <!-- Remark -->
@@ -87,14 +87,14 @@ insert하기 전에 SYSID, GROUPID 컬럼에 들어갈 값을 PROJECT명으로 �
 
 <b class="font20"> 2) 업무 DB 세팅</b>(MySQL 사용) <br/>
 해당 업무 서버에 있는 모든 정보 체계를 저장하고 있는 데이터베이스입니다. <br/>
-<b class="font18"> (1) User 계정 생성 </b> <br/>
+<b class="font18"> (1) User 계정 생성 </b> <span span class="spanEx2">Ex) 계정 : demo</span> <br/>
 <span class="font18"> ① 업무 DB 세팅할 데이터베이스에 접속합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/dB_database.png" width="500" height="230"><br/>
 
 <span class="font18"> ② 계정정보를 생성하기 위해 데이터베이스로 접속합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/dB_mysql.png" width="500" height="100"><br/>
 
-<span class="font18"> ③ Meta DB에 사용할 계정(</span><span span class="spanEx">demo</span><span>)을 생성과 사용할 암호를 입력합니다.</span> <br/>
+<span class="font18"> ③ Meta DB에 사용할 계정을 생성과 사용할 암호를 입력합니다.</span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/dB_password.png" width="600" height="40"><br/>
 
 <!-- Remark -->
@@ -167,7 +167,13 @@ WAS에 탑재되는 Middleware 서버로 다수의 Client(DX)로부터 다양한
 Meta DB, 업무 DB 연결 정보를 설정하는 부분입니다.
 
 <b class="font18"> ④ &lt;MAC&gt; </b> <br/>
-POWERMDD을 사용할 사용자 MAC 주소를 입력하는 부분인데 POWERMDD 프로그램을 로그인하더라도 MAC 주소를 등록하지 않으면 POWERMDD을 접속할 수 없습니다.
+POWERMDD을 사용할 사용자 MAC 주소를 입력하는 부분입니다.
+
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+MAC 주소를 등록하지 않고 POWERMDD 로그인을 하면 MAC 주소를 등록하라는 알림창이 나오면서 POWERMDD을 접속할 수 없습니다.
+:::
+<!-- -->
 
 <span class="font18"> (4) </span><b class="font18">&lt;Projects&gt;</b>  <br/>
 &lt;Projects&gt; 안에 &lt;<b class="spanEx">사용할 PROJECT명</b>&gt; &lt;/<b class="spanEx">사용할 PROJECT명</b>&gt;을 입력하고 &lt;<b class="spanEx">사용할 PROJECT명</b>&gt; 안에는 &lt;DB-CONNECTION&gt;, &lt;DATAMODEL&gt;, &lt;UX-DESIGNER&gt;, &lt;FILESYSTEM-LOCATION&gt;, &lt;TEST-EXE&gt;, &lt;BUILD&gt;, &lt;SERVER&gt;, &lt;COMPILE&gt;이 있습니다.<br/>
@@ -210,7 +216,7 @@ Meta DB, 업무 DB의 별칭을 입력하는 부분입니다. <br/>
   <WASTYPE>tomcat</WASTYPE>
   <CONTROL_DB>DEMOCTL</CONTROL_DB>
   <DEFAULT_DB>DEMODB</DEFAULT_DB>
-  <TEST_DB>SAORA01</TEST_DB>                  
+  <TEST_DB>TESTDB</TEST_DB>                  
 </DB-CONNECTION>
 ```
 - <b>&lt;WASTYPE&gt;</b> : 현재 사용하고 있는 WAS을 설정합니다.
@@ -219,8 +225,10 @@ Meta DB, 업무 DB의 별칭을 입력하는 부분입니다. <br/>
 
 - <b>&lt;DEFAULT_DB&gt;</b> : 업무 DB의 별칭을 설정합니다.
 
+- <b>&lt;TEST_DB&gt;</b> : Service Mode 테스트 시 추가 연결 DB의 별칭을 설정합니다.
+
 <b class="font18"> ② &lt;DATAMODEL&gt; </b> <br/>
-POWERMDD 구성요소에 DataMode의 파일들을 저장하는 부분입니다. <br/>
+POWERMDD 구성요소에 DataModel의 파일들을 저장하는 부분입니다. <br/>
 ```xml
 <!-- 2. -->
 <DATAMODEL>
@@ -265,7 +273,7 @@ POWERMDD 기능 요소 중 View Designer의 내역들이 저장되는 경로이�
 
 - <b>&lt;UX_CONTEXT_ROOT&gt;</b> : context 경로입니다.
 
-- <b>&lt;UX_ContextPath&gt;</b> : ContextPath을 나타냅니다.
+- <b>&lt;UX_ContextPath&gt;</b> : ContextPath를 나타냅니다.
 
 - <b>&lt;UX_Server&gt;</b> : 화면 IP와 Port 정보를 입력합니다.
 
@@ -294,7 +302,7 @@ POWERMDD 기능 요소 중 View Designer의 내역들이 저장되는 경로이�
 :::
 <!-- -->
 <b class="font18"> ⑤ &lt;TEST-EXE&gt; </b> <br/>
-Query Devloper 테스트에 대한 정보를 설정합니다. <br/>
+Query Devloper 테스트 시 ROW 크기를 설정합니다. <br/>
 ```xml
 <!-- 5. -->
 <TEST-EXE>
@@ -350,6 +358,8 @@ POWERMDD Build 시 생성되는 소스 위치를 설정합니다. <br/>
 ```
 - <b>&lt;SRCTYPE&gt;</b> : Build 타입을 설정합니다.
 
+- <b>&lt;SRCVERSION&gt;</b> : MYBATIS, 전자정부 최신 소스 버전을 설정한다. SRCVERSION이 생략된 경우 기본값은 3버전으로 설정됩니다.
+
 - <b>&lt;DATAACCESS&gt;</b> : iBatis 또는 MyBatis을 설정합니다.
 
 - <b>&lt;GENLOCATION&gt;, &lt;CURRENTGEN&gt;</b> : Build 시 자바 소스가 저장되는 경로입니다.
@@ -401,7 +411,7 @@ POWERMDD Build 시 생성되는 소스 위치를 설정합니다. <br/>
 - <b>&lt;REAL_PWD&gt;</b> : 서버 계정 암호를 설정합니다.
 
 <b class="font18"> ⑧ &lt;COMPILE&gt; </b> <br/>
-POWERMDD Comfile 시 생성되는 소스 위치를 설정합니다. <br/>
+POWERMDD 컴파일 시 생성되는 소스 위치를 설정합니다. <br/>
 ```xml
 <!-- 8. -->
 <COMPILE>
@@ -450,6 +460,7 @@ POWERMDD Comfile 시 생성되는 소스 위치를 설정합니다. <br/>
     <PATH>jdbc:postgresql://XXX.XXX.XXX.XXX:XXXX/democtl</PATH>
     <WAS>tomcat</WAS>
     <DATABASE>postgresql</DATABASE>
+    <DRIVER> </DRIVER>
   </DEMOCTL>
   <DEMODB>
     <TYPE>direct</TYPE>
@@ -459,6 +470,8 @@ POWERMDD Comfile 시 생성되는 소스 위치를 설정합니다. <br/>
     <PATH>jdbc:mysql://XXX.XXX.XXX.XXX:XXXX/demo?useSSL=false</PATH>
     <WAS>tomcat</WAS>
     <DATABASE>mysql</DATABASE>
+    <DRIVER>com.mysql.cj.jdbc.Driver</DRIVER>
+    <NOTE>Window-Service:MySQL80</NOTE>
   </DEMODB>
 </CONNECTIONS>
 ```
@@ -472,7 +485,9 @@ POWERMDD Comfile 시 생성되는 소스 위치를 설정합니다. <br/>
 
 - <b>&lt;DATABASED&gt;</b> : 어떤 DataBase을 사용하고 있는지 설정합니다.
 
-<span class="font18"> (7) </span><b class="font18">&lt;CONNECTIONS&gt;</b>  <br/>
+- <b>&lt;DRIVER&gt;</b> : JDBC 드라이버를 설정합니다.
+
+<span class="font18"> (7) </span><b class="font18">&lt;MAC&gt;</b>  <br/>
 
 <span class="font18"> ① MAC 주소를 등록하기 전에 등록할 PC의 CMD 창을 열어서 MAC주소를 확인합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/cmdMac.png" width="500" height="300"><br/>
@@ -536,8 +551,8 @@ Lib, Class, Css, jsp 등 웹 애플리케이션 실행파일들의 보관 디렉
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app id="WebApp_ID" version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
-		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
 	<display-name>PowerMDD</display-name>
 ```
 
@@ -558,7 +573,7 @@ Lib, Class, Css, jsp 등 웹 애플리케이션 실행파일들의 보관 디렉
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-BMSCTX폴더에 processbuilder_config.xml 파일에서도 &lt;EGOVFRAMEWORK&gt; ➝ &lt;REQUESTMAPPING_RULE&gt; 부분에도 설정하는 곳이 있습니다. 안맞을 경우 오류날 수 있으니 확인해야합니다.<br/>
+BMSCTX폴더에 processbuilder_config.xml 파일에서도 &lt;EGOVFRAMEWORK&gt; ➝ &lt;REQUESTMAPPING_RULE&gt; 부분에도 설정하는 곳이 있습니다. 안 맞을 경우 오류날 수 있으니 확인해야합니다.<br/>
 :::
 <!-- -->
 
@@ -596,6 +611,10 @@ BMSCTX폴더에 processbuilder_config.xml 파일에서도 &lt;EGOVFRAMEWORK&gt; 
     <param-value>jsp,java,com,exe,bat,class,java,jsp,html,js,css</param-value> 
   </init-param>
 </servlet>
+<servlet-mapping>
+    <servlet-name>FileUpload</servlet-name>
+    <url-pattern>/FileUpload.fup</url-pattern>
+</servlet-mapping>
 ```
 
 <b class="font20"> 3) spring 설정 </b> <br/>
@@ -738,12 +757,14 @@ Globals.Url=jdbc:mysql://XXX.XXX.XXX.XXX:XXXX/demo?useSSL=false&autoReconnect=tr
 
 - exceldown : 엑셀 파일 업로드시 임시 업로드 파일 위치를 설정합니다.
 
-- db..... : 업무 DB의 Database 정보들을 입력합니다.
+- db..... : Meta DB의 Database 정보들을 입력합니다.
 
 <b class="fontB">[riaView] </b>
 - sysid : Project명을 입력합니다.
 
 - xmlctl : xml 소스가 저장되는 경로입니다.
+
+- db..... : Meta DB의 Database 정보들을 입력합니다.
 
 <style type='text/css'>
   [class*="boxBorder"] { border: 1px solid #bbb; }
