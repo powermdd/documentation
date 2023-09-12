@@ -358,7 +358,7 @@ POWERMDD Build 시 생성되는 소스 위치를 설정합니다. <br/>
 ```
 - <b>&lt;SRCTYPE&gt;</b> : Build 타입을 설정합니다.
 
-- <b>&lt;SRCVERSION&gt;</b> : MyBatis, 전자정부 최신 소스 버전을 설정한다. SRCVERSION이 생략된 경우 기본값은 3버전으로 설정됩니다.
+- <b>&lt;SRCVERSION&gt;</b> : MyBatis, 전자정부 최신 소스 버전을 설정합니다. SRCVERSION이 생략된 경우 기본값은 3버전으로 설정됩니다.
 
 - <b>&lt;DATAACCESS&gt;</b> : iBatis 또는 MyBatis을 설정합니다.
 
@@ -553,7 +553,7 @@ Lib, Class, Css, jsp 등 웹 애플리케이션 실행파일들의 보관 디렉
 <web-app id="WebApp_ID" version="4.0" xmlns="http://xmlns.jcp.org/xml/ns/javaee"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd">
-	<display-name>PowerMDD</display-name>
+	<display-name>DEMO</display-name>
 ```
 
 <span class="font18"> (3) encodingFiter와 View에서 action 처리하는 url-pattern를 설정합니다. </span> <br/>
