@@ -31,7 +31,7 @@ jobs:
         run: npm run docs:build
 
       # please check out the docs of the workflow for more details
-      - name: Deploy
+      - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
