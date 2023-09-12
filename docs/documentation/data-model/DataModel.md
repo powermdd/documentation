@@ -1,7 +1,7 @@
 # ERD Tool
 
 <b style="font-size: 20px">1. Data Model </b><br/>
-Data Model은 Database을 설계하면서 가독성을 높이고 관리가 용이한 ERD을 구현합니다.
+Data Model은 Database을 설계하면서 가독성을 높이고 관리 가 용이한 ERD을 구현합니다.
 <img src="../../.vuepress\public\documentation\data-model\ERDTool\DataModel\DataModel.png" style="position: relative;top: 5px;"> <br/>
 
 <b style="font-size: 20px">2. 화면 구성 </b><br/>
