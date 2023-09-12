@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-c684ff16","path":"/documentation/data-model/DataModel.html","title":"ERD Tool","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1693377708000,"contributors":[{"name":"User","email":"User@example.com","commits":1}]},"filePathRelative":"documentation/data-model/DataModel.md"}');export{t as data};

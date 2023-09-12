@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-392cf91f","path":"/documentation/service-model/setOperator.html","title":"연산자 설정","lang":"ko-KR","frontmatter":{},"headers":[],"git":{"updatedTime":1693808743000,"contributors":[{"name":"User","email":"User@example.com","commits":4}]},"filePathRelative":"documentation/service-model/setOperator.md"}');export{e as data};
