@@ -33,17 +33,21 @@ Was을 시작, 중지, 기타 파일이 있는 디렉토리입니다. 시작, �
 ```
 
 <b class="font20"> 2) POWERMDD 로그인 </b> <br/>
-<span class="font18"> (1) 관리자에게 받은 접속 보안 KEY 파일을 넣습니다. </span> <br/>
-<img src="../.vuepress/public/installation/PowerMddDx/keyfile.png" width="700" height="300">
+<span class="font18"> (1) 바탕화면에 설치된 POWERMDD 프로그램을 더블클릭합니다. </span> <br/>
+<img src="../.vuepress/public/installation/PowerMddDx/powermdd.png" width="100">
 
-<span class="font18"> (2) 바로 로그인 화면으로 변경된 것을 확인할 수 있습니다. </span> <br/>
-<img src="../.vuepress/public/installation/PowerMddDx/loginView.png" width="500" height="380"> 
+<span class="font18"> (2) 해당 Default 프로젝트 ID를 입력 후,  </span><span style="border:1px solid #bbb;border-radius: 4px;padding: 3px;">Init Key File</span> <span class="font18"> 버튼을 클릭하여 관리자에게 받은 접속 보안 KEY 파일을 넣습니다. </span> <br/>
+<div></div>
+<img src="../.vuepress/public/installation/PowerMddDx/keyfile.png" width="400" > <div style="color: #6a8bad;display: inline-block;bottom: 131px;position: relative;"> ▶ </div> <img src="../.vuepress/public/installation/PowerMddDx/init_key_file.png" width="300" > 
 
-<span class="font18"> (3) ID와 암호는 Meat DB에서 ‘PUS01ZT’ 테이블에서 정보를 확인한 후 로그인을 합니다. </span> <br/>
-<img src="../.vuepress/public/installation/Client/login.png" width="500" height="380"> 
+<span class="font18"> (3) 바로 로그인 화면으로 변경된 것을 확인할 수 있습니다. </span> <br/>
+<img src="../.vuepress/public/installation/PowerMddDx/loginView.png" width="500"> 
 
-<span class="font18"> (4) 로그인을 성공했다면 POWERMDD가 정상적으로 설치되었다는 것을 확인할 수 있습니다. </span> <br/>
-<img src="../.vuepress/public/installation/PowerMddDx/powermdd.png" width="500" height="300">
+<span class="font18"> (4) ID와 암호는 Meat DB에서 ‘PUS01ZT’ 테이블에서 정보를 확인한 후 로그인을 합니다. </span> <br/>
+<img src="../.vuepress/public/installation/Client/login.png" width="500"> 
+
+<span class="font18"> (5) 로그인을 성공했다면 POWERMDD가 정상적으로 설치되었다는 것을 확인할 수 있습니다. </span> <br/>
+<img src="../.vuepress/public/installation/PowerMddDx/POWERMDD_HOME.png" width="500">
 
 
 <style type='text/css'>
