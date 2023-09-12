@@ -225,7 +225,7 @@ Meta DB, 업무 DB의 별칭을 입력하는 부분입니다. <br/>
 
 - <b>&lt;DEFAULT_DB&gt;</b> : 업무 DB의 별칭을 설정합니다.
 
-- <b>&lt;TEST_DB&gt;</b> : Service Mode 테스트 시 추가 연결 DB의 별칭을 설정합니다.
+- <b>&lt;TEST_DB&gt;</b> : Service Model 테스트 시 추가 연결 DB의 별칭을 설정합니다.
 
 <b class="font18"> ② &lt;DATAMODEL&gt; </b> <br/>
 POWERMDD 구성요소에 DataModel의 파일들을 저장하는 부분입니다. <br/>
@@ -302,7 +302,7 @@ POWERMDD 기능 요소 중 View Designer의 내역들이 저장되는 경로이�
 :::
 <!-- -->
 <b class="font18"> ⑤ &lt;TEST-EXE&gt; </b> <br/>
-Query Devloper 테스트 시 ROW 크기를 설정합니다. <br/>
+Query Developer 테스트 시 ROW 크기를 설정합니다. <br/>
 ```xml
 <!-- 5. -->
 <TEST-EXE>
@@ -358,7 +358,7 @@ POWERMDD Build 시 생성되는 소스 위치를 설정합니다. <br/>
 ```
 - <b>&lt;SRCTYPE&gt;</b> : Build 타입을 설정합니다.
 
-- <b>&lt;SRCVERSION&gt;</b> : MYBATIS, 전자정부 최신 소스 버전을 설정한다. SRCVERSION이 생략된 경우 기본값은 3버전으로 설정됩니다.
+- <b>&lt;SRCVERSION&gt;</b> : MyBatis, 전자정부 최신 소스 버전을 설정한다. SRCVERSION이 생략된 경우 기본값은 3버전으로 설정됩니다.
 
 - <b>&lt;DATAACCESS&gt;</b> : iBatis 또는 MyBatis을 설정합니다.
 
@@ -448,7 +448,7 @@ POWERMDD 컴파일 시 생성되는 소스 위치를 설정합니다. <br/>
 ```
 
 <span class="font18"> (6) </span><b class="font18">&lt;CONNECTIONS&gt;</b>  <br/>
-&lt;MATADB&gt;, &lt;업무DB&gt; 생성해서 연결정보를 설정합니다.<br/>
+&lt;MetaDB&gt;, &lt;업무DB&gt; 생성해서 연결정보를 설정합니다.<br/>
 ```xml
 <!-- 3. -->
 <CONNECTIONS>
