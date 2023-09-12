@@ -26,8 +26,6 @@ jobs:
           # choose node.js version to use
           node-version: 18
 
-      - name: 
-
       # run build script
       - name: Build VuePress site
         run: npm run docs:build
