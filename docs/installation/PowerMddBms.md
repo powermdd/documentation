@@ -132,7 +132,7 @@ WAS에 탑재되는 Middleware 서버로 다수의 Client(DX)로부터 다양한
 <img src="../.vuepress/public/installation/PowerMddBms/license.png" width="280" height="480">&emsp;&emsp;
 <img src="../.vuepress/public/installation/PowerMddBms/PowerMDD.png" width="280" height="480"><br/>
 
-<b class="font20"> 2) ProcessBuilder.config.xml : BMSCTX 환경파일 세팅 </b> <br/>
+<b class="font20"> 2) ProcessBuilder_config.xml : BMSCTX 환경파일 세팅 </b> <br/>
 
 <span class="font18"> (1) 먼저 BMSCTX 셋팅하기 전에 PMDD 디렉토리 안에 개발에 대한 자바, xml 소스, 여러 가지 파일들 저장할 수 있는 디렉토리를 생성합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/pmdd.png" width="280" height="480"><br/>
