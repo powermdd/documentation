@@ -19,24 +19,24 @@ POWERMDD의 시스템은 다음과 같은 구조로 구성됩니다.
 
 ## 1. POWERMDD.BMS 구성 및 기능
 
-POWERMDD.BMS는 POWERMDD.DX의 요청에 대한 다음과 같은 다양한 기능을 처리합니다.
+: <u>POWERMDD.DX의 요청에 대한 다음과 같은 다양한 기능을 처리합니다.</u>
 
-- <b>서비스 모델에 대한 실시간 테스트 및 결과 제공</b>
-- <b>테스트가 완료된 모델에 대한 자바 소스 자동 생성</b>
-- <b>자바 소스 컴파일 및 Class의 WAS 자동 배포 기능</b>
-- <b>UI화면에 대한 JSP 자동 생성 및 실행</b>
-- <b>개발 관련 작업 리소스에 대한 이력 관리</b>
-- <b>DX의 접근 통제 및 권한 관리</b>
+- 서비스 모델에 대한 실시간 테스트 및 결과 제공
+- 테스트가 완료된 모델에 대한 자바 소스 자동 생성
+- 자바 소스 컴파일 및 Class의 WAS 자동 배포 기능
+- UI화면에 대한 JSP 자동 생성 및 실행
+- 개발 관련 작업 리소스에 대한 이력 관리
+- DX의 접근 통제 및 권한 관리
 
 ## 2. POWERMDD.DX 구성 및 기능
 
-POWERMDD.DX는 사용자(개발자)에게 Application 개발을 위한 아래의 다양한 도구를 제공합니다.
+: <u>사용자(개발자)에게 Application 개발을 위한 아래의 다양한 도구를 제공합니다.</u>
 
-- <b> WAS에서 실행되는 서비스를 개발하는 Service Model </b>
-- <b> 웹 브라우저에서 실행되는 UI 화면을 개발하는 View Designer </b>
-- <b> DB 조작 및 쿼리 작성을 위한 Query Developer </b>
-- <b> 테이블간의 관계를 다이어그램으로 표현하여 DB의 구조를 한눈에 파악하는 Data Model </b>
-- <b> WAS 서버상의 관련된 파일을 처리하는 Server File Manager </b>
+- WAS에서 실행되는 서비스를 개발하는 <b> Service Model </b>
+- 웹 브라우저에서 실행되는 UI 화면을 개발하는 <b> View Designer </b>
+- DB 조작 및 쿼리 작성을 위한 <b>Query Developer </b>
+- 테이블간의 관계를 다이어그램으로 표현하여 DB의 구조를 한눈에 파악하는<b> Data Model </b>
+- WAS 서버상의 관련된 파일을 처리하는 <b> Server File Manager </b>
 
 
 <style type='text/css'>
