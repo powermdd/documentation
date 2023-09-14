@@ -228,7 +228,7 @@ Meta DB, 업무 DB의 별칭을 입력하는 부분입니다. <br/>
 - <b>&lt;TEST_DB&gt;</b> : Service Model 테스트 시 추가 연결 DB의 별칭을 설정합니다.
 
 <b class="font18"> ② &lt;DATAMODEL&gt; </b> <br/>
-POWERMDD 구성요소에 DataModel의 파일들을 저장하는 부분입니다. <br/>
+POWERMDD 구성요소에 Data Model의 파일들을 저장하는 부분입니다. <br/>
 ```xml
 <!-- 2. -->
 <DATAMODEL>
