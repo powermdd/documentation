@@ -134,7 +134,7 @@ WAS에 탑재되는 Middleware 서버로 다수의 Client(DX)로부터 다양한
 
 <b class="font20"> 2) ProcessBuilder_config.xml : BMSCTX 환경파일 세팅 </b> <br/>
 
-<span class="font18"> (1) 먼저 BMSCTX 셋팅하기 전에 PMDD 디렉토리 안에 개발에 대한 자바, xml 소스, 여러 가지 파일들 저장할 수 있는 디렉토리를 생성합니다. </span> <br/>
+<span class="font18"> (1) 먼저 BMSCTX 세팅하기 전에 PMDD 디렉토리 안에 개발에 대한 자바, xml 소스, 여러 가지 파일들 저장할 수 있는 디렉토리를 생성합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/pmdd.png" width="280" height="480"><br/>
 
 <span class="font18"> (2) BMSCTX 디렉토리 안에 PowerMDD 실행환경 파일인 processbuilder_config.xml을 실행합니다. processbuilder_config.xml는 프로젝트, DB 정보, MAC 주소 등 등록하는 파일입니다. </span> <br/>
@@ -219,7 +219,7 @@ Meta DB, 업무 DB의 별칭을 입력하는 부분입니다. <br/>
   <TEST_DB>TESTDB</TEST_DB>                  
 </DB-CONNECTION>
 ```
-- <b>&lt;WASTYPE&gt;</b> : 현재 사용하고 있는 WAS을 설정합니다.
+- <b>&lt;WASTYPE&gt;</b> : 현재 사용하고 있는 WAS를 설정합니다.
 
 - <b>&lt;CONTROL_DB&gt;</b> : Meta DB의 별칭을 설정합니다.
 
@@ -269,7 +269,7 @@ Context 경로나 문자 셋, 화면 IP Port 정보를 설정하는 부분입니
 </UX-DESIGNER>
 ```
 - <b>&lt;UX_ROOT&gt;</b> <br/>
-POWERMDD 기능 요소 중 View Designer의 내역들이 저장되는 경로이다. 만약 저장했던 파일이 깨지거나 저장하기 전으로 돌리고 싶다면 해당 경로로 들어와서 수정할 수 있습니다.
+POWERMDD 기능 요소 중 View Designer의 내역들이 저장되는 경로입니다. 만약 저장했던 파일이 깨지거나 저장하기 전으로 돌리고 싶다면 해당 경로로 들어와서 수정할 수 있습니다.
 
 - <b>&lt;UX_CONTEXT_ROOT&gt;</b> : context 경로입니다.
 
@@ -312,7 +312,7 @@ Query Developer 테스트 시 ROW 크기를 설정합니다. <br/>
 </TEST-EXE>
 ```
 <b class="font18"> ⑥ &lt;BUILD&gt; </b> <br/>
-POWERMDD Build 시 생성되는 소스 위치를 설정합니다. <br/>
+POWERMDD 빌드 시 생성되는 소스 위치를 설정합니다. <br/>
 ```xml
 <!-- 6. -->
 <BUILD>
@@ -356,17 +356,25 @@ POWERMDD Build 시 생성되는 소스 위치를 설정합니다. <br/>
   </EGOVFRAMEWORK>
 </BUILD>
 ```
-- <b>&lt;SRCTYPE&gt;</b> : Build 타입을 설정합니다.
+- <b>&lt;SRCTYPE&gt;</b> : 빌드 타입을 설정합니다.
 
 - <b>&lt;SRCVERSION&gt;</b> : MyBatis, 전자정부 최신 소스 버전을 설정합니다. SRCVERSION이 생략된 경우 기본값은 3버전으로 설정됩니다.
 
-- <b>&lt;DATAACCESS&gt;</b> : iBatis 또는 MyBatis을 설정합니다.
+- <b>&lt;DATAACCESS&gt;</b> : iBatis 또는 MyBatis를 설정합니다.
 
-- <b>&lt;GENLOCATION&gt;, &lt;CURRENTGEN&gt;</b> : Build 시 자바 소스가 저장되는 경로입니다.
+- <b>&lt;GENLOCATION&gt;, &lt;CURRENTGEN&gt;</b> : 빌드 시 자바 소스가 저장되는 경로입니다.
 
-- <b>&lt;SQLLOCATION&gt;</b> : Build 시 xml 소스가 저장되는 경로입니다.
+- <b>&lt;SQLLOCATION&gt;</b> : 빌드 시 xml 소스가 저장되는 경로입니다.
 
-- <b>&lt;RUNNINGCLASS&gt;</b> : Build 시 class파일이 저장되는 경로입니다.
+- <b>&lt;RUNNINGCLASS&gt;</b> : 빌드 시 class파일이 저장되는 경로입니다.
+
+- <b>&lt;HISTORYGEN&gt;</b> : 빌드 시 소스 떨어지는 경로입니다.
+
+- <b>&lt;REQUESTMAPPING_RULE&gt;</b> : 리퀘스트 매핑 네이밍 규칙을 설정합니다.
+
+- <b>&lt;CONTEXT_XML_HOME&gt;</b> : 스프링 xml 경로를 설정합니다.
+
+- <b>&lt;SQL_MAP_ROOT&gt;</b> : sql map 소스가 떨어지는 경로입니다.
 
 - <b>&lt;EBUILD_.....&gt;</b> : MVC 모델 소스 네이밍을 설정합니다.
 
@@ -423,9 +431,9 @@ POWERMDD 컴파일 시 생성되는 소스 위치를 설정합니다. <br/>
   <DELIM>:</DELIM>
 </COMPILE>
 ```
-- <b>&lt;CLASSPATH&gt;</b> : Comfile한 Class Path 정보를 설정합니다.
+- <b>&lt;CLASSPATH&gt;</b> : 컴파일한 Class Path 정보를 설정합니다.
 
-- <b>&lt;LIB&gt;</b> : POWERMDD Builder 시 필요한 jar 파일 참조 경로를 설정합니다.
+- <b>&lt;LIB&gt;</b> : POWERMDD 빌드 시 필요한 jar 파일 참조 경로를 설정합니다.
 
 <span class="font18"> (5) </span><b class="font18">&lt;Common&gt;</b>  <br/>
 ```xml
