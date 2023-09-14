@@ -1,8 +1,7 @@
 # 클라이언트 설치
 
 ## 1. POWERMDD.DX 설치
-POWERMDD.DX Client Setup 파일을 다운로드하고 실행합니다. <br/>
-(재설치 시에는 Windows의 프로그램 추가/삭제에서 삭제하신 후 설치하고 기존에 POWERMDD.DX가 실행되고 있으면 반드시 프로그램 종료 후 설치해야 합니다.)
+POWERMDD.DX 클라이언트 setup 파일을 다운로드하고 실행합니다. <br/>
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -13,37 +12,51 @@ CPU : Intel Pentium 4 이상 <br/>
 
 - <b>설치 전 확인 사항 </b> <br/>
 해당 Tool은 C# .Net 기반으로 구성되어 있다. Windows에 .net Framework이 설치가 있어야 합니다.
+
+- <b>재설치하는 경우 </b> <br/>
+Windows의 프로그램 추가/삭제에서 삭제하신 후 설치하고 기존에 POWERMDD.DX가 실행되고 있으면 반드시 프로그램 종료 후 설치해야 합니다.
 :::
 <!-- -->
 
-<span class="font20"> 1) Setup 실행 </span> <br/>
-<img src="../.vuepress/public/installation/Client/setup.png" width="600" height="380">
+<span class="font20"> 1) setup 파일을 선택하여 실행합니다. </span> <br/>
+<img src="../.vuepress/public/installation/Client/setup.png" width="600">
 
-<span class="font20"> 2) Setup 실행 시 처음 화면 </span> <br/>
-<img src="../.vuepress/public/installation/Client/setupStart.png" width="350" height="330">
+<span class="font20"> 2) setup 파일 실행 시 처음으로 보이는 화면입니다. </span> <span class="spanBtn">다음</span> <span class="font20"> 버튼을 클릭합니다.</span> <br/>
+<img src="../.vuepress/public/installation/Client/setupStart.png" width="350">
 
-<span class="font20"> 3) POWERMDD을 설치할 경로 (권장 사항 : default 설정 사용) </span> <br/>
-<img src="../.vuepress/public/installation/Client/setupPath.png" width="350" height="330">
+<span class="font20"> 3) POWERMDD을 설치할 경로을 확인 후 </span> <span class="spanBtn">다음</span> <span class="font20"> 버튼을 클릭합니다.  </span> <br/>
+<img src="../.vuepress/public/installation/Client/setupPath.png" width="350">
 
-<span class="font20"> 4) Setup 실행할지 확인 요청 </span> <br/>
-<img src="../.vuepress/public/installation/Client/setupNext.png" width="350" height="330">
+<span class="font20"> 4) POWERMDD 설치를 시작하려면 </span> <span class="spanBtn">다음</span> <span class="font20"> 버튼을 클릭합니다. </span> <br/>
+<img src="../.vuepress/public/installation/Client/setupNext.png" width="350">
 
-<span class="font20"> 5) Setup 실행 : PC 사양에 따라 다를 수 있으나 보통은 20~40초 이내 실행 완료됩니다. </span> <br/>
-<img src="../.vuepress/public/installation/Client/setupInstall.png" width="350" height="330">
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+권장 사항 : 기본 경로를 설정하여 사용하는 것이 좋습니다. <br/>
+:::
+<!-- -->
 
-<span class="font20"> 6) Setup 완료 </span> <br/>
-<img src="../.vuepress/public/installation/Client/setupEnd.png" width="350" height="330">
+<span class="font20"> 5) POWERMDD를 설치 중이라며 잠시 기다리라는 메시지 문구가 나옵니다. PC 사양에 따라 다를 수 있으나 보통은  20~40초 이내 실행 완료됩니다. </span> <br/>
+<img src="../.vuepress/public/installation/Client/setupInstall.png" width="350">
+
+<span class="font20"> 6) "POWERMDD를 설치했습니다"라는 메시지가 나오면 </span> <span class="spanBtn">닫기</span> <span class="font20"> 버튼을 클릭하여 설치화면 창을 닫습니다. </span> <br/>
+<img src="../.vuepress/public/installation/Client/setupEnd.png" width="350">
 
 
 ## 2. 설치 후 환경 설정 :  DXDBinit.xml
-Default 설치 시 OS별로 약간의 차이가 있으나 "C:/ProgramFiles/wizware/POWERMDD/”, “C:/Program Files(x86)/wizware/POWERMDD/”아래 존재합니다. 아래 정보들을 확인하고 본인의 개발 환경에 맞게 변경 및 설정할 수 있습니다. <br/>
-(대부분의 개발 경우 관리자가 설정해 주는 DXDBinit.xml 파일을 상기 디렉토리에 저장하면 됩니다.) <br/>
+기본 경로로 설치 시 OS별로 약간의 차이가 있으나 "C:/wizware/POWERMDD/” 안에 존재합니다. 아래 정보들을 확인하고 본인의 개발환경에 맞게 변경 및 설정할 수 있습니다. <br/>
+
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+대부분의 개발 경우 관리자가 설정해 주는 DXDBinit.xml 파일을 상기 디렉토리에 저장하면 됩니다.
+:::
+<!-- -->
 
 <b class="font20"> 1) &lt;LoginInfo&gt; </b> <br/>
-사용자가 Login 시에 최초 Setting 되어야 하는 환경입니다.<br/>
+사용자가 로그인 시 최초 세팅되어야 하는 환경입니다.<br/>
 ```xml
 <LoginInfo>
-	<URL>http://www.processbuilder.co.kr</URL>
+	<URL>http://.../BMSCTX/index.html</URL>
 	<URL1></URL1>
 	<RequestCharset>utf-8</RequestCharset>
 	<ResponseCharset>utf-8</ResponseCharset>
@@ -52,12 +65,17 @@ Default 설치 시 OS별로 약간의 차이가 있으나 "C:/ProgramFiles/wizwa
 ```
 
 <b class="font18"> (1) &lt;URL&gt;, &lt;URL1&gt; </b> <br/>
-Login하면 최초 PowerMDD.DX의 body에 최초 Loading 되는 URL이다. Default 값으로는 www.processbuilder.co.kr로 제품 home page가 loading 됩니다.  <br/>
+로그인하면 최초 POWERMDD.DX의 body에 최초 로딩되는 URL입니다. 기본값으로는 POWERMDD 매뉴얼이 로딩됩니다.  <br/>
 해당 URL을 이용하여 Project Community가 있다면 해당 Community URL로 변경하여 사용하면 편리합니다.
 
 <b class="font18"> (2) &lt;RequestCharset&gt;, &lt;ResponseCharset&gt; </b> <br/>
-POWERMDD.DX와 서버Side의 BMS와 통신 시에 사용되는 Charset으로 Request/ Response 시 사용하는 Charset입니다. <br/>
-Default는 utf-8이며 별도의 다른 Charset 이용 시에는 POWERMDD.BMS의 Config도 동일하게 수정해줘야합니다. <br/>
+POWERMDD.DX와 POWERMDD.BMS를 통신 시에 사용되는 Charset로 Request/Response 시 사용하는 Charset입니다. 기본값으로는 utf-8입니다. <br/>
+
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+다른 Charset 이용 시에는 POWERMDD.BMS의 Config도 동일하게 수정해야 합니다.
+:::
+<!-- -->
 
 <b class="font18"> (3) &lt;Security&gt; </b> <br/>
 Command를 암호화할 것인지 처리하는 태그이다. Default는 YES이며 YES일 경우 암호화 처리가 됩니다.
@@ -226,7 +244,15 @@ Service Model의 INS BOC 또는 UPD BOC 사용할 때만 유효합니다.<br/>
 <UxDesign>
 	<uxTemp>./temp</uxTemp>
 	<uxRoot>./Download</uxRoot>
-	<StyleOff>NO</StyleOff>
+	<styleoff>NO</styleoff>
+	<browser>Chrome</browser>
+	<buildtype>Full</buildtype>
+	<script>Head</script>
+	<height>98vh</height>
+	<width>98vw</width>
+	<class>cls_pbody</class>
+	<sizeoff>YES</sizeoff>
+	<locationoff>YES</locationoff>
 </UxDesign>
 ```
 
@@ -236,7 +262,7 @@ View Designer에서 임시 작업 영역으로 사용할 Folder를 지정합니�
 :::
 <!-- -->
 
-<b class="font20"> 6) &lt;UxDesign&gt; </b> <br/>
+<b class="font20"> 6) &lt;UxComponent&gt; </b> <br/>
 ```xml
 <UxComponent>
 	<ZTree>http://www.treejs.cn/v3/api.php</ZTree>
@@ -269,9 +295,6 @@ POWERMDD의 언어를 설정합니다.
 ```xml
 <SYSTEM>
 	<SYSID>DEMO</SYSID>
-	<SYSID>DTBED</SYSID>
-	<SYSID>EDUSML</SYSID>
-	<SYSID>NITS</SYSID>
 </SYSTEM>
 ```
 
@@ -287,38 +310,39 @@ POWERMDD 재설치 시 사용한 시스템 ID도 초기화되기 때문에 다�
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-관리자에게 요청하기 위해서는 해당 PC의 현재 사용 중인 Network Card의 Mac-Address를 확인 후 관리자에게 Mac-Address 등록 요청도 같이 해야 합니다. POWERMDD.BMS서버에 등록되지 않은 Mac-Address는 접속이 허용되지 않습니다.
+관리자에게 요청하기 위해서는 해당 PC의 현재 사용 중인 Network Card의 Mac-Address를 확인 후 관리자에게 Mac-Address 등록 요청도 같이 해야 합니다. POWERMDD.BMS 서버에 등록되지 않은 Mac-Address는 접속이 허용되지 않습니다.
 :::
 <!-- -->
 
 <span class="font20"> 2) 클라우드 서버에 접속하기 위한 요청 프로세스 </span> <br/>
 
-① 해당 작업자의 PC에서 현재 사용 중인 Network-Card의 Mac-Address 등록을 개발 서버 관리자에게 보냅니다.
+(1) 해당 작업자의 PC에서 현재 사용 중인 Network-Card의 Mac-Address 등록을 개발 서버 관리자에게 보냅니다.
 
-② 접속하기 위한 ID/Password를 개발서버 관리자로부터 받습니다.  
+(2) 접속하기 위한 ID/Password를 개발서버 관리자로부터 받습니다.  
 
-③ 접속 보안 Key를 관리자로부터 받은 후 아래 절차에 따라서 적용한다. 접속 보안 Key는 파일로 구성되어 있습니다.  
+(3) 접속 보안 Key를 관리자로부터 받은 후 아래 절차에 따라서 적용한다. 접속 보안 Key는 파일로 구성되어 있습니다.  
 
 <span class="font20"> 3) POWERMDD 실행화면이 나오지 않을 경우 </span> <br/>
 
-① POWERMDD 프로그램에서 마우스 오른쪽 버튼을 클릭해서 속성을 클릭합니다.<br/>
-<img src="../.vuepress/public/installation/Client/click.png" width="200" height="280">
+(1) POWERMDD 프로그램에서 마우스 오른쪽 버튼을 클릭해서 속성을 클릭하거나 Alt + Enter 눌러서 속성을 실행합니다.<br/>
+<img src="../.vuepress/public/installation/Client/click.png" width="200">
 
-② 속성 창 호환성 탭에 들어가서 관리자 권한으로 이 프로그램 실행 체크 후 확인 버튼을 클릭합니다. 
-<img src="../.vuepress/public/installation/Client/property.png" width="300" height="380"> 
+(2) 속성 창 호환성 탭에 들어가서 관리자 권한으로 이 프로그램 실행 체크 후 확인 버튼을 클릭합니다. 
+<img src="../.vuepress/public/installation/Client/property.png" width="300"> 
 
 <span class="font20"> 4) POWERMDD 로그인 </span> <br/>
-① 설치 완료 후 최초 실행화면입니다. 관리자로부터 받은 접속 보안 key 파일을 선택하면 됩니다.
-<img src="../.vuepress/public/installation/PowerMddDx/keyfile.png" width="700" height="300">
+(1) 설치 완료 후 최초 실행화면입니다. 관리자로부터 받은 접속 보안 key 파일을 선택하면 됩니다.
+<div></div>
+<img src="../.vuepress/public/installation/PowerMddDx/keyfile.png" width="400" > <div style="color: #6a8bad;display: inline-block;bottom: 131px;position: relative;"> ▶ </div> <img src="../.vuepress/public/installation/PowerMddDx/init_key_file.png" width="300" > 
 
-② 관리자로부터 받은 ID/Password를 입력 후 로그인하면 됩니다.
-<img src="../.vuepress/public/installation/Client/login.png" width="500" height="380"> 
+(2) 관리자로부터 받은 ID/Password를 입력 후 로그인하면 됩니다.
+<img src="../.vuepress/public/installation/Client/login.png" width="500"> 
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 프로젝트가 1개 이상일 때 접속 프로젝트를 관리자로부터 확인 후 접속해야 합니다. 해당 ID는 프로젝트에 종속되어있는 ID입니다. <br/>
 N개 이상의 프로젝트에서 작업을 해야 하는 경우 관리자로부터 프로젝트별로 ID 발급을 요청해야 합니다. <br/>
-(프로젝트 ID에 해당 프로젝트 명이 없을 경우 DXDBinit.xml 파일 안에 &lt;SYSTEM&gt;에 프로젝트 명을 추가합니다.)  <br/>
+(프로젝트 ID에 해당 프로젝트명이 없을 때는 DXDBinit.xml 파일 안에 &lt;SYSTEM&gt;에 프로젝트명을 추가합니다.)  <br/>
 :::
 <!-- -->
 
