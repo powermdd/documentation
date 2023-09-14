@@ -1,1 +1,0 @@
-import{_ as n,o as t,c as o,d as e}from"./app-cf3b4bdf.js";const _={},l=e("hr",null,null,-1),s=e("p",null,"Made By :",-1),c=e("hr",null,null,-1),r=e("p",null,"Partner Company :",-1),a=[l,s,c,r];function d(i,u){return t(),o("div",null,a)}const f=n(_,[["render",d],["__file","index.html.vue"]]);export{f as default};
