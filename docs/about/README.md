@@ -56,7 +56,7 @@ POWERMDD는 GUI 기반의 모델을 제공합니다.
 
 - <b> POWERMDD 하나면 개발이 가능합니다. </b>
 
-POWERMDD는 설계부터 테스트까지 개발의 전 영역을 담당합니다. [Data Model](/documentation/documentation/data-model)에서 <b>ERD</b> 를 그릴 수 있습니다. [Service Model](/documentation/documentation/service-model)에서 <b>데이터 처리, 테스트</b>를 하고, [View Designer](/documentation/documentation/view-designer)에서 <b>화면</b>을 그릴 수 있습니다. [Query Developer](/documentation/documentation/query-developer)에서 <b>데이터 검증</b>을 하고 [Server File Manager](/documentation/documentation/server-file-manager)에서 <b>문서와 파일을 관리</b>할 수 있습니다.
+POWERMDD는 설계부터 테스트까지 개발의 전 영역을 담당합니다. [Data Model](/documentation/documentation/data-model)에서 <b>ERD</b> 를 그릴 수 있습니다. [Service Model](/documentation/documentation/service-model)에서 <b>데이터 처리 및 테스트</b>를 하고, [View Designer](/documentation/documentation/view-designer)에서 <b>화면</b>을 그릴 수 있습니다. [Query Developer](/documentation/documentation/query-developer)에서 <b>데이터 검증</b>을 하고 [Server File Manager](/documentation/documentation/server-file-manager)에서 <b>문서와 파일을 관리</b>할 수 있습니다.
 
 - <b> 언제, 어디서든 사용이 가능합니다. </b>
 
