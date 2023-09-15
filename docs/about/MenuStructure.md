@@ -9,7 +9,7 @@ POWERMDD의 메뉴는 다음 6가지 구조로 구성됩니다. <br/>
 <img src="../.vuepress/public/MenuStructure/model.png" class="boxBorder" width="400">
 
 <b class="font20"> 1) Open </b> <br/>
-개발화면을 시작합니다. <br/>
+개발화면 구성을 전체적으로 확인할 수 있고 개발을 시작할 수 있습니다. <br/>
 <img src="../.vuepress/public/MenuStructure/model-open.png" width="600" height="380">
 
 <b class="font20"> 2) Tool Exit </b> <br/>
@@ -61,7 +61,7 @@ Service Model의 BOC(Business Operation Component)에서 데이터베이스 조�
 <img src="../.vuepress/public/MenuStructure/rule-column-dictionary.png" width="600">
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" />
-- Conn. ID와 Schema 둘 중 하나라도 미입력하는 경우 검색이 안된다.
+- Conn. ID와 Schema 둘 중 하나라도 미입력하는 경우 검색이 안됩니다.
 - 물리 테이블 생성 시에 반드시 테이블의 Column Comment가 반드시 등록되어 있어야 합니다. <br/>
 등록하지 않는 Column들은 Model Designer 작업할 때 ‘미정의된 Column이 존재합니다’라는 메시지가 나옵니다.
 :::
@@ -107,7 +107,7 @@ View Designer에서 각 화면의 기본 정보들을 세팅하는 화면입니�
 - <b>Service Model 내에 있는 빌드 기능과의 차이점</b> <br/>
 Service Model 내에 있는 빌드 기능은 서비스 모델을 사용자가 모델링 테스트 등 다양한 기능을 실행하면서 단일 서비스만 빌드가 됩니다. <br/>
 또한 빌드하는 사용자 환경에 로컬 테스트 환경이 On이 되어 있을 시에는 해당 빌드로 생성되는 Resource를 Client로 전송 기능이 동시에 실행이 됩니다. <br/>
-즉, 로컬 테스트 On 상태일 때 build는 소스 생성, 컴파일, 서버 배치, build Resource Client 배치가 수행됨으로 사용자는 자신의 PC 환경으로 테스트가 가능하게 된다. <br/>
+즉, 로컬 테스트 On 상태일 때 build는 소스 생성, 컴파일, 서버 배치, build Resource Client 배치가 수행됨으로 사용자는 자신의 PC 환경으로 테스트가 가능하게 됩니다. <br/>
 그러나 해당 일괄 빌드 기능에서는 로컬 테스트 환경이 On 되어 있어도 빌드 시 build Resource Client 배치가 수행되지 않습니다. <br/>
 대량 서비스 빌드시에는 해당 Resource를 Client에 배치하지 않습니다.<br/>
 :::
@@ -138,7 +138,7 @@ Service Model 또는 View Designer에서 완료 또는 변경 처리를 막고�
 <img src="../.vuepress/public/MenuStructure/users-user-manager.png" width="450">
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" />
-처음 사용 시에는 root 사용자를 이용하여 사용자를 생성하면 된다. 초기 로딩시 기존에 등록이 되어 있는 사용자 목록입니다. 등록할 때는 먼저 <span class="spanBtnG">Clear</span> 버튼을 클릭 후 정보를 입력할 수 있습니다.
+처음 사용 시에는 root 사용자를 이용하여 사용자를 생성하면 됩니다. 초기 로딩시 기존에 등록이 되어 있는 사용자 목록입니다. 등록할 때는 먼저 <span class="spanBtnG">Clear</span> 버튼을 클릭 후 정보를 입력할 수 있습니다.
 :::
 
 <b class="font20"> 2) Authority Manager </b> <br/>
