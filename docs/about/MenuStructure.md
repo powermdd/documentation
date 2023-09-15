@@ -151,14 +151,14 @@ Service Model에서 사용될 권한을 생성 및 변경 관리합니다. <br/>
 View Designer에서 사용될 권한을 생성 및 변경 관리합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager2.png" width="600">
 
-<b class="font18"> (3) Data Manager </b> <br/>
+<b class="font18"> (3) Data Authorization </b> <br/>
 Data 관련한 권한 처리기능입니다. 해당 기능은 데이터베이스의 종류에 따라 지원 여부 확인이 필요합니다.<br/>
 <b class="font18"> ① User Role Grants </b> <br/>
 사용자별 Data에 접근 권한을 할당합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager3.png" width="600">
 
 <b class="font18"> ② Privileges </b> <br/>
-Data에 접근 권한 Role ID를 생성 및 관리합니다. 정의 권한 영역으로 Database Connection, File System접근에 대한 권한을 정의합니다. <br/>
+Data에 접근 권한 Role ID를 생성 및 관리합니다. 정의 권한 영역으로 Database Connection, File System 접근에 대한 권한을 정의합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager4.png" width="600"><br/>
 <b class="fontB">[ DB Connect ]</b> <br/>
 데이터베이스에 연결이 가능한 권한을 설정합니다. Role-ID의 권한을 가진 사용자가 접근이 가능한 데이터베이스 권한을 등록합니다. <br/>
@@ -190,7 +190,7 @@ Default File을 삭제도 가능하나 만일 삭제하게 되면 해당 삭제 
 :::
 
 <b class="font18"> (2) CSS Define </b> <br/>
-View 파일에서 사용할 Class와 그 그룹을 지정하며, 화면작업 창의 옵션을 정의할 수 있습니다. <br/>
+View 파일에서 사용할 Class와 그룹을 지정하며, 화면작업 창의 옵션을 정의할 수 있습니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-view-common-config3.png" width="600"><br/>
 
 <!-- Remark -->
