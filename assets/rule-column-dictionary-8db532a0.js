@@ -1,1 +1,0 @@
-const s="/documentation/assets/rule-package-name-rule-e46c9fab.png",e="/documentation/assets/rule-single-name-rule-0ce9d588.png",a="/documentation/assets/rule-column-dictionary-bd6ad567.png";export{s as _,e as a,a as b};
