@@ -43,7 +43,7 @@ Service Model에서 사용하는 도구상자로 모델링한 내용을 저장�
 <b class="font20"> 4) BOC(Business Operation Component) Control 영역 </b> <br/>
 업무 서비스 내부의 처리 로직을 구성하는 컴포넌트로 모델링 하기 위해 BOC로 배치하거나 흐름을 제어하여 업무처리를 구성합니다.
 
-<b class="font20"> 5) 화면 작업 영역 </b> <br/>
+<b class="font20"> 5) 화면작업 영역 </b> <br/>
 BOC를 이용하여 업무처리 로직을 시각적인 디자인으로 표현하는 디자인 작업 화면입니다.
 
 <b class="font20"> 6) 메시지 영역 </b> <br/>
