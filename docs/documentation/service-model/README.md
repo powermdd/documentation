@@ -53,7 +53,7 @@ BOC를 이용하여 업무처리 로직을 시각적인 디자인으로 표현�
 Service Model에서 사용되는 Element Control을 선택할 때 해당 Element의 속성으로 Element의 특성에 따른 값을 설정할 수 있습니다.
 
 <b class="font20"> 8) 개발 작업 Tool </b> <br/>
-Application Layer별로 개발을 위한 작업 Tab Control입니다.
+Application Layer 별로 개발을 위한 작업 Tab Control입니다.
 
 <style type='text/css'>
   [class*="boxBorder"] { border: 1px solid #bbb; }
