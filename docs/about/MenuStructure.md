@@ -253,7 +253,6 @@ POWERMDD 컴파일 시 생성되는 소스 위치를 설정합니다. <br/>
 <img class="boxBorder" src="../.vuepress/public/MenuStructure/help-Compile.png" width="500"><br/>
 
 <b> ④ Additional Connections </b> <br/>
-해당 Package Name에 설정된 Connection ID로 테스트하는 기능입니다. <br/>
 <img class="boxBorder" src="../.vuepress/public/MenuStructure/help-Additional-Connections.png" width="500"><br/>
 
 <b class="font18"> (2) Connections </b> <br/>
