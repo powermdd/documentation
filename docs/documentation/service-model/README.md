@@ -9,7 +9,7 @@ Service Model은 MDD도구 중 모델을 바로 실시간으로 테스트하고 
 
 이러한 실시간 구현은 다음과 같은 직관적이고 심플한 3단계로 구현됩니다.
 
-<img src="../../.vuepress\public\documentation\service-model\Intro\Service-Model\ServiceModel.png"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/Intro/Service-Model/ServiceModel.png"> <br/>
 
 <b class="font20"> 1) Darg & Drop에 의한 직관적 모델링 </b> <br/>
 (1) 비전문가도 쉽게 업무 Flow 작성이 가능합니다.<br/>
@@ -28,8 +28,8 @@ Service Model은 MDD도구 중 모델을 바로 실시간으로 테스트하고 
 테스트 검증이 완료되면 프로그램 소스 생성 및 컴파일, WAS 상에 배치하는 일련의 작업을 일괄 자동화 처리합니다.
 
 ## 2. 화면 구성
-Service Model 작업 화면은 총 8개 layout으로 구성되어 있습니다.
-<img src="../../.vuepress\public\documentation\service-model\Intro\Screen\ScreenStructure.png"> <br/>
+Service Model 작업 화면은 총 8개 layout으로 구성되어 있습니다. <br/>
+<img src="../../.vuepress/public/documentation/service-model/Intro/Screen/ScreenStructure.png"> <br/>
 
 <b class="font20"> 1) 도구상자 </b> <br/>
 Service Model에서 사용하는 도구상자로 모델링한 내용을 저장하거나 실행 테스트, 빌드 등의 주요 작업 이외에 다양한 기능을 제공하고 있습니다.
