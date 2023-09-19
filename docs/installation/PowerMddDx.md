@@ -3,7 +3,7 @@
 ## 1. WAS 실행
 개발 서버를 수정했으므로 재기동을 해야 POWERMDD가 정상적으로 작동이 됩니다.<br/>
 
-<b class="font20"> 1) bin 파일 </b> <br/>
+<span class="font20">1)</span><b class="font20"> bin 파일 </b> <br/>
 SSH 접속 Tool에 ‘<b>cd</b> <b class="spanEx">Was경로</b><b>/bin</b>’을 입력한다. <br>
 <img src="../.vuepress/public/installation/PowerMddDx/Was.png" width="400" height="40">
 
@@ -13,7 +13,8 @@ Was을 시작, 중지, 기타 파일이 있는 디렉토리입니다. 시작, �
 :::
 <!-- -->
 
-<b class="font20"> 2) WAS 재기동 </b> <br/>
+<span class="font20">2)</span><b class="font20"> WAS 재기동 </b> <br/>
+
 <span class="font18"> (1) WAS가 실행되어 있다면 SSH 접속 Tool에 ‘<b>./shutdown.sh</b>’을 입력해서 WAS을 중지합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddDx/shutdown.png" width="600" height="110">
 
@@ -21,7 +22,9 @@ Was을 시작, 중지, 기타 파일이 있는 디렉토리입니다. 시작, �
 <img src="../.vuepress/public/installation/PowerMddDx/startup.png" width="600" height="110">
 
 ## 2. POWERMDD 실행
-<b class="font20"> 1) Project 등록 </b> <br/>
+
+<span class="font20">1)</span><b class="font20"> Project 등록 </b> <br/>
+
 <span class="font18"> (1) POWERMDD 로그인하기 전에 POWERMDD 설치 경로에 들어가서 DXDBInit.xml 클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddDx/dxdbinit.png" width="600" height="300">
 
@@ -32,7 +35,7 @@ Was을 시작, 중지, 기타 파일이 있는 디렉토리입니다. 시작, �
 </SYSTEM>
 ```
 
-<b class="font20"> 2) POWERMDD 로그인 </b> <br/>
+<span class="font20">2)</span><b class="font20"> POWERMDD 로그인 </b> <br/>
 <span class="font18"> (1) 바탕화면에 설치된 POWERMDD 프로그램을 더블클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddDx/powermdd.png" width="100">
 
