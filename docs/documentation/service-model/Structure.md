@@ -235,7 +235,7 @@ BOC 내의 Column을 펼치기/닫기 기능을 제공합니다.<br>
 삭제하고자 하는 업무 메뉴를 선택한 후 삭제하면 됩니다.
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-삭제 처리 시 삭제된 서비스 모델은 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/recycle.png" style="width:20px;"> (Recycle)로 이동됩니다. 사용자 실수로 서비스 삭제 시에는 휴지통으로 이동한 후 해당 서비스를 복원 처리하면 됩니다.
+삭제 처리 시 삭제된 서비스 모델은 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/recycle.png" style="width:20px;"> (recycle)로 이동됩니다. 사용자 실수로 서비스 삭제 시에는 휴지통으로 이동한 후 해당 서비스를 복원 처리하면 됩니다.
 :::
 <!-- -->
 
@@ -320,7 +320,7 @@ Return Type이 Jsp인 서비스를 소유한 Class일 때 선택적으로 사용
  삭제 버튼과 똑같이 삭제하고자 하는 업무 서비스를 선택한 후 오른쪽 마우스를 클릭하면 Context Menu가 활성화됩니다. 활성화된 메뉴에서 영구삭제를 선택하면 됩니다. 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-영구삭제 시에는 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/recycle.png" style="width:20px;"> (Recycle)에서 복원이 불가능합니다.
+영구삭제 시에는 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/recycle.png" style="width:20px;"> (recycle)에서 복원이 불가능합니다.
 :::
 <!-- -->
 <b style="font-size: 18px"> ③ Pex복사</b> <br/>
@@ -362,7 +362,7 @@ YES로 설정한 개발자가 NO로 변경하지 않아도 Lock은 최대 하루
 
 <b class="font18">(3) CLASS정보</b> <br/>
 <b class="font18"> ① PACKAGE명</b> <br/>
-&lt;SYSID&gt;는 별도로 해당 프로젝트명을 설정할 경우 &lt;SYSID&gt; 태그 안에 해당 프로젝트명을 넣어 설정하고 그 이외에는 &lt;DEFAULT&gt;로 설정됩니다.
+&lt;SYSID&gt;는 별도로 해당 프로젝트명을 설정하는 경우 &lt;SYSID&gt; 태그 안에 해당 프로젝트명을 넣어 설정하고 그 이외에는 &lt;DEFAULT&gt;로 설정됩니다.
 
 <b class="font18"> ② CLASS명</b> <br/>
 메소드를 분류할 수 있도록 클래스를 입력합니다.
@@ -374,7 +374,7 @@ YES로 설정한 개발자가 NO로 변경하지 않아도 Lock은 최대 하루
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 - 메뉴에서 CLASS 정보들을 미리 입력하는 경우 추가된 서비스 속성 창에 CLASS 정보들이 자동으로 입력됩니다.
 
-- 해당 정보는 해당 Node의 Child Node가 서비스일 때 유효하며, 프레임워크 특성상 메뉴별 클래스 명은 중복되면 안 됩니다.
+- 해당 정보는 서비스일 때 유효하며, 프레임워크 특성상 메뉴별 클래스 명은 중복되면 안 됩니다.
 :::
 <!-- -->
 
@@ -389,7 +389,7 @@ Return Type이 JSP일 때 해당 JSP의 파일명을 입력합니다.
 <b class="font18">(5) 처리유형</b> <br/>
 해당 서비스의 출력유형이 JSP일 때 설정이 되어 있는 JSP 파일로 처리 결과를 Forwarding합니다. <br/>
 <b class="font18"> ① APPL유형</b> <br/>
-기본 값은 Online입니다.<br/>
+기본값은 Online입니다.<br/>
 Spring + ( Ibatis, Mybatis) 형식에서는 적용되지 않습니다. WizframeWork 사용 시 해당 기능이 유효합니다.
 
 <b class="font18"> ② 출력유형</b> <br/>
@@ -406,7 +406,6 @@ Online 화면일 때 서비스 처리 후 결과를 Forward 하는 방식을 정
 
 <b class="font18">(7) Test정보</b> <br/>
 <b class="font18"> ① TEST DB</b> <br/>
-
 개발 시 개발 DB와 운영 DB가 다를 경우 운영 DB를 등록하여 테스트를 할 수 있습니다.
 
 ## 3. 화면 메뉴 검색
