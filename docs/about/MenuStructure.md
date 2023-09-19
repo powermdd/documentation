@@ -8,18 +8,18 @@ POWERMDD의 메뉴는 다음 6가지 구조로 구성됩니다. <br/>
 모델링을 시작하기 위한 화면을 실행하거나, POWERMDD를 종료하는 메뉴입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/model.png" class="boxBorder" width="400">
 
-<b class="font20"> 1) Open </b> <br/>
+<span class="font20">1)</span><b class="font20"> Open </b> <br/>
 개발화면 구성을 전체적으로 확인할 수 있고 개발을 시작할 수 있습니다. <br/>
 <img src="../.vuepress/public/MenuStructure/model-open.png" width="600" height="380">
 
-<b class="font20"> 2) Tool Exit </b> <br/>
+<span class="font20">2)</span><b class="font20"> Tool Exit </b> <br/>
 POWERMDD를 종료합니다. <br/>
 
 ## 2. Project
 Package나 Class, Database 등 Name 규칙을 설정하는 메뉴입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/rule.png" class="boxBorder" width="400">
 
-<b class="font20"> 1) Package Name Rule </b> <br/>
+<span class="font20">1)</span><b class="font20"> Package Name Rule </b> <br/>
 Java의 Package Name 규칙을 등록하는 역할을 합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/rule-package-name-rule.png" width="400">
 <!-- Remark -->
@@ -34,7 +34,7 @@ Java의 Package Name 규칙을 등록하는 역할을 합니다. <br/>
 - 주의사항 : 잘못하면 오류메시지가 뜹니다.
 :::
 
-<b class="font20"> 2) Single Name Rule </b> <br/>
+<span class="font20">2)</span><b class="font20"> Single Name Rule </b> <br/>
 Java의 Class Name Rule과 Method Name Rule을 지정할 수 있습니다.
 지정 방법은 접두어와 접미어를 정의하여 해당 규칙이 허용되는 명칭만 사용 가능합니다.
 <img src="../.vuepress/public/MenuStructure/rule-single-name-rule.png" width="400">
@@ -43,7 +43,7 @@ Java의 Class Name Rule과 Method Name Rule을 지정할 수 있습니다.
 해당 접두어, 접미어를 모두 허용 시 “*” 를 지정하면 됩니다.
 :::
 
-<b class="font20"> 3) Database Connection </b> <br/>
+<span class="font20">3)</span><b class="font20"> Database Connection </b> <br/>
 업무에서 사용될 Database의 Name을 등록, 관리합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/rule-database-connection.png" width="300">
 
@@ -53,12 +53,12 @@ Java의 Class Name Rule과 Method Name Rule을 지정할 수 있습니다.
 POWERMDD.DX에서 서버가 정의 되어 있는 Database Resource 중 해당 프로젝트에서 사용될 Name 정보만 등록하면 됩니다. 등록된 이름은 Query Developer와 Service Model 그리고 Data Model 중 기본 데이터베이스가 아닌 별도의 데이터베이스 지정이 필요할 때 사용됩니다. <br/>
 :::
 
-<b class="font20"> 4) Database Schema </b> <br/>
+<span class="font20">4)</span><b class="font20"> Database Schema </b> <br/>
 Service Model의 BOC(Business Operation Component)에서 데이터베이스 조작 시 사용되는 스키마 정보를 설정합니다. <br/>
 사용자 편의성을 높여주고 사용자로부터 오입력 및 잘못된 값의 할당을 줄여주는 기능입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/rule-database-schema.png" width="280">
 
-<b class="font20"> 5) Column Dictionary </b> <br/>
+<span class="font20">5)</span><b class="font20"> Column Dictionary </b> <br/>
 모델에서 가장 많이 사용될 Data Dictionary를 Database Table로부터 추출하여 사용자가 쉽게 등록할 수 있도록 도와주는 유틸리티 기능을 제공합니다. <br/>
 최초 데이터 설계가 종료되고 데이터베이스의 물리 테이블이 생성된 후 해당 기능을 사용할 수 있습니다. <br/>
 <img src="../.vuepress/public/MenuStructure/rule-column-dictionary.png" width="600">
@@ -69,13 +69,13 @@ Service Model의 BOC(Business Operation Component)에서 데이터베이스 조�
 등록하지 않는 Column들은 Model Designer 작업할 때 ‘미정의된 Column이 존재합니다’라는 메시지가 나옵니다.
 :::
 
-<b class="font20"> 6) settings </b> <br/>
+<span class="font20">6)</span><b class="font20"> settings </b> <br/>
 POWERMDD 설치된 폴더 안에 DXDBInit 파일에 대한 정보 또는 해당 프로젝트에 대한 정보를 세팅하는 화면입니다. <br/>
 
-<b class="font18"> (1) Local Options </b> <br/>
+<span class="font18">(1)</span><b class="font18"> Local Options </b> <br/>
 POWERMDD 설치된 폴더 안에 DXDBInit 파일에 대한 정보를 세팅합니다. <br/>
 
-<b class="font18"> ① Properties </b> <br/>
+<span class="font18">①</span><b class="font18"> Properties </b> <br/>
 POWERMDD.DX에서 작업할 프로젝트 관리 및 첫 화면에 로딩되는 URL 등을 세팅합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/settings-Properties.png" width="500"><br/>
 <!-- Remark -->
@@ -83,16 +83,16 @@ POWERMDD.DX에서 작업할 프로젝트 관리 및 첫 화면에 로딩되는 U
 다른 Charset 이용 시에는 POWERMDD.BMS의 Config도 동일하게 수정해야 합니다.
 :::
 
-<b class="font18"> ② Resource </b> <br/>
+<span class="font18">②</span><b class="font18"> Resource </b> <br/>
 Service Model에서 개발 시 사용되는 정보들을 전체 프로젝트에 세팅하거나 또는 프로젝트 ID을 선택하여 선택한 프로젝트 ID에 대한 정보를 세팅합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/settings-Resource.png" width="500"><br/>
 
-<b class="font18"> (2) Database </b> <br/>
+<span class="font18">(2)</span><b class="font18"> Database </b> <br/>
 현재 POWERMDD에 연결된 DB 정보를 조회할 수 있는 쿼리를 관리할 수 있는 화면입니다. <br/>
 <span class="spanEx"> Ex) Tabel > Table List에 있는 쿼리는 Query Developer에서 테이블 목록을 조회하는 쿼리로 사용됩니다. </span><br/>
 <img src="../.vuepress/public/MenuStructure/settings-Database.png" width="500"><br/>
 
-<b class="font18"> (3) View Designer </b> <br/>
+<span class="font18">(3)</span><b class="font18"> View Designer </b> <br/>
 View Designer에서 각 화면의 기본 정보들을 세팅하는 화면입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/settings-View-Designer.png" width="500"><br/>
 
@@ -100,7 +100,7 @@ View Designer에서 각 화면의 기본 정보들을 세팅하는 화면입니�
 메뉴 빌드 및 복사 변경, 구성 변경 등 여러 tool을 제공하는 메뉴입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/tools.png" class="boxBorder" width="400">
 
-<b class="font20"> 1) Build </b> <br/>
+<span class="font20">1)</span><b class="font20"> Build </b> <br/>
 소스 빌드 시 여러 개의 서비스를 동시에 빌드를 처리해주는 기능입니다. 
 <img src="../.vuepress/public/MenuStructure/tools-build.png" width="600">
 <!-- Remark -->
@@ -117,7 +117,7 @@ Service Model 내에 있는 빌드 기능은 서비스 모델을 사용자가 �
 대량 서비스 빌드 시에는 해당 Resource를 클라이언트에 배치하지 않습니다.<br/>
 :::
 
-<b class="font20"> 2) Menu Rebuild </b> <br/>
+<span class="font20">2)</span><b class="font20"> Menu Rebuild </b> <br/>
 메뉴 구성을 변경 또는 재구성 시 사용하는 기능으로 메뉴의 복사 및 메뉴의 이동을 처리할 수 있습니다. <br/>
 <img src="../.vuepress/public/MenuStructure/tools-menu-rebuild.png" width="400">
 <!-- Remark -->
@@ -130,7 +130,7 @@ Service Model 내에 있는 빌드 기능은 서비스 모델을 사용자가 �
 :::
 
 
-<b class="font20"> 3) ReadOnly Setting </b> <br/>
+<span class="font20">3)</span><b class="font20"> ReadOnly Setting </b> <br/>
 Service Model 또는 View Designer에서 완료 또는 변경 처리를 막고자 할 때 사용되는 기능입니다.
 <img src="../.vuepress/public/MenuStructure/tools-readonly-setting.png" width="300">
 
@@ -138,7 +138,7 @@ Service Model 또는 View Designer에서 완료 또는 변경 처리를 막고�
 해당 프로젝트의 사용자 관리, 사용자 권한 등을 관리하고, View Designer에서 사용할 공통 Resource를 관리하는 메뉴입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users.png" class="boxBorder" width="475">
 
-<b class="font20"> 1) User Manager </b> <br/>
+<span class="font20">1)</span><b class="font20"> User Manager </b> <br/>
 해당 프로젝트의 사용자의 기본 정보 및 권한 ID를 할당해주는 기능을 제공합니다. 사용자 관리기능을 사용하기 위해서는 관리자 권한이 있어야 가능합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-user-manager.png" width="450">
 <!-- Remark -->
@@ -146,25 +146,25 @@ Service Model 또는 View Designer에서 완료 또는 변경 처리를 막고�
 처음 사용 시에는 root 사용자를 이용하여 사용자를 생성하면 됩니다. 초기 로딩시 기존에 등록이 되어 있는 사용자 목록입니다. 등록할 때는 먼저 <span class="spanBtnGS">Clear</span> 버튼을 클릭 후 정보를 입력할 수 있습니다.
 :::
 
-<b class="font20"> 2) Authority Manager </b> <br/>
+<span class="font20">2)</span><b class="font20"> Authority Manager </b> <br/>
 해당 프로젝트에 대한 각 Category별로 접근 권한을 생성하여 해당 권한을 사용자에게 할당함으로 사용자의 권한을 정의할 수 있다. <br/>
 
-<b class="font18"> (1) Service Manager </b> <br/>
+<span class="font18">(1)</span><b class="font18"> Service Manager </b> <br/>
 Service Model에서 사용될 권한을 생성 및 변경 관리합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager.png" width="600">
 
-<b class="font18"> (2) View Manager </b> <br/>
+<span class="font18">(2)</span><b class="font18"> View Manager </b> <br/>
 View Designer에서 사용될 권한을 생성 및 변경 관리합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager2.png" width="600">
 
-<b class="font18"> (3) Data Authorization </b> <br/>
+<span class="font18">(3)</span><b class="font18"> Data Authorization </b> <br/>
 데이터 관련한 권한 처리기능입니다. 해당 기능은 데이터베이스의 종류에 따라 지원 여부 확인이 필요합니다.<br/>
 
-<b class="font18"> ① User Role Grants </b> <br/>
+<span class="font18">①</span><b class="font18"> User Role Grants </b> <br/>
 사용자별 데이터에 접근 권한을 할당합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager3.png" width="600">
 
-<b class="font18"> ② Privileges </b> <br/>
+<span class="font18">②</span><b class="font18"> Privileges </b> <br/>
 데이터에 접근 권한 Role ID를 생성 및 관리합니다. 정의 권한 영역으로 Database Connection, File System 접근에 대한 권한을 정의합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager4.png" width="600"><br/>
 
@@ -177,18 +177,18 @@ Connect List는 해당 Project에 등록되어 있는 Connect List이며 Connect
 Server File Manager에서 사용될 File System의 Node 정의 및 정의된 Node 정보를 권한에 할당해주는 기능을 제공합니다. <br/>
 <img class="boxBorder" src="../.vuepress/public/MenuStructure/users-authority-manager6.png" width="500"><br/>
 
-<b class="font20"> 3) View Common Config </b> <br/>
+<span class="font20">3)</span><b class="font20"> View Common Config </b> <br/>
 View Common Config는 View Designer에서 사용하는 공통 Resource를 정의하여 사용할 수 있도록 지원해주는 기능을 제공합니다. <br/>
 공통 Script, 공통으로 사용하는 Style을 등록하여 사용할 수 있도록 지원해줍니다.  <br/>
 
-<b class="font18"> (1) Common File </b> <br/>
+<span class="font18">(1)</span><b class="font18"> Common File </b> <br/>
 UI(View)에서 사용될 공통 js 파일 또는 css 파일을 등록합니다. <br/>
 
-<b class="font18"> ① JS Files </b> <br/>
+<span class="font18">①</span><b class="font18"> JS Files </b> <br/>
 UI(View)에서 사용될 공통 js 파일을 등록합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-view-common-config.png"  width="600">
 
-<b class="font18"> ② CSS Files </b> <br/>
+<span class="font18">②</span><b class="font18"> CSS Files </b> <br/>
 UI(View)에서 사용될 공통 css 파일을 등록합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-view-common-config2.png" width="600"><br/>
 
@@ -199,11 +199,11 @@ Default File을 삭제도 가능하나 만일 삭제하게 되면 해당 삭제 
 정의된 js, css 파일은 View Designer에서 빌드 처리 시 Html의 Head 부에 사용하는 js, css로 추가됩니다. <br/>
 :::
 
-<b class="font18"> (2) CSS Define </b> <br/>
+<span class="font18">(2)</span><b class="font18"> CSS Define </b> <br/>
 View 파일에서 사용할 Class와 그룹을 지정하며, 화면작업 창의 옵션을 정의할 수 있습니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-view-common-config3.png" width="600"><br/>
 
-<b class="font18"> (3) Control-CSS </b> <br/>
+<span class="font18">(3)</span><b class="font18"> Control-CSS </b> <br/>
 View Designer에서 사용하는 UI(Element)에 대한 Default Style 또는 CSS를 정의하여 사용합니다. <br/>
 Default 정의 시 해당 Element 생성 시 해당 CSS, Style이 Default로 설정됩니다.<br/>
 <img src="../.vuepress/public/MenuStructure/users-view-common-config4.png" width="600"><br/>
@@ -213,7 +213,7 @@ Default 정의 시 해당 Element 생성 시 해당 CSS, Style이 Default로 설
 현재 로그인 정보를 관리하는 메뉴입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/myinfo.png" class="boxBorder" width="470">
 
-<b class="font20"> 1) Password </b> <br/>
+<span class="font20">1)</span><b class="font20"> Password </b> <br/>
 Password는 현재 로그인 한 유저의 비밀번호를 변경하는 기능입니다.
 <img src="../.vuepress/public/MenuStructure/myinfo-password.png" width="300">
 
@@ -221,49 +221,49 @@ Password는 현재 로그인 한 유저의 비밀번호를 변경하는 기능�
 POWERMDD 제품 정보 및 언어설정을 관리하는 메뉴입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/help.png" class="boxBorder" width="648">
 
-<b class="font20"> 1) about POWERMDD </b> <br/>
+<span class="font20">1)</span><b class="font20"> about POWERMDD </b> <br/>
 제품의 기본 정보와 접속 정보를 확인할 수 있습니다. <br/>
 <img src="../.vuepress/public/MenuStructure/help-about-powermdd.png" width="400">
 
-<b class="font20"> 2) Development Center </b> <br/>
+<span class="font20">2)</span><b class="font20"> Development Center </b> <br/>
 POWERMDD 로그인 시 최초로 실행되는 화면을 Close 했을 경우 다시 실행할 수 있습니다.
 <img src="../.vuepress/public/installation/PowerMddDx/POWERMDD_HOME.png" width="500">
 
-<b class="font20"> 3) Function </b> <br/>
+<span class="font20">3)</span><b class="font20"> Function </b> <br/>
 View Designer에서 주로 사용하는 Function들을 등록할 수 있습니다.
 <img src="../.vuepress/public/MenuStructure/help-function.png" width="500"><br/>
 
-<b class="font20"> 4) Multilingual </b> <br/>
+<span class="font20">4)</span><b class="font20"> Multilingual </b> <br/>
 제품의 다국어 처리를 위한 Language Code Table 관리입니다. Language 기능의 Admin 기능을 True로 줄 때 메뉴가 활성 됩니다. 제공되는 국가별로 지원하는 언어의 종류는 차이가 있을 수 있습니다. Code 종류는 6가지로 분류되어 있습니다. <br/>
 <img src="../.vuepress/public/MenuStructure/help-multilang.png" width="500"><br/>
 
-<b class="font20"> 5) Server Configuration </b> <br/>
+<span class="font20">5)</span><b class="font20"> Server Configuration </b> <br/>
 POWERMDD.BMS에 있는 processbuilder_config 파일에 대한 정보를 세팅하는 기능입니다. <br/>
 
-<b class="font18"> (1) Pojects </b> <br/>
+<span class="font18">(1)</span><b class="font18"> Pojects </b> <br/>
 서버에 등록되어 있는 각 프로젝트 별로 정보들을 세팅하는 기능입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/help-Pojects.png" width="600"><br/>
 
-<b> ① UX-Designer </b> <br/>
+<span class="font18">①</span><b class="font18"> UX-Designer </b> <br/>
 View Designer의 내역들이 저장되는 경로입니다. <br/>
 <img class="boxBorder" src="../.vuepress/public/MenuStructure/help-UX-Designe.png" width="500">
 
-<b> ② Java Build </b> <br/>
+<span class="font18">②</span><b class="font18"> Java Build </b> <br/>
 POWERMDD 빌드 시 생성되는 소스 위치를 설정합니다. <br/>
 <img class="boxBorder" src="../.vuepress/public/MenuStructure/help-Java-Build.png" width="500"><br/>
 
-<b> ③ Compile </b> <br/>
+<span class="font18">③</span><b class="font18"> Compile </b> <br/>
 POWERMDD 컴파일 시 생성되는 소스 위치를 설정합니다. <br/>
 <img class="boxBorder" src="../.vuepress/public/MenuStructure/help-Compile.png" width="500"><br/>
 
-<b> ④ Additional Connections </b> <br/>
+<span class="font18">④</span><b class="font18"> Additional Connections </b> <br/>
 <img class="boxBorder" src="../.vuepress/public/MenuStructure/help-Additional-Connections.png" width="500"><br/>
 
-<b class="font18"> (2) Connections </b> <br/>
+<span class="font18">(2)</span><b class="font18"> Connections </b> <br/>
 서버에 등록되어 있는 Connections와 database에 관련된 설정을 세팅하는 기능입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/help-Connections.png" width="600"><br/>
 
-<b class="font18"> (3) Clients (MAC) </b> <br/>
+<span class="font18">(3)</span><b class="font18"> Clients (MAC) </b> <br/>
 POWERMDD.DX를 사용자가 로그인할 수 있도록 MAC 정보를 설정합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/help-Clients.png" width="600"><br/>
 
