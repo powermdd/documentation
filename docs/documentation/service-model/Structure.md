@@ -35,7 +35,7 @@ Service Model 작업한 모델링을 bmp 파일 형식의 이미지로 Dump 하�
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Test_NotCommit.png" width="25"> 버튼과 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/TestExecute.png" width="25"> 버튼의 차이점<br/>
+<img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Test_NotCommit.png" width="25"> 버튼과 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/TestExecute.png" width="25"> 버튼의 차이점<br/>
 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Test_NotCommit.png" width="25"> : 테스트 Debugging으로 해당 서비스를 실행하지만 데이터에는 반영하지 않습니다.<br/>
 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/TestExecute.png" width="25" > : 테스트 Debugging으로 해당 서비스를 실행하고 결과를 데이터베이스에 반영합니다.
 :::
