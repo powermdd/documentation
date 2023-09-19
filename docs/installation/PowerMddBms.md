@@ -9,32 +9,35 @@
 <!-- -->
 
 ## 1. LicenseKey 디렉토리 : license.txt, PowerMDD_1.1.jar, key파일
-<b class="font20"> 1) Hostname </b> <br/>
+<span class="font20">1)</span><b class="font20"> Hostname </b> <br/>
 SSH 접속 Tool에  ‘<b>hostname</b>’ 을 입력하여 Hostname명을 확인합니다. <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/Hostname.png" width="400" height="40">
 
-<b class="font20"> 2) IP주소 </b> <br/>
+<span class="font20">2)</span><b class="font20"> IP주소 </b> <br/>
 SSH 접속 Tool에 ‘<b>ping</b> <b class="spanEx">hostname명</b>’ 입력하여 IP를 확인합니다. <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/IPAdress.png" width="600" height="130">
 
-<b class="font20"> 3) WAS Port (Tomcat 사용) </b> <br/>
+<span class="font20">3)</span><b class="font20"> WAS Port (Tomcat 사용) </b> <br/>
 WAS가 설치된 경로에 server.xml 파일을 열어서 Port을 확인할 수 있습니다. <br/>
+
 <span class="font18"> ① SSH 접속 Tool에 vi 명령어로 port번호를 확인할 수 있는 파일을 엽니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/viCmd.png" width="400" height="25">
 
 <span class="font18"> ② 해당 파일을 열고 port번호를 확인합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/portCmd.png" width="400" height="50">
 
-<b class="font20"> 4) LicenseKey 디렉토리 </b> <br/>
+<span class="font20">4)</span><b class="font20"> LicenseKey 디렉토리 </b> <br/>
 관리자에게 가 – 다 의 정보를 보내면 License를 받을 수 있습니다. <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/LicenseKey.png" width="600" height="300">
 
 ## 2. Meta DB 파일
 POWERMDD의 데이터베이스는 Meta DB, 업무 DB 2가지 종류가 있습니다. <br/>
 
-<b class="font20"> 1) Meta DB 세팅</b>(PostgreSQL 사용) <br/>
+<span class="font20">1)</span><b class="font20"> Meta DB 세팅</b>(PostgreSQL 사용) <br/>
 POWERMDD 서버에 있는 모든 정보 체계를 저장하고 있는 데이터베이스입니다. <br/>
-<b class="font18"> (1) User 계정 생성 </b>  <span span class="spanEx2">Ex) 계정 : democtl</span> <br/>
+
+<span class="font18">(1)</span><b class="font18"> User 계정 생성 </b>  <span span class="spanEx2">Ex) 계정 : democtl</span> <br/>
+
 <span class="font18"> ① 계정 생성 전에 모든 권한이 설정된 계정으로 로그인합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_User.png" width="400" height="50"><br/>
 
@@ -67,7 +70,8 @@ POWERMDD 서버에 있는 모든 정보 체계를 저장하고 있는 데이터�
 <span class="font18"> ⑥ 데이터베이스 목록을 조회하여 잘 생성되었는지 확인합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_databaseList.png" width="600" height="230"><br/>
 
-<b class="font18"> (2) 데이터베이스 세팅 </b> <br/>
+<span class="font18">(2)</span><b class="font18"> 데이터베이스 세팅 </b> <br/>
+
 <span class="font18"> ① 데이터베이스 Tool(TablePlus 사용)을 이용해서 Meta DB에 접속합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_databaseTool.png" width="400" height="410"><br/>
 
@@ -85,9 +89,11 @@ insert하기 전에 SYSID, GROUPID 컬럼에 들어갈 값을 PROJECT명으로 �
 <!-- -->
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_databaseData.png" width="600" height="400"><br/>
 
-<b class="font20"> 2) 업무 DB 세팅</b>(MySQL 사용) <br/>
+<span class="font20">2)</span><b class="font20"> 업무 DB 세팅</b>(MySQL 사용) <br/>
 해당 업무 서버에 있는 모든 정보 체계를 저장하고 있는 데이터베이스입니다. <br/>
-<b class="font18"> (1) User 계정 생성 </b> <span span class="spanEx2">Ex) 계정 : demo</span> <br/>
+
+<span class="font18">(1)</span><b class="font18"> User 계정 생성 </b> <span span class="spanEx2">Ex) 계정 : demo</span> <br/>
+
 <span class="font18"> ① 업무 DB 세팅할 데이터베이스에 접속합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/dB_database.png" width="500" height="230"><br/>
 
@@ -119,7 +125,7 @@ insert하기 전에 SYSID, GROUPID 컬럼에 들어갈 값을 PROJECT명으로 �
 ## 3. BMSCTX 디렉토리
 WAS에 탑재되는 Middleware 서버로 다수의 Client(DX)로부터 다양한 요청에 대하여 필요한 기능을 제공합니다.
 
-<b class="font20"> 1) BMSCTX : CONTEXT 구성 </b> <br/>
+<span class="font20">1)</span><b class="font20"> BMSCTX : CONTEXT 구성 </b> <br/>
 
 <span class="font18"> (1) POWERMDD을 실행할 파일들이 들어있는 BMSCTX 디렉토리를 WAS 설치 경로에 세팅합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/BMSCTX.png" width="280" height="480"><br/>
@@ -132,7 +138,7 @@ WAS에 탑재되는 Middleware 서버로 다수의 Client(DX)로부터 다양한
 <img src="../.vuepress/public/installation/PowerMddBms/license.png" width="280" height="480">&emsp;&emsp;
 <img src="../.vuepress/public/installation/PowerMddBms/PowerMDD.png" width="280" height="480"><br/>
 
-<b class="font20"> 2) ProcessBuilder_config.xml : BMSCTX 환경파일 세팅 </b> <br/>
+<span class="font20">2)</span><b class="font20"> ProcessBuilder_config.xml : BMSCTX 환경파일 세팅 </b> <br/>
 
 <span class="font18"> (1) 먼저 BMSCTX 세팅하기 전에 PMDD 디렉토리 안에 개발에 대한 자바, xml 소스, 여러 가지 파일들 저장할 수 있는 디렉토리를 생성합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/pmdd.png" width="280" height="480"><br/>
@@ -158,15 +164,15 @@ WAS에 탑재되는 Middleware 서버로 다수의 Client(DX)로부터 다양한
 </Processbuilder>
 ```
 
-<b class="font18"> ① &lt;Project&gt; </b> <br/>
+<span class="font18">①</span><b class="font18"> &lt;Project&gt; </b> <br/>
 개발할 프로젝트들을 등록하는 부분입니다.
 
-<b class="font18"> ② &lt;Common&gt; </b> <br/>
+<span class="font18">②</span><b class="font18"> &lt;Common&gt; </b> <br/>
 
-<b class="font18"> ③ &lt;CONNECTION&gt;</b> <br/>
+<span class="font18">③</span><b class="font18"> &lt;CONNECTION&gt;</b> <br/>
 Meta DB, 업무 DB 연결 정보를 설정하는 부분입니다.
 
-<b class="font18"> ④ &lt;MAC&gt; </b> <br/>
+<span class="font18">④</span><b class="font18"> &lt;MAC&gt; </b> <br/>
 POWERMDD을 사용할 사용자 MAC 주소를 입력하는 부분입니다.
 
 <!-- Remark -->
@@ -208,7 +214,7 @@ MAC 주소를 등록하지 않고 POWERMDD 로그인을 하면 MAC 주소를 등
 </Projects>
 ```
 
-<b class="font18"> ① &lt;DB-CONNECTION&gt; </b> <br/>
+<span class="font18">①</span><b class="font18"> &lt;DB-CONNECTION&gt; </b> <br/>
 Meta DB, 업무 DB의 별칭을 입력하는 부분입니다. <br/>
 ```xml
 <!-- 1. -->
@@ -227,7 +233,7 @@ Meta DB, 업무 DB의 별칭을 입력하는 부분입니다. <br/>
 
 - <b>&lt;TEST_DB&gt;</b> : Service Model 테스트 시 추가 연결 DB의 별칭을 설정합니다.
 
-<b class="font18"> ② &lt;DATAMODEL&gt; </b> <br/>
+<span class="font18">②</span><b class="font18"> &lt;DATAMODEL&gt; </b> <br/>
 POWERMDD 구성요소에 Data Model의 파일들을 저장하는 부분입니다. <br/>
 ```xml
 <!-- 2. -->
@@ -251,7 +257,7 @@ DataModel의 내역들이 저장되는 경로입니다. 만약 저장했던 파�
 :::
 <!-- -->
 
-<b class="font18"> ③ &lt;UX-DESIGNER&gt;</b> <br/>
+<span class="font18">③</span><b class="font18"> &lt;UX-DESIGNER&gt;</b> <br/>
 Context 경로나 문자 셋, 화면 IP Port 정보를 설정하는 부분입니다. <br/>
 ```xml
 <!-- 3. -->
@@ -284,7 +290,7 @@ POWERMDD 기능 요소 중 View Designer의 내역들이 저장되는 경로입�
 :::
 <!-- -->
 
-<b class="font18"> ④ &lt;FILESYSTEM-LOCATION&gt; </b> <br/>
+<span class="font18">④</span><b class="font18"> &lt;FILESYSTEM-LOCATION&gt; </b> <br/>
 서버 파일 시스템의 파일 시스템 위치를 설정합니다. <br/>
 ```xml
 <!-- 4. -->
@@ -397,7 +403,7 @@ POWERMDD 빌드 시 생성되는 소스 위치를 설정합니다. <br/>
 :::
 <!-- -->
 
-<b class="font18"> ⑦ &lt;SERVER&gt; </b> <br/>
+<span class="font18">⑦</span><b class="font18"> &lt;SERVER&gt; </b> <br/>
 해당 서버의 정보들을 설정합니다. <br/>
 ```xml
 <!-- 7. -->
@@ -418,7 +424,7 @@ POWERMDD 빌드 시 생성되는 소스 위치를 설정합니다. <br/>
 
 - <b>&lt;REAL_PWD&gt;</b> : 서버 계정 암호를 설정합니다.
 
-<b class="font18"> ⑧ &lt;COMPILE&gt; </b> <br/>
+<span class="font18">⑧</span><b class="font18"> &lt;COMPILE&gt; </b> <br/>
 POWERMDD 컴파일 시 생성되는 소스 위치를 설정합니다. <br/>
 ```xml
 <!-- 8. -->
@@ -508,7 +514,7 @@ POWERMDD 컴파일 시 생성되는 소스 위치를 설정합니다. <br/>
 </MAC>
 ```
 
-<b class="font20"> 3) BMSCTX의 web.xml의 구성 </b> <br/>
+<span class="font20">3)</span><b class="font20"> BMSCTX의 web.xml의 구성 </b> <br/>
 
 <span class="font18"> (1) BMSCTX의 환경설정하기 위해 ‘BMSCTX\WEB-INF’에서 web.xml을 클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/web.png" width="280" height="480"><br/>
@@ -546,11 +552,11 @@ POWERMDD 컴파일 시 생성되는 소스 위치를 설정합니다. <br/>
 ## 4. WebaApplication명 디렉토리
 Lib, Class, Css, jsp 등 웹 애플리케이션 실행파일들의 보관 디렉토리입니다.
 
-<b class="font20"> 1) WebApplication : CONTEXT 구성 </b> <br/>
+<span class="font20">1)</span><b class="font20"> WebApplication : CONTEXT 구성 </b> <br/>
 개발할 업무 디렉토리를 WAS 설치 경로에 세팅하고 해당 Project명으로 변경합니다.
 <img src="../.vuepress/public/installation/PowerMddBms/webApplication.png" width="280" height="480"><br/>
 
-<b class="font20"> 2) web.xml의 구성 </b> <br/>
+<span class="font20">2)</span><b class="font20"> web.xml의 구성 </b> <br/>
 
 <span class="font18"> (1) 업무 디렉토리의 환경설정을 위해 ‘</span><span class="spanEx2">WebApplication명</span><span>\WEB-INF’에서 web.xml을 클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/webinf_Web.png" width="280" height="480"><br/>
@@ -625,8 +631,10 @@ BMSCTX폴더에 processbuilder_config.xml 파일에서도 &lt;EGOVFRAMEWORK&gt; 
 </servlet-mapping>
 ```
 
-<b class="font20"> 3) spring 설정 </b> <br/>
+<span class="font20">3)</span><b class="font20"> spring 설정 </b> <br/>
+
 <span class="font18"> (1) context-datasource.xml </span> <br/>
+
 <span class="font18"> ① ‘</span><span class="spanEx2">WebApplication명</span><span>\WEB-INF/classes/spring’에 들어가서 context-datasource.xml을 클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/context-datasource.png" width="280" height="480"><br/>
 
@@ -642,6 +650,7 @@ BMSCTX폴더에 processbuilder_config.xml 파일에서도 &lt;EGOVFRAMEWORK&gt; 
 ```
 
 <span class="font18"> (2) context-sqlMap.xml </span> <br/>
+
 <span class="font18"> ① ‘</span><span class="spanEx2">WebApplication명</span><span>\WEB-INF/classes/spring’에 들어가서 context-sqlMap.xml을 클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/context-sqlMap.png" width="280" height="480"><br/>
 
@@ -654,6 +663,7 @@ BMSCTX폴더에 processbuilder_config.xml 파일에서도 &lt;EGOVFRAMEWORK&gt; 
 ```
 
 <span class="font18"> (3) context-transaction.xml </span> <br/>
+
 <span class="font18"> ① ‘</span><span class="spanEx2">WebApplication명</span><span>\WEB-INF/classes/spring’에 들어가서 context-transaction.xml을 클릭합니다. </span> <br/> 
 <img src="../.vuepress/public/installation/PowerMddBms/context-transaction.png" width="280" height="480"><br/>
 
@@ -678,6 +688,7 @@ BMSCTX폴더에 processbuilder_config.xml 파일에서도 &lt;EGOVFRAMEWORK&gt; 
 ```
 
 <span class="font18"> (4) globals.properties </span> <br/>
+
 <span class="font18"> ① ‘</span><span class="spanEx2">WebApplication명</span><span>\WEB-INF/classes/spring/env’에 들어가서 globals.properties을 클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/globals.png" width="280" height="480"><br/>
 
@@ -706,6 +717,7 @@ Globals.Url=jdbc:mysql://XXX.XXX.XXX.XXX:XXXX/demo?useSSL=false&autoReconnect=tr
 - Url : DataBase에 해당하는 Url 정보를 설정합니다.
 
 <span class="font18"> (5) egov-com-servlet.xml </span> <br/>
+
 <span class="font18"> ① ‘</span><span class="spanEx2">WebApplication명</span><span>\WEB-INF/classes/spring/ServletInfo’에 들어가서 egov-com-servlet.xml을 클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/egov-com-servlet.png" width="280" height="480"><br/>
 
