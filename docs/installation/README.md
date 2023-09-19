@@ -11,7 +11,7 @@ CPU : Intel Pentium 4 이상 <br/>
 디스크 : 500MB 이상 <br/>
 
 - <b>설치 전 확인 사항 </b> <br/>
-해당 Tool은 C# .Net 기반으로 구성되어 있다. Windows에 .net Framework이 설치가 있어야 합니다.
+해당 Tool은 C# .Net 기반으로 구성되어 있습니다. Windows에 .net Framework이 설치가 있어야 합니다.
 
 - <b>재설치하는 경우 </b> <br/>
 Windows의 프로그램 추가/삭제에서 삭제하신 후 설치하고 기존에 POWERMDD.DX가 실행되고 있으면 반드시 프로그램 종료 후 설치해야 합니다.
@@ -52,7 +52,7 @@ Windows의 프로그램 추가/삭제에서 삭제하신 후 설치하고 기존
 :::
 <!-- -->
 
-<b class="font20"> 1) &lt;LoginInfo&gt; </b> <br/>
+<span class="font20">1)</span><b class="font20"> &lt;LoginInfo&gt; </b> <br/>
 사용자가 로그인 시 최초 세팅되어야 하는 환경입니다.<br/>
 ```xml
 <LoginInfo>
@@ -64,11 +64,11 @@ Windows의 프로그램 추가/삭제에서 삭제하신 후 설치하고 기존
 </LoginInfo> 
 ```
 
-<b class="font18"> (1) &lt;URL&gt;, &lt;URL1&gt; </b> <br/>
+<span class="font18">(1)</span><b class="font18"> &lt;URL&gt;, &lt;URL1&gt; </b> <br/>
 로그인하면 최초 POWERMDD.DX의 body에 최초 로딩되는 URL입니다. 기본값으로는 POWERMDD 매뉴얼이 로딩됩니다.  <br/>
 해당 URL을 이용하여 Project Community가 있다면 해당 Community URL로 변경하여 사용하면 편리합니다.
 
-<b class="font18"> (2) &lt;RequestCharset&gt;, &lt;ResponseCharset&gt; </b> <br/>
+<span class="font18">(2)</span><b class="font18"> &lt;RequestCharset&gt;, &lt;ResponseCharset&gt; </b> <br/>
 POWERMDD.DX와 POWERMDD.BMS를 통신 시에 사용되는 Charset로 Request/Response 시 사용하는 Charset입니다. 기본값으로는 utf-8입니다. <br/>
 
 <!-- Remark -->
@@ -77,10 +77,10 @@ POWERMDD.DX와 POWERMDD.BMS를 통신 시에 사용되는 Charset로 Request/Res
 :::
 <!-- -->
 
-<b class="font18"> (3) &lt;Security&gt; </b> <br/>
+<span class="font18">(3)</span><b class="font18"> &lt;Security&gt; </b> <br/>
 Command를 암호화할 것인지 처리하는 태그이다. Default는 YES이며 YES일 경우 암호화 처리가 됩니다.
 
-<b class="font20"> 2) &lt;LOCAL&gt; </b> <br/>
+<span class="font20">2)</span><b class="font20"> &lt;LOCAL&gt; </b> <br/>
 다수의 사용자가 개발 시 주로 사용하는 기능입니다. <br/>
 서버 Side의 WAS를 사용하여 개발 시에 사용자가 Build 하게 되면 Class 파일을 WAS Container에 배치하게 되고 WAS의 Context reloadable=true 시에 Container가 reload하게 됩니다. <br/>
 ```xml
@@ -101,6 +101,7 @@ Command를 암호화할 것인지 처리하는 태그이다. Default는 YES이�
         <IMAGEPATH>C:/Tomcat9/webapps/MybaApps</IMAGEPATH> 
         <OPTIONA>NO</OPTIONA>
 	</DEFAULT> 
+	.....
 </LOCAL>   
 ```
 
@@ -110,10 +111,10 @@ Command를 암호화할 것인지 처리하는 태그이다. Default는 YES이�
 :::
 <!-- -->
 
-<b class="font18"> (1) &lt;DEFAULT&gt;, &lt;SYSID&gt; </b> <br/>
+<span class="font18">(1)</span><b class="font18"> &lt;DEFAULT&gt;, &lt;SYSID&gt; </b> <br/>
 &lt;SYSID&gt;는 별도로 해당 프로젝트명을 설정할 경우 &lt;SYSID&gt; 태그 안에 해당 프로젝트명을 넣어 설정하고 그 이외에는 &lt;DEFAULT&gt;로 설정됩니다.
 
-<b class="font18"> (2) &lt;CLASSON&gt;, &lt;CLASSPATH&gt; </b> <br/>
+<span class="font18">(2)</span><b class="font18"> &lt;CLASSON&gt;, &lt;CLASSPATH&gt; </b> <br/>
 default 값은 NO이다. 해당 기능을 활성화하려면 &lt;CLASSON&gt;의 값을 “YES”로 주면 됩니다. <br/>
 
 <!-- Remark -->
@@ -123,7 +124,7 @@ default 값은 NO이다. 해당 기능을 활성화하려면 &lt;CLASSON&gt;의 
 :::
 <!-- -->
 
-<b class="font18"> (3) &lt;XMLOM&gt;, &lt;XMLPATH&gt;, &lt;SQLCTX&gt; </b> <br/>
+<span class="font18">(3)</span><b class="font18"> &lt;XMLOM&gt;, &lt;XMLPATH&gt;, &lt;SQLCTX&gt; </b> <br/>
 default 값은 NO이다. 해당 기능을 활성화하려면 &lt;XMLON&gt;의 값을 “YES”로 주면 됩니다.
 
 <!-- Remark -->
@@ -132,7 +133,7 @@ default 값은 NO이다. 해당 기능을 활성화하려면 &lt;XMLON&gt;의 �
 :::
 <!-- -->
 
-<b class="font18"> (4) &lt;SOURCEON&gt;, &lt;SOURCEPATH&gt; </b> <br/>
+<span class="font18">(4)</span><b class="font18"> &lt;SOURCEON&gt;, &lt;SOURCEPATH&gt; </b> <br/>
 default 값은 NO이다. 해당 기능을 활성화하려면 &lt;SOURCEON&gt;의 값을 “YES”로 주면 됩니다.
 
 <!-- Remark -->
@@ -141,7 +142,7 @@ default 값은 NO이다. 해당 기능을 활성화하려면 &lt;SOURCEON&gt;의
 :::
 <!-- -->
 
-<b class="font18"> (5) &lt;CONTEXTON&gt;, &lt;CONTEXT_ROOT&gt; </b> <br/>
+<span class="font18">(5)</span><b class="font18"> &lt;CONTEXTON&gt;, &lt;CONTEXT_ROOT&gt; </b> <br/>
 default 값은 NO이다. 해당 기능을 활성화하려면 &lt;CONTEXTON&gt;의 값을 “YES”로 주면 됩니다.
 
 <!-- Remark -->
@@ -150,7 +151,7 @@ default 값은 NO이다. 해당 기능을 활성화하려면 &lt;CONTEXTON&gt;�
 :::
 <!-- -->
 
-<b class="font18"> (6) &lt;ContextName&gt;, &lt;SERVER&gt;, &lt;Port&gt; </b> <br/>
+<span class="font18">(6)</span><b class="font18"> &lt;ContextName&gt;, &lt;SERVER&gt;, &lt;Port&gt; </b> <br/>
 default 값은 NO이다. 해당 기능을 활성화하려면 &lt;CONTEXTON&gt;의 값을 “YES”로 주면 됩니다.<br/>
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -159,7 +160,7 @@ URL형식은 “http://localhost:port/ConTextName/테스트할layout파일” �
 :::
 <!-- -->
 
-<b class="font18"> (7) &lt;IMAGEPATH&gt; </b> <br/>
+<span class="font18">(7)</span><b class="font18"> &lt;IMAGEPATH&gt; </b> <br/>
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 Service Model의 Tool-Box Menu에서 서비스 Model을 이미지 파일로 저장하는 기능이 존재합니다. <br/>
@@ -167,7 +168,7 @@ Service Model의 Tool-Box Menu에서 서비스 Model을 이미지 파일로 저�
 :::
 <!-- -->
 
-<b class="font20"> 3) &lt;GLOBAL&gt; </b> <br/>
+<span class="font20">3)</span><b class="font20"> &lt;GLOBAL&gt; </b> <br/>
 &lt;GLOBAL&gt; 아래의 &lt;USER_ID&gt;가 변수 명이 되고 &lt;LOGIN_JOJIK_CD&gt;가 Model Test 시 사용하는 임시 값으로 설정됩니다.<br/>
 ```xml
 <GLOBAL>
@@ -189,6 +190,7 @@ Service Model의 Tool-Box Menu에서 서비스 Model을 이미지 파일로 저�
 		<AUTH_A>FNLV011<!--재무레벨--></AUTH_A>
 		<AUTH_G>SALV01<!--안전레벨--></AUTH_G>
 	</DEFAULT> 
+	...
 </GLOBAL> 
 ```
 
@@ -198,7 +200,10 @@ Service Model에서 디자인 시에 필요로 하는 Data 중 업무 운영 시
 :::
 <!-- -->
 
-<b class="font20"> 4) &lt;INS&gt;, &lt;UPD&gt; </b> <br/>
+- <b>&lt;DEFAULT&gt;, &lt;SYSID&gt;</b> <br/>
+&lt;SYSID&gt;는 별도로 해당 프로젝트명을 설정할 경우 &lt;SYSID&gt; 태그 안에 해당 프로젝트명을 넣어 설정하고 그 이외에는 &lt;DEFAULT&gt;로 설정됩니다.
+
+<span class="font20">4)</span><b class="font20"> &lt;INS&gt;, &lt;UPD&gt; </b> <br/>
 Service Model의 INS BOC 또는 UPD BOC 사용할 때만 유효합니다.<br/>
 ```xml
 <INS>
@@ -238,7 +243,7 @@ Service Model의 INS BOC 또는 UPD BOC 사용할 때만 유효합니다.<br/>
 - 업무의 Global 객체의 값을 사용할 때에는 Type을 OBJECT로 두고 아래의 예시와 같이 정의하면 됩니다. <br/>
 <span class="spanEx"> Ex) Global 객체로부터 값 할당 시 : &lt;REG_USERID TYPE=”OBJECT”&gt;SYSDATE&lt;/REG_USERID&gt; </span> <br/>
 
-<b class="font20"> 5) &lt;UxDesign&gt; </b> <br/>
+<span class="font20">5)</span><b class="font20"> &lt;UxDesign&gt; </b> <br/>
 특별한 사항이 아니면 기본 Default로 구성하면 됩니다.<br/>
 ```xml
 <UxDesign>
@@ -262,7 +267,7 @@ View Designer에서 임시 작업 영역으로 사용할 Folder를 지정합니�
 :::
 <!-- -->
 
-<b class="font20"> 6) &lt;UxComponent&gt; </b> <br/>
+<span class="font20">6)</span><b class="font20"> &lt;UxComponent&gt; </b> <br/>
 ```xml
 <UxComponent>
 	<ZTree>http://www.treejs.cn/v3/api.php</ZTree>
@@ -273,12 +278,11 @@ View Designer에서 임시 작업 영역으로 사용할 Folder를 지정합니�
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-View Designer에서 사용되는 Component의 URL을 등록합니다. <br/>
-Component 중에 Tree는 Ztree를 사용하고 있으며 Chart는 ChartJs을 사용하고 있습니다.
+View Designer에서 사용되는 Component의 URL을 등록합니다. 
 :::
 <!-- -->
 
-<b class="font20"> 7) &lt;LANGUAGE&gt; </b> <br/>
+<span class="font20">7)</span><b class="font20"> &lt;LANGUAGE&gt; </b> <br/>
 POWERMDD의 언어를 설정합니다.
 ```xml
 <LANGUAGE selected="KOREAN"  admin="true">
@@ -289,9 +293,9 @@ POWERMDD의 언어를 설정합니다.
 </LANGUAGE>
 ```
 
-<b class="font20"> 8) &lt;SYSTEM&gt; </b> <br/>
+<span class="font20">8)</span><b class="font20"> &lt;SYSTEM&gt; </b> <br/>
 작업할 프로젝트의 System ID를 등록하여 사용합니다. <br/>
-추가 시 “&lt;SYSID&gt;ADD_ID&lt;/SYSID&gt;“의 형식으로 추가해 주면 로그인시 프로젝트 선택 콤보에서 선택할 수 있도록 활성이 됩니다.<br/>
+추가 시 “&lt;SYSID&gt;ADD_ID&lt;/SYSID&gt;“의 형식으로 추가해 주면 로그인 시 프로젝트 선택 콤보에서 선택할 수 있도록 활성이 됩니다.<br/>
 ```xml
 <SYSTEM>
 	<SYSID>DEMO</SYSID>
@@ -331,7 +335,7 @@ POWERMDD 재설치 시 사용한 시스템 ID도 초기화되기 때문에 다�
 <img src="../.vuepress/public/installation/Client/property.png" width="300"> 
 
 <span class="font20"> 4) POWERMDD 로그인 </span> <br/>
-(1) 설치 완료 후 최초 실행화면입니다. 관리자로부터 받은 접속 보안 key 파일을 선택하면 됩니다.
+(1) 설치 완료 후 최초 실행화면입니다. 해당 Default 프로젝트 ID를 입력 후, <span class="spanBtn">Init Key File</span> 버튼을 클릭하여 관리자에게 받은 접속 보안 KEY 파일을 넣습니다. 
 <div></div>
 <img src="../.vuepress/public/installation/PowerMddDx/keyfile.png" width="400" > <div style="color: #6a8bad;display: inline-block;bottom: 131px;position: relative;"> ▶ </div> <img src="../.vuepress/public/installation/PowerMddDx/init_key_file.png" width="300" > 
 
