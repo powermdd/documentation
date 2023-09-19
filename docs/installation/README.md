@@ -335,6 +335,7 @@ POWERMDD 재설치 시 사용한 시스템 ID도 초기화되기 때문에 다�
 <img src="../.vuepress/public/installation/Client/property.png" width="300"> 
 
 <span class="font20"> 4) POWERMDD 로그인 </span> <br/>
+
 (1) 설치 완료 후 최초 실행화면입니다. 해당 Default 프로젝트 ID를 입력 후, <span class="spanBtn">Init Key File</span> 버튼을 클릭하여 관리자에게 받은 접속 보안 KEY 파일을 넣습니다. 
 <div></div>
 <img src="../.vuepress/public/installation/PowerMddDx/keyfile.png" width="400" > <div style="color: #6a8bad;display: inline-block;bottom: 131px;position: relative;"> ▶ </div> <img src="../.vuepress/public/installation/PowerMddDx/init_key_file.png" width="300" > 
