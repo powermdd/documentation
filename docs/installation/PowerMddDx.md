@@ -36,6 +36,7 @@ Was을 시작, 중지, 기타 파일이 있는 디렉토리입니다. 시작, �
 ```
 
 <span class="font20">2)</span><b class="font20"> POWERMDD 로그인 </b> <br/>
+
 <span class="font18"> (1) 바탕화면에 설치된 POWERMDD 프로그램을 더블클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddDx/powermdd.png" width="100">
 
