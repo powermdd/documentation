@@ -189,19 +189,12 @@ UI(View)에서 사용될 공통 css 파일을 등록합니다. <br/>
 ::: tip <Badge type="tip" text="Remark" vertical="middle" />
 POWERMDD에서 기본적으로 사용하는 js, css는 등록되어 있습니다. <br/> 
 Default File을 삭제도 가능하나 만일 삭제하게 되면 해당 삭제 파일과 동일한 기능 또는 업그레이드된 기능을 제공하는 파일을 반드시 등록해주어야 합니다. 이외 사용자가 별도로 소유하고 있는 User Script 파일이 있으면 해당 기능에서 추가하여 사용할 수 있습니다. <br/> 
-정의된 js, css 파일은 View Designer에서 Build 처리 시 Html의 Head 부에 사용하는 js, css로 추가됩니다. <br/>
+정의된 js, css 파일은 View Designer에서 빌드 처리 시 Html의 Head 부에 사용하는 js, css로 추가됩니다. <br/>
 :::
 
 <b class="font18"> (2) CSS Define </b> <br/>
 View 파일에서 사용할 Class와 그룹을 지정하며, 화면작업 창의 옵션을 정의할 수 있습니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-view-common-config3.png" width="600"><br/>
-
-<!-- Remark -->
-::: tip <Badge type="tip" text="Remark" vertical="middle" />
-POWERMDD에서 기본적으로 사용하는 js, css는 등록되어 있습니다. <br/> 
-Default File을 삭제도 가능하나 만일 삭제하게 되면 해당 삭제 파일과 동일한 기능 또는 업그레이드된 기능을 제공하는 파일을 반드시 등록해주어야 합니다. 이외 사용자가 별도로 소유하고 있는 User Script 파일이 있으면 해당 기능에서 추가하여 사용할 수 있습니다. <br/> 
-정의된 js, css 파일은 View Designer에서 Build 처리 시 Html의 Head 부에 사용하는 js, css로 추가됩니다. <br/>
-:::
 
 <b class="font18"> (3) Control-CSS </b> <br/>
 View Designer에서 사용하는 UI(Element)에 대한 Default Style 또는 CSS를 정의하여 사용합니다. <br/>
