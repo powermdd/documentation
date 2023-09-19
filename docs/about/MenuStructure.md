@@ -71,8 +71,10 @@ Service Model의 BOC(Business Operation Component)에서 데이터베이스 조�
 
 <b class="font20"> 6) settings </b> <br/>
 POWERMDD 설치된 폴더 안에 DXDBInit 파일에 대한 정보 또는 해당 프로젝트에 대한 정보를 세팅하는 화면입니다. <br/>
+
 <b class="font18"> (1) Local Options </b> <br/>
 POWERMDD 설치된 폴더 안에 DXDBInit 파일에 대한 정보를 세팅합니다. <br/>
+
 <b class="font18"> ① Properties </b> <br/>
 POWERMDD.DX에서 작업할 프로젝트 관리 및 첫 화면에 로딩되는 URL 등을 세팅합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/settings-Properties.png" width="500"><br/>
@@ -104,7 +106,7 @@ View Designer에서 각 화면의 기본 정보들을 세팅하는 화면입니�
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" />
 - <b>주의할점</b> <br/>
-<span class="spanBtnG"> Build List</span> 할 때 빌드 서비스의 Count가 너무 많이 실행하면 서버에 부담을 줄 수가 있습니다. <br/>
+<span class="spanBtnGS"> Build List</span> 할 때 빌드 서비스의 Count가 너무 많이 실행하면 서버에 부담을 줄 수가 있습니다. <br/>
 빌드는 실행 내용을 선택된 서비스 별로 소스 생성/ 컴파일/ 배치를 실행합니다.
 
 - <b>Service Model 내에 있는 빌드 기능과의 차이점</b> <br/>
@@ -141,11 +143,12 @@ Service Model 또는 View Designer에서 완료 또는 변경 처리를 막고�
 <img src="../.vuepress/public/MenuStructure/users-user-manager.png" width="450">
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" />
-처음 사용 시에는 root 사용자를 이용하여 사용자를 생성하면 됩니다. 초기 로딩시 기존에 등록이 되어 있는 사용자 목록입니다. 등록할 때는 먼저 <span class="spanBtnG">Clear</span> 버튼을 클릭 후 정보를 입력할 수 있습니다.
+처음 사용 시에는 root 사용자를 이용하여 사용자를 생성하면 됩니다. 초기 로딩시 기존에 등록이 되어 있는 사용자 목록입니다. 등록할 때는 먼저 <span class="spanBtnGS">Clear</span> 버튼을 클릭 후 정보를 입력할 수 있습니다.
 :::
 
 <b class="font20"> 2) Authority Manager </b> <br/>
 해당 프로젝트에 대한 각 Category별로 접근 권한을 생성하여 해당 권한을 사용자에게 할당함으로 사용자의 권한을 정의할 수 있다. <br/>
+
 <b class="font18"> (1) Service Manager </b> <br/>
 Service Model에서 사용될 권한을 생성 및 변경 관리합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager.png" width="600">
@@ -155,14 +158,16 @@ View Designer에서 사용될 권한을 생성 및 변경 관리합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager2.png" width="600">
 
 <b class="font18"> (3) Data Authorization </b> <br/>
-Data 관련한 권한 처리기능입니다. 해당 기능은 데이터베이스의 종류에 따라 지원 여부 확인이 필요합니다.<br/>
+데이터 관련한 권한 처리기능입니다. 해당 기능은 데이터베이스의 종류에 따라 지원 여부 확인이 필요합니다.<br/>
+
 <b class="font18"> ① User Role Grants </b> <br/>
-사용자별 Data에 접근 권한을 할당합니다. <br/>
+사용자별 데이터에 접근 권한을 할당합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager3.png" width="600">
 
 <b class="font18"> ② Privileges </b> <br/>
-Data에 접근 권한 Role ID를 생성 및 관리합니다. 정의 권한 영역으로 Database Connection, File System 접근에 대한 권한을 정의합니다. <br/>
+데이터에 접근 권한 Role ID를 생성 및 관리합니다. 정의 권한 영역으로 Database Connection, File System 접근에 대한 권한을 정의합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager4.png" width="600"><br/>
+
 <b class="fontB">[ DB Connect ]</b> <br/>
 데이터베이스에 연결이 가능한 권한을 설정합니다. Role-ID의 권한을 가진 사용자가 접근이 가능한 데이터베이스 권한을 등록합니다. <br/>
 Connect List는 해당 Project에 등록되어 있는 Connect List이며 Connect. Auth는 접근이 가능한 DB List입니다. <br/>
@@ -175,8 +180,10 @@ Server File Manager에서 사용될 File System의 Node 정의 및 정의된 Nod
 <b class="font20"> 3) View Common Config </b> <br/>
 View Common Config는 View Designer에서 사용하는 공통 Resource를 정의하여 사용할 수 있도록 지원해주는 기능을 제공합니다. <br/>
 공통 Script, 공통으로 사용하는 Style을 등록하여 사용할 수 있도록 지원해줍니다.  <br/>
+
 <b class="font18"> (1) Common File </b> <br/>
 UI(View)에서 사용될 공통 js 파일 또는 css 파일을 등록합니다. <br/>
+
 <b class="font18"> ① JS Files </b> <br/>
 UI(View)에서 사용될 공통 js 파일을 등록합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-view-common-config.png"  width="600">
@@ -232,6 +239,7 @@ View Designer에서 주로 사용하는 Function들을 등록할 수 있습니�
 
 <b class="font20"> 5) Server Configuration </b> <br/>
 POWERMDD.BMS에 있는 processbuilder_config 파일에 대한 정보를 세팅하는 기능입니다. <br/>
+
 <b class="font18"> (1) Pojects </b> <br/>
 서버에 등록되어 있는 각 프로젝트 별로 정보들을 세팅하는 기능입니다. <br/>
 <img src="../.vuepress/public/MenuStructure/help-Pojects.png" width="600"><br/>
@@ -272,6 +280,7 @@ POWERMDD.DX를 사용자가 로그인할 수 있도록 MAC 정보를 설정합�
   [class="boxB"] { background: #6a8bad3b;padding:10px;border-radius: 4px; }
   [class="spanBtn"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
   [class="spanBtnG"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;color:forestgreen; background:white;  }
+  [class="spanBtnGS"] { border: 1px solid #bbb; border-radius: 4px;padding: 3px;color:forestgreen; background:white; font-size:13px; }
   [class="spanEx"] { color: #00a4ff; }
   [class="fontB"] { color: rgb(106, 139, 173); font-size:18px }
 </style>
