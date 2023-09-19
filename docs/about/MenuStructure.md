@@ -45,10 +45,13 @@ Java의 Class Name Rule과 Method Name Rule을 지정할 수 있습니다.
 
 <b class="font20"> 3) Database Connection </b> <br/>
 업무에서 사용될 Database의 Name을 등록, 관리합니다. <br/>
-일반적으로 해당 정보는 POWERMDD.BMS 관리자가 등록해주어야 합니다. 실질적으로 사용할 데이터베이스의 연결정보는 BMS Config의 Database Resource에 등록이 되어 있는 Name 정보를 사용해야 합니다. <br/>
-POWERMDD.DX에서 서버가 정의 되어 있는 Database Resource 중 해당 프로젝트에서 사용될 Name 정보만 등록하면 됩니다. 등록된 이름은 Query Developer와 Service Model 그리고 Data Model 중 기본 데이터베이스가 아닌 별도의 데이터베이스 지정이 필요할 때 사용됩니다. <br/>
 <img src="../.vuepress/public/MenuStructure/rule-database-connection.png" width="300">
 
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+일반적으로 해당 정보는 POWERMDD.BMS 관리자가 등록해주어야 합니다. 실질적으로 사용할 데이터베이스의 연결정보는 BMS Config의 Database Resource에 등록이 되어 있는 Name 정보를 사용해야 합니다. <br/>
+POWERMDD.DX에서 서버가 정의 되어 있는 Database Resource 중 해당 프로젝트에서 사용될 Name 정보만 등록하면 됩니다. 등록된 이름은 Query Developer와 Service Model 그리고 Data Model 중 기본 데이터베이스가 아닌 별도의 데이터베이스 지정이 필요할 때 사용됩니다. <br/>
+:::
 
 <b class="font20"> 4) Database Schema </b> <br/>
 Service Model의 BOC(Business Operation Component)에서 데이터베이스 조작 시 사용되는 스키마 정보를 설정합니다. <br/>
