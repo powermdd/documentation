@@ -404,7 +404,7 @@ Online 화면일 때 서비스 처리 후 결과를 Forward 하는 방식을 정
 <b class="font18"> ② 작업자ID</b> <br/>
 최근에 해당 서비스를 작업한 개발자 ID 정보를 확인할 수 있습니다.
 
-<b class="font18">(7) Test정보</b> <br/>
+<b class="font18">(7) Test</b> <br/>
 <b class="font18"> ① TEST DB</b> <br/>
 개발 시 개발 DB와 운영 DB가 다를 경우 운영 DB를 등록하여 테스트를 할 수 있습니다.
 
