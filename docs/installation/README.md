@@ -320,27 +320,26 @@ POWERMDD 재설치 시 사용한 시스템 ID도 초기화되기 때문에 다�
 
 <span class="font20"> 2) 클라우드 서버에 접속하기 위한 요청 프로세스 </span> <br/>
 
-(1) 해당 작업자의 PC에서 현재 사용 중인 Network-Card의 Mac-Address 등록을 개발 서버 관리자에게 보냅니다.
+<span class="font18">(1) 해당 작업자의 PC에서 현재 사용 중인 Network-Card의 Mac-Address 등록을 개발 서버 관리자에게 보냅니다.</span>
 
-(2) 접속하기 위한 ID/Password를 개발서버 관리자로부터 받습니다.  
+<span class="font18">(2) 접속하기 위한 ID/Password를 개발서버 관리자로부터 받습니다. </span> 
 
-(3) 접속 보안 Key를 관리자로부터 받은 후 아래 절차에 따라서 적용한다. 접속 보안 Key는 파일로 구성되어 있습니다.  
+<span class="font18">(3) 접속 보안 Key를 관리자로부터 받은 후 아래 절차에 따라서 적용한다. 접속 보안 Key는 파일로 구성되어 있습니다. </span>
 
 <span class="font20"> 3) POWERMDD 실행화면이 나오지 않을 경우 </span> <br/>
 
-(1) POWERMDD 프로그램에서 마우스 오른쪽 버튼을 클릭해서 속성을 클릭하거나 Alt + Enter 눌러서 속성을 실행합니다.<br/>
+<span class="font18">(1) POWERMDD 프로그램에서 마우스 오른쪽 버튼을 클릭해서 속성을 클릭하거나 Alt + Enter 눌러서 속성을 실행합니다.</span><br/>
 <img src="../.vuepress/public/installation/Client/click.png" width="200">
 
-(2) 속성 창 호환성 탭에 들어가서 관리자 권한으로 이 프로그램 실행 체크 후 확인 버튼을 클릭합니다. 
+<span class="font18">(2) 속성 창 호환성 탭에 들어가서 관리자 권한으로 이 프로그램 실행 체크 후 확인 버튼을 클릭합니다. </span>
 <img src="../.vuepress/public/installation/Client/property.png" width="300"> 
 
 <span class="font20"> 4) POWERMDD 로그인 </span> <br/>
-
-(1) 설치 완료 후 최초 실행화면입니다. 해당 Default 프로젝트 ID를 입력 후, <span class="spanBtn">Init Key File</span> 버튼을 클릭하여 관리자에게 받은 접속 보안 KEY 파일을 넣습니다. 
+<span class="font18">(1) 설치 완료 후 최초 실행화면입니다. 해당 Default 프로젝트 ID를 입력 후, <span class="spanBtn">Init Key File</span> 버튼을 클릭하여 관리자에게 받은 접속 보안 KEY 파일을 넣습니다. </span>
 <div></div>
 <img src="../.vuepress/public/installation/PowerMddDx/keyfile.png" width="400" > <div style="color: #6a8bad;display: inline-block;bottom: 131px;position: relative;"> ▶ </div> <img src="../.vuepress/public/installation/PowerMddDx/init_key_file.png" width="300" > 
 
-(2) 관리자로부터 받은 ID/Password를 입력 후 로그인하면 됩니다.
+<span class="font18">(2) 관리자로부터 받은 ID/Password를 입력 후 로그인하면 됩니다.</span>
 <img src="../.vuepress/public/installation/Client/login.png" width="500"> 
 
 <!-- Remark -->
