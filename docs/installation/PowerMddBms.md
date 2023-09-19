@@ -307,7 +307,7 @@ POWERMDD 기능 요소 중 View Designer의 내역들이 저장되는 경로입�
 <img src="../.vuepress/public/installation/PowerMddBms/bms.png" width="280" height="480"><br/>
 :::
 <!-- -->
-<b class="font18"> ⑤ &lt;TEST-EXE&gt; </b> <br/>
+<span class="font18">⑤</span><b class="font18"> &lt;TEST-EXE&gt; </b> <br/>
 Query Developer 테스트 시 ROW 크기를 설정합니다. <br/>
 ```xml
 <!-- 5. -->
@@ -317,7 +317,7 @@ Query Developer 테스트 시 ROW 크기를 설정합니다. <br/>
   <LOCALON>YES</LOCALON>
 </TEST-EXE>
 ```
-<b class="font18"> ⑥ &lt;BUILD&gt; </b> <br/>
+<span class="font18">⑥</span><b class="font18"> &lt;BUILD&gt; </b> <br/>
 POWERMDD 빌드 시 생성되는 소스 위치를 설정합니다. <br/>
 ```xml
 <!-- 6. -->
