@@ -22,9 +22,9 @@ Service Model은 MDD 도구 중 모델을 바로 실시간으로 테스트하고
 
 <span class="font20">2)</span><b class="font20"> 즉시 테스트를 통한 검증 및 오류 추적 </b> <br/>
 
-(1) 테스트 데이터만 입력하면 즉시 로직 검증이 가능합니다.<br/>
+<span class="font18">(1) 테스트 데이터만 입력하면 즉시 로직 검증이 가능합니다.</span><br/>
 
-(2) 테스트 결과 정보의 Depth 측정을 통하여 오류 추적성을 강화합니다.<br/>
+<span class="font18">(2) 테스트 결과 정보의 Depth 측정을 통하여 오류 추적성을 강화합니다.</span><br/>
 
 <span class="font20">3)</span><b class="font20"> 화면 메뉴 검색 </b> <br/>
 테스트 검증이 완료되면 프로그램 소스 생성 및 컴파일, WAS 상에 배치하는 일련의 작업을 일괄 자동화 처리합니다.
