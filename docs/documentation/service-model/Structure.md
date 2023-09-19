@@ -36,8 +36,8 @@ Service Model 작업한 모델링을 bmp 파일 형식의 이미지로 Dump 하�
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Test_NotCommit.png" width="25"> 버튼과 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/TestExecute.png" width="25"> 버튼의 차이점<br/>
-<img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Test_NotCommit.png" width="25"> : 테스트 Debugging으로 해당 서비스를 실행하지만 데이터에는 반영하지 않습니다.<br/>
-<img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/TestExecute.png" width="25" > : 테스트 Debugging으로 해당 서비스를 실행하고 결과를 데이터베이스에 반영합니다.
+<img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Test_NotCommit.png" width="25"> : 테스트 디버깅으로 해당 서비스를 실행하지만 데이터에는 반영하지 않습니다.<br/>
+<img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/TestExecute.png" width="25" > : 테스트 디버깅으로 해당 서비스를 실행하고 결과를 데이터베이스에 반영합니다.
 :::
 <!-- -->
 
@@ -91,7 +91,7 @@ Service Model에 사용된 여러 가지 정보를 기준으로 검색할 수 �
 휴지통 기능으로 영구삭제 처리하지 않은 서비스는 화면 메뉴 구조 영역의 휴지통 메뉴에서 서비스 복원이 가능합니다.
 
 <b class="font20">16) <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/TableDictionary(1).png" width="25px;"> (Table Dictionary) </b> <br/>
-Data Column Dictionary를 Database Table로부터 추출하여 일괄 저장할 수 있는 기능을 제공합니다. 해당 기능은 oracle, postgresql Database 이외일 때에는 지원 가능 여부 확인 필요합니다. <br/>
+Data Column Dictionary를 Database Table로부터 추출하여 일괄 저장할 수 있는 기능을 제공합니다. 해당 기능은 oracle, postgresql, mysql Database 이외일 때에는 지원 가능 여부 확인 필요합니다. <br/>
 <img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/TableDictionary(2).png" width="600">
 
 <b class="font20">17) <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/ColumnDictionary(1).png"  width="25px;"> (Column Dictionary) </b> <br/>
@@ -128,10 +128,13 @@ Java Class Name Rule과 Method Name Rule을 지정할 수 있습니다. <br/>
 
 <b class="font18">(3) DataBase Connection Name</b> <br/>
 해당 업무에서 사용될 Database Connection Name을 등록 관리합니다. 
-일반적으로 해당 정보는 POWER MDD.BMS 관리자가 등록해주어야 합니다.
-실질적으로 사용할 데이터베이스의 연결정보는 BMS Config의 Database Resource에 등록이 되어 있는 Name 정보를 사용해야 합니다.
-DX에서 서버가 정의 되어 있는 Database Resource 중 해당 프로젝트에서 사용될 Name 정보만 등록하면 됩니다. 등록된 이름은 Query Developer와 Service Model 그리고 Data Model 중 기본 데이터베이스가 아닌 별도의 데이터베이스 지정이 필요할 때 사용됩니다. <br/>
-<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/dbConnection.png" width="300px"> 
+<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/dbConnection.png" style="width:300px;"> 
+
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+일반적으로 해당 정보는 POWERMDD.BMS 관리자가 등록해주어야 합니다. 실질적으로 사용할 데이터베이스의 연결정보는 BMS Config의 Database Resource에 등록이 되어 있는 Name 정보를 사용해야 합니다. <br/>
+POWERMDD.DX에서 서버가 정의 되어 있는 Database Resource 중 해당 프로젝트에서 사용될 Name 정보만 등록하면 됩니다. 등록된 이름은 Query Developer와 Service Model 그리고 Data Model 중 기본 데이터베이스가 아닌 별도의 데이터베이스 지정이 필요할 때 사용됩니다. <br/>
+:::
 
 <b class="font18">(4) DataBase Schema Name</b> <br/>
 해당 명칭은 Service Model의 BOC(Business Operation Component) 중에서 데이터베이스 조작 언어 중 스키마 정보를 설정하는 속성에 표현됩니다. <br/>
@@ -139,7 +142,7 @@ DX에서 서버가 정의 되어 있는 Database Resource 중 해당 프로젝�
 <img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/dbSchema.png" width="300px"> 
 
 <b class="font20">19) <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/SourceClear.png" width="25px;"> (Source Clear)</b> <br/>
-애플리케이션 생성(개발) 중 불필요한 서비스 또는 가비지 발생 시 해당 Java 파일 관련 소스를 삭제 기능을 제공합니다. 삭제된 관련 소스는 모델에서 빌드를 재실행하면 됩니다.
+애플리케이션 생성(개발) 중 불필요한 서비스 또는 가비지 발생 시 해당 자바 파일 관련 소스를 삭제 기능을 제공합니다. 삭제된 관련 소스는 모델에서 빌드를 재실행하면 됩니다.
 <img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/SourceClear(2).png" width="500px;">
 
 <b class="font20">20) <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/UserManager.png" width="25px;"> (User Manager)</b> <br/>
@@ -147,7 +150,7 @@ DX에서 서버가 정의 되어 있는 Database Resource 중 해당 프로젝�
 <img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/UserManager(2).png" width="400px">
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" />  <br/>
-- 처음 사용 시에는 root 사용자를 이용하여 사용자를 생성하면 됩니다. 초기 로딩시 기존에 등록이 되어 있는 사용자 목록이다. 등록할때는 먼저 <span class="spanBtn">Clear</span> 버튼을 클릭 후 정보를 입력할 수 있습니다. <br/>
+- 처음 사용 시에는 root 사용자를 이용하여 사용자를 생성하면 됩니다. 초기 로딩 시 기존에 등록이 되어 있는 사용자 목록이다. 등록할때는 먼저 <span class="spanBtn">Clear</span> 버튼을 클릭 후 정보를 입력할 수 있습니다. <br/>
 
 - <b> 사용자 모델 권한 관리 등록 필요</b><br/>
 사용자의 모델 접근 권한은 Normal 권한과 Common 권한을 결합한 권한이 설정됩니다. 사용자의 모델 접근 권한은 2개의 권한을 사용하여 할당이 가능합니다.
@@ -156,14 +159,11 @@ DX에서 서버가 정의 되어 있는 Database Resource 중 해당 프로젝�
 
 <b class="font20">21) <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/UserFunction(1).png" width="25px;"> (User Function)</b> <br/>
 사용자가 직접 Java Application Function을 작성하여 사용할 수 있도록 지원합니다. 사용자가 제작한 Java Class 파일을 POWERMDD.BMS 서버 환경에 배치합니다. <br/>
-배치 방법은 POWERMDD.BMS의 Java 실행 환경에 있는 Class 경로에 해당 Class 파일을 배치하면 됩니다. Class 파일 배치가 완료되면 사용하고자 하는 Java Function을 호출하여 필요한 정보를 등록해주면 됩다.<br/>
 <img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/UserFunction(2).png" width="500px"> <br/>
 
 <b class="font20">22) <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/ManagerTool.png" width="25px;" height="25px;"> (Manager Tool)</b> <br/>
-해당 프로젝트의 사용자의 기본 정보 및 권한 ID를 할당해주는 기능을 제공합니다. 사용자 관리기능을 사용하기 위해서는 관리자 권한이 있어야 가능합니다. <br/>
-
 <b class="font18">(1) Service-Table Manager</b> <br/>
-해당 메뉴들을 선택하고 IUD-Table List 버튼을 클릭했을 때 해당 메뉴에서 사용하는 테이블을 확인할 수 있고 해당 테이블을 선택하면 해당 테이블을 사용하고 있는 화면들을 우측 메뉴에 확인할 수 있습니다. <br/>
+해당 메뉴들을 선택하고 <span class="spanBtn">IUD-Table List</span> 버튼을 클릭했을 때 해당 메뉴에서 사용하는 테이블을 확인할 수 있고 해당 테이블을 선택하면 해당 테이블을 사용하고 있는 화면들을 우측 메뉴에 확인할 수 있습니다. <br/>
 <img class="boxBorder" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/ManagerTool(2).png" width="500px"> <br/>
 
 <b class="font18">(2) Build</b> <br/>
@@ -175,9 +175,9 @@ DX에서 서버가 정의 되어 있는 Database Resource 중 해당 프로젝�
 
 - <b>Service Model 내에 있는 빌드 기능과의 차이점</b> <br/>
 Service Model 내에 있는 빌드 기능은 서비스 모델을 사용자가 모델링 테스트 등 다양한 기능을 실행하면서 단일 서비스만 빌드가 됩니다.<br/>
-또한 빌드하는 사용자 환경에 로컬 테스트 환경이 On이 되어 있을 시에는 해당 빌드로 생성되는 Resource를 Client로 전송 기능이 동시에 실행이 됩니다.<br/>
-즉, 로컬 테스트 On 상태일 때 build는 소스생성, 컴파일, 서버배치, build Resource Clinet 배치가 수행됨으로 사용자는 자신의 PC 환경으로 테스트가 가능하게 됩니다.<br/>
-그러나 해당 일괄 빌드 기능에서는 로컬 테스트 환경이 On 되어 있어도 빌드 시 build Resource Client 배치가 수행되지 않습니다.대량 서비스 빌드시에는 해당 Resource를 Client에 배치하지 않습니다.
+또한 빌드하는 사용자 환경에 로컬 테스트 환경이 On이 되어 있을 시에는 해당 빌드로 생성되는 Resource를 클라이언트로 전송 기능이 동시에 실행이 됩니다.<br/>
+즉, 로컬 테스트 On 상태일 때 빌드 소스생성, 컴파일, 서버배치, build Resource Clinet 배치가 수행됨으로 사용자는 자신의 PC 환경으로 테스트가 가능하게 됩니다.<br/>
+그러나 해당 일괄 빌드 기능에서는 로컬 테스트 환경이 On 되어 있어도 빌드 시 build Resource Client 배치가 수행되지 않습니다. 대량 서비스 빌드 시에는 해당 Resource를 클라이언트에 배치하지 않습니다.
 :::
 <!-- -->
 
@@ -261,7 +261,7 @@ Tool Box > Users > User Manager의 ReadOnly 여부에 따라 서비스 모델 �
 
 <b class="font18">(3) CLASS정보</b> <br/>
 <b style="font-size: 18px"> ① PACKAGE명</b> <br/>
-SYSID는 별도로 해당 프로젝트명을 설정할 경우 SYSID 태그 안에 해당 프로젝트명을 넣어 설정하고 그 이외에는 DEFAULT로 설정됩니다.<br>
+&lt;SYSID&gt;는 별도로 해당 프로젝트명을 설정할 경우 &lt;SYSID&gt; 태그 안에 해당 프로젝트명을 넣어 설정하고 그 이외에는 &lt;DEFAULT&gt;로 설정됩니다.<br>
 
 <b style="font-size: 18px"> ② CLASS명</b> <br/>
 메소드를 분류할 수 있도록 클래스를 입력합니다.
@@ -362,7 +362,7 @@ YES로 설정한 개발자가 NO로 변경하지 않아도 Lock은 최대 하루
 
 <b class="font18">(3) CLASS정보</b> <br/>
 <b class="font18"> ① PACKAGE명</b> <br/>
-SYSID는 별도로 해당 프로젝트명을 설정할 경우 SYSID 태그 안에 해당 프로젝트명을 넣어 설정하고 그 이외에는 DEFAULT로 설정됩니다.
+&lt;SYSID&gt;는 별도로 해당 프로젝트명을 설정할 경우 &lt;SYSID&gt; 태그 안에 해당 프로젝트명을 넣어 설정하고 그 이외에는 &lt;DEFAULT&gt;로 설정됩니다.
 
 <b class="font18"> ② CLASS명</b> <br/>
 메소드를 분류할 수 있도록 클래스를 입력합니다.
@@ -381,7 +381,7 @@ SYSID는 별도로 해당 프로젝트명을 설정할 경우 SYSID 태그 안�
 <b class="font18">(4) JSP정보</b> <br/>
 해당 서비스의 출력유형이 JSP일 때 설정이 되어 있는 JSP 파일로 처리 결과를 Forwarding합니다.<br/>
 <b class="font18"> ① JSP 경로</b> <br/>
-Return Type이 JSP인 서비스를 소유한 클래스일 때 선택적으로 사용합니다. 단, 해당 정보는 해당 Node의 Child Node가 서비스일 때 유효합니다.
+Return Type이 JSP인 서비스를 소유한 클래스일 때 선택적으로 사용합니다. 단, 해당 정보는 서비스일 때 유효합니다.
 
 <b class="font18"> ② JSP 파일명</b> <br/>
 Return Type이 JSP일 때 해당 JSP의 파일명을 입력합니다.
@@ -389,15 +389,15 @@ Return Type이 JSP일 때 해당 JSP의 파일명을 입력합니다.
 <b class="font18">(5) 처리유형</b> <br/>
 해당 서비스의 출력유형이 JSP일 때 설정이 되어 있는 JSP 파일로 처리 결과를 Forwarding합니다. <br/>
 <b class="font18"> ① APPL유형</b> <br/>
-Default 값은 Online입니다.<br/>
+기본 값은 Online입니다.<br/>
 Spring + ( Ibatis, Mybatis) 형식에서는 적용되지 않습니다. WizframeWork 사용 시 해당 기능이 유효합니다.
 
 <b class="font18"> ② 출력유형</b> <br/>
-Online 화면일 때 서비스 처리 후 결과를 Forward 하는 방식을 정의합니다. JSP 화면을 Forward하고자 할 때에는 JSP를 선택해주고, Ajax를 통하여 Data만 Client로 전송할 때에 XML로 정의하면 됩니다. XML로 처리시에는 Client와 통신하기 위한 Data Layout Interface를 적용하여야 합니다. <br/>
+Online 화면일 때 서비스 처리 후 결과를 Forward 하는 방식을 정의합니다. JSP 화면을 Forward 하고자 할 때에는 JSP를 선택해주고, Ajax를 통하여 데이터만 클라이언트로 전송할 때에 XML로 정의하면 됩니다. XML로 처리시에는 클라이언트와 통신하기 위한 Data Layout Interface를 적용하여야 합니다. <br/>
 해당 요소에서는 XML, Json,formated String 등 다양하게 적용할 수 있습니다.
 
 <b class="font18">(6) 최종작업정보</b> <br/>
-서비스 Model을 변경한 최종 작업일/작업자 정보를 확인할 수 있습니다.<br/>
+해당 서비스 내에 모델을 변경한 최종 작업일/작업자 정보를 확인할 수 있습니다.<br/>
 <b class="font18"> ① 작업일</b> <br/>
 최근에 해당 서비스를 작업한 날짜 정보를 확인할 수 있습니다.
 
@@ -406,7 +406,20 @@ Online 화면일 때 서비스 처리 후 결과를 Forward 하는 방식을 정
 
 <b class="font18">(7) Test정보</b> <br/>
 <b class="font18"> ① TEST DB</b> <br/>
+
 개발 시 개발 DB와 운영 DB가 다를 경우 운영 DB를 등록하여 테스트를 할 수 있습니다.
+
+## 3. 화면 메뉴 검색
+
+화면 메뉴 검색은 화면 메뉴에서 찾고자 하는 메뉴나 서비스를 검색할 수 있습니다.
+
+<span class="font20">1) 찾고자 하는 메뉴나 서비스명을 입력합니다.</span> <br/>
+<img src="../../.vuepress/public/documentation/service-model/Structure/MenuSerch/menuSerch.png" class="boxBorder" style="width:300px "> <br/>
+
+<span class="font20">2) 입력 후 Enter 키를 눌러 원하는 메뉴나 서비스명을 검색합니다.</span> <br/>
+
+<span class="font20">3) 검색한 결과의 대상 메뉴나 서비스가 Service Model의 화면 메뉴 구조 영역에 표시됩니다.</span> <br/>
+<img src="../../.vuepress/public/documentation/service-model/Structure/MenuSerch/menuList.png" class="boxBorder" style="width:200px "> <br/>
 
 <style type='text/css'>
   [class*="boxBorder"] { border: 1px solid #bbb; }
