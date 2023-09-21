@@ -20,7 +20,7 @@ Where 절의 조건으로 사용됩니다.</span>
 
 ## 2. 속성
 화면작업 창에서 DEL BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다.<br/>
-<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/Property(7).png"  class="boxBorder" style="position: relative;top: 5px; width:300px;"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/Property(2).png"  class="boxBorder" style="position: relative;top: 5px; width:300px;"> <br/>
 
 <span class="font20">1)</span><b class="font20"> 기초정보</b> <br/>
 
