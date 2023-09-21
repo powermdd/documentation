@@ -1,4 +1,4 @@
-# <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/DEL.png" style="width:50px;"> <span class="iconBoc">(DEL)</span> <br/>
+# <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/DEL.png" style="width:50px;"> <span class="bocIcon">(DEL)</span> <br/>
 DB Table에 대한 Delete 처리를 수행하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
@@ -129,11 +129,11 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
    { border-color: transparent transparent transparent rgb(216, 190, 228); }
   .bocW:after
    { border-color: transparent transparent transparent rgb(245, 245, 245); }
+  .bocIcon
+   { position: relative; top: -12px; }
 
   .spanBtn
    { border: 1px solid #bbb;border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
-  .iconBoc
-   { position: relative; top: -12px; }
 
   .btnR
    { color:#9C3B00; }

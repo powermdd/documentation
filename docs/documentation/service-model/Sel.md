@@ -1,4 +1,4 @@
-# <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL.png" style="width:50px;"> <span class="iconBoc">(SEL)</span> <br/>
+# <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL.png" style="width:50px;"> <span class="bocIcon">(SEL)</span> <br/>
 DB Table에 대한 Select문을 처리하는 기능인 컴포넌트입니다. <br/>
 
 <!-- Remark -->
@@ -155,12 +155,12 @@ Null일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
    { border-color: transparent transparent transparent rgb(195, 255, 195); }
   .bocY:after
    { border-color: transparent transparent transparent rgb(255, 255, 193); }
+  .bocIcon
+   { position: relative; top: -12px; }
 
   .spanBtn
    { border: 1px solid #bbb;border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
-  .iconBoc
-   { position: relative; top: -12px; }
-
+  
   .btnR
    { color:#9C3B00; }
   .labelR
