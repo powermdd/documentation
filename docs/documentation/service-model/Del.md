@@ -1,4 +1,4 @@
-# <img class="iconB" src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/DEL.png" style="width:50px;"> <span class="iconBoc">(DEL)</span> <br/>
+# <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/DEL.png" style="width:50px;"> <span class="iconBoc">(DEL)</span> <br/>
 DB Table에 대한 Delete 처리를 수행하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
@@ -13,7 +13,7 @@ BOC 컴포넌트 목록에서 DEL BOC를 선택하여 Drag-Drop으로 화면작�
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/DelBoc.png" style="width:150px;"> 
 <div style="margin-top: 24px; margin-left: 20px; font-size: 12px;">
-<span class="bocEX bocY2 bocY2_S" style="margin-bottom: 1px;">데이터베이스의 데이터를 삭제하기 위한 조건 Column 부를 표시합니다. 
+<span class="bocEX bocY2 bocY2_S" style="margin-bottom: 1px;">데이터베이스의 데이터를 삭제하기 위한 조건 컬럼 부를 표시합니다. 
 Where 절의 조건으로 사용됩니다.</span>
 <span class="bocEX bocW bocW_S">입력한 값에 추가 또는 값을 변경하는 컬럼 부를 표시합니다.</span></div>
 </div>
