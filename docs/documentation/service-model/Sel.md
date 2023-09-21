@@ -9,7 +9,7 @@ SEL-BOC는 Toad 등의 Query Tool에서 미리 작성된 SQL 쿼리를 복사해
 
 
 ## 1. BOC 이미지
-BOC 컴포넌트 목록에서 SEL BOC을 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
+BOC 컴포넌트 목록에서 SEL BOC를 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SELBoc(2).png" style="width:150px;"> 
 <div style="margin-top: 103px; margin-left: 20px;">

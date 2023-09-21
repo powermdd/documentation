@@ -9,7 +9,7 @@ INS-BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 �
 
 
 ## 1. BOC 이미지
-BOC 컴포넌트 목록에서 INS BOC을 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
+BOC 컴포넌트 목록에서 INS BOC를 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INSBoc.png" style="width:150px;"> 
 <div style="margin-top: 103px; margin-left: 20px;">
