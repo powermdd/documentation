@@ -13,8 +13,8 @@ BOC 컴포넌트 목록에서 INS BOC를 선택하여 Drag-Drop으로 화면작�
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INSBoc.png" style="width:150px;"> 
 <div style="margin-top: 103px; margin-left: 20px;">
-<span class="bocEX bocP" style="margin-bottom: 104px;">데이터베이스의 데이터를 등록하는 컬럼부를 표시합니다.</span>
-<span class="bocEX bocW">입력한 값에 추가 또는 값을 변경하는 컬럼부를 표시합니다.</span></div>
+<span class="bocEX bocP" style="margin-bottom: 104px;">데이터베이스의 데이터를 등록하는 컬럼 부를 표시합니다.</span>
+<span class="bocEX bocW">입력한 값에 추가 또는 값을 변경하는 컬럼 부를 표시합니다.</span></div>
 </div>
 
 ## 2. 속성
