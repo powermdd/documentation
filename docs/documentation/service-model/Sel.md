@@ -79,7 +79,7 @@ Common이 기본 설정이며, Batch 형태의 대용량 데이터 처리 시 La
 Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터베이스 관련된 BOC는 Return Data와 Query Data를 사용합니다.
 - <b>ProcessHead :</b> Seq번호, 프로세스 타입을 표시합니다.
 - <b>InputData :</b> 입력 데이터를 표시합니다.
-- <b>ReturnData :</b> J결과 데이터를 표시합니다.
+- <b>ReturnData :</b> 결과 데이터를 표시합니다.
 - <b>Middle OutputData :</b> 중간 과정 결과 데이터를 표시합니다.
 - <b>TabPage :</b> 탭 페이지 결과를 표시합니다.
 - <b>Math-Trace :</b> Math의 계산식과 결과를 표시합니다.
