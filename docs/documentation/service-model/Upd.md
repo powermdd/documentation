@@ -14,7 +14,7 @@ BOC 컴포넌트 목록에서 UPD BOC를 선택하여 Drag-Drop으로 화면작�
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/UpdBoc.png" style="width:150px;"> 
 <div style="margin-top: 33px; margin-left: 20px; font-size: 12px;">
 <span class="bocEX bocY2" style="margin-bottom: 60px;">데이터베이스의 데이터를 수정하기 위한 조건 컬럼 부를 표시합니다. Where 절의 조건으로 사용됩니다.</span>
-<span class="bocEX bocP" style="margin-bottom: 84px;">데이터베이스의 데이터를 수정 및 등록하는 컬럼 부를 표시합니다. 수정 시 set 항목으로 사용합니다.</span>
+<span class="bocEX bocP" style="margin-bottom: 84px;">데이터베이스의 데이터를 저장하는 컬럼 부를 표시합니다.</span>
 <span class="bocEX bocW">입력한 값에 추가 또는 값을 변경하는 컬럼 부를 표시합니다.</span></div>
 </div>
 
