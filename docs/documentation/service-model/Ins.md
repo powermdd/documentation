@@ -1,4 +1,4 @@
-# <img class="iconB" src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS.png" style="width:50px;"> (INS) <br/>
+# <img class="iconB" src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS.png" style="width:50px;"> <span class="iconBoc">(INS)</span> <br/>
 DB Table에 대한 Insert 처리를 수행하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
@@ -100,11 +100,6 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 실행 조건에 값이 있는 경우 해당 실행 조건이 True가 아니면 실행이 되지 않습니다.
 
 <style type='text/css'>
-  [class="fontB"] { color: rgb(106, 139, 173); font-size:18px }
-  [class*="iconB"] { position: relative; top: 13px; }
-</style>
-
-<style type='sass'>
   .boc 
    { display: inline-flex; }
   .bocEX 
@@ -130,6 +125,8 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 
   .spanBtn
    { border: 1px solid #bbb;border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
+  .iconBoc
+   { position: relative; top: -12px; }
 
   .btnR
    { color:#9C3B00; }

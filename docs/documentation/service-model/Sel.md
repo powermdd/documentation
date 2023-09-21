@@ -1,4 +1,4 @@
-# <img class="iconB" src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL.png" style="width:50px;"> (SEL) <br/>
+# <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL.png" style="width:50px;"> <span class="iconBoc">(SEL)</span> <br/>
 DB Table에 대한 Select문을 처리하는 기능인 컴포넌트입니다. <br/>
 
 <!-- Remark -->
@@ -87,7 +87,7 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 - <b>QueryData :</b> 값이 포함된 쿼리를 표시합니다.
 - <b>SCLTrace :</b> SCLT BOC의 결과를 표시합니다.
 - <b>PEX부가 Objects :</b> PEX BOC의 부가적인 Object의 결과를 표시합니다.
-- <b>미사용 :</b> 조건 컬럼부의 계산식 값을 표시합니다.
+- <b>미사용 :</b> 조건 컬럼 부의 계산식 값을 표시합니다.
 
 <span class="font18">⑤</span><b class="font18"> 실행 조건 </b> <br/>
 실행 조건에 값이 있는 경우 해당 실행 조건이 True가 아니면 실행이 되지 않습니다.
@@ -141,11 +141,6 @@ Null일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
 Null일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
 
 <style type='text/css'>
-  [class="fontB"] { color: rgb(106, 139, 173); font-size:18px }
-  [class*="iconB"] { position: relative; top: 13px; }
-</style>
-
-<style type='sass'>
   .boc 
    { display: inline-flex; }
   .bocEX 
@@ -163,6 +158,8 @@ Null일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
 
   .spanBtn
    { border: 1px solid #bbb;border-radius: 4px;padding: 3px;background:white; color:dimgrey; }
+  .iconBoc
+   { position: relative; top: -12px; }
 
   .btnR
    { color:#9C3B00; }
