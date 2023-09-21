@@ -13,8 +13,8 @@ BOC 컴포넌트 목록에서 SEL BOC을 선택하여 Drag-Drop으로 화면작�
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SELBoc(2).png" style="width:150px;"> 
 <div style="margin-top: 103px; margin-left: 20px;">
-<span class="bocEX bocG" style="margin-bottom: 50px;">데이터베이스의 데이터를 Select하는 컬럼 부를 표시합니다.</span>
-<span class="bocEX bocY">데이터를 Select하기 위해서 필요로 하는 조건 컬럼 부를 표시합니다.</span></div>
+<span class="bocEX bocG" style="margin-bottom: 50px;">데이터베이스의 데이터를 Select하는 컬럼부를 표시합니다.</span>
+<span class="bocEX bocY">데이터를 Select하기 위해서 필요로 하는 조건 컬럼부를 표시합니다.</span></div>
 </div>
 
 
@@ -76,7 +76,7 @@ Common이 기본 설정이며, Batch 형태의 대용량 데이터 처리 시 La
 기본 접속 DB는 자동 설정됩니다. 추가로 다른 DB 연결 명을 사용하여 데이터 처리의 필요성이 생기면 해당 정보에 접속 명을 등록하여 사용합니다.
 
 <span class="font18">④</span><b class="font18"> Log 수준 </b> <br/>
-Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터베이스 관련된 BOC는 Return Data와 Query Data를 사용합니다.
+Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터베이스 관련된 BOC는 ReturnData와 QueryData를 사용합니다.
 - <b>ProcessHead :</b> Seq번호, 프로세스 타입을 표시합니다.
 - <b>InputData :</b> 입력 데이터를 표시합니다.
 - <b>ReturnData :</b> 결과 데이터를 표시합니다.
@@ -104,7 +104,7 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 <div class="boxDiv">
 구문: <span class="labelR">[</span>항목명<span class="labelR">] {</span> sql-syntax <span class="labelR">}</span>
 </div> <br/>
-동적 조건부에 “VAL” 키워드를 통하여 해당 조건식을 수행합니다. 조건부에는 반드시 비교연산자를 사용하여 결괏값이 boolean 형식으로 return 되어야 합니다.
+
 
 <span class="spanEx">Ex) 데이터셋으로 직접 비교 처리</span>
 <span class="spanEx">SELECT Employee, Name</span><br/>
@@ -130,6 +130,7 @@ Null일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
 <div class="boxDiv">
 구문: <span class="labelR">[VAL,</span>항목명==Value<span class="labelR">] {</span> sql-syntax <span class="labelR">}</span>
 </div> <br/>
+
 동적 조건부에 “VAL” 키워드를 통하여 해당 조건식을 수행합니다. 조건부에는 반드시 비교연산자를 사용하여 결괏값이 boolean 형식으로 return 되어야 합니다.
 
 <span class="spanEx">Ex) 데이터셋으로 직접 비교 처리</span>
