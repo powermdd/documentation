@@ -106,7 +106,7 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 </div> <br/>
 
 
-<span class="spanEx">Ex) SELECT Employee, Name</span><br/>
+<span class="spanEx">Ex) SELECT EMPLOYEE, NAME</span><br/>
 <span class="spanEx">FROM TABLENAME</span><br/>
 <span class="labelR">[</span><span class="spanEx">ORD</span><span class="labelR">] {</span> <span class="spanEx">WHERE ORD = :ORD</span> <span class="labelR">}</span>
 
@@ -133,7 +133,7 @@ Null일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
 동적 조건부에 “VAL” 키워드를 통하여 해당 조건식을 수행합니다. 조건부에는 반드시 비교연산자를 사용하여 결괏값이 boolean 형식으로 return 되어야 합니다.
 
 <span class="spanEx">Ex) 데이터셋으로 직접 비교 처리</span><br/>
-<span class="spanEx">SELECT Employee, Name</span><br/>
+<span class="spanEx">SELECT EMPLOYEE, NAME</span><br/>
 <span class="spanEx">FROM TABLENAME</span><br/>
 <span class="labelR">[VAL,</span><span class="spanEx">S.ORD==1</span><span class="labelR">] {</span> <span class="spanEx">WHERE ORD = :ORD</span> <span class="labelR">}</span>
 
