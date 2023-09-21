@@ -1,1 +1,0 @@
-import{_ as o,o as t,c,d as e,f as r}from"./app-0797e269.js";const n={},a=e("h1",{id:"control-boc",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#control-boc","aria-hidden":"true"},"#"),r(" Control BOC")],-1),s=[a];function _(l,d){return t(),c("div",null,s)}const h=o(n,[["render",_],["__file","ControlBoc.html.vue"]]);export{h as default};
