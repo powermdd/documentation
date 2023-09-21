@@ -108,7 +108,7 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
   .boc 
    { display: inline-flex; }
   .bocEX 
-   { display: inline-block; padding: 4.5px; position: relative; width: 100%; }
+   { display: inline-block; padding: 4.5px; position: relative; width: 100%; color: darkslategray; }
   .bocG
    { background: rgb(195, 255, 195); }
   .bocY

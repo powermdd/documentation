@@ -149,7 +149,7 @@ Null일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
   .boc 
    { display: inline-flex; }
   .bocEX 
-   { display: inline-block; padding: 4.5px; position: relative; width: 100%; }
+   { display: inline-block; padding: 4.5px; position: relative; width: 100%; color: darkslategray; }
   .bocG
    { background: rgb(195, 255, 195); }
   .bocY
