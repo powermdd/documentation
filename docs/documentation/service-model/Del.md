@@ -101,7 +101,7 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 실행 조건에 값이 있는 경우 해당 실행 조건이 True가 아니면 실행이 되지 않습니다.
 
 <style type='sass'>
-  .boc 
+  .boc
    { display: inline-flex; }
   .bocEX 
    { display: inline-block; padding: 4.5px; position: relative; width: 100%; color: darkslategray; }
