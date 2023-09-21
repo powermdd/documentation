@@ -67,7 +67,7 @@ Pagination 시 페이지당 레코드 건수를 설정합니다.
 <span class="font20">5)</span><b class="font20"> 선택항목</b> <br/>
 
 <span class="font18">①</span><b class="font18"> Alias전송명 </b> <br/>
-전송하는 Object명의 Alias를 생성합니다.
+전송하는 Object 명의 Alias를 생성합니다.
 
 <span class="font18">②</span><b class="font18"> DATA SIZE </b> <br/>
 Common이 기본 설정이며, Batch 형태의 대용량 데이터 처리 시 Large로 설정합니다.
