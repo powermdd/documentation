@@ -8,7 +8,7 @@ DB Table에 대한 Select문을 처리하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-SEL-BOC는 Toad 등의 Query Tool에서 미리 작성된 SQL query를 복사해서 입력하는 방식으로 사용합니다.
+SEL-BOC는 Toad 등의 Query Tool에서 미리 작성된 SQL 쿼리를 복사해서 입력하는 방식으로 사용합니다.
 :::
 <!-- -->
 
@@ -17,7 +17,7 @@ DB Table에 대한 Insert 처리를 수행하는 기능인 컴포넌트입니다
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-INS-BOC는 Query를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
+INS-BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
 :::
 <!-- -->
 
@@ -26,7 +26,7 @@ DB Table에 대한 Delete처리를 수행하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-DEL BOC는 Query를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
+DEL BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
 처리 이후 Object Column인 UPDCNT 값으로 삭제 처리한 Record Count를 Return 처리합니다.
 :::
 <!-- -->
@@ -36,7 +36,7 @@ DB Table에 대한 Update 처리를 수행하는 기능인 컴포넌트입니다
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-UPD-BOC는 Query를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
+UPD-BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
 :::
 <!-- -->
 
@@ -45,7 +45,7 @@ DB Table에 대한 Update & Insert 처리를 수행하는 기능인 컴포넌트
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-UNI-BOC는 Query를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
+UNI-BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
 처리 방식은 Update 먼저 수행하고 수행결과가 0건이면 Insert를 처리합니다. 즉 UPD, INS BOC를 결합 시킨 형태입니다. 
 :::
 <!-- -->
@@ -56,7 +56,7 @@ UNI-BOC는 Query를 자동 생성하며 자동 생성에 필요한 속성을 설
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 INS , UPD, DEL는 속성 설정으로 쿼리를 자동 생성처리 하지만 XIUD는 사용자가 직접 쿼리를 입력하여 사용하는 기능입니다.<br/>
-예를 들면, PK를 수정하는 update문이나 Insert문, Select문, Merge Into문 등을 사용자가 직접 입력해서 사용합니다.
+예를 들면, PK를 수정하는 Update문이나 Insert문, Select문, Merge Into문 등을 사용자가 직접 입력해서 사용합니다.
 :::
 <!-- -->
 
