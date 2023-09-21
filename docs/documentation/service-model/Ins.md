@@ -94,7 +94,7 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 - <b>QueryData :</b> 값이 포함된 쿼리를 표시합니다.
 - <b>SCLTrace :</b> SCLT BOC의 결과를 표시합니다.
 - <b>PEX부가 Objects :</b> PEX BOC의 부가적인 Object의 결과를 표시합니다.
-- <b>미사용 :</b> 조건 컬럼부의 계산식 값을 표시합니다.
+- <b>미사용 :</b> 조건 컬럼 부의 계산식 값을 표시합니다.
 
 <span class="font18">⑥</span><b class="font18"> 실행 조건 </b> <br/>
 실행 조건에 값이 있는 경우 해당 실행 조건이 True가 아니면 실행이 되지 않습니다.
