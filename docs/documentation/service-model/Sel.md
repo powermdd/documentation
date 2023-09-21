@@ -12,8 +12,8 @@ SEL-BOC는 Toad 등의 Query Tool에서 미리 작성된 SQL 쿼리를 복사해
 BOC 컴포넌트 목록에서 SEL BOC를 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SELBoc(2).png" style="width:150px;"> 
-<div style="margin-top: 103px; margin-left: 20px;">
-<span class="bocEX bocG" style="margin-bottom: 50px;">데이터베이스의 데이터를 Select하는 컬럼 부를 표시합니다.</span>
+<div style="margin-top: 103px; margin-left: 20px; font-size: 12px;">
+<span class="bocEX bocG" style="margin-bottom: 56px;">데이터베이스의 데이터를 Select하는 컬럼 부를 표시합니다.</span>
 <span class="bocEX bocY">데이터를 Select하기 위해서 필요로 하는 조건 컬럼 부를 표시합니다.</span></div>
 </div>
 
@@ -150,7 +150,7 @@ Null일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
   .bocY
    { background: rgb(255, 255, 193); }
   .bocG:after, .bocY:after
-   { content: ""; border-width: 15px 0 16px 10px; border-style: solid; position: absolute; left: 100%; top: 0;  }
+   { content: ""; border-width: 13px 0 13px 10px; border-style: solid; position: absolute; left: 100%; top: 0;  }
   .bocG:after
    { border-color: transparent transparent transparent rgb(195, 255, 195); }
   .bocY:after

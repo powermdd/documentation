@@ -13,9 +13,9 @@ BOC 컴포넌트 목록에서 DEL BOC를 선택하여 Drag-Drop으로 화면작�
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/DelBoc.png" style="width:150px;"> 
 <div style="margin-top: 24px; margin-left: 20px; font-size: 12px;">
-<span class="bocEX bocY2 bocY2_S" style="margin-bottom: 1px;">데이터베이스의 데이터를 삭제하기 위한 조건 컬럼 부를 표시합니다. 
+<span class="bocEX bocY2" style="margin-bottom: 1px;">데이터베이스의 데이터를 삭제하기 위한 조건 컬럼 부를 표시합니다. 
 Where 절의 조건으로 사용됩니다.</span>
-<span class="bocEX bocW bocW_S">입력한 값에 추가 또는 값을 변경하는 컬럼 부를 표시합니다.</span></div>
+<span class="bocEX bocW">입력한 값에 추가 또는 값을 변경하는 컬럼 부를 표시합니다.</span></div>
 </div>
 
 ## 2. 속성
@@ -116,9 +116,7 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
   .bocW
    { background: rgb(245, 245, 245); }
   .bocG:after, .bocY:after, .bocP:after, .bocW:after, .bocY2:after
-   { content: ""; border-width: 15px 0 16px 10px; border-style: solid; position: absolute; left: 100%; top: 0;  }
-  .bocW_S:after, .bocY2_S:after
-   { content: ""; border-width: 13px 0 13px 10px !important;  } 
+   { content: ""; border-width: 13px 0 13px 10px; border-style: solid; position: absolute; left: 100%; top: 0;  }
   .bocG:after
    { border-color: transparent transparent transparent rgb(195, 255, 195); }
   .bocY:after
