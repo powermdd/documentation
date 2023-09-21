@@ -1,6 +1,6 @@
 # Database BOC
 
-Select, insert, delete 등 데이터베이스와 관련된 구성요소입니다. <br/>
+Select, Insert, Delete 등 데이터베이스와 관련된 구성요소입니다. <br/>
 <img class="boxBorder" src="../../.vuepress\public\documentation\service-model\BOC\DataBaseBOC\DataBaseBOC.png" style="width:400px;"> <br/>
 
 ## 1. SEL
