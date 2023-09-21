@@ -12,8 +12,8 @@ INS-BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 �
 BOC 컴포넌트 목록에서 INS BOC를 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INSBoc.png" style="width:150px;"> 
-<div style="margin-top: 103px; margin-left: 20px;">
-<span class="bocEX bocP" style="margin-bottom: 104px;">데이터베이스의 데이터를 등록하는 컬럼 부를 표시합니다.</span>
+<div style="margin-top: 103px; margin-left: 20px; font-size: 12px;">
+<span class="bocEX bocP" style="margin-bottom: 111px;">데이터베이스의 데이터를 등록하는 컬럼 부를 표시합니다.</span>
 <span class="bocEX bocW">입력한 값에 추가 또는 값을 변경하는 컬럼 부를 표시합니다.</span></div>
 </div>
 
@@ -113,7 +113,7 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
   .bocW
    { background: rgb(245, 245, 245); }
   .bocG:after, .bocY:after, .bocP:after, .bocW:after
-   { content: ""; border-width: 15px 0 16px 10px; border-style: solid; position: absolute; left: 100%; top: 0;  }
+   { content: ""; border-width: 13px 0 13px 10px; border-style: solid; position: absolute; left: 100%; top: 0;  }
   .bocG:after
    { border-color: transparent transparent transparent rgb(195, 255, 195); }
   .bocY:after
