@@ -13,8 +13,8 @@ BOC 컴포넌트 목록에서 INS BOC를 선택하여 Drag-Drop으로 화면작�
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INSBoc.png" style="width:150px;"> 
 <div style="margin-top: 103px; margin-left: 20px;">
-<span class="bocEX bocP" style="margin-bottom: 104px;">데이터베이스의 데이터를 등록하는 컬럼부를 표시합니다.</span>
-<span class="bocEX bocW">입력한 값에 추가 또는 값을 변경하는 컬럼부를 표시합니다.</span></div>
+<span class="bocEX bocP" style="margin-bottom: 104px;">데이터베이스의 데이터를 등록하는 컬럼 부를 표시합니다.</span>
+<span class="bocEX bocW">입력한 값에 추가 또는 값을 변경하는 컬럼 부를 표시합니다.</span></div>
 </div>
 
 ## 2. 속성
@@ -94,7 +94,7 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 - <b>QueryData :</b> 값이 포함된 쿼리를 표시합니다.
 - <b>SCLTrace :</b> SCLT BOC의 결과를 표시합니다.
 - <b>PEX부가 Objects :</b> PEX BOC의 부가적인 Object의 결과를 표시합니다.
-- <b>미사용 :</b> 조건 컬럼부의 계산식 값을 표시합니다.
+- <b>미사용 :</b> 조건 컬럼 부의 계산식 값을 표시합니다.
 
 <span class="font18">⑥</span><b class="font18"> 실행 조건 </b> <br/>
 실행 조건에 값이 있는 경우 해당 실행 조건이 True가 아니면 실행이 되지 않습니다.
