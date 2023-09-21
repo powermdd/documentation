@@ -106,8 +106,7 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 </div> <br/>
 
 
-<span class="spanEx">Ex) 데이터셋으로 직접 비교 처리</span><br/>
-<span class="spanEx">SELECT Employee, Name</span><br/>
+<span class="spanEx">Ex) SELECT Employee, Name</span><br/>
 <span class="spanEx">FROM TABLENAME</span><br/>
 <span class="labelR">[</span><span class="spanEx">ORD</span><span class="labelR">] {</span> <span class="spanEx">WHERE ORD = :ORD</span> <span class="labelR">}</span>
 
