@@ -20,7 +20,7 @@ Where 절의 조건으로 사용됩니다.</span>
 
 ## 2. 속성
 화면작업 창에서 DEL BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다.<br/>
-<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/Property(7).png"  class="boxBorder" style="position: relative;top: 5px; width:300px;"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/Property(2).png"  class="boxBorder" style="position: relative;top: 5px; width:300px;"> <br/>
 
 <span class="font20">1)</span><b class="font20"> 기초정보</b> <br/>
 
@@ -116,7 +116,7 @@ Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
   .bocW
    { background: rgb(245, 245, 245); }
   .bocG:after, .bocY:after, .bocP:after, .bocW:after, .bocY2:after
-   { content: ""; border-width: 13px 0 13px 10px !important; border-style: solid; position: absolute; left: 100%; top: 0;  }
+   { content: ""; border-width: 13px 0 13px 10px; border-style: solid; position: absolute; left: 100%; top: 0;  }
   .bocG:after
    { border-color: transparent transparent transparent rgb(195, 255, 195); }
   .bocY:after
