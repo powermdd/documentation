@@ -1,39 +1,9 @@
 # POWERMDD.BMS
 
-<!-- Remark -->
-::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
--  license.txt와 PowerMDD_1.1.jar 파일은 POWERMDD 개발 서버 설치시 필요한 파일이고 key 파일은 POWERMDD 클라이언트 설치 후 로그인하기 전에 필요한 파일입니다.<br/>
-
-- <span class="spanEx"> LicenseKey 디렉토리를 관리자에게 요청하기 전에 개발 서버 Hostname, IP주소, WAS PORT 정보가 필요합니다. </span>
-:::
-<!-- -->
-
-## 1. LicenseKey 디렉토리 : license.txt, PowerMDD_1.1.jar, key파일
-<span class="font20">1)</span><b class="font20"> Hostname </b> <br/>
-SSH 접속 Tool에  ‘<b>hostname</b>’ 을 입력하여 Hostname명을 확인합니다. <br/>
-<img src="../.vuepress/public/installation/PowerMddBms/Hostname.png" width="400" height="40">
-
-<span class="font20">2)</span><b class="font20"> IP주소 </b> <br/>
-SSH 접속 Tool에 ‘<b>ping</b> <b class="spanEx">hostname명</b>’ 입력하여 IP를 확인합니다. <br/>
-<img src="../.vuepress/public/installation/PowerMddBms/IPAdress.png" width="600" height="130">
-
-<span class="font20">3)</span><b class="font20"> WAS Port </b> <br/>
-WAS가 설치된 경로에 server.xml 파일을 열어서 Port번호를 확인할 수 있습니다. <br/>
-
-<span class="font18"> ① SSH 접속 Tool에 vi 명령어로 Port번호를 확인할 수 있는 파일을 엽니다. </span> <br/>
-<img src="../.vuepress/public/installation/PowerMddBms/viCmd.png" width="400" height="25">
-
-<span class="font18"> ② 해당 파일을 열고 Port번호를 확인합니다. </span> <br/>
-<img src="../.vuepress/public/installation/PowerMddBms/portCmd.png" width="400" height="50">
-
-<span class="font20">4)</span><b class="font20"> LicenseKey 디렉토리 </b> <br/>
-관리자에게 가 – 다의 정보를 보내면 License를 받을 수 있습니다. <br/>
-<img src="../.vuepress/public/installation/PowerMddBms/LicenseKey.png" width="600" height="300">
-
-## 2. Meta DB 파일
+## 1. 가.  SQL 폴더 (Schema, Sequence, Data)
 POWERMDD의 데이터베이스는 Meta DB, 업무 DB 2가지 종류가 있습니다. <br/>
 
-<span class="font20">1)</span><b class="font20"> Meta DB 세팅</b>(PostgreSQL 사용) <br/>
+<span class="font20">1)</span><b class="font20"> Meta DB 세팅</b> <span span class="spanEx2">Ex) PostgreSQL 사용</span> <br/>
 POWERMDD 서버에 있는 모든 정보 체계를 저장하고 있는 데이터베이스입니다. <br/>
 
 <span class="font18">(1)</span><b class="font18"> User 계정 생성 </b>  <span span class="spanEx2">Ex) 계정 : democtl</span> <br/>
@@ -55,8 +25,8 @@ POWERMDD 서버에 있는 모든 정보 체계를 저장하고 있는 데이터�
 <span class="font18"> ④ 생성한 계정에 사용할 암호를 입력합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_password.png" width="450" height="50"><br/>
 
-<span class="font18"> ⑤ 데이터베이스를 생성하고 생성한 데이터베이스에 소유자를 생성한 계정으로 지정한다. 
-단, 데이터베이스는 superuser만 생성할 수 있다. </span> <br/>
+<span class="font18"> ⑤ 데이터베이스를 생성하고 생성한 데이터베이스에 소유자를 생성한 계정으로 지정합니다. 
+단, 데이터베이스는 superuser만 생성할 수 있습니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_createDatabase.png" width="650" height="50"><br/>
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -72,16 +42,19 @@ POWERMDD 서버에 있는 모든 정보 체계를 저장하고 있는 데이터�
 
 <span class="font18">(2)</span><b class="font18"> 데이터베이스 세팅 </b> <br/>
 
-<span class="font18"> ① 데이터베이스 Tool(TablePlus 사용)을 이용해서 Meta DB에 접속합니다. </span> <br/>
+<span class="font18"> ① 데이터베이스 Tool을 이용해서 Meta DB에 접속합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_databaseTool.png" width="400" height="410"><br/>
 
 <span class="font18"> ② POWERMDD의 정보들을 저장할 수 있는 Meta DB에 들어갈 테이블들을 생성합니다. </span> <br/>
+<span span class="spanEx2">(POWERMDD BMS 폴더 > SQL 폴더 > 1. Scherma.sql 파일 첨부)</span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_databaseTable.png" width="600" height="400"><br/>
 
-<span class="font18"> ③ 테이블에 들어갈 값들 중에 유일한 값, Primary key 값을 생성하기 위해 Sequence도 생성합니다.</span> <br/>
+<span class="font18"> ③ 테이블에 들어갈 값들 중에 유일한 값, Primary key 값을 생성하기 위해 Sequence도 생성합니다.</span> 
+<span span class="spanEx2"> (POWERMDD BMS 폴더 > SQL 폴더 > 2. Sequence.sql 파일 첨부)</span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_databaseSequence.png" width="600" height="400"><br/>
 
-<span class="font18"> ④ 생성한 테이블에 기본적으로 들어갈 Data을 insert하여 commit합니다. </span> <br/>
+<span class="font18"> ④ 생성한 테이블에 기본적으로 들어갈 데이터를 insert하여 commit합니다. </span> <br/>
+<span span class="spanEx2">(POWERMDD BMS 폴더 > SQL 폴더 > 3. DATA.sql 파일 첨부)</span> <br/>
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 insert하기 전에 SYSID, GROUPID 컬럼에 들어갈 값을 PROJECT명으로 변경합니다.
@@ -89,7 +62,7 @@ insert하기 전에 SYSID, GROUPID 컬럼에 들어갈 값을 PROJECT명으로 �
 <!-- -->
 <img src="../.vuepress/public/installation/PowerMddBms/metaDB_databaseData.png" width="600" height="400"><br/>
 
-<span class="font20">2)</span><b class="font20"> 업무 DB 세팅</b>(MySQL 사용) <br/>
+<span class="font20">2)</span><b class="font20"> 업무 DB 세팅</b> <span span class="spanEx2">Ex) MySQL 사용</span> <br/>
 해당 업무 서버에 있는 모든 정보 체계를 저장하고 있는 데이터베이스입니다. <br/>
 
 <span class="font18">(1)</span><b class="font18"> User 계정 생성 </b> <span span class="spanEx2">Ex) 계정 : demo</span> <br/>
@@ -121,6 +94,30 @@ insert하기 전에 SYSID, GROUPID 컬럼에 들어갈 값을 PROJECT명으로 �
 
 <span class="font18"> ⑦ 데이터베이스 목록을 조회하여 잘 생성되었는지 확인합니다. </span><br/>
 <img src="../.vuepress/public/installation/PowerMddBms/dB_databaseList.png" width="280" height="280"><br/>
+
+## 1. LicenseKey 디렉토리 : license.txt, PowerMDD_1.1.jar, key파일
+<span class="font20">1)</span><b class="font20"> Hostname </b> <br/>
+SSH 접속 Tool에  ‘<b>hostname</b>’ 을 입력하여 Hostname명을 확인합니다. <br/>
+<img src="../.vuepress/public/installation/PowerMddBms/Hostname.png" width="400" height="40">
+
+<span class="font20">2)</span><b class="font20"> IP주소 </b> <br/>
+SSH 접속 Tool에 ‘<b>ping</b> <b class="spanEx">hostname명</b>’ 입력하여 IP를 확인합니다. <br/>
+<img src="../.vuepress/public/installation/PowerMddBms/IPAdress.png" width="600" height="130">
+
+<span class="font20">3)</span><b class="font20"> WAS Port </b> <br/>
+WAS가 설치된 경로에 server.xml 파일을 열어서 Port번호를 확인할 수 있습니다. <br/>
+
+<span class="font18"> ① SSH 접속 Tool에 vi 명령어로 Port번호를 확인할 수 있는 파일을 엽니다. </span> <br/>
+<img src="../.vuepress/public/installation/PowerMddBms/viCmd.png" width="400" height="25">
+
+<span class="font18"> ② 해당 파일을 열고 Port번호를 확인합니다. </span> <br/>
+<img src="../.vuepress/public/installation/PowerMddBms/portCmd.png" width="400" height="50">
+
+<span class="font20">4)</span><b class="font20"> LicenseKey 디렉토리 </b> <br/>
+관리자에게 가 – 다의 정보를 보내면 License를 받을 수 있습니다. <br/>
+<img src="../.vuepress/public/installation/PowerMddBms/LicenseKey.png" width="600" height="300">
+
+## 2. Meta DB 파일
 
 ## 3. BMSCTX 디렉토리
 WAS에 탑재되는 Middleware 서버로 다수의 Client(DX)로부터 다양한 요청에 대하여 필요한 기능을 제공합니다.
