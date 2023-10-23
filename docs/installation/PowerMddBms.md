@@ -1,10 +1,10 @@
-# POWERMDD.BMS : 개발 Server
+# POWERMDD.BMS
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
--  license.txt와 PowerMDD_1.1.jar 파일은 POWERMDD 개발 Server 설치시 필요한 파일이고 key 파일은 POWERMDD Client 설치 후 로그인하기 전에 필요한 파일입니다.<br/>
+-  license.txt와 PowerMDD_1.1.jar 파일은 POWERMDD 개발 서버 설치시 필요한 파일이고 key 파일은 POWERMDD 클라이언트 설치 후 로그인하기 전에 필요한 파일입니다.<br/>
 
-- <span class="spanEx"> LicenseKey 디렉토리를 관리자에게 요청하기 전에 개발서버 Hostname, IP주소, WAS PORT 정보가 필요합니다. </span>
+- <span class="spanEx"> LicenseKey 디렉토리를 관리자에게 요청하기 전에 개발 서버 Hostname, IP주소, WAS PORT 정보가 필요합니다. </span>
 :::
 <!-- -->
 
@@ -17,17 +17,17 @@ SSH 접속 Tool에  ‘<b>hostname</b>’ 을 입력하여 Hostname명을 확인
 SSH 접속 Tool에 ‘<b>ping</b> <b class="spanEx">hostname명</b>’ 입력하여 IP를 확인합니다. <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/IPAdress.png" width="600" height="130">
 
-<span class="font20">3)</span><b class="font20"> WAS Port (Tomcat 사용) </b> <br/>
-WAS가 설치된 경로에 server.xml 파일을 열어서 Port을 확인할 수 있습니다. <br/>
+<span class="font20">3)</span><b class="font20"> WAS Port </b> <br/>
+WAS가 설치된 경로에 server.xml 파일을 열어서 Port번호를 확인할 수 있습니다. <br/>
 
-<span class="font18"> ① SSH 접속 Tool에 vi 명령어로 port번호를 확인할 수 있는 파일을 엽니다. </span> <br/>
+<span class="font18"> ① SSH 접속 Tool에 vi 명령어로 Port번호를 확인할 수 있는 파일을 엽니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/viCmd.png" width="400" height="25">
 
-<span class="font18"> ② 해당 파일을 열고 port번호를 확인합니다. </span> <br/>
+<span class="font18"> ② 해당 파일을 열고 Port번호를 확인합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/portCmd.png" width="400" height="50">
 
 <span class="font20">4)</span><b class="font20"> LicenseKey 디렉토리 </b> <br/>
-관리자에게 가 – 다 의 정보를 보내면 License를 받을 수 있습니다. <br/>
+관리자에게 가 – 다의 정보를 보내면 License를 받을 수 있습니다. <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/LicenseKey.png" width="600" height="300">
 
 ## 2. Meta DB 파일
