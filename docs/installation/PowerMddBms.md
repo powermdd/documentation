@@ -95,28 +95,6 @@ insert하기 전에 SYSID, GROUPID 컬럼에 들어갈 값을 PROJECT명으로 �
 <span class="font18"> ⑦ 데이터베이스 목록을 조회하여 잘 생성되었는지 확인합니다. </span><br/>
 <img src="../.vuepress/public/installation/PowerMddBms/dB_databaseList.png" width="280" height="280"><br/>
 
-## 1. LicenseKey 디렉토리 : license.txt, PowerMDD_1.1.jar, key파일
-<span class="font20">1)</span><b class="font20"> Hostname </b> <br/>
-SSH 접속 Tool에  ‘<b>hostname</b>’ 을 입력하여 Hostname명을 확인합니다. <br/>
-<img src="../.vuepress/public/installation/PowerMddBms/Hostname.png" width="400" height="40">
-
-<span class="font20">2)</span><b class="font20"> IP주소 </b> <br/>
-SSH 접속 Tool에 ‘<b>ping</b> <b class="spanEx">hostname명</b>’ 입력하여 IP를 확인합니다. <br/>
-<img src="../.vuepress/public/installation/PowerMddBms/IPAdress.png" width="600" height="130">
-
-<span class="font20">3)</span><b class="font20"> WAS Port </b> <br/>
-WAS가 설치된 경로에 server.xml 파일을 열어서 Port번호를 확인할 수 있습니다. <br/>
-
-<span class="font18"> ① SSH 접속 Tool에 vi 명령어로 Port번호를 확인할 수 있는 파일을 엽니다. </span> <br/>
-<img src="../.vuepress/public/installation/PowerMddBms/viCmd.png" width="400" height="25">
-
-<span class="font18"> ② 해당 파일을 열고 Port번호를 확인합니다. </span> <br/>
-<img src="../.vuepress/public/installation/PowerMddBms/portCmd.png" width="400" height="50">
-
-<span class="font20">4)</span><b class="font20"> LicenseKey 디렉토리 </b> <br/>
-관리자에게 가 – 다의 정보를 보내면 License를 받을 수 있습니다. <br/>
-<img src="../.vuepress/public/installation/PowerMddBms/LicenseKey.png" width="600" height="300">
-
 ## 2. BMSCTX.zip 파일
 WAS에 탑재되는 Middleware 서버로 다수의 클라이언트(DX)로부터 다양한 요청에 대하여 필요한 기능을 제공합니다.
 
