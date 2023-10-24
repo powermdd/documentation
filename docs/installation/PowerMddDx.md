@@ -31,7 +31,7 @@ WAS가 설치된 경로에 server.xml 파일을 열어서 Port번호를 확인�
 
 <span class="font18">(1)</span><b class="font18"> bin 파일 </b> <br/>
 
-SSH 접속 Tool에 ‘<b>cd</b> <b class="spanEx">Was경로</b><b>/bin</b>’을 입력한다. <br>
+SSH 접속 Tool에 ‘<b>cd</b> <b class="spanEx">Was경로</b><b>/bin</b>’을 입력합니다. <br>
 <img src="../.vuepress/public/installation/PowerMddDx/Was.png" width="400" >
 
 <!-- Remark -->
