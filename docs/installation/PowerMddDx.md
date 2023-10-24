@@ -1,11 +1,38 @@
-# POWERMDD DX
+# POWERMDD.DX
 
-## 1. WAS 실행
+## 1. License Key 파일
+<span class="font20">1)</span><b class="font20"> Hostname </b> <br/>
+SSH 접속 Tool에  ‘<b>hostname</b>’ 을 입력하여 Hostname명을 확인합니다. <br/>
+<img src="../.vuepress/public/installation/PowerMddBms/Hostname.png" width="400" >
+
+<span class="font20">2)</span><b class="font20"> IP주소 </b> <br/>
+SSH 접속 Tool에 ‘<b>ping</b> <b class="spanEx">hostname명</b>’ 입력하여 IP를 확인합니다. <br/>
+<img src="../.vuepress/public/installation/PowerMddBms/IPAdress.png" width="600" >
+
+<span class="font20">3)</span><b class="font20"> WAS Port </b> <br/>
+WAS가 설치된 경로에 server.xml 파일을 열어서 Port번호를 확인할 수 있습니다. <br/>
+
+<span class="font18"> ① SSH 접속 Tool에 vi 명령어로 Port번호를 확인할 수 있는 파일을 엽니다. </span> <br/>
+<img src="../.vuepress/public/installation/PowerMddBms/viCmd.png" width="400" >
+
+<span class="font18"> ② 해당 파일을 열고 Port번호를 확인합니다. </span> <br/>
+<img src="../.vuepress/public/installation/PowerMddBms/portCmd.png" width="400" >
+
+<span class="font20">4)</span><b class="font20"> LicenseKey 파일 </b> <br/>
+관리자에게 가 – 다의 정보를 보내면 License Key 파일을 받을 수 있습니다. <br/>
+<img src="../.vuepress/public/installation/PowerMddDx/LicenseKey.png" width="600" >
+
+## 2. POWERMDD 클라이언트 setup 파일
+애플리케이션 개발을 위한 프로그램 Tool입니다.
+
+<span class="font20">1)</span><b class="font20"> WAS 실행 </b> <br/>
+
 개발 서버를 수정했으므로 재기동을 해야 POWERMDD가 정상적으로 작동이 됩니다.<br/>
 
-<span class="font20">1)</span><b class="font20"> bin 파일 </b> <br/>
+<span class="font18">(1)</span><b class="font18"> bin 파일 </b> <br/>
+
 SSH 접속 Tool에 ‘<b>cd</b> <b class="spanEx">Was경로</b><b>/bin</b>’을 입력한다. <br>
-<img src="../.vuepress/public/installation/PowerMddDx/Was.png" width="400" height="40">
+<img src="../.vuepress/public/installation/PowerMddDx/Was.png" width="400" >
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -13,29 +40,15 @@ Was을 시작, 중지, 기타 파일이 있는 디렉토리입니다. 시작, �
 :::
 <!-- -->
 
-<span class="font20">2)</span><b class="font20"> WAS 재기동 </b> <br/>
+<span class="font18">(2)</span><b class="font18"> WAS 재기동 </b> <br/>
 
-<span class="font18"> (1) WAS가 실행되어 있다면 SSH 접속 Tool에 ‘<b>./shutdown.sh</b>’을 입력해서 WAS을 중지합니다. </span> <br/>
-<img src="../.vuepress/public/installation/PowerMddDx/shutdown.png" width="600" height="110">
+<span class="font18"> ① WAS가 실행되어 있다면 SSH 접속 Tool에 ‘<b>./shutdown.sh</b>’을 입력해서 WAS을 중지합니다. </span> <br/>
+<img src="../.vuepress/public/installation/PowerMddDx/shutdown.png" width="600" >
 
-<span class="font18"> (2) SSH 접속 Tool에 ‘<b>./startup.sh</b>’을 입력해서 WAS을 시작합니다. </span> <br/>
-<img src="../.vuepress/public/installation/PowerMddDx/startup.png" width="600" height="110">
+<span class="font18"> ② SSH 접속 Tool에 ‘<b>./startup.sh</b>’을 입력해서 WAS을 시작합니다. </span> <br/>
+<img src="../.vuepress/public/installation/PowerMddDx/startup.png" width="600" >
 
-## 2. POWERMDD 실행
-
-<span class="font20">1)</span><b class="font20"> Project 등록 </b> <br/>
-
-<span class="font18"> (1) POWERMDD 로그인하기 전에 POWERMDD 설치 경로에 들어가서 DXDBInit.xml 클릭합니다. </span> <br/>
-<img src="../.vuepress/public/installation/PowerMddDx/dxdbinit.png" width="600" height="300">
-
-<span class="font18"> (2) POWERMDD로 개발할 프로젝트명을 입력합니다. </span> <br/>
-```xml
-<SYSTEM>
-  <SYSID>DEMO</SYSID>
-</SYSTEM>
-```
-
-<span class="font20">2)</span><b class="font20"> POWERMDD 로그인 </b> <br/>
+<span class="font20">2)</span><b class="font20"> POWERMDD 실행 (설치부분은 POWERMDD 개요 매뉴얼 참고) </b> <br/>
 
 <span class="font18"> (1) 바탕화면에 설치된 POWERMDD 프로그램을 더블클릭합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddDx/powermdd.png" width="100">
