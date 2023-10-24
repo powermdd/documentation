@@ -250,7 +250,7 @@ POWERMDD 기능 요소 중 View Designer의 내역들이 저장되는 경로입�
 
 - <b>&lt;UXResponseCharset&gt; &lt;XRequestCharset&gt;</b> : Character set을 설정합니다.
 
-<!-- Remark -->
+POWERMDD을<!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 해당 경로에 temp와 layout 디렉토리를 생성해야합니다.<br/>
 <img src="../.vuepress/public/installation/PowerMddBms/temp.png" width="280" height="480"><br/>
@@ -541,14 +541,14 @@ lib, class, css, jsp 등 웹 애플리케이션 실행파일들의 보관 디렉
 ```xml
 <filter-mapping>
     <filter-name>encodingFilter</filter-name>
-    <url-pattern>*.sa</url-pattern>
+    <url-pattern>*.do</url-pattern>
 </filter-mapping>
 
 ....
 
 <servlet-mapping>
   <servlet-name>action</servlet-name>
-  <url-pattern>*.sa</url-pattern>
+  <url-pattern>*.do</url-pattern>
 </servlet-mapping>
 ```
 
