@@ -11,7 +11,7 @@ POWERMDD 서버에 있는 모든 정보 체계를 다 저장하고 있는 데이
 WAS에 탑재되는 Middleware 서버로 다수의 클라이언트(DX)로부터 다양한 요청에 대하여 필요한 기능을 제공합니다. <br/>
 
 <span class="font18">③</span><b class="font18"> WebApplication명.war 파일 </b> <br/>
-lib, class, css, jsp 등 웹 애플리케이션의 실행 파일들의 보관 폴더입니다.  <br/>
+lib, class, css, jsp 등 웹 애플리케이션의 실행 파일들의 보관 디렉토리입니다.  <br/>
 
 
 <span class="font20">2)</span><b class="font20"> POWERMDD.DX : 개발 클라이언트 </b> <br/>
