@@ -100,7 +100,7 @@ WAS에 탑재되는 Middleware 서버로 다수의 클라이언트(DX)로부터 
 
 <span class="font20">1)</span><b class="font20"> BMSCTX : CONTEXT 구성 </b> <br/>
 
-<span class="font18"> (1) POWERMDD을 실행할 파일들이 들어있는 BMSCTX 디렉토리를 WAS 설치 경로에 세팅합니다. </span> <br/>
+<span class="font18"> (1) POWERMDD를 실행할 파일들이 들어있는 BMSCTX 디렉토리를 WAS 설치 경로에 세팅합니다. </span> <br/>
 <img src="../.vuepress/public/installation/PowerMddBms/BMSCTX.png" width="280" height="480"><br/>
 
 <span class="font20">2)</span><b class="font20"> processBuilder_config.xml : BMSCTX 환경파일 세팅 </b> <br/>
@@ -138,11 +138,11 @@ WAS에 탑재되는 Middleware 서버로 다수의 클라이언트(DX)로부터 
 Meta DB, 업무 DB 연결 정보를 설정하는 부분입니다.
 
 <span class="font18">④</span><b class="font18"> &lt;MAC&gt; </b> <br/>
-POWERMDD을 사용할 사용자 MAC 주소를 입력하는 부분입니다.
+POWERMDD를 사용할 사용자 MAC 주소를 입력하는 부분입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-MAC 주소를 등록하지 않고 POWERMDD 로그인을 하면 MAC 주소를 등록하라는 알림창이 나오면서 POWERMDD을 접속할 수 없습니다.
+MAC 주소를 등록하지 않고 POWERMDD 로그인을 하면 MAC 주소를 등록하라는 알림창이 나오면서 POWERMDD를 접속할 수 없습니다.
 :::
 <!-- -->
 
