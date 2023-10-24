@@ -541,14 +541,14 @@ lib, class, css, jsp 등 웹 애플리케이션 실행파일들의 보관 디렉
 ```xml
 <filter-mapping>
     <filter-name>encodingFilter</filter-name>
-    <url-pattern>*.sa</url-pattern>
+    <url-pattern>*.do</url-pattern>
 </filter-mapping>
 
 ....
 
 <servlet-mapping>
   <servlet-name>action</servlet-name>
-  <url-pattern>*.sa</url-pattern>
+  <url-pattern>*.do</url-pattern>
 </servlet-mapping>
 ```
 
