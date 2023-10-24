@@ -16,10 +16,7 @@ lib, class, css, jsp 등 웹 애플리케이션의 실행 파일들의 보관 �
 
 <span class="font20">2)</span><b class="font20"> POWERMDD.DX : 개발 클라이언트 </b> <br/>
 
-<span class="font18">①</span><b class="font18"> POWERMDD 클라이언트 setup 파일 </b> <br/>
-애플리케이션 개발을 위한 프로그램 Tool입니다. <br/>
-
-<span class="font18">②</span><b class="font18"> License Key 파일 </b> <br/>
+<span class="font18">①</span><b class="font18"> License Key 파일 </b> <br/>
 POWERMDD 클라이언트 설치 후 로그인하기 전에 필요한 파일입니다. <br/>
 
 <!-- Remark -->
@@ -27,6 +24,11 @@ POWERMDD 클라이언트 설치 후 로그인하기 전에 필요한 파일입�
 License Key 파일을 관리자에게 요청하기 전에 개발 서버 Hostname, IP주소, WAS PORT 정보가 필요합니다.
 :::
 <!-- -->
+
+<span class="font18">②</span><b class="font18"> POWERMDD 클라이언트 setup 파일 </b> <br/>
+애플리케이션 개발을 위한 프로그램 Tool입니다. <br/>
+
+
 
 ## 2. 권장사항 및 매뉴얼 사용 Tool 목록
 
