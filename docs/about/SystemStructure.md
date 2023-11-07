@@ -12,7 +12,7 @@ sidebarDepth: 0
 
 ② <b>POWERMDD.DX(Design Executor) </b> <br/>
   - 사용자 PC에 설치되는 개발 Tool <br/>
-  - 사용자(개발자)가 업무 Application을 개발하기 위하여 사용하는 개발도구  <br/>
+  - 사용자(개발자)가 업무 애플리케이션을 개발하기 위하여 사용하는 개발도구  <br/>
 :::
 
 ## 1. POWERMDD.BMS 구성 및 기능
@@ -28,7 +28,7 @@ sidebarDepth: 0
 
 ## 2. POWERMDD.DX 구성 및 기능
 
-: <u>사용자(개발자)에게 Application 개발을 위한 아래의 다양한 도구를 제공합니다.</u>
+: <u>사용자(개발자)에게 애플리케이션 개발을 위한 아래의 다양한 도구를 제공합니다.</u>
 
 <span class="font18">① WAS에서 실행되는 서비스를 개발하는 <b> Service Model </b></span><br/>
 <span class="font18">② 웹 브라우저에서 실행되는 UI 화면을 개발하는 <b> View Designer </b> </span><br/>
