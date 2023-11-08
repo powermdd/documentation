@@ -11,7 +11,7 @@ CPU : Intel Pentium 4 이상 <br/>
 디스크 : 500MB 이상 <br/>
 
 - <b>설치 전 확인 사항 </b> <br/>
-해당 Tool은 C# .Net 기반으로 구성되어 있습니다. Windows에 .net Framework이 설치가 되어있어야 합니다.
+해당 Tool은 C# .Net 기반으로 구성되어 있습니다. Windows에 .net Framework 설치가 되어있어야 합니다.
 
 - <b>재설치하는 경우 </b> <br/>
 Windows의 프로그램 추가/삭제에서 삭제한 후 설치하고 기존에 POWERMDD.DX가 실행되고 있으면 반드시 프로그램 종료 후 설치해야 합니다.
