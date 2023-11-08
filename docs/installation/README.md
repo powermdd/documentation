@@ -82,7 +82,7 @@ Command를 암호화할 것인지 처리하는 태그입니다. 기본값은 "YE
 
 <span class="font20">2)</span><b class="font20"> &lt;LOCAL&gt; </b> <br/>
 다수의 사용자가 개발 시 주로 사용하는 기능입니다. <br/>
-서버 Side의 WAS를 사용하여 개발 시에 사용자가 빌드하게 되면 Class 파일을 WAS 컨테이너에 배치하게 되고 WAS에서 "Context reloadable=true" 시에 컨테이너가 reload하게 됩니다. <br/>
+서버 Side의 WAS를 사용하여 개발 시에 사용자가 빌드하게 되면 class 파일을 WAS 컨테이너에 배치하게 되고 WAS에서 "Context reloadable=true" 시에 컨테이너가 reload하게 됩니다. <br/>
 ```xml
 <LOCAL>
 	<DEFAULT>
