@@ -324,7 +324,7 @@ POWERMDD 재설치 시 사용한 시스템 ID도 초기화되기 때문에 다�
 
 <span class="font18">① 해당 작업자의 PC에서 현재 사용 중인 네트워크 어댑터(랜카드)의 맥주소 등록을 개발 서버 관리자에게 보냅니다.</span>
 
-<span class="font18">② 접속하기 위한 ID/Password를 개발서버 관리자로부터 받습니다. </span> 
+<span class="font18">② 접속하기 위한 ID/Password를 개발 서버 관리자로부터 받습니다. </span> 
 
 <span class="font18">③ 접속 보안 Key를 관리자로부터 받은 후 아래 절차에 따라서 적용합니다. 접속 보안 Key는 파일로 구성되어 있습니다. </span>
 
