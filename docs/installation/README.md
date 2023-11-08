@@ -99,7 +99,7 @@ Command를 암호화할 것인지 처리하는 태그입니다. 기본값은 "YE
         <SERVER>localhost</SERVER> 
         <Port>8180</Port>
         <IMAGEPATH>C:/Tomcat9/webapps/MybaApps</IMAGEPATH> 
-        <OPTIONA>NO</OPTIONA>전송을 받아
+        <OPTIONA>NO</OPTIONA>
 	</DEFAULT> 
 	.....
 </LOCAL>   
@@ -166,7 +166,7 @@ URL형식은 “http://localhost:port/ConTextName/테스트할 layout 파일” 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 Service Model의 도구상자 메뉴에서 Service Model을 이미지 파일로 저장하는 기능이 존재합니다. <br/>
-해당 기능 사용시 Service Model을 bmp 형식으로 해당 위치에 파일로 저장합니다. <br/>
+해당 기능 사용시 Service Model을 bmp 형식으로 해당 위치에 파일로 저장됩니다. <br/>
 :::
 <!-- -->
 
