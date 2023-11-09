@@ -18,7 +18,7 @@ Package나 Class, Database 등 Name 규칙을 설정하는 메뉴입니다. <br/
 <img src="../.vuepress/public/MenuStructure/rule.png" class="boxBorder" width="400">
 
 <span class="font20">1)</span><b class="font20"> Package Name Rule </b> <br/>
-Java의 Package Name 규칙을 등록하는 역할을 합니다. <br/>
+Java Package Name 규칙을 등록하는 역할을 합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/rule-package-name-rule.png" width="500">
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> <b> Name Rule 규칙 </b>
