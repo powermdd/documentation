@@ -47,7 +47,7 @@ Java Package Name 규칙을 등록하는 역할을 합니다. <br/>
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 일반적으로 해당 정보는 POWERMDD.BMS 관리자가 등록해주어야 합니다. 실질적으로 사용할 데이터베이스의 연결정보는 BMS Config의 등록된 데이터베이스 정보를 사용해야 합니다. <br/>
-POWERMDD.DX에서 서버가 정의 되어 있는 데이터베이스 중 해당 프로젝트에서 사용될 Name 정보만 등록하면 됩니다. 등록된 이름은 Query Developer와 Service Model 그리고 Data Model 중 기본 데이터베이스가 아닌 별도의 데이터베이스 지정이 필요할 때 사용됩니다. <br/>
+POWERMDD.DX에서 서버가 정의 되어 있는 데이터베이스 중 해당 프로젝트에서 사용될 정보만 등록하면 됩니다. 등록된 이름은 Query Developer와 Service Model 그리고 Data Model 중 기본 데이터베이스가 아닌 별도의 데이터베이스 지정이 필요할 때 사용됩니다. <br/>
 :::
 
 <span class="font20">4)</span><b class="font20"> Database Schema </b> <br/>
