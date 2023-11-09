@@ -35,7 +35,7 @@ Java Package Name 규칙을 등록하는 역할을 합니다. <br/>
 접두어와 접미어를 정의하여 해당 규칙이 허용되는 명칭만 Java Class Name과 Method Name 규칙을 지정할 수 있습니다.<br/>
 <img src="../.vuepress/public/MenuStructure/rule-single-name-rule.png" width="500">
 <!-- Remark -->
-::: tip <Badge type="tip" text="Remark" vertical="middle" /> <b> Name Rule 규칙 </b>
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> <b>접두어, 접미어</b>
 - 접두어, 접미어로 종료하는 문자열을 허용합니다.
 - 접두어, 접미어를 모두 허용 시 “*” 를 지정하면 됩니다.
 :::
