@@ -22,7 +22,7 @@ Java Package Name 규칙을 등록하는 역할을 합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/rule-package-name-rule.png" width="500">
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> <b> Name Rule 규칙 </b>
-- Package Name Rule 분류 구분자 “.”을 기준으로 “*”를 사용하여 범위를 지정합니다.
+- Package Name 규칙 분류의 구분자 “.”을 기준으로 “*”를 사용하여 범위를 지정합니다.
 - “*” 분류부터 사용자 Name 지정이 가능합니다.<br/>
 <span class="spanEx"> Ex) Name1.Name2.*을 등록하는 경우 “Name1.Name2.” 으로 시작되는 Package 등록이 허용됩<br/>
 &emsp;&ensp;니다. </span> <br/>
