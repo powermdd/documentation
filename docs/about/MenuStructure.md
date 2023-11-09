@@ -146,11 +146,11 @@ Service Model 또는 View Designer에서 완료 또는 변경 처리를 막고�
 <span class="font20">2)</span><b class="font20"> Authority Manager </b> <br/>
 해당 프로젝트에 대한 각 카테고리별로 접근 권한을 생성하여 해당 권한을 사용자에게 할당함으로 사용자의 권한을 정의할 수 있습니다. <br/>
 
-<span class="font18">(1)</span><b class="font18"> Service Manager </b> <br/>
+<span class="font18">(1)</span><b class="font18"> Service Authorization </b> <br/>
 Service Model에서 사용될 권한을 생성 및 변경 관리합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager.png" width="600">
 
-<span class="font18">(2)</span><b class="font18"> View Manager </b> <br/>
+<span class="font18">(2)</span><b class="font18"> View Authorization </b> <br/>
 View Designer에서 사용될 권한을 생성 및 변경 관리합니다. <br/>
 <img src="../.vuepress/public/MenuStructure/users-authority-manager2.png" width="600">
 
