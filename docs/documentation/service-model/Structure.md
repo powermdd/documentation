@@ -12,7 +12,7 @@ Service Model에서 사용하는 도구상자로 모델링한 내용을 저장�
 Service Model 작업한 모델링을 bmp 파일 형식의 이미지로 Dump 하여 저장합니다.
 
 <span class="font20">3)</span><b class="font20"> <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Logic_Physical.png" width="25px;"> (Logic / Physical) </b> <br/>
-논리모델과 물리 모델을 토글 방식으로 확인할 수 있습니다. 논리모델은 사용자인터페이스 중심으로 표현되며 물리 모델은 컴퓨터 인터페이스 중심으로 표현됩니다.<br/>
+논리모델과 물리 모델을 토글 방식으로 확인할 수 있습니다. 논리모델은 사용자 인터페이스 중심으로 표현되며 물리 모델은 컴퓨터 인터페이스 중심으로 표현됩니다.<br/>
 
 <span class="font18">①<b> Logic : 논리모델</b></span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;
 <span class="font18">②<b> Physical : 물리 모델</b> </span><br/>
