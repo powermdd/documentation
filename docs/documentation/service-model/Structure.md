@@ -224,7 +224,7 @@ BOC 내의 Column을 펼치기/닫기 기능을 제공합니다.<br>
 <img src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/MenuAdd.png" class="boxBorder" style="position: relative;top: 5px; width:300px"> <br/>
 
 <span class="font18">①</span><b class="font18"> 메뉴 추가</b> <br/>
-추가하고자 하는 업무 메뉴를 선택한 후 오른쪽 마우스를 클릭하면 Context Menu가 활성화됩니다. <br/>
+추가하고자 하는 업무 메뉴를 선택한 후 마우스 오른쪽 버튼을 클릭하면 Context Menu가 활성화됩니다. <br/>
 활성화된 메뉴에서 메뉴 추가 선택하면 됩니다.
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -233,7 +233,7 @@ BOC 내의 Column을 펼치기/닫기 기능을 제공합니다.<br>
 <!-- -->
 
 <span class="font18">②</span><b class="font18"> 서비스 추가</b> <br/>
-추가하고자 하는 업무 메뉴를 선택한 후 오른쪽 마우스를 클릭하면 Context Menu가 활성화됩니다.<br/>
+추가하고자 하는 업무 메뉴를 선택한 후 마우스 오른쪽 버튼을 클릭하면 Context Menu가 활성화됩니다.<br/>
 활성화된 메뉴에서 서비스 추가 선택하면 됩니다.
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -326,7 +326,7 @@ Return Type이 Jsp인 서비스를 소유한 Class일 때 선택적으로 사용
 <img class="boxBorder" src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/ServiceRight.png" style="position: relative;top: 5px; width:300px"> <br/>
 
 <span class="font18">①</span><b class="font18"> 삭제</b> <br/>
-삭제하고자 하는 업무 서비스를 선택한 후 오른쪽 마우스를 클릭하면 Context Menu가 활성화됩니다.<br/>
+삭제하고자 하는 업무 서비스를 선택한 후 마우스 오른쪽 버튼을 클릭하면 Context Menu가 활성화됩니다.<br/>
 활성화된 메뉴에서 삭제를 선택하면 됩니다.
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -334,7 +334,7 @@ Return Type이 Jsp인 서비스를 소유한 Class일 때 선택적으로 사용
 :::
 <!-- -->
 <span class="font18">②</span><b class="font18"> 영구삭제</b> <br/>
- 삭제 버튼과 똑같이 삭제하고자 하는 업무 서비스를 선택한 후 오른쪽 마우스를 클릭하면 Context Menu가 활성화됩니다. 활성화된 메뉴에서 영구삭제를 선택하면 됩니다. 
+ 삭제 버튼과 똑같이 삭제하고자 하는 업무 서비스를 선택한 후 마우스 오른쪽 버튼을 클릭하면 Context Menu가 활성화됩니다. 활성화된 메뉴에서 영구삭제를 선택하면 됩니다. 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 영구삭제 시에는 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/recycle.png" style="width:20px;"> (recycle)에서 복원이 불가능합니다.
