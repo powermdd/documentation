@@ -266,7 +266,7 @@ BOC 내의 Column을 펼치기/닫기 기능을 제공합니다.<br>
 해당 메뉴의 이름을 입력합니다.
 
 <span class="font18">②</span><b class="font18"> ReadOnly</b> <br/>
-Tool Box > Users > User Manager의 ReadOnly 여부에 따라 서비스 모델 접근이 됩니다.
+Tool Box > Users > User Manager의 ReadOnly 여부에 따라 Service Model 접근이 가능합니다.
 
 <span class="font18">③</span><b class="font18"> 작업완료설정</b> <br/>
 작업 완료 상태에서는 서비스 수정이 불가 처리됩니다. 해당 기능은 권한이 할당된 사용자만 변경이 가능합니다.
