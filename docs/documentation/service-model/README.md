@@ -26,7 +26,7 @@ Service Model은 MDD 도구 중 모델을 바로 실시간으로 테스트하고
 
 <span class="font18">② 테스트 결과 정보의 Depth 측정을 통하여 오류 추적성을 강화합니다.</span><br/>
 
-<span class="font20">3)</span><b class="font20"> 화면 메뉴 검색 </b> <br/>
+<span class="font20">3)</span><b class="font20"> 소스 생성 100%(ZERO CODE) 실현</b> <br/>
 테스트 검증이 완료되면 프로그램 소스 생성 및 컴파일, WAS 상에 배치하는 일련의 작업을 일괄 자동화 처리합니다.
 
 ## 2. 화면 구성
