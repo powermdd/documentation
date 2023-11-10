@@ -174,7 +174,7 @@ Service Model의 BOC(Business Operation Component)에서 데이터베이스 조�
 
 <span class="font18">(2)</span><b class="font18"> Build</b> <br/>
 소스 빌드 시 여러 개의 서비스를 동시에 빌드를 처리해주는 기능입니다. <br/>
-<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/22_02. Build.png" width="500px"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/22_02. build.png" width="500px"> <br/>
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" />
 - <b>주의사항</b> <br/>
@@ -207,7 +207,7 @@ Display 기능에 대한 편의 기능을 제공합니다. 해당 기능은 토�
 
 <span class="font18">①<b> Service BOC</b></span> <br/>
 BOC 내의 Column을 펼치기/닫기 기능을 제공합니다.<br>
-<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/23_1. Service BOC.png" width="200px;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/23_01. Service BOC.png" width="200px;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Logic.png" width="200px;">
 
 
