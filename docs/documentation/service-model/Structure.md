@@ -16,14 +16,14 @@ Service Model 작업한 모델링을 bmp 파일 형식의 이미지로 Dump 하�
 
 <span class="font18">①<b> Logic : 논리모델</b></span>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; &emsp;&emsp;
 <span class="font18">②<b> Physical : 물리 모델</b> </span><br/>
-<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Logic.png" width="200px;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Logic.png" width="200px;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Physical.png" width="200px;">
 
 <span class="font20">4)</span><b class="font20"> <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/History(1).png" width="25px;"> (History) </b> <br/>
 서비스의 변경 및 빌드 이력을 확인하고 과거 작업 상태로 모델링 작업화면을 Rollback 하여 확인할 수 있도록 지원합니다.<br/>
 <b class="font20"><img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/History(2).png" width="400px"></b> <br/>
 <span class="font18">① 최근 변경 일자 기준으로 확인이 가능합니다. 빌드 수행 시에 빌드된 일자와 작업자 확인이 가능합니다.</span><br/>
-<span class="font18">② </span><span class="spanBtn">Select</span> <span class="font18">버튼 클릭시 선택한 일자의 이력을 화면작업 영역에 로딩됩니다.</span>
+<span class="font18">② </span><span class="spanBtn">Select</span> <span class="font18">버튼 클릭시 선택한 일자의 이력을 화면작업영역에 로딩됩니다.</span>
 
 <span class="font20">5)</span><b class="font20"> <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/ServiceReload.png" width="25px;"> (Service Reload) </b> <br/>
 현재 저장이 되어 있는 Service Model을 다시 로딩 처리합니다.
