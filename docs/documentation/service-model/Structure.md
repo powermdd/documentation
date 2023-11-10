@@ -174,7 +174,7 @@ Service Model의 BOC(Business Operation Component)에서 데이터베이스 조�
 
 <span class="font18">(2)</span><b class="font18"> Build</b> <br/>
 소스 빌드 시 여러 개의 서비스를 동시에 빌드를 처리해주는 기능입니다. <br/>
-<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/22_02. build.png" width="500px"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/build(2).png" width="500px"> <br/>
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" />
 - <b>주의사항</b> <br/>
@@ -207,7 +207,7 @@ Display 기능에 대한 편의 기능을 제공합니다. 해당 기능은 토�
 
 <span class="font18">①<b> Service BOC</b></span> <br/>
 BOC 내의 Column을 펼치기/닫기 기능을 제공합니다.<br>
-<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/23_01. Service BOC.png" width="200px;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+<img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Service_BOC.png" width="200px;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
 <img src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/Logic.png" width="200px;">
 
 
@@ -221,7 +221,7 @@ BOC 내의 Column을 펼치기/닫기 기능을 제공합니다.<br>
 화면 메뉴구조영역은 업무 구조를 Tree View 형식으로 표현한 메뉴로 모델링의 대상이 되는 서비스의 메뉴 카테고리영역입니다. 등록형식은 업무 메뉴와 메뉴를 구성하는 서비스로 분류됩니다.<br/>
 
 <span class="font20">1)</span><b class="font20"> 메뉴 추가/삭제</b> <br/>
-<img src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/01. MenuAdd.png" class="boxBorder" style="position: relative;top: 5px; width:300px"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/MenuAdd.png" class="boxBorder" style="position: relative;top: 5px; width:300px"> <br/>
 
 <span class="font18">①</span><b class="font18"> 메뉴 추가</b> <br/>
 추가하고자 하는 업무 메뉴를 선택한 후 오른쪽 마우스를 클릭하면 Context Menu가 활성화됩니다. <br/>
@@ -299,12 +299,12 @@ Return Type이 Jsp인 서비스를 소유한 Class일 때 선택적으로 사용
 
 <span class="font18">①</span><b class="font18"> 첨부파일</b> <br/>
 해당 메뉴에 설계서, 의뢰서, 확인 요청 등 파일들을 업로드 및 다운로드하는 기능입니다.
-<img src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/02_05_01. File.png" style="width:500px"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/File.png" style="width:500px"> <br/>
 
 <span class="font20">3)</span><b class="font20"> 서비스 추가/삭제</b> <br/>
 
 <span class="font18">(1) 메뉴에서 마우스 오른쪽 버튼을 클릭했을 때</span> <br/>
-<img class="boxBorder" src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/03_01. ServiceMenuRight.png" style="width:300px"> <br/>
+<img class="boxBorder" src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/ServiceMenuRight.png" style="width:300px"> <br/>
 
 <span class="font18">①</span><b class="font18"> 서비스 추가</b> <br/>
 추가하고자 하는 업무 메뉴를 선택한 후 마우스 오른쪽 버튼을 클릭하면 Context Menu가 활성화됩니다.<br/>
@@ -323,7 +323,7 @@ Return Type이 Jsp인 서비스를 소유한 Class일 때 선택적으로 사용
 <!-- -->
 
 <span class="font18">(2) 서비스에서 마우스 오른쪽 버튼을 클릭했을 때</span> <br/>
-<img class="boxBorder" src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/03_02. ServiceRight.png" style="position: relative;top: 5px; width:300px"> <br/>
+<img class="boxBorder" src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/ServiceRight.png" style="position: relative;top: 5px; width:300px"> <br/>
 
 <span class="font18">①</span><b class="font18"> 삭제</b> <br/>
 삭제하고자 하는 업무 서비스를 선택한 후 오른쪽 마우스를 클릭하면 Context Menu가 활성화됩니다.<br/>
