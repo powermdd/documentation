@@ -407,7 +407,7 @@ Return Type이 JSP인 서비스를 소유한 클래스일 때 선택적으로 �
 Return Type이 JSP일 때 해당 JSP의 파일명을 입력합니다.
 
 <span class="font18">(5)</span><b class="font18"> 5. 처리유형</b> <br/>
-해당 서비스의 출력유형이 JSP일 때 설정이 되어 있는 JSP 파일로 처리 결과를 Forwarding합니다. <br/>
+해당 서비스의 출력유형이 JSP일 때 설정이 되어있는 JSP 파일로 처리 결과를 Forwarding합니다. <br/>
 <span class="font18">①</span><b class="font18"> APPL유형</b> <br/>
 기본값은 "Online"입니다.<br/>
 Spring + ( Ibatis, Mybatis) 형식에서는 적용되지 않습니다. WizframeWork 사용 시 해당 기능이 유효합니다.
