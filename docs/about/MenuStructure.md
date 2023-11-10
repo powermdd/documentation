@@ -24,10 +24,8 @@ Java Package Name 규칙을 등록하는 역할을 합니다. <br/>
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> <b> Name Rule 규칙 </b>
 - Package Name 규칙 분류의 구분자 “.”을 기준으로 “*”를 사용하여 범위를 지정합니다.
 - “*” 분류부터 사용자 Name 지정이 가능합니다.<br/>
-<span class="spanEx"> Ex) Name1.Name2.*을 등록하는 경우 “Name1.Name2.” 으로 시작되는 Package 등록이 허용됩<br/>
-&emsp;&ensp;니다. </span> <br/>
-<span class="spanEx"> Ex) NameA.NameB.NameC을 등록하는 경우 “NameA.NameB.NameC” Package만 허용이 됩니<br/>
-&emsp;&ensp;다. </span> <br/>
+<span class="spanEx"> Ex) Name1.Name2.*을 등록하는 경우 “Name1.Name2.” 으로 시작되는 Package 등록이 허용됩니다. </span> <br/>
+<span class="spanEx"> Ex) NameA.NameB.NameC을 등록하는 경우 “NameA.NameB.NameC” Package만 허용이 됩니다. </span> <br/>
 - “*” 없이 모든 Package를 등록하게 되면 정해진 Package 이외는 사용이 안됩니다.
 :::
 
