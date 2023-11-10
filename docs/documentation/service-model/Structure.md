@@ -91,7 +91,7 @@ Service Model에 사용된 여러 가지 정보를 기준으로 검색할 수 �
 <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/MenuReload.png" width="25px;" > (Menu Search) 기능 또는  <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/recycle.png" width="20px;" > (recycle) 기능을 사용한 후 화면 메뉴구조영역을 reload할 때 사용합니다.
 
 <span class="font20">15)</span><b class="font20"> <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/recycle.png" width="20px;"> (recycle) </b> <br/>
-휴지통 기능으로 영구삭제 처리하지 않은 서비스는 화면 메뉴 구조 영역의 휴지통 메뉴에서 서비스 복원이 가능합니다.
+휴지통 기능으로 영구삭제 처리하지 않은 서비스는 화면 메뉴구조영역의 휴지통 메뉴에서 서비스 복원이 가능합니다.
 
 <span class="font20">16)</span><b class="font20"> <img class="iconB" src="../../.vuepress/public/documentation/service-model/Structure/Tool_Box/TableDictionary(1).png" width="25px;"> (Table Dictionary) </b> <br/>
 모델에서 가장 많이 사용될 Data Dictionary를 데이터베이스 테이블로부터 추출하여 사용자가 쉽게 등록할 수 있도록 도와주는 유틸리티 기능을 제공합니다. <br/>
