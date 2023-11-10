@@ -369,7 +369,7 @@ CLASS 정보 안에 METHOD 명을 입력시 서비스 ID는 입력한 METHOD 명
 해당 ID는 스프링에서 Annotation 호출 명에 중복 방지를 위해서 사용할 수 있습니다.
 
 <span class="font18">④</span><b class="font18"> ReadOnly</b> <br/>
-Tool Box > Users > User Manager의 ReadOnly 여부에 따라 서비스 모델 접근이 됩니다.
+Tool Box > Users > User Manager의 ReadOnly 여부에 따라 Service Model 접근이 가능합니다.
 
 <span class="font18">⑤</span><b class="font18"> SaveLock</b> <br/>
 마지막으로 작업한 개발자가 Lock을 "YES"로 했을 경우 해당 서비스는 Lock이 걸려있으므로 다른 개발자는 수정하지 못합니다. 
