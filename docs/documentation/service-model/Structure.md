@@ -220,7 +220,7 @@ BOC 내의 Column을 펼치기/닫기 기능을 제공합니다.<br>
 ## 2. 화면 메뉴구조영역 및 속성영역
 화면 메뉴구조영역은 업무 구조를 Tree View 형식으로 표현한 메뉴로 모델링의 대상이 되는 서비스의 메뉴 카테고리영역입니다. 등록형식은 업무 메뉴와 메뉴를 구성하는 서비스로 분류됩니다.<br/>
 
-<span class="font20">1)</span><b class="font20"> 메뉴 추가/삭제</b> <br/>
+<span class="font20">1) 메뉴 추가/삭제 </span><br/>
 <img src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/MenuAdd.png" class="boxBorder" style="position: relative;top: 5px; width:300px"> <br/>
 
 <span class="font18">①</span><b class="font18"> 메뉴 추가</b> <br/>
@@ -252,7 +252,7 @@ BOC 내의 Column을 펼치기/닫기 기능을 제공합니다.<br>
 <span class="font18">④</span><b class="font18"> 공통메뉴 추가</b> <br/>
 메뉴 추가 방식과 동일하며, 공통메뉴로 추가 시 아이콘으로 분류 표현됩니다.
 
-<span class="font20">2)</span><b class="font20"> 메뉴 속성 설정</b> <br/>
+<span class="font20">2) 메뉴 속성 설정</span><br/>
 <img class="boxBorder" src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/MenuProperty.png" style="width:350px"> <br/>
 
 <span class="font18">(1)</span><b class="font18"> 0. MENU정보</b> <br/>
@@ -301,7 +301,7 @@ Return Type이 Jsp인 서비스를 소유한 Class일 때 선택적으로 사용
 해당 메뉴에 설계서, 의뢰서, 확인 요청 등 파일들을 업로드 및 다운로드하는 기능입니다.
 <img src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/File.png" style="width:500px"> <br/>
 
-<span class="font20">3)</span><b class="font20"> 서비스 추가/삭제</b> <br/>
+<span class="font20">3) 서비스 추가/삭제</span> <br/>
 
 <span class="font18">(1) 메뉴에서 마우스 오른쪽 버튼을 클릭했을 때</span> <br/>
 <img class="boxBorder" src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/ServiceMenuRight.png" style="width:300px"> <br/>
@@ -344,7 +344,7 @@ Return Type이 Jsp인 서비스를 소유한 Class일 때 선택적으로 사용
 PEX복사 기능은 Interface BOC에 있는 PEX BOC를 간편하게 사용할 수 있도록 지원하는 기능입니다. 다른 업무 서비스에서 해당 서비스를 호출하여 해당 서비스의 결과를 활용하고 싶을 때 사용하는 기능입니다. 복사 처리 시 해당 서비스를 호출하기 위해 필요로 하는 정보를 복사합니다.<br/>
 복사된 서비스 정보를 이용하여 사용하고자 하는 서비스에서 PEX 붙여넣기 하면 됩니다.
 
-<span class="font20">4)</span><b class="font20"> 서비스 속성 설정</b> <br/>
+<span class="font20">4) 서비스 속성 설정</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/Structure/ScreenStructure/ServiceProperty.png" class="boxBorder" style="width:350px "> <br/>
 
 <span class="font18">(1)</span><b class="font18"> 0. MENU정보</b> <br/>
