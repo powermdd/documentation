@@ -82,11 +82,11 @@ In/Out Dataset Assignment 창 상단에 <span class="spanBtn">Record Add</span> 
 
 <span class="font18"> (1) <b>Dataset Add</b> </span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/StartBOC/datasetAdd.png" class="boxBorder" style="width:600px;"> <br/>
-dataset 입력 칸에 생성할 dataset 명을 입력하고 <span class="spanBtn">Dataset Add</span> 버튼을 클릭하면 기존에 선택된 Dataset이 복사되어서 Dataset이 생성됩니다. <br/>
+dataset 입력 칸에 생성할 Dataset 명을 입력하고 <span class="spanBtn">Dataset Add</span> 버튼을 클릭하면 기존에 선택된 Dataset이 복사되어서 Dataset이 생성됩니다. <br/>
 
 <span class="font18"> (2) <b>Dataset Del</b> </span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/StartBOC/datasetAdd.png" class="boxBorder" style="width:600px;"> <br/>
-삭제할 dataset을 선택하고 <span class="spanBtn">Dataset Del</span> 버튼을 클릭하면 해당 Dataset이 삭제됩니다.
+삭제할 Dataset을 선택하고 <span class="spanBtn">Dataset Del</span> 버튼을 클릭하면 해당 Dataset이 삭제됩니다.
 
 <span class="font20">3) Case 관리 </span> <br/>
 
