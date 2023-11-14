@@ -78,7 +78,7 @@ In/Out Dataset Assignment 창 상단에 <span class="spanBtn">Record Add</span> 
 삭제할 해당 열을 선택한 후 Delete 키를 이용하여 해당 속성값을 삭제할 수 있습니다.<br/>
 
 <span class="font20">2) Dataset 정의 </span> <br/>
-데이터 테이블 구조에 하나의 단위로 취급되는 여러 개의 Column으로 구성된 레코드의 집합을 의미합니다. (기본값은 S Dataset입니다.) <br/>
+데이터 테이블 구조에 하나의 단위로 취급되는 여러 개의 컬럼으로 구성된 레코드의 집합을 의미합니다. (기본값은 S Dataset입니다.) <br/>
 
 <span class="font18"> (1) <b>Dataset Add</b> </span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/StartBOC/datasetAdd.png" class="boxBorder" style="width:600px;"> <br/>
