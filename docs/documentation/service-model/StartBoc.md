@@ -38,10 +38,10 @@ Start BOC는 Start Business Operation Component로 모델링에 사용되는 비
 <img src="../../.vuepress/public/documentation/service-model/BOC/StartBOC/Column.png" class="boxBorder"  style="width:300px;"> <br/>
 
 <span class="font18">①</span><b class="font18"> 컬럼명 붙여넣기 </b> <br/>
-Query Developer 탭에 가서 DB를 접속하여 기본 Select문에 있는 컬럼을 복사하여 In/Out Dataset Assignment에 마우스 오른쪽 버튼을 클릭하여 컬럼명 붙여넣기를 클릭하여 입력할 수 있습니다.
+Query Developer 탭에 가서 DB를 접속하여 기본 Select문에 있는 컬럼을 복사하여 In/Out Dataset Assignment 창 컬럼 입력 부분에 마우스 오른쪽 버튼을 클릭하여 컬럼명 붙여넣기를 클릭하여 입력할 수 있습니다.
 
 <span class="font18">②</span><b class="font18"> RECORD 붙여넣기</b> <br/>
-다른 서비스에 Start Object에 등록된 레코드 값을 Ctrl + C로 복사하여 In/Out Dataset Assignment에 마우스 오른쪽 버튼을 클릭하여 RECODE 붙여넣기를 클릭하여 입력할 수 있습니다.
+다른 서비스에 Start BOC에 등록된 레코드 값을 Ctrl + C로 복사하여 In/Out Dataset Assignment 창 Record 입력 부분에 마우스 오른쪽 버튼을 클릭하여 RECODE 붙여넣기를 클릭하여 입력할 수 있습니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
