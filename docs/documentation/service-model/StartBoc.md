@@ -33,7 +33,7 @@ Start BOC는 Start Business Operation Component로 모델링에 사용되는 비
 
 <span class="font20">1) 초기 입력값 </span> <br/>
 
-<span class="font18"> (1) Column 및 Recode 등록 </span> <br/>
+<span class="font18"> (1) 컬럼 및 Recode 등록 </span> <br/>
 화면에서 입력 단위 컬럼 값을 Name 행 또는 입력 값을 R0 행에 더블클릭 후 입력할 수 있습니다. <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/StartBOC/Column.png" class="boxBorder"  style="width:300px;"> <br/>
 
