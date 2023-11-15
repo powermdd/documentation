@@ -178,11 +178,10 @@ SELECT COLUMN FROM TABLENAME WHERE COLUMN = <span class="labelR">:COLUMN</span> 
 <span class="spanEx">Ex) 데이터셋으로 직접 비교 처리</span><br/>
 <span class="spanEx">SELECT EMPLOYEE, NAME</span><br/>
 <span class="spanEx">FROM TABLENAME</span><br/>
-<span class="labelR">[VAL,</span><span class="spanEx">S.ORD==1</span><span class="labelR">] {</span> <span class="spanEx">WHERE ORD = :ORD</span> <span class="labelR">}</span>
+<span class="labelR">[ VAL,</span><span class="spanEx">S.ORD==1</span><span class="labelR"> ] {</span> <span class="spanEx">WHERE ORD = :ORD</span> <span class="labelR">}</span>
 
 데이터셋 “S”의 ORD 변숫값이 1일 때 “{“ 와 “}” 사이의 구문을 유효 처리합니다. 연산자 태그 “VAL”을 사용하면 값을 비교 처리하고 해당 조건이 “True”일 때 유효 처리합니다.<br/> 
-S.ORD의 값이 “1”이 아니면 “SELECT COLNM FROM TABLENAME”가 됩니다. <br/>
-“Null”일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
+S.ORD의 값이 “1”이 아닐 때 또는 “Null”일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
 
 
 <style type='text/css'>
