@@ -143,7 +143,7 @@ SELECT COLUMN FROM TABLENAME WHERE COLUMN = <span class="labelR">:COLUMN</span> 
 구문 : <span class="labelR">[</span> 동적처리 조건부 <span class="labelR">] {</span> 동적처리 대상 Sql-Syntax <span class="labelR">}</span>
 </div> <br/>
 
-- 조건 항목의 값이 “null” 이거나 값의 길이가 “0”일 때 즉 empty일 때 동적처리 대상 Syntax를 SQL문에 반영하지 않습니다. <br/>
+- 조건 항목의 값이 “Null” 이거나 값의 길이가 “0”일 때 즉 empty일 때 동적처리 대상 Syntax를 SQL문에 반영하지 않습니다. <br/>
 <div class="boxDiv">
 구문: <span class="labelR">[</span> 항목명 <span class="labelR">] {</span> sql-syntax <span class="labelR">}</span>
 </div> <br/>
