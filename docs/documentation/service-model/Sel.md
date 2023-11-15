@@ -49,7 +49,7 @@ DB 정보 조회를 위한 Select 문장을 설정합니다.<br/>
 - <b class="colGray">Recode</b> : JSP 출력방식일 때 단일 컴포넌트에 조회 시 설정합니다.
 - <b class="colGray">Page</b> : JSP 출력방식일 때 페이징 시 설정합니다.
 - <b class="colGray">ChartLabel</b> : View Designer에서 차트 컴포넌트에 범례를 설정합니다.
-- <b class="colGray">ChartData</b> : View Designer에는 차트 컴포넌트에 데이터 조회 시 설정합니다.
+- <b class="colGray">ChartData</b> : View Designer에서 차트 컴포넌트에 데이터 조회 시 설정합니다.
 - <b class="colGray">Schedule</b> : View Designer에서 스케줄 컴포넌트 조회 시 설정합니다.
 
 <span class="font18">②<b> 2. Record-Count/Page </b></span> <br/>
