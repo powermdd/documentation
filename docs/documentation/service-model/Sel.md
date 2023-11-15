@@ -80,7 +80,7 @@ Common이 기본 설정이며, Batch 형태의 대용량 데이터 처리 시 La
 기본 접속 DB는 자동 설정됩니다. 추가로 다른 DB 연결 명을 사용하여 데이터 처리의 필요성이 생기면 해당 정보에 접속 명을 등록하여 사용합니다.
 
 <span class="font18">④<b> Log 수준 </b></span> <br/>
-Debug-테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터베이스 관련된 BOC는 ReturnData와 QueryData를 사용합니다.
+Debug 테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터베이스 관련된 BOC는 ReturnData와 QueryData를 사용합니다.
 - <b class="colGray">00. ProcessHead</b> : Seq번호, 프로세스 타입을 표시합니다.
 - <b class="colGray">01. InputData</b> : 입력 데이터를 표시합니다.
 - <b class="colGray">02. ReturnData</b> : 결과 데이터를 표시합니다.
