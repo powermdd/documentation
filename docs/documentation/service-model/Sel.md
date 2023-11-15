@@ -132,7 +132,7 @@ SELECT COLUMN FROM TABLENAME WHERE COLUMN = <span class="labelR">:COLUMN</span> 
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-계산식은 필수 입력 속성이므로 <span class="labelR">“”</span>를 설정합니다다. BLOB 컬럼 추가 시 해당 컬럼은 파라미터 명에서 삭제됩니다. BLOB 데이터는 변숫값으로 비교가 불가능합니다.
+계산식은 필수 입력 속성이므로 <span class="labelB">“”</span>를 설정합니다. BLOB 컬럼 추가 시 해당 컬럼은 파라미터 명에서 삭제됩니다. BLOB 데이터는 변숫값으로 비교가 불가능합니다.
 :::
 <!-- -->
 
@@ -210,6 +210,8 @@ S.ORD의 값이 “1”이 아니면 “SELECT COLNM FROM TABLENAME”가 됩니
    { color:#9C3B00; }
   .labelR
    { color:red; font-weight: bold; }
+  .labelB
+   { color:#00a4ff; font-weight: bold; }
   .spanEx
    { color: #00a4ff; }
 
