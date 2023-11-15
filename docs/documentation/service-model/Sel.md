@@ -121,10 +121,10 @@ SELECT COLUMN FROM TABLENAME WHERE COLUMN = <span class="labelR">:COLUMN</span> 
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL/SelBlob(2).png"  style="width:150px;"> <br/>
 
 
-<span class="font18">③ 컬럼 명을 선택하여 나오는 <span class="spanBtn">...</span> 버튼을 클릭합니다.</span> <br/>
+<span class="font18">③ 컬럼명을 선택하여 나오는 <span class="spanBtn">...</span> 버튼을 클릭합니다.</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL/SelBlob(3).png"  class="boxBorder" style="width:300px;"> <br/>
 
-<span class="font18">⑤ 수정할 컬럼 명을 선택하여 더블클릭합니다.</span> <br/>
+<span class="font18">⑤ 수정할 컬럼명을 선택하여 더블클릭합니다.</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL/SelBlob(4).png"  style="width:600px;"> <br/>
 
 <span class="font18">⑥ 해당 BLOB 컬럼의 파일 정보를 입력하여 파라미터 값을 세팅합니다.</span> <br/>
