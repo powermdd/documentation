@@ -13,11 +13,11 @@ SEL BOC는 Toad 등의 Query Tool에서 미리 작성된 SQL 쿼리를 복사해
 <!-- -->
 
 ## 2. INS
-DB 테이블에 대한 Insert 처리를 수행하는 기능인 컴포넌트입니다.
+DB 테이블에 대한 Insert문을 처리하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-INS-BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
+INS BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
 :::
 <!-- -->
 
