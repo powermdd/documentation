@@ -31,7 +31,7 @@ BOC 컴포넌트 목록에서 SEL BOC를 선택하여 Drag-Drop으로 화면작�
 BOC가 어떤 동작을 수행하는지를 간단한 명칭으로 기술합니다. 해당 명칭을 처리 흐름을 간략하게 표현할 수 있도록 기술합니다.
 
 <span class="font18">③<b> 논리설명 </b></span> <br/>
-논리 명칭으로 표현하기 부족할 때 좀 더 상세히 내용을 기술합니다.
+논리명칭으로 표현하기 부족할 때 좀 더 상세히 내용을 기술합니다.
 
 <span class="font20">2)<b> 2. 입력부</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL/SelProperty(2).png"  class="boxBorder" style="width:300px;"> <br/>
