@@ -129,7 +129,7 @@ This탭 > INOBJECT에는 입력 OBJECT의 컬럼을 보여줍니다. INOBJECT를
 
 
 <span class="font18">① S-Column 추가</span> <br/>
-단일 컬럼을 추가합니다. 추가된 컬럼명은 기본으로 “TEMP1”이 설정됩니다. “TEMP1” 컬럼을 선택해서 컬럼 명을 수정하면 됩니다.<br/>
+단일 컬럼을 추가합니다. 추가된 컬럼명은 기본으로 “TEMP1”이 설정됩니다. “TEMP1” 컬럼을 선택해서 컬럼명을 수정하면 됩니다.<br/>
 
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsColumn(2).png"  style="width:150px;"> <br/>
 
