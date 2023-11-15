@@ -1,19 +1,19 @@
-# Database BOC
+# DataBase BOC
 
 Select, Insert, Delete 등 데이터베이스와 관련된 구성요소입니다. <br/>
 <img class="boxBorder" src="../../.vuepress\public\documentation\service-model\BOC\DataBaseBOC\DataBaseBOC.png" style="width:400px;"> <br/>
 
 ## 1. SEL
-DB Table에 대한 Select문을 처리하는 기능인 컴포넌트입니다.
+DB 테이블에 대한 Select문을 처리하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-SEL-BOC는 Toad 등의 Query Tool에서 미리 작성된 SQL 쿼리를 복사해서 입력하는 방식으로 사용합니다.
+SEL BOC는 Toad 등의 Query Tool에서 미리 작성된 SQL 쿼리를 복사해서 입력하는 방식으로 사용합니다.
 :::
 <!-- -->
 
 ## 2. INS
-DB Table에 대한 Insert 처리를 수행하는 기능인 컴포넌트입니다.
+DB 테이블에 대한 Insert 처리를 수행하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -22,7 +22,7 @@ INS-BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 �
 <!-- -->
 
 ## 3. DEL
-DB Table에 대한 Delete처리를 수행하는 기능인 컴포넌트입니다.
+DB 테이블에 대한 Delete 처리를 수행하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
@@ -32,20 +32,20 @@ DEL BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 �
 <!-- -->
 
 ## 4. UPD
-DB Table에 대한 Update 처리를 수행하는 기능인 컴포넌트입니다.
+DB 테이블에 대한 Update 처리를 수행하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-UPD-BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
+UPD BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
 :::
 <!-- -->
 
 ## 5. UNI
-DB Table에 대한 Update & Insert 처리를 수행하는 기능인 컴포넌트입니다.
+DB 테이블에 대한 Update & Insert 처리를 수행하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-UNI-BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
+UNI BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
 처리 방식은 Update 먼저 수행하고 수행결과가 0건이면 Insert를 처리합니다. 즉 UPD, INS BOC를 결합 시킨 형태입니다. 
 :::
 <!-- -->
@@ -76,7 +76,7 @@ INS , UPD, DEL는 속성 설정으로 쿼리를 자동 생성처리 하지만 XI
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-RBK-BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
+RBK BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
 :::
 <!-- -->
 
