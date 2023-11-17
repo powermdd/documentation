@@ -109,7 +109,7 @@ SELECT COLUMN FROM TABLENAME WHERE COLUMN = <span class="labelR">:COLUMN</span> 
 <span class="font18">② 우측 속성에 계산식을 선택해서 나오는 <span class="spanBtn">...</span> 버튼을 클릭합니다.</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL/SelParameter(2).png"  class="boxBorder" style="width:300px;"> <br/>
 
-<span class="font18">③ 수식 창에서 파라미터에 넣을 값이나 수식을 입력하여 저장합니다.</span> <br/>
+<span class="font18">③ 수식 입력창에서 파라미터에 넣을 값이나 수식을 입력하여 저장합니다.</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL/SelParameter(3).png"  style="width:600px;"> <br/>
 
 <span class="font20">2) BLOB 컬럼의 입력 예</span> <br/>
