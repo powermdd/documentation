@@ -109,7 +109,7 @@ Debug 테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 <span class="font18">① 우측 속성에 전체항목을 선택해서 나오는 <span class="spanBtn">...</span> 버튼을 클릭합니다.</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsAll(1).png" class="boxBorder" style="width:300px;"> <br/>
 
-<span class="font18">② 출력 컬럼 입력창에 Insert할 컬럼을 더블클릭하여 선택합니다.</span> <br/>
+<span class="font18">② 출력 컬럼 입력창에 등록할 컬럼을 더블클릭하여 설정합니다.</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsAll(2).png"   style="width:600px;"> <br/>
 
 <!-- Remark -->
@@ -147,7 +147,7 @@ This탭 > INOBJECT에는 입력 OBJECT의 컬럼을 보여줍니다. INOBJECT를
 <span class="font18">② 우측 속성에 계산식을 선택해서 나오는 <span class="spanBtn">...</span> 버튼을 클릭합니다.</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsQuery(2).png" class="boxBorder" style="width:300px;"> <br/>
 
-<span class="font18">③ 수식 창에서 파라미터에 넣을 값이나 수식을 입력하여 저장합니다.</span> <br/>
+<span class="font18">③ 수식 입력창에서 파라미터에 넣을 값이나 수식을 입력하여 저장합니다.</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsQuery(3).png"   style="width:600px;"> <br/>
 
 <span class="font20">4) INS 파라미터 컬럼의 SQL구문 입력</span> <br/>
