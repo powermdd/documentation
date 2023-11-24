@@ -12,8 +12,8 @@ INS BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 �
 BOC 컴포넌트 목록에서 INS BOC를 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsImg.png" style="width:150px;"> 
-<div style="margin-top: 33px; margin-left: 20px; font-size: 12px;">
-<span class="bocEX bocP" style="margin-bottom: 40px;">데이터베이스의 데이터를 등록하는 컬럼 부를 표시합니다.</span>
+<div style="margin-top: 77px; margin-left: 20px; font-size: 12px;">
+<span class="bocEX bocP" style="margin-bottom: 64px;">데이터베이스의 데이터를 등록하는 컬럼 부를 표시합니다.</span>
 <span class="bocEX bocW">입력한 값에 추가 또는 값을 변경하는 컬럼 부를 표시합니다.</span></div>
 </div>
 
@@ -152,6 +152,8 @@ This탭 > INOBJECT에는 입력 OBJECT의 컬럼을 보여줍니다. INOBJECT를
 
 <span class="font20">4) INS 파라미터 컬럼의 SQL구문 입력</span> <br/>
 
+<span class="font18">[ INS_DT ]</span> <br/>
+
 <span class="font18">① 파라미터인 컬럼을 클릭합니다.</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsSql(1).png" style="width:150px;"> <br/>
 
@@ -166,6 +168,25 @@ This탭 > INOBJECT에는 입력 OBJECT의 컬럼을 보여줍니다. INOBJECT를
 
 <span class="font18">③ SQL구문 창에 해당 구문을 입력하여 저장합니다.</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsSql(3).png"   style="width:500px;"> <br/>
+
+<span class="font18">[ USER_NM ]</span> <br/>
+
+<span class="font18">① 파라미터인 컬럼을 클릭합니다.</span> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsSql(4).png" style="width:150px;"> <br/>
+
+<span class="font18">② 우측 속성에 SQL구문을 선택해서 나오는 <span class="spanBtn">...</span> 버튼을 클릭합니다.</span> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsSql(5).png" class="boxBorder" style="width:300px;"> <br/>
+
+<span class="font18">③ SQL구문 창에 해당 구문을 입력하여 저장합니다.</span> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsSql(6).png"   style="width:500px;"> <br/>
+
+<span class="font20">5) BLOB 데이터 타입의 데이터 삽입</span> <br/>
+
+<span class="font18">① BLOB 데이터 타입의 컬럼을 클릭합니다.</span> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsBlob(1).png" style="width:150px;"> <br/>
+
+<span class="font18">② 우측 속성에 해당 BLOB 컬럼의 파일 정보를 입력하여 세팅합니다.</span> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsBlob(2).png" class="boxBorder" style="width:300px;"> <br/>
 
 
 <style type='text/css'>
