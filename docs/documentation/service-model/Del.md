@@ -37,13 +37,13 @@ BOC가 어떤 동작을 수행하는지를 간단한 명칭으로 기술합니�
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/DEL/DelProperty(2).png"  class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font18">①</span><b class="font18"> DB 스키마명 </b> <br/>
-등록 대상인 데이터베이스 스키마를 입력합니다.
+삭제 대상인 데이터베이스 스키마를 입력합니다.
 
 <span class="font18">②</span><b class="font18"> 대상테이블 </b> <br/>
-등록 대상인 데이터베이스 테이블 정보를 입력합니다.
+삭제 대상인 데이터베이스 테이블 정보를 입력합니다.
 
 <span class="font18">③</span><b class="font18"> 입력 OBJECT </b> <br/>
-등록할 입력 데이터 Object 명을 입력합니다.
+삭제할 입력 데이터 Object 명을 입력합니다.
 
 <span class="font18">④</span><b class="font18"> 조건항목 </b> <br/>
 삭제 처리를 위해서 필요한 조건 컬럼 정보를 설정합니다.
