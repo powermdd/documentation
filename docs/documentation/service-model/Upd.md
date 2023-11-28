@@ -143,10 +143,21 @@ This탭 > INOBJECT에는 입력 OBJECT의 컬럼을 보여줍니다. INOBJECT를
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/UPD/UpdColumn(3).png"  style="width:300px;"> &emsp;&emsp;&emsp;
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/UPD/UpdColumn(4).png"  style="width:150px;"><br/>
 
-<span class="font20">3) UPD 파라미터 컬럼의 SQL구문 입력</span> <br/>
+<span class="font20">3) Update Query 컬럼의 계산식 입력 예</span> <br/>
+
+<span class="font18">① 데이터 입력 및 변경할 컬럼을 선택합니다.</span> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/UPD/UpdQuery(1).png" style="width:150px;"> <br/>
+
+<span class="font18">② 우측 속성에 계산식을 선택해서 나오는 <span class="spanBtn">...</span> 버튼을 클릭합니다.</span> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/UPD/UpdQuery(2).png" class="boxBorder" style="width:300px;"> <br/>
+
+<span class="font18">③ 수식 입력창에서 파라미터에 넣을 값이나 수식을 입력하여 저장합니다.</span> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/UPD/UpdQuery(3).png"   style="width:600px;"> <br/>
+
+<span class="font20">4) UPD 파라미터 컬럼의 SQL구문 입력</span> <br/>
 
 <span class="font18">① 파라미터인 컬럼을 클릭합니다.</span> <br/>
-<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/UPD/UpdColumn(4).png" style="width:150px;"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/UPD/UpdSql(1).png" style="width:150px;"> <br/>
 
 <span class="font18">② 우측 속성에 SQL구문을 선택해서 나오는 <span class="spanBtn">...</span> 버튼을 클릭합니다.</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/UPD/UpdSql(2).png" class="boxBorder" style="width:300px;"> <br/>
