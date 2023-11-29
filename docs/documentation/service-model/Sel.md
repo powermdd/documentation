@@ -153,7 +153,7 @@ SELECT COLUMN FROM TABLENAME WHERE COLUMN = <span class="labelR">:COLUMN</span> 
 <span class="spanEx">FROM TABLENAME</span><br/>
 <span class="labelR">[</span><span class="spanEx"> ORD </span><span class="labelR">] {</span> <span class="spanEx">WHERE ORD = :ORD</span> <span class="labelR">}</span>
 
-파라미터 설정 변수인 ORD 즉 “[“와 “]” 사이에 있는 “ORD”의 값이 “Null” 값이면 “{“ 와 “}” 사이의 구문을 삭제 처리합니다.
+파라미터 설정 변수인 ORD 즉 “[“와 “]” 사이에 있는 ORD의 값이 “Null” 값이면 “{“ 와 “}” 사이의 구문을 삭제 처리합니다.
 "Null"일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
 
 ```xml
@@ -163,7 +163,7 @@ SELECT COLUMN FROM TABLENAME WHERE COLUMN = <span class="labelR">:COLUMN</span> 
     EMPLOYEEID, NAME
   from EMPLOYEE
   <dynamic>
-    <isNotEmpty property="ORD">where NAME = #ORD#</isNotEmpty>
+    <isNotEmpty property="ORD">where ORD = #ORD#</isNotEmpty>
   </dynamic>
 </select>
 ```
@@ -173,7 +173,7 @@ SELECT COLUMN FROM TABLENAME WHERE COLUMN = <span class="labelR">:COLUMN</span> 
 구문: <span class="labelR">[ VAL,</span>항목명==Value<span class="labelR"> ] {</span> sql-syntax <span class="labelR">}</span>
 </div> <br/>
 
-동적 조건부에 “VAL” 키워드를 통하여 해당 조건식을 수행합니다. 조건부에는 반드시 비교연산자를 사용하여 결괏값이 boolean 형식으로 return 되어야 합니다.
+동적 조건부에 “VAL” 키워드를 통하여 해당 조건식을 수행합니다. 조건부에는 반드시 비교연산자를 사용하여 결괏값이 Boolean 형식으로 return 되어야 합니다.
 
 <span class="spanEx">Ex) 데이터셋으로 직접 비교 처리</span><br/>
 <span class="spanEx">SELECT EMPLOYEE, NAME</span><br/>
