@@ -11,6 +11,7 @@ Loop내에서 Current Record Object는 “R” Object로 만들어집니다.
 
 ## 1. MPD BOC 이미지
 BOC 컴포넌트 목록에서 MPD BOC를 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
+MPD BOC 아래에 CON BOC를 화면작업창에 디자인합니다. <br/>
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/ControlBOC/MPD/MpdBoc.png" style="width:150px;"> 
 <div style="margin-top: 33px; margin-left: 20px; font-size: 12px;">
