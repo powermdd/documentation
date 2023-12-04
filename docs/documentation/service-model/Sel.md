@@ -13,8 +13,8 @@ BOC 컴포넌트 목록에서 SEL BOC를 선택하여 Drag-Drop으로 화면작�
 <div class="boc"> 
   <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL/SelImg.png" style="width:150px;"> 
 <div style="margin-top: 103px; margin-left: 20px; font-size: 12px;">
-<span class="bocEX bocG" style="margin-bottom: 56px;">데이터베이스의 데이터를 Select하는 컬럼 부를 표시합니다.</span>
-<span class="bocEX bocY">데이터를 Select하기 위해서 필요로 하는 조건 컬럼 부를 표시합니다.</span></div>
+<span class="bocEX bocG" style="margin-bottom: 56px;">데이터베이스의 데이터를 조회하기 위한 컬럼 부를 표시합니다.</span>
+<span class="bocEX bocY">데이터를 조회하기 위해서 필요로 하는 조건 컬럼 부를 표시합니다.</span></div>
 </div>
 
 
@@ -61,13 +61,13 @@ Pagination 시 페이지당 레코드 건수를 설정합니다.
 <span class="font18">④<b> Display Count </b></span> <br/>
 해당 BOC 목록이 많을 때 목록에 보이는 개수를 설정합니다.
 
-<span class="font20">4)<b> 메시지부</b></span> <br/>
+<span class="font20">4)<b> 4. 메시지부</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL/SelProperty(4).png"  class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font18">①<b> 결과메시지 </b></span> <br/>
 해당 처리 결과에 대한 메시지를 클라이언트. 즉, 호출자에게 보낼 필요가 있을 때 정의합니다.<br/>
 
-<span class="font20">5)<b> 선택항목</b></span> <br/>
+<span class="font20">5)<b> 5. 선택항목</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL/SelProperty(5).png"  class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font18">①<b> Alias전송명 </b></span> <br/>
