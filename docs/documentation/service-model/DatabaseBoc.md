@@ -65,9 +65,8 @@ INS BOC, UPD BOC, DEL BOC는 속성 설정으로 쿼리를 자동 생성처리 �
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-입력 Object의 레코드의 특정 컬럼을 조건 값으로 하여 입력 레코드 수만큼 Select문이 실행됩니다. 
-
-<span class="spanEx"> Ex) 입력된 Dataset Object Column에 부서코드가 없다면, 해당 데이터셋에 사원의 부서코드를 조회하여 데이터셋에 DEPARTMENTID를 ADD할 수 있는 기능을 제공합니다. </span>
+입력 Object의 레코드의 특정 컬럼을 조건 값으로 하여 입력 레코드 수만큼 Select문이 실행됩니다. <br/>
+<span class="spanEx"> Ex) 입력된 데이터셋 Object 컬럼에 DEPT_ID 컬럼이 없다면, 해당 데이터셋에 해당 DEPT_ID 컬럼을 조회하여 데이터셋에 DEPT_ID 컬럼을 ADD할 수 있는 기능을 제공합니다. </span>
 :::
 <!-- -->
 

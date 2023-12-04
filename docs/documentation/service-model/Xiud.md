@@ -62,13 +62,13 @@ Insert, Update, Delete 등 데이터베이스 SQL Query를 입력합니다.<br/>
 - <b class="colGray">ChartData</b> : View Designer에서 차트 컴포넌트에 데이터 조회 시 설정합니다.
 - <b class="colGray">Schedule</b> : View Designer에서 스케줄 컴포넌트에 조회 시 설정합니다. <br/>
 
-<span class="font20">4)<b> 메시지부</b></span> <br/>
+<span class="font20">4)<b> 4. 메시지부</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL/SelProperty(4).png"  class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font18">①<b> 결과메시지 </b></span> <br/>
 해당 처리 결과에 대한 메시지를 클라이언트. 즉, 호출자에게 보낼 필요가 있을 때 정의합니다.<br/>
 
-<span class="font20">5)<b> 선택항목</b></span> <br/>
+<span class="font20">5)<b> 5. 선택항목</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/XIUD/XiudProperty(5).png"  class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font18">①</span><b class="font18"> Alias전송명 </b> <br/>
@@ -94,7 +94,7 @@ Debug 테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 - <b class="colGray">09. PEX부가 Objects</b> : PEX BOC의 부가적인 Object의 결과를 표시합니다.
 - <b class="colGray">10. 미사용</b> : 조건 컬럼 부의 계산식 값을 표시합니다.
 
-<span class="font18">④<b> 실행 조건 </b></span> <br/>
+<span class="font18">⑤<b> 실행 조건 </b></span> <br/>
 실행 조건에 값이 있는 경우 해당 실행 조건이 "True"가 아니면 실행이 되지 않습니다.
 
 
