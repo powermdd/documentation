@@ -1,4 +1,4 @@
-# <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/DEL.png" style="width:50px;"> <span class="bocIcon">(DEL)</span> <br/>
+# <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC//DEL/DEL.png" style="width:50px;"> <span class="bocIcon">(DEL)</span> <br/>
 DB 테이블에 대한 Delete문을 처리하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
