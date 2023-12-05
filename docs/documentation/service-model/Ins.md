@@ -18,7 +18,7 @@ BOC 컴포넌트 목록에서 INS BOC를 선택하여 Drag-Drop으로 화면작�
 </div>
 
 ## 2. INS BOC 속성
-화면작업 창에서 INS BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다.<br/>
+화면작업 영역에서 INS BOC 선택 시 속성 영역에 설정이 가능한 항목에 값을 입력합니다.<br/>
 
 <span class="font20">1)<b> 1. 기초정보</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsProperty(1).png"  class="boxBorder" style="width:300px;"> <br/>

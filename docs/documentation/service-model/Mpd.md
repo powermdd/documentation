@@ -19,7 +19,7 @@ MPD BOC 아래에 CON BOC를 화면작업 영역에 디자인합니다. <br/>
 </div>
 
 ## 2. MPD BOC 속성
-화면작업 창에서 MPD BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다.<br/>
+화면작업 영역에서 MPD BOC 선택 시 속성 영역에 설정이 가능한 항목에 값을 입력합니다.<br/>
 
 <span class="font20">1)<b> 1. 기초정보</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/ControlBOC/MPD/MpdProperty(1).png"  class="boxBorder" style="width:300px;"> <br/>
@@ -48,7 +48,7 @@ BOC가 어떤 동작을 수행하는지를 간단한 명칭으로 기술합니�
 <span class="font18">②<b> Display Count </b></span> <br/>
 해당 BOC 목록이 많을 때 목록에 보이는 개수를 설정합니다.
 
-<span class="font20">5)<b> 5. 선택항목</b></span> <br/>
+<span class="font20">4)<b> 5. 선택항목</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/ControlBOC/MPD/MpdProperty(5).png"  class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font18">①</span><b class="font18"> DB연결명 </b> <br/>
@@ -76,7 +76,7 @@ Debug 테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 MPD BOC의 분기처리 Child BOC에는 입력 Object인 "R" Object가 발생합니다.<br/>
 "R" Object는 Loop 처리 시 발생하는 Current Record Object입니다.<br/>
 아래 샘플에서 "INS7" Node의 입력 Object로 "R"이 설정되어 있습니다.<br/>
-Current Record가 수정 대상 레코드가 됩니다.<br/>
+즉 Current Record가 수정 대상 레코드가 됩니다.<br/>
 
 <img src="../../.vuepress/public/documentation/service-model/BOC/ControlBOC/MPD/MpdRecord(1).png"  style="width:350px;"> &emsp;&emsp;&emsp;
 <img src="../../.vuepress/public/documentation/service-model/BOC/ControlBOC/MPD/MpdRecord(2).png"  class="boxBorder" style="width:300px;"><br/>
