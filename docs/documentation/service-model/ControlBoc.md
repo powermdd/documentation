@@ -44,12 +44,12 @@ CON BOC 사용시 자바 소스 생성은 if(조건) 형식으로 구성됩니�
 <!-- -->
 
 ## 5. BRK
-DB 테이블에 대한 Update & Insert 처리를 수행하는 기능인 컴포넌트입니다.
+MPD BOC 또는 MIUD BOC를 이용하여 Loop(while)문을 종료 처리하는 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-UNI BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
-처리 방식은 Update 먼저 수행하고 수행결과가 0건이면 Insert를 처리합니다. 즉 UPD BOC, INS BOC를 결합 시킨 형태입니다. 
+해당 기능 사용시 자바 언어의 while문 내에 break가 추가됩니다.<br/>
+BRK BOC는 MPD BOC, MIUD BOC 내에서만 사용 가능합니다.
 :::
 <!-- -->
 
