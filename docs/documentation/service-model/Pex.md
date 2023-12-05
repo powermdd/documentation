@@ -48,7 +48,7 @@ BOC가 어떤 동작을 수행하는지를 간단한 명칭으로 기술합니�
 
 <span class="font18">⑤<b> INPUT[OBJ:Mapping] </b></span> <br/>
 호출하는 프로세스에서 호출되는 프로세스로 입력정보를 전달하는 매핑 구조입니다.<br/>
-OBJ는 호출하는 프로세스(자신)의 결과집합 명이고 Mapping은 호출되는 프로세스에서 입력으로 받을 START BOC의 데이터셋 명을 설정합니다.
+OBJ는 호출하는 프로세스(자신)의 결과집합 명이고 Mapping은 호출되는 프로세스에서 입력으로 받을 Start BOC의 데이터셋 명을 설정합니다.
 
 <span class="font18">⑥<b> OUT_OBJECT명 </b></span> <br/>
 호출되는 프로세스의 BOC 결과집합 중 호출하는 프로세스로 Return할 결과집합명입니다.<br/>
