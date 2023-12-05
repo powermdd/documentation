@@ -154,7 +154,7 @@ SELECT COLUMN FROM TABLENAME WHERE COLUMN = <span class="labelR">:COLUMN</span> 
 <span class="labelR">[</span><span class="spanEx"> ORD </span><span class="labelR">] {</span> <span class="spanEx">WHERE ORD = :ORD</span> <span class="labelR">}</span>
 
 파라미터 설정 변수인 ORD 즉 “[“와 “]” 사이에 있는 ORD의 값이 “Null” 값이면 “{“ 와 “}” 사이의 구문을 삭제 처리합니다.
-"Null"일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
+Null일 때 실행 쿼리는 “SELECT COLNM FROM TABLENAME”가 됩니다.
 
 ```xml
 <!--<Ibatis 소스 생성 예>-->
