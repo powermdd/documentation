@@ -19,7 +19,7 @@ Where 절의 조건으로 사용됩니다.</span>
 </div>
 
 ## 2. DEL BOC 속성
-화면작업 창에서 DEL BOC 선택 시 속성 창에 설정이 가능한 항목에 값을 입력합니다.<br/>
+화면작업 영역에서 DEL BOC 선택 시 속성 영역에 설정이 가능한 항목에 값을 입력합니다.<br/>
 
 <span class="font20">1)<b> 1. 기초정보</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/DEL/DelProperty(1).png"  class="boxBorder" style="width:300px;"> <br/>
