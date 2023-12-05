@@ -86,24 +86,6 @@ Pagination 시 페이지당 레코드 건수를 설정합니다.
 - <b class="colGray">ChartData</b> : View Designer에서 차트 컴포넌트에 데이터 조회 시 설정합니다.
 - <b class="colGray">Schedule</b> : View Designer에서 스케줄 컴포넌트에 조회 시 설정합니다. <br/>
 
-<b style="font-size: 20px">➂ 출력부</b><br/>
-- <b style="font-size: 20px">Record-Count/Page </b><br/>
-Pagination 시 페이지당 레코드 건수를 설정합니다.
-
-- <b style="font-size: 20px">Column Scroll </b><br/>
-해당 BOC 목록이 많을 때 true로 설정했을 때 Display Count에서 설정한 개수만큼 보여주고 나머지 목록은 ▲▼ 버튼으로 확인할 수 있습니다.
-
-- <b style="font-size: 20px">Display Count </b><br/>
-해당 BOC 목록이 많을 때 목록에 보이는 개수를 설정합니다.
-
-- <b style="font-size: 20px">화면출력유형 </b><br/>
-None: Default<br/>
-Dataset : View Designer에서 그리드 컴포넌트에 조회 시 설정합니다. <br/>
-Recode : JSP 출력방식일 때 단일 컴포넌트에 조회 시 설정합니다. <br/>
-Page : JSP 출력방식일 때 페이징 시 설정합니다.<br/>
-ChartLabel : View Designer에서 차트 컴포넌트에 범례를 설정합니다.<br/>
-ChartData : View Designer에는 차트 컴포넌트에 데이터 조회 시 설정합니다. <br/>
-Schedule : View Designer에서 스케줄 컴포넌트에 조회 시 설정합니다.<br/>
 
 <span class="font20">4)<b> 4. 메시지부</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/SEL/SelProperty(4).png"  class="boxBorder" style="width:300px;"> <br/>
