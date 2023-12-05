@@ -124,7 +124,7 @@ PEX BOC는 재조회를 하며 조회하는 서비스를 호출하게끔 설정�
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-PEX BOC를 이용하여 다른 서비스에서 만든 BOC을 호출하여 사용합니다.
+PEX BOC를 이용하여 다른 서비스에서 만든 BOC를 호출하여 사용합니다.
 :::
 <!-- -->
 
