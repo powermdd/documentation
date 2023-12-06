@@ -15,14 +15,14 @@ UPDMSG : 해당 CMD가 실행되면서 발생하는 메시지 내용이 저장�
 ## 1. CMD BOC 이미지
 BOC 컴포넌트 목록에서 CMD BOC를 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
 <div class="boc"> 
-  <img src="../../.vuepress/public/documentation/service-model/BOC/InterfaceBOC/CMD/CmdBoc.png" style="width:150px;"> 
+  <img src="../../.vuepress/public/documentation/service-model/BOC/InterfaceBOC/CMD/cmdBoc.png" style="width:150px;"> 
 </div>
 
 ## 2. OSP BOC 속성
 화면작업 영역에서 OSP BOC 선택 시 속성 영역에 설정이 가능한 항목에 값을 입력합니다.<br/>
 
 <span class="font20">1)<b> 1. 기초정보</b></span> <br/>
-<img src="../../.vuepress/public/documentation/service-model/BOC/InterfaceBOC/CMD/CmdProperty(1).png"  class="boxBorder" style="width:300px;"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/InterfaceBOC/CMD/cmdProperty(1).png"  class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font18">①<b> OBJECT명 </b></span> <br/>
 해당 BOC가 실행된 후 해당 결과 SET을 저장할 Value Object의 명을 지정합니다. 해당 Object의 결과 Set은 그리드 형식의 Object로 구성됩니다.
@@ -34,7 +34,7 @@ BOC가 어떤 동작을 수행하는지를 간단한 명칭으로 기술합니�
 논리명칭으로 표현하기 부족할 때 좀 더 상세히 내용을 기술합니다.
 
 <span class="font20">2)<b> 2. 입력부</b></span> <br/>
-<img src="../../.vuepress/public/documentation/service-model/BOC/InterfaceBOC/CMD/CmdProperty(2).png"  class="boxBorder" style="width:300px;"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/InterfaceBOC/CMD/cmdProperty(2).png"  class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font18">①<b> 실행 Parameters </b></span> <br/>
 Commend 명령어의 옵션 값을 입력합니다. 파라미터 입력 시 Command Line의 입력형식과 동일하게 입력합니다.<br/>
@@ -80,7 +80,7 @@ Commend에 실행할 명령어를 입력합니다. Command에는 실행파일을
 해당 처리 결과에 대한 메시지를 클라이언트. 즉, 호출자에게 보낼 필요가 있을 때 정의합니다.<br/>
 
 <span class="font20">5)<b> 5. 선택항목</b></span> <br/>
-<img src="../../.vuepress/public/documentation/service-model/BOC/InterfaceBOC/CMD/CmdProperty(5).png"  class="boxBorder" style="width:300px;"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/BOC/InterfaceBOC/CMD/cmdProperty(5).png"  class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font18">①</span><b class="font18"> Alias전송명 </b> <br/>
 전송하는 Object 명의 Alias를 생성합니다.
