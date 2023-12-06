@@ -19,7 +19,7 @@ Select, Insert, Delete 등 데이터베이스와 관련된 구성요소입니다
 
 ## 4. Chanage BOC
 
-Dataset Object의 Records에 변화를 주는 구성요소입니다. <br/>
+데이터셋 Object의 레코드에 변화를 주는 구성요소입니다. <br/>
 <img src="../../.vuepress\public\documentation\service-model\BOC\ChangeBOC\ChangeBOC.png" class="boxBorder" style="width:400px;"> <br/>
 
 ## 5. File BOC

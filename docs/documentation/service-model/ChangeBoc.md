@@ -13,11 +13,12 @@ GLV BOC 이외의 BOC는 In-Out에 기초하여 데이터셋을 구성하나 GLV
 <!-- -->
 
 ## 2. CVT
-DB 테이블에 대한 Insert문을 처리하는 기능인 컴포넌트입니다.
+추가 및 변환 처리된 데이터를 데이터셋 Object로 생성하는 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-INS BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
+CVT BOC는 입력 데이터셋 Object에 대한 데이터를 가공하여 출력되도록 사용합니다.<br/>
+이외에 추가적으로 입력 데이터셋 레코드에 대한 필터기능이 있습니다.
 :::
 <!-- -->
 

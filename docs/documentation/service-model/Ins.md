@@ -1,4 +1,4 @@
-# <img class="iconB" src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS//INS.png" style="width:50px;"> <span class="bocIcon">(INS)</span> <br/>
+# <img class="iconB" src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/INS.png" style="width:50px;"> <span class="bocIcon">(INS)</span> <br/>
 DB 테이블에 대한 Insert문을 처리하는 기능인 컴포넌트입니다.
 
 <!-- Remark -->
