@@ -108,7 +108,7 @@ Debug 테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 
 ## 3. CVT BOC 사용 예시 
 <span class="font20">1) 데이터 가공 기본 예</span> <br/>
-처음에 SEL BOC로 데이터베이스에 담긴 정보 그대로 SELECT가 되어 보여주지만 CVT BOC에서 “BIGO”의 컬럼을 추가한 후 입력부 계산식을 원하는 값을 넣으면 데이터가 가공되어 출력하게 됩니다.<br/>
+처음에 SEL BOC로 데이터베이스에 담긴 정보 그대로 조회가 되어 보여주지만 CVT BOC에서 “BIGO”의 컬럼을 추가한 후 입력부 계산식을 원하는 값을 넣으면 데이터가 가공되어 출력하게 됩니다.<br/>
 
 <img src="../../.vuepress/public/documentation/service-model/BOC/ChangeBOC/CVT/CvtBigo(1).png"  style="width:350px;"> &emsp;&emsp;&emsp;
 <img src="../../.vuepress/public/documentation/service-model/BOC/ChangeBOC/CVT/CvtBigo(2).png"  class="boxBorder" style="width:300px;"><br/>
