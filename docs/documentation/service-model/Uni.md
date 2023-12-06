@@ -1,10 +1,10 @@
 # <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/UNI/UNI.png" style="width:50px;"> <span class="bocIcon">(UNI)</span> <br/>
 <!--UNI-->
-DB 테이블에 대한 Update & Insert 처리를 수행하는 기능인 컴포넌트입니다.
+DB 테이블에 대한 Update문 & Insert문 처리를 수행하는 기능인 컴포넌트입니다.
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 UNI BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
-처리 방식은 Update 먼저 수행하고 수행결과가 0건이면 Insert를 처리합니다. 즉 UPD BOC, INS BOC를 결합 시킨 형태입니다.
+처리 방식은 Update문 먼저 수행하고 수행결과가 0건이면 Insert문을 처리합니다. 즉 UPD BOC, INS BOC를 결합 시킨 형태입니다.
 :::
 <!-- -->
 
