@@ -41,7 +41,7 @@ Commend 명령어의 옵션 값을 입력합니다. 파라미터 입력 시 Comm
 
 
 <span class="spanEx">Ex) 실행 Cmd가 Ping인 경우<br/>
-”-n“ ”2“ S.IPADDR</span>
+”-n“ ”2“ S.IPADDR</span> 
 
 String 값과 변수 값의 구분은 “ “ 로 구분하여 입력합니다.
 
