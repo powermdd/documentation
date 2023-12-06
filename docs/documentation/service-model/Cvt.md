@@ -38,7 +38,7 @@ BOC가 어떤 동작을 수행하는지를 간단한 명칭으로 기술합니�
 <span class="font18">①</span><b class="font18"> 입력 OBJECT </b> <br/>
 변환 대상 데이터 Object 명을 선택합니다.
 
-<span class="font18">②</span><b class="font18"> 전체항목 </b> <br/>
+<span class="font18">②</span><b class="font18"> 출력항목 </b> <br/>
 입력 OBJECT와 변환 처리한 컬럼에서 선택한 최종 결과집합을 지정합니다.<br/>
 CVT BOC의 최종 결과로 생성될 컬럼들을 지정합니다.
 
