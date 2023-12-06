@@ -85,7 +85,7 @@ Commend에 실행할 명령어를 입력합니다. Command에는 실행파일을
 <span class="font18">①</span><b class="font18"> Alias전송명 </b> <br/>
 전송하는 Object 명의 Alias를 생성합니다.
 
-<span class="font18">③<b> Log 수준 </b></span> <br/>
+<span class="font18">②<b> Log 수준 </b></span> <br/>
 Debug 테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터베이스 관련된 BOC는 ReturnData와 QueryData를 사용합니다.
 - <b class="colGray">00. ProcessHead</b> : Seq번호, 프로세스 타입을 표시합니다.
 - <b class="colGray">01. InputData</b> : 입력 데이터를 표시합니다.
@@ -99,7 +99,7 @@ Debug 테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 - <b class="colGray">09. PEX부가 Objects</b> : PEX BOC의 부가적인 Object의 결과를 표시합니다.
 - <b class="colGray">10. 미사용</b> : 조건 컬럼 부의 계산식 값을 표시합니다.
 
-<span class="font18">④<b> 실행 조건 </b></span> <br/>
+<span class="font18">③<b> 실행 조건 </b></span> <br/>
 실행 조건에 값이 있는 경우 해당 실행 조건이 "True"가 아니면 실행이 되지 않습니다.
 
 <style type='text/css'>
