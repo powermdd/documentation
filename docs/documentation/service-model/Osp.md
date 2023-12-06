@@ -47,7 +47,7 @@ Stored Procedure를 입력합니다.<br/>
 
 <span class="font18">③<b> 입력 Parameter </b></span> <br/>
 입력 Object 중 입력할 컬럼을 지정합니다. 컬럼 지정 시에는 Stored Procedure을 입력합니다. <br/>
-파라미터의 개수와 데이터 타입에 맞는 입력 컬럼을 순서대로 지정해야 합니다
+파라미터의 개수와 데이터 타입에 맞는 입력 컬럼을 순서대로 지정해야 합니다.
 
 <span class="font20">3)<b> 3. 출력부</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/DataBaseBOC/INS/InsProperty(3).png"  class="boxBorder" style="width:300px;"> <br/>

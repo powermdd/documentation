@@ -24,11 +24,15 @@ PEX BOC는 내부 호출의 경우 다른 메뉴에 속해 있는 서비스를 �
 <!-- -->
 
 ## 3. CMD
-DB 테이블에 대한 Delete문을 처리하는 기능인 컴포넌트입니다.
+WAS가 설치되어 있는 서버 시스템의 실행 파일을 실행하여 결과를 Return 받는 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-DEL BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
-처리 이후 Object 컬럼인 UPDCNT 값으로 삭제 처리한 Record Count를 Return 처리합니다.
+단 실행 결과는 처리 결과 코드와 실행 시 Display되는 Shutout 메시지를 String 형태로 return합니다.<br/>
+Unix의 파일이나 Window의 bat 형태의 파일을 실행하여 활용할 수도 있습니다.<br/>
+CMD BOC 실행 후 결과는 UPDCNT, UPDMSG 컬럼으로 결과값이 저장됩니다.
+
+UPDCNT : 확인KEYWORD가 UPDMSG에 존재하면 1 아니면 0이 저장됩니다.<br/>
+UPDMSG : 해당 CMD가 실행되면서 발생하는 메시지 내용이 저장됩니다.<br/>
 :::
 <!-- -->
