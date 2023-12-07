@@ -41,12 +41,13 @@ n개의 데이터셋 Object의 레코드를 추출하여 병합된 단일 데이
 <!-- -->
 
 ## 5. ADD
-DB 테이블에 대한 Update & Insert 처리를 수행하는 기능인 컴포넌트입니다.
+지정된 조건에 따라 레코드 Add해두는 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-UNI BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
-처리 방식은 Update 먼저 수행하고 수행결과가 0건이면 Insert를 처리합니다. 즉 UPD BOC, INS BOC를 결합 시킨 형태입니다. 
+Loop 내에서 발생하는 데이터 레코드를 보존해주는 기능을 합니다.<br/>
+반드시 MPD BOC, MIUD BOC의 Child 프로세스에서만 사용 가능합니다.<br/>
+MPD BOC, MIUD BOC 내 즉 Loop내에서 사용되는 BOC는 메인 Flow에서 Access할 수 없으나 예외적으로 ADD BOC를 이용하면 메인 Flow의 BOC에서 Access가 가능합니다.
 :::
 <!-- -->
 
