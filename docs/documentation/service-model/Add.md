@@ -3,7 +3,7 @@
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-Loop 내에서 발생하는 데이터 레코드를 보존해주는 기능을 합니다.<br/>
+Loop 내에서 발생하는 데이터 레코드를 보존해주는 기능입니다.<br/>
 반드시 MPD BOC, MIUD BOC의 Child 프로세스에서만 사용 가능합니다.<br/>
 MPD BOC, MIUD BOC 내 즉 Loop내에서 사용되는 BOC는 메인 Flow에서 Access할 수 없으나 예외적으로 ADD BOC를 이용하면 메인 Flow의 BOC에서 Access가 가능합니다.
 :::
