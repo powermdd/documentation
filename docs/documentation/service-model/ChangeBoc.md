@@ -23,12 +23,11 @@ CVT BOC는 입력 데이터셋 Object에 대한 데이터를 가공하여 출력
 <!-- -->
 
 ## 3. GET
-DB 테이블에 대한 Delete문을 처리하는 기능인 컴포넌트입니다.
+화면에서 입력되는 데이터셋에서 필터링 처리를 수행하여 새로운 결과집합을 생성하는 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-DEL BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
-처리 이후 Object 컬럼인 UPDCNT 값으로 삭제 처리한 Record Count를 Return 처리합니다.
+Select문의 Where 조건문과 동일한 역할을 수행합니다.
 :::
 <!-- -->
 
