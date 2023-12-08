@@ -29,7 +29,7 @@ BOC가 어떤 동작을 수행하는지를 간단한 명칭으로 기술합니�
 <span class="font18">③<b> 논리설명 </b></span> <br/>
 논리명칭으로 표현하기 부족할 때 좀 더 상세히 내용을 기술합니다.
 
-<<span class="font20">2)<b> 2. 입력부</b></span> <br/>
+<span class="font20">2)<b> 2. 입력부</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/ChangeBOC/SRD/SrdProperty(2).png"  class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font18">①</span><b class="font18"> 나머지유효 </b> <br/>
