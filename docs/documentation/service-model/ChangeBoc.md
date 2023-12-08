@@ -55,12 +55,12 @@ MPD BOC, MIUD BOC 내 즉 Loop내에서 사용되는 BOC는 메인 Flow에서 Ac
 입력 데이터셋 Object에 대하여 구하는 컴포넌트입니다.
 
 ## 7. SRD
-입력 Object의 레코드들을 대상으로 Select 조건을 생성하여 필요한 Element를 덧붙이는 컴포넌트입니다.
+데이터셋에서 레코드를 여러 개의 멀티 레코드로 분할하는 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-입력 Object의 레코드의 특정 컬럼을 조건 값으로 하여 입력 레코드 수만큼 Select문이 실행됩니다. <br/>
-<span class="spanEx"> Ex) 입력된 데이터셋 Object 컬럼에 DEPT_ID 컬럼이 없다면, 해당 데이터셋에 해당 DEPT_ID 컬럼을 조회하여 데이터셋에 DEPT_ID 컬럼을 ADD할 수 있는 기능을 제공합니다. </span>
+대상 컬럼의 값을 분할 조건 컬럼으로 기준 값으로 분할합니다.<br/>
+나눈 나머지 발생 시 나머지 유효 여부를 지정합니다.
 :::
 <!-- -->
 
