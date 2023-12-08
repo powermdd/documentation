@@ -65,11 +65,12 @@ MPD BOC, MIUD BOC 내 즉 Loop내에서 사용되는 BOC는 메인 Flow에서 Ac
 <!-- -->
 
 ## 8. SRCD
-연결된 데이터베이스에 Rollback Command를 실행하는 컴포넌트입니다.
+단일 레코드를 여러 개의 멀티 레코드로 분리하는 컴포넌트입니다.
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-RBK BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
+분할기준은 여러 개의 컬럼을 기본 컬럼과 레코드에 개별로 분리할 컬럼들을 설정합니다.<br/>
+SRD BOC와 다른 점은 SRD BOC는 값을 분할하는 방식이지만 SRCD BOC는 가로로 나열되어 있는 컬럼을 기준으로 여러 레코드로 분할 처리합니다.
 :::
 <!-- -->
 
