@@ -1,1 +1,0 @@
-import{_ as t,o as n,c as r,d as e,f as s}from"./app-6017a3a2.js";const a={},c=e("h1",{id:"view-designer",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#view-designer","aria-hidden":"true"},"#"),s(" View Designer")],-1),i=[c];function d(o,_){return n(),r("div",null,i)}const l=t(a,[["render",d],["__file","index.html.vue"]]);export{l as default};
