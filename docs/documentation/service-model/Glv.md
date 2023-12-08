@@ -1,4 +1,4 @@
-# <img class="iconB" src="../../.vuepress/public/documentation/service-model/BOC/ChangeBOC/GLV//GLV.png" style="width:50px;"> <span class="bocIcon">(GLV)</span> <br/>
+# <img class="iconB" src="../../.vuepress/public/documentation/service-model/BOC/ChangeBOC/GLV/GLV.png" style="width:50px;"> <span class="bocIcon">(GLV)</span> <br/>
 단일 값을 해당 서비스 내에서 변수로 사용하는 컴포넌트입니다.
 
 <!-- Remark -->
@@ -10,7 +10,7 @@ GLV BOC 이외의 BOC는 In-Out에 기초하여 데이터셋을 구성하나 GLV
 ## 1. GLV BOC 이미지
 BOC 컴포넌트 목록에서 GLV BOC를 선택하여 Drag-Drop으로 화면작업 영역에 디자인합니다. <br/>
 <div class="boc"> 
-  <img src="../../.vuepress/public/documentation/service-model/BOC/ChangeBOC/GLV//GlvImg.png" style="width:150px;"> 
+  <img src="../../.vuepress/public/documentation/service-model/BOC/ChangeBOC/GLV/GlvImg.png" style="width:150px;"> 
 <div style="margin-top: 31px; margin-left: 20px; font-size: 12px;">
 <span class="bocEX bocW">이전에 생성한 컬럼의 값을 변경할 때 값을 세팅하면 기존의 컬럼의 값을 overwrite 처리합니다.</span></div>
 </div>
