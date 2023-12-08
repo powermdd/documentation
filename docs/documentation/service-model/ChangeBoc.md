@@ -52,14 +52,7 @@ MPD BOC, MIUD BOC 내 즉 Loop내에서 사용되는 BOC는 메인 Flow에서 Ac
 <!-- -->
 
 ## 6. SUM
-표준적인 SQL문장이 아닌 비정형적 SQL문장에 대한 처리를 수행하는 기능인 컴포넌트입니다.
-
-<!-- Remark -->
-::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-INS BOC, UPD BOC, DEL BOC는 속성 설정으로 쿼리를 자동 생성처리 하지만 XIUD BOC는 사용자가 직접 쿼리를 입력하여 사용하는 기능입니다.<br/>
-예를 들면, PK를 수정하는 Update문이나 Insert문, Select문, Merge Into문 등을 사용자가 직접 입력하여 사용할 수 있습니다.
-:::
-<!-- -->
+입력 데이터셋 Object에 대하여 구하는 컴포넌트입니다.
 
 ## 7. SRD
 입력 Object의 레코드들을 대상으로 Select 조건을 생성하여 필요한 Element를 덧붙이는 컴포넌트입니다.
