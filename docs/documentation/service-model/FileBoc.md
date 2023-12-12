@@ -7,13 +7,7 @@
 파일 처리 기능으로 Delete, Move, Copy, Rename 4가지 기능을 하는 컴포넌트입니다.
 
 ## 2. FBD
-DB 테이블에 대한 Insert문을 처리하는 기능인 컴포넌트입니다.
-
-<!-- Remark -->
-::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-INS BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다.
-:::
-<!-- -->
+특정 포맷으로 구성된 파일을 생성하는 컴포넌트입니다.
 
 ## 3. FUP
 DB 테이블에 대한 Delete문을 처리하는 기능인 컴포넌트입니다.
