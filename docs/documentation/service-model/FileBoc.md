@@ -10,14 +10,7 @@
 특정 포맷으로 구성된 파일을 생성하는 컴포넌트입니다.
 
 ## 3. FUP
-DB 테이블에 대한 Delete문을 처리하는 기능인 컴포넌트입니다.
-
-<!-- Remark -->
-::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-DEL BOC는 쿼리를 자동 생성하며 자동 생성에 필요한 속성을 설정합니다. <br/>
-처리 이후 Object 컬럼인 UPDCNT 값으로 삭제 처리한 Record Count를 Return 처리합니다.
-:::
-<!-- -->
+특정 포맷으로 구성된 파일을 읽어 데이터 Object로 생성하는 컴포넌트입니다.
 
 ## 4. XUP
 DB 테이블에 대한 Update 처리를 수행하는 기능인 컴포넌트입니다.
