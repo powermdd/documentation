@@ -96,7 +96,6 @@ Debug 테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 실행 조건에 값이 있는 경우 해당 실행 조건이 "True"가 아니면 실행이 되지 않습니다.
 
 ## 3. FUP BOC 사용 예시 
-<span class="font20">1) 파일Layout 속성의 입력 예</span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/FileBOC/FUP/FupSample(1).png"  style="width:300px;"> <br/>
 
 <span class="font18">① 우측 속성에 출력 항목을 선택해서 나오는 <span class="spanBtn">...</span> 버튼을 클릭합니다.</span> <br/>
