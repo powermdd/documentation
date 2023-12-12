@@ -92,7 +92,7 @@ Length 설정에 따른 레이아웃 총길이입니다.
 <span class="font18">①<b> 결과메시지 </b></span> <br/>
 해당 처리 결과에 대한 메시지를 클라이언트. 즉, 호출자에게 보낼 필요가 있을 때 정의합니다.<br/>
 
-<span class="font20">4)<b> 5. 선택항목</b></span> <br/>
+<span class="font20">5)<b> 5. 선택항목</b></span> <br/>
 <img src="../../.vuepress/public/documentation/service-model/BOC/InterfaceBOC/CMD/cmdProperty(5).png"  class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font18">①</span><b class="font18"> Alias전송명 </b> <br/>
