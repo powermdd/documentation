@@ -11,7 +11,7 @@ String 타입으로 사용하고자 할 때 사용합니다. 값을 직접 할�
 자바 언어의 String 데이터 타입과 동일하게 처리됩니다.<br/>
 
 <span class="spanEx">Ex) “VAL1”라는 컬럼의 데이터타입이 String인 경우 </span><br/>
-<img src="../../.vuepress/public/documentation/service-model/dataType/VARCHAR.png" class="boxBorder" style="width:300px;"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/dataType/VARCHAR.png" class="boxBorder" style="width:300px;"> <br/>
 
 
 ## 2. 수치형
@@ -21,19 +21,19 @@ String 타입으로 사용하고자 할 때 사용합니다. 값을 직접 할�
 수치의 범위는 자바 언어의 double 데이터타입의 범위와 동일하게 처리됩니다.<br/>
 
 <span class="spanEx">Ex) “VAL1”라는 컬럼의 데이터 타입이 수치형인 경우 </span><br/>
-<img src="../../.vuepress/public/documentation/service-model/dataType/NUMBER.png" class="boxBorder" style="width:400px;"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/dataType/NUMBER.png" class="boxBorder" style="width:400px;"> <br/>
 
 <span class="font20">2) <b>INTEGER</b></span> <br/>
 수치의 범위는 자바 언어의 integer 데이터타입의 범위와 동일하게 처리됩니다.<br/>
 
 <span class="spanEx">Ex) “VAL1”라는 컬럼의 데이터 타입이 수치형인 경우 </span><br/>
-<img src="../../.vuepress/public/documentation/service-model/dataType/INTEGER.png" class="boxBorder" style="width:300px;"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/dataType/INTEGER.png" class="boxBorder" style="width:300px;"> <br/>
 
 <span class="font20">3) <b>LONG</b></span> <br/>
 수치의 범위는 자바 언어의 long 데이터타입의 범위와 동일하게 처리됩니다.<br/>
 
 <span class="spanEx">Ex) “VAL1”라는 컬럼의 데이터 타입이 수치형인 경우 </span><br/>
-<img src="../../.vuepress/public/documentation/service-model/dataType/NUMBER.png" class="boxBorder" style="width:400px;"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/dataType/NUMBER.png" class="boxBorder" style="width:400px;"> <br/>
 
 ## 3. LOB형
 <span class="font20">1) <b>BLOB</b></span> <br/>
@@ -49,7 +49,7 @@ CLOB시에는 데이터베이스 입출력 시 Stream 형식으로 처리됩니�
 해당 컬럼의 값이 날짜 값의 속성을 가지고 있을 때 사용합니다. 날짜 인식 구분자를 사용하게 되면 연산처리 시 날짜 연산을 수행합니다. 날짜연산처리 결과는 수치형 데이터타입에 저장됩니다.
 
 <span class="spanEx">Ex) 해당 “UPD_DT” 컬럼 날짜 값에 1개월을 더한 일자를 구하고 싶을 때 </span><br/>
-<img src="../../.vuepress/public/documentation/service-model/dataType/UPD_DT.png" class="boxBorder" style="width:300px;"> <br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/dataType/UPD_DT.png" class="boxBorder" style="width:300px;"> <br/>
 
 
   <style type='text/css'>
