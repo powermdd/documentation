@@ -46,10 +46,10 @@
 <b style="font-size: 20px">4) 날짜 연산</b><br/>
 날짜 연산은 일자 연산기능을 제공하고 있습니다. 일자 연산은 대부분 Database 시스템의 일자를 사용하기 때문에 Application 서버에서 사용하는 일자 기능은 제한적인 기능만 제공하고 있다. 아래 지원하는 기능 외의 다른 형식 필요 시에는 User Funation 기능을 사용해야 합니다.<br/>
 - <b style="font-size: 20px">➀ 사용하는 일자 Format</b><br/>
-   <p style="background-color:rgb(223, 230, 247); margin-right: 10px;">8자리 일자 : YYYYMMDD</p>
+<p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">8자리 일자 : YYYYMMDD</p>
 
 - <b style="font-size: 20px">➁ 일수 구분 Format</b><br/>
-   <p style="background-color:rgb(223, 230, 247); margin-right: 10px;">구분자(D:일수, M:월수, Y:년수) + # (날짜형) + 수치값</p>
+<p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구분자(D:일수, M:월수, Y:년수) + # (날짜형) + 수치값</p>
 
 <p style="color: rgb(0, 164, 255);">
   Ex) 해당 “UPD_DT” 컬럼 계산식에 날짜 연산을 활용한 값을 넣습니다. <br/>
@@ -60,12 +60,11 @@
 
 <b style="font-size: 20px">5) 문자열 연산</b><br/>
 Database BOC중 DML을 처리하는 BOC에서만 사용됩니다. SQL 구문 내에 Parameter를 할당하고자 할 때 사용합니다. DML처리 하는 BOC에 Column 추가 시 Parameter의 값으로 SQL 구문을 처리하고자 할 때 사용합니다.<br/>
-<p style="background-color:rgb(223, 230, 247); margin-right: 10px;">구문 : “&” + COLUMN + “;”</p>
+<p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구문 : “&” + COLUMN + “;”</p>
 
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-     & Parameter 명 시작 지시자<br/>
-     ; Parameter 명 종료 지시자
-     
+& Parameter 명 시작 지시자<br/>
+s; Parameter 명 종료 지시자
 :::
 <!-- -->
