@@ -3,7 +3,7 @@
 <img src="../../.vuepress/public/documentation/service-model/calculation/rNum/rNum.png" style="width:800px;"> <br/>
 
 ## 1. rnum문
-데이터셋 Object 레코드들의 Current 레코드의 순서 index인 Row Number를 가져옵니다. MPD BOC에서 사용시 child 분기조건 값으로 rnum 사용 MPD BOC의 입력 데이터셋 Object의 Current Row Index 값이 전달됩니다.
+데이터셋 Object 레코드들의 Current 레코드의 순서 index인 Row Number를 가져옵니다. MPD BOC에서 사용시 child 분기조건 값으로 rnum 사용시 MPD BOC의 입력 데이터셋 Object의 Current Row Index 값이 전달됩니다.
 
 <span class="font20">1) 구문형식</span> <br/>
 <div class="boxDiv">
