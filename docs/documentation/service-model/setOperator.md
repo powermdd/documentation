@@ -110,7 +110,7 @@ Database BOC중 DML을 처리하는 BOC에서만 사용됩니다. SQL 구문 내
 :::
 <!-- -->
 
-<span class="spanEx">Ex) 단순 IPSADATE의 값 처리 </span><br/>
+<span class="spanEx">Ex) 단순 "IPSADATE" 컬럼의 값 처리 </span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/setOperator/ipsadate.png" style="width:350px;"> <br/>
 
 <span class="spanEx">- SQL 구문 </span><br/>
