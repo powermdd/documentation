@@ -72,7 +72,7 @@
 <img src="../../.vuepress/public/documentation/service-model/calculation/setOperator/or.png" class="boxBorder" style="width:450px;"> <br/>
 
 ## 4. 날짜연산
-날짜연산은 일자연산기능을 제공하고 있습니다. 일자연산은 대부분 데이터베이스 시스템의 일자를 사용하기 때문에 애플리케이션 서버에서 사용하는 일자 기능은 제한적인 기능만 제공하고 있습니다. <br/>
+날짜연산은 일자연산기능을 제공하고 있습니다. 일자연산은 대부분 데이터베이스 시스템의 일자를 사용하기 때문에 애플리케이션 서버에서 사용하는 일자기능은 제한적인 기능만 제공하고 있습니다. <br/>
 아래 지원하는 기능 외의 다른 형식 필요 시에는 User Function 기능을 사용해야 한다.
 
 <span class="font20">1) 사용하는 일자 포맷</span> <br/>
