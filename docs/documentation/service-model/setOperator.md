@@ -82,7 +82,7 @@
 
 <span class="font20">2) 일수 구분 포맷</span> <br/>
 <div class="boxDiv">
-구분자(D:일수, M:월수, Y:년수) + # (날짜형) + 수치값<br/>
+구분자(D:일수, M:월수, Y:년수) + #(날짜형) + 수치값<br/>
 </div> <br/>
 
 <span class="spanEx">Ex) 해당 “UPD_DT” 컬럼 계산식에 날짜연산을 활용한 값을 넣는다. </span><br/>
