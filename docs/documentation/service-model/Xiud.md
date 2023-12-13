@@ -105,12 +105,6 @@ Debug 테스트 시에 로그 메시지를 정의할 수 있습니다. 데이터
 구문 : <span class="labelR">[</span> 동적처리 조건부 <span class="labelR">] {</span> 동적처리 대상 Sql-Syntax <span class="labelR">}</span>
 </div> <br/>
 
-<!-- Remark -->
-::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
-동적처리 조건부에 컬럼명을 한글로 처리하는 경우 myBatis에서 지원을 하지 않기 때문에 오류가 날 수 있습니다.
-:::
-<!-- -->
-
 - 조건 항목의 값이 “Null” 이거나 값의 길이가 “0”일 때 즉 empty일 때 동적처리 대상 Syntax를 SQL문에 반영하지 않습니다. <br/>
 <div class="boxDiv">
 구문: <span class="labelR">[</span> 항목명 <span class="labelR">] {</span> sql-syntax <span class="labelR">}</span>
