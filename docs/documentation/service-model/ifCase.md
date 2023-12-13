@@ -11,8 +11,6 @@
 조건 구문 ? True 구문 : False 구문
 </div> <br/>
 
-True, False 구문 내에 또 다른 decode, case문 사용은 허용되지 않습니다.
-
 <span class="spanEx">Ex) 해당 “CNT” 컬럼 계산식에 조건할당문을 활용한 값을 넣습니다. </span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/ifCase/decode.png" class="boxBorder" style="width:300px;"> <br/>
 
@@ -28,7 +26,7 @@ case 비교값2 : 비교값2의 처리문장<br/>
 </div> <br/>
 
 변수의 값과 값을 비교하여 해당 값과 일치하면 일치되는 처리구문을 실행하여 할당합니다.<br/>
-비교변수와 case의 비교값을 비교하여 값이 일치하면 해당 case의 처리구문의 실행결과를 해당 계산식의 결과값이 됩니다.
+비교변수와 case문의 비교값을 비교하여 값이 일치하면 해당 case문의 처리구문의 실행결과를 해당 계산식의 결과값이 됩니다.
 
 <span class="spanEx">Ex) 해당 “CNT” 컬럼 계산식에 조건할당문을 활용한 값을 넣습니다. </span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/ifCase/Case1.png" style="width:800px;"> <br/>
