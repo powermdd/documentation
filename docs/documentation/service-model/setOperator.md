@@ -98,7 +98,7 @@
 ## 5. 문자열연산
 Database BOC중 DML을 처리하는 BOC에서만 사용됩니다. SQL 구문 내에 파라미터를 할당하고자 할 때 사용합니다. DML처리 하는 BOC에 컬럼 추가 시 파라미터의 값으로 SQL 구문을 처리하고자 할 때 사용합니다.
 
-<span class="font20">1) 사용하는 일자 포맷</span> <br/>
+<span class="font20">1) 구문형식</span> <br/>
 <div class="boxDiv">
 “&” + COLUMN + “;”
 </div> <br/>
