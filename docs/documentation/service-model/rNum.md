@@ -13,7 +13,7 @@ rnum
 <span class="spanEx">Ex) 단순 "BIGO" 컬럼의 값 처리 </span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/rNum/bigo.png" style="width:350px;"> <br/>
 
-<span class="spanEx">- SQL 구문 </span><br/>
+<span class="spanEx">- 계산식 </span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/rNum/bigoSql.png" class="boxBorder" style="width:300px;"> <br/>
 
 <span class="spanEx">- 테스트 결과 메시지 </span><br/>
