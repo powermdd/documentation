@@ -288,6 +288,45 @@ parameter : int, String, int, String
 <img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/PropertyFunction/charSql(5).png" class="boxBorder" style="width:450px;"> <br/>
 
 <span class="font18">②<b> (charint) 부분 문자열처리 </b></span> <br/>
+[ 구문 형식1 ]<br/>
+해당 Current 레코드의 값에서 start index의 string index부터 문자열 종료까지의 값을 int 타입으로 가져옵니다.
+
+<div class="boxDiv">
+charint(startIndex)
+</div> <br/>
+
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+return type : int<br/>
+parameter : int
+:::
+<!-- -->
+
+<span class="spanEx">Ex) 컬럼의 값이 “1234”일 때 Column.charint(1)의 결과 값은 “234”가 됩니다.</span><br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
+
+<span class="spanEx">- 계산식 </span><br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/PropertyFunction/charIntSql(1).png" class="boxBorder" style="width:450px;"> <br/>
+
+[ 구문 형식2 ]<br/>
+해당 Current 레코드 컬럼의 값에서 start index에서 end index 범위에 있는 값을 int 타입으로 가져옵니다.
+
+<div class="boxDiv">
+charint(startIndex, endIndex)
+</div> <br/>
+
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+return type : int, int<br/>
+parameter : int
+:::
+<!-- -->
+
+<span class="spanEx">Ex) 컬럼의 값이 “1234”일 때 Column.charint(1, 4)의 결과 값은 “234”가 됩니다.</span><br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
+
+<span class="spanEx">- 계산식 </span><br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/PropertyFunction/charIntSql(2).png" class="boxBorder" style="width:450px;"> <br/>
 
 <span class="font18">③<b> (getint) 정수 변환 </b></span> <br/>
 
