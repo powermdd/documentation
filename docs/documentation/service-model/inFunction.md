@@ -172,47 +172,138 @@ parameter : int
 "TEST"의 "S"는 2번째 글자이기 때문에 indexstr의 값이 2로 설정되어 DEPT_CD 컬럼 값 안에 들어간 것을 확인할 수 있습니다.
 
 ## 2. Property Function
+데이터셋 또는 컬럼에 연결되어 사용되는 Property Function에 대한 설명입니다.<br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/PropertyFunction/PropertyFunction.png" style="width:800px;"> <br/>
 
+<span class="font20">1) 컬럼에 연결되어 있는 Property Function입니다.</span> <br/>
+<div class="boxDiv">
+- COLUMN + “.” + <span class="spanEx">function</span><br/>
+- DATASET + “.” + COLUMN + “.” + <span class="spanEx">function</span>
+</div> <br/>
 
+<span class="font18">①<b> (char) 부분 문자열 </b></span> <br/>
+[ 구문 형식1 ]<br/>
+해당 Current 레코드 컬럼의 값에서 해당 범위 안위 string 값을 가져옵니다.
 
+<div class="boxDiv">
+char(startIndex, endIndex)
+</div> <br/>
 
-<b style="font-size: 20px">2) Property Function</b><br/>
-Dataset 또는 Column에 연결되어 사용되는 Property Function에 대한 설명입니다.<br/>
-<b style="font-size: 20px">(1) Column에 연결되어 있는 Property Function.</b>      
-<p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px"> 
-* COLUMN + “.” + function <br/>
-* DATASET + “.” + COLUMN + “.” + function</p>          
-
-<b style="font-size: 20px">➀ (char) 부분 문자열처리 </b><br/>
-<p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구문 1 : char(startIndex, endIndex)</p>
-해당 Current Record Column의 값에서 해당 범위 안위 string값을 가져옵니다.
-                
-return type : String <br/>
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+return type : String<br/>
 parameter : String
+:::
+<!-- -->
 
-<p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구문 2 : char(비교문자열)</p>
-해당 Current Record Column의 값에서 시작부터 해당 문자열의 시작 index 범위에 있는 String을 가져옵니다.
+<span class="spanEx">Ex) 컬럼의 값이 “123” 일 때 Column.char(0,1) 의 결과 값은 “1”이 됩니다.</span><br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
 
-return type : String <br/>
+<span class="spanEx">- 계산식 </span><br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/PropertyFunction/charSql(1).png" class="boxBorder" style="width:450px;"> <br/>
+
+[ 구문 형식2 ]<br/>
+해당 Current 레코드 컬럼의 값에서 시작부터 해당 문자열의 시작 index 범위에 있는 String을 가져옵니다.
+
+<div class="boxDiv">
+char(비교문자열)
+</div> <br/>
+
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+return type : String<br/>
 parameter : String
+:::
+<!-- -->
 
-<p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구문 3 : char(검색된순서, 비교문자열)</p>
-해당 Current Record Column의 값에서 검색된 비교문자열의 순번 index 부터 해당 Column 값의 종료까지의 String을 가져옵니다.
-                
-return type : String <br/>
+<span class="spanEx">Ex) 컬럼의 값이 “123” 일 때 Column.char(2) 의 결과 값은 “3”이 됩니다.</span><br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
+
+<span class="spanEx">- 계산식 </span><br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/PropertyFunction/charSql(2).png" class="boxBorder" style="width:450px;"> <br/>
+
+[ 구문 형식3 ]<br/>
+해당 Current 레코드 컬럼의 값에서 검색된 비교문자열의 순번 index부터 해당 컬럼 값의 종료까지의 String을 가져옵니다.
+
+<div class="boxDiv">
+char(비교문자열)
+</div> <br/>
+
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+return type : String<br/>
 parameter : int, String
+:::
+<!-- -->
 
-<p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구문 4 : char(start비교문자열, end비교문자열)</p>
-해당 Current Record Column의 값에서 검색된 start비교문자열과 end비교문자열 사이의 String을 가져옵니다.
+<span class="spanEx">Ex) 컬럼의 값이 “1234” 일 때 Column.char(1, “2”) 의 결과 값은 “34”가 됩니다. <br/>
+&emsp;&ensp;컬럼의 값이 “1234” 일 때 Column.char(1, “1”) 의 결과 값은 “234”가 됩니다.</span><br/>
 
-return type : String <br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
+
+<span class="spanEx">- 계산식 </span><br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/PropertyFunction/charSql(3).png" class="boxBorder" style="width:450px;"> <br/>
+
+
+[ 구문 형식4 ]<br/>
+해당 Current 레코드 컬럼의 값에서 검색된 start 비교문자열과 end 비교문자열 사이의 String을 가져옵니다.
+
+<div class="boxDiv">
+char(start 비교문자열, end 비교문자열)
+</div> <br/>
+
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+return type : String<br/>
 parameter : String, String
+:::
+<!-- -->
 
-<p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구문 5 : char(검색된순서, 비교문자열, 검색된순서, 비교문자열)</p>
+<span class="spanEx">Ex) 컬럼의 값이 “1234” 일 때 Column.char(“1”, “4”) 의 결과 값은 “23”이 됩니다.</span><br/>
+
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
+
+<span class="spanEx">- 계산식 </span><br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/PropertyFunction/charSql(4).png" class="boxBorder" style="width:450px;"> <br/>
+
+[ 구문 형식5 ]<br/>
 시작 문자열 발생순서부터 종료 문자열 발생순서 사이 값을 가져옵니다.
-                
-return type : String <br/>
+
+<div class="boxDiv">
+char(검색된순서, 비교문자열, 검색된순서, 비교문자열)
+</div> <br/>
+
+<!-- Remark -->
+::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
+return type : String<br/>
 parameter : int, String, int, String
+:::
+<!-- -->
+
+<span class="spanEx">Ex) 컬럼의 값이 “1234” 일때 Column.char(1, “1” ,1, “4”) 의 결과 값은 “23”이 됩니다.</span><br/>
+
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
+
+<span class="spanEx">- 계산식 </span><br/>
+<img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/PropertyFunction/charSql(5).png" class="boxBorder" style="width:450px;"> <br/>
+
+<span class="font18">②<b> (charint) 부분 문자열처리 </b></span> <br/>
+
+<span class="font18">③<b> (getint) 정수 변환 </b></span> <br/>
+
+<span class="font18">④<b> (getlong) long 변환 </b></span> <br/>
+
+<span class="font18">⑤<b> ((getdouble) double 변환 </b></span> <br/>
+
+<span class="font18">⑥<b> (toString) string 변환 </b></span> <br/>
+
+<span class="font18">⑦<b> (getTrim) string 변환 </b></span> <br/>
+
+<span class="font18">⑧<b> (length) string 길이 </b></span> <br/>
+
+<span class="font18">⑨<b> (replace) 문자열 치환 </b></span> <br/>
+
+
 
 <b style="font-size: 20px">➁ (charint) 부분 문자열처리 </b><br/>
 <p style="background-color:rgb(223, 230, 247); margin-right: 10px; padding-left: 20px">구문 1 : charint(startIndex)</p>
