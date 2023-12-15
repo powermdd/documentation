@@ -18,7 +18,7 @@ getgvstring(COLUMN)
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 return type : String<br/>
-parameter : void
+parameter : String
 :::
 <!-- -->
 
