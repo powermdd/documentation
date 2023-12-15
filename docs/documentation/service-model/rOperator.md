@@ -16,7 +16,7 @@ POWERMDD는 데이터셋 Object 즉 다수(0~n건)의 Input 레코드들을 Loop
  </span><br/>
  <img src="../../.vuepress/public/documentation/service-model/calculation/rOperator/before1.png" style="width:350px;"> <br/>
 
-<span class="spanEx">- SQL 구문 </span><br/>
+<span class="spanEx">- 계산식 </span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/rOperator/before1Sql.png" class="boxBorder" style="width:300px;"> <br/>
 
 <span class="spanEx">- 테스트 결과 메시지 </span><br/>
@@ -33,7 +33,7 @@ COLUMN_ID.before
  </span><br/>
  <img src="../../.vuepress/public/documentation/service-model/calculation/rNum/bigo.png" style="width:350px;"> <br/>
 
-<span class="spanEx">- SQL 구문 </span><br/>
+<span class="spanEx">- 계산식 </span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/rOperator/before2Sql.png" class="boxBorder" style="width:450px;"> <br/>
 
 <span class="spanEx">- 테스트 결과 메시지 </span><br/>
@@ -71,7 +71,7 @@ DataSet.COLUMN.last
  </span><br/>
  <img src="../../.vuepress/public/documentation/service-model/calculation/rOperator/first.png" style="width:350px;"> <br/>
 
-<span class="spanEx">- SQL 구문 </span><br/>
+<span class="spanEx">- 계산식 </span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/rOperator/lastSql.png" class="boxBorder" style="width:300px;"> <br/>
 
 <span class="spanEx">- 테스트 결과 메시지 </span><br/>
@@ -92,7 +92,7 @@ OBJECT명.rcount
  </span><br/>
  <img src="../../.vuepress/public/documentation/service-model/calculation/rNum/bigo.png" style="width:350px;"> <br/>
 
-<span class="spanEx">- SQL 구문 </span><br/>
+<span class="spanEx">- 계산식 </span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/rOperator/rcountSql.png" class="boxBorder" style="width:300px;"> <br/>
 
 <span class="spanEx">- 테스트 결과 메시지 </span><br/>
@@ -109,7 +109,7 @@ POWERMDD는 데이터셋 내에서 레코드 단위로 데이터를 처리합니
  </span><br/>
  <img src="../../.vuepress/public/documentation/service-model/calculation/rOperator/record.png" style="width:350px;"> <br/>
 
-<span class="spanEx">- SQL 구문 </span><br/>
+<span class="spanEx">- 계산식 </span><br/>
 <span class="spanEx">[ BIGO ]</span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/rOperator/recordSql(1).png" class="boxBorder" style="width:300px;"> <br/>
 
