@@ -183,7 +183,7 @@ parameter : int
 
 <span class="font18">①<b> (char) 부분 문자열 </b></span> <br/>
 [ 구문 형식1 ]<br/>
-해당 Current 레코드 컬럼의 값에서 해당 범위 안위 string 값을 가져옵니다.
+해당 Current 레코드 컬럼의 값에서 해당 범위 안에 string 값을 가져옵니다.
 
 <div class="boxDiv">
 char(startIndex, endIndex)
