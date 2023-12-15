@@ -38,7 +38,7 @@ getgvnumber(COLUMN)
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 return type : double<br/>
-parameter : void
+parameter : String
 :::
 <!-- -->
 
@@ -58,7 +58,7 @@ getgvint(COLUMN)
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 return type : int<br/>
-parameter : void
+parameter : String
 :::
 <!-- -->
 
@@ -78,7 +78,7 @@ getgvlong(COLUMN)
 <!-- Remark -->
 ::: tip <Badge type="tip" text="Remark" vertical="middle" /> 
 return type : long<br/>
-parameter : void
+parameter : String
 :::
 <!-- -->
 
