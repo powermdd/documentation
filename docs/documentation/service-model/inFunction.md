@@ -196,7 +196,7 @@ parameter : String
 :::
 <!-- -->
 
-<span class="spanEx">Ex) 컬럼의 값이 “123” 일 때 Column.char(0,1)의 결과 값은 “1”이 됩니다.</span><br/>
+<span class="spanEx">Ex) 컬럼의 값이 “123”일 때 Column.char(0,1)의 결과 값은 “1”이 됩니다.</span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
 
 <span class="spanEx">- 계산식 </span><br/>
@@ -216,7 +216,7 @@ parameter : String
 :::
 <!-- -->
 
-<span class="spanEx">Ex) 컬럼의 값이 “123” 일 때 Column.char(2)의 결과 값은 “3”이 됩니다.</span><br/>
+<span class="spanEx">Ex) 컬럼의 값이 “123”일 때 Column.char(2)의 결과 값은 “3”이 됩니다.</span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
 
 <span class="spanEx">- 계산식 </span><br/>
@@ -236,7 +236,7 @@ parameter : int, String
 :::
 <!-- -->
 
-<span class="spanEx">Ex) 컬럼의 값이 “1234” 일 때 Column.char(1, “2”) 의 결과 값은 “34”가 됩니다. <br/>
+<span class="spanEx">Ex) 컬럼의 값이 “1234”일 때 Column.char(1, “2”) 의 결과 값은 “34”가 됩니다. <br/>
 &emsp;&ensp;컬럼의 값이 “1234” 일 때 Column.char(1, “1”)의 결과 값은 “234”가 됩니다.</span><br/>
 
 <img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
@@ -259,7 +259,7 @@ parameter : String, String
 :::
 <!-- -->
 
-<span class="spanEx">Ex) 컬럼의 값이 “1234” 일 때 Column.char(“1”, “4”)의 결과 값은 “23”이 됩니다.</span><br/>
+<span class="spanEx">Ex) 컬럼의 값이 “1234”일 때 Column.char(“1”, “4”)의 결과 값은 “23”이 됩니다.</span><br/>
 
 <img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
 
@@ -270,7 +270,7 @@ parameter : String, String
 시작 문자열 발생순서부터 종료 문자열 발생순서 사이 값을 가져옵니다.
 
 <div class="boxDiv">
-char(검색된순서, 비교문자열, 검색된순서, 비교문자열)
+char(검색된 순서, 비교문자열, 검색된 순서, 비교문자열)
 </div> <br/>
 
 <!-- Remark -->
@@ -280,7 +280,7 @@ parameter : int, String, int, String
 :::
 <!-- -->
 
-<span class="spanEx">Ex) 컬럼의 값이 “1234” 일때 Column.char(1, “1” ,1, “4”)의 결과 값은 “23”이 됩니다.</span><br/>
+<span class="spanEx">Ex) 컬럼의 값이 “1234”일때 Column.char(1, “1” ,1, “4”)의 결과 값은 “23”이 됩니다.</span><br/>
 
 <img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/indexstr.png" style="width:350px;"> <br/>
 
