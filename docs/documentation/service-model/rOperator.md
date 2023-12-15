@@ -3,7 +3,7 @@
 <img src="../../.vuepress/public/documentation/service-model/calculation/rOperator/rOperator.png" style="width:800px;"> <br/>
 
 ## 1. (before) 바로 전 값
-POWERMDD는 데이터셋 Object 즉 다수(0~n건)의 Input 레코드들을 Loop를 통하여 처리합니다. before 연산은 현재 처리되고 있는 Current 레코드의 이전 레코드의 값을 참조하고 싶을 때 사용힙니다. 일반적으로 누적 값을 계산하고 싶을 때에 종종 사용됩니다. before 사용시 첫 번째 레코드의 이전 레코드의 값은 empty 또는 0 값이 할당됩니다.
+POWERMDD는 데이터셋 Object 즉 다수(0~n건)의 Input 레코드들을 Loop로 통하여 처리합니다. before 연산은 현재 처리되고 있는 Current 레코드의 이전 레코드의 값을 참조하고 싶을 때 사용합니다. 일반적으로 누적 값을 계산하고 싶을 때에 종종 사용됩니다. before 사용시 첫 번째 레코드의 이전 레코드의 값은 empty 또는 0 값이 할당됩니다.
 
 <span class="font20">1) 구문 형식1</span> <br/>
 <div class="boxDiv">
