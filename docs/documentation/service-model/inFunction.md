@@ -183,7 +183,7 @@ parameter : int
 
 <span class="font18">①<b> (char) 부분 문자열 </b></span> <br/>
 [ 구문 형식1 ]<br/>
-해당 Current 레코드 컬럼의 값에서 해당 범위 안에 string 값을 가져옵니다.
+해당 Current 레코드 컬럼의 값에서 해당 범위 안에 String 값을 가져옵니다.
 
 <div class="boxDiv">
 char(startIndex, endIndex)
@@ -203,7 +203,7 @@ parameter : String
 <img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/PropertyFunction/charSql(1).png" class="boxBorder" style="width:450px;"> <br/>
 
 [ 구문 형식2 ]<br/>
-해당 Current 레코드 컬럼의 값에서 시작부터 해당 문자열의 시작 index 범위에 있는 String을 가져옵니다.
+해당 Current 레코드 컬럼의 값에서 시작부터 해당 문자열의 시작 index 범위에 있는 String 값을 가져옵니다.
 
 <div class="boxDiv">
 char(비교문자열)
@@ -223,7 +223,7 @@ parameter : String
 <img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/PropertyFunction/charSql(2).png" class="boxBorder" style="width:450px;"> <br/>
 
 [ 구문 형식3 ]<br/>
-해당 Current 레코드 컬럼의 값에서 검색된 비교문자열의 순번 index부터 해당 컬럼 값의 종료까지의 String을 가져옵니다.
+해당 Current 레코드 컬럼의 값에서 검색된 비교문자열의 순번 index부터 해당 컬럼 값의 종료까지의 String 값을 가져옵니다.
 
 <div class="boxDiv">
 char(비교문자열)
@@ -246,7 +246,7 @@ parameter : int, String
 
 
 [ 구문 형식4 ]<br/>
-해당 Current 레코드 컬럼의 값에서 검색된 start 비교문자열과 end 비교문자열 사이의 String을 가져옵니다.
+해당 Current 레코드 컬럼의 값에서 검색된 start 비교문자열과 end 비교문자열 사이의 String 값을 가져옵니다.
 
 <div class="boxDiv">
 char(start 비교문자열, end 비교문자열)
