@@ -130,6 +130,7 @@ parameter : void
 :::
 <!-- -->
 
+<span class="spanEx">Ex) 사용 예</span><br/>
 <img src="../../.vuepress/public/documentation/service-model/calculation/inFunction/InternalFunction/getretmsg.png" style="width:350px;"> <br/>
 
 <span class="spanEx">- 계산식 </span><br/>
